@@ -14,6 +14,6 @@
       name="navbar module"
       pageUuid="269aa854-9044-11ee-883e-93851b44389d"
     />
-    <Button id="button1" styleVariant="solid" text="Button" />
+    <Button id="button1" styleVariant="solid" text="Buttons" />
   </Frame>
 </App>
