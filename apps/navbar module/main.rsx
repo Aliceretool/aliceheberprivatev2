@@ -23,6 +23,14 @@
         <Option id="1b772" itemType="app" label="Menu item 1" />
         <Option id="090cf" label="Menu item 2" />
         <Option id="fcc08" label="Menu item 3" />
+        <Option
+          id="9d4bd"
+          disabled={false}
+          hidden={false}
+          iconPosition="left"
+          itemType="app"
+          label="green"
+        />
       </Navigation>
     </ModuleContainerWidget>
   </Frame>
