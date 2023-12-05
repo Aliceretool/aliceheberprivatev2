@@ -18,7 +18,7 @@
         itemMode="static"
         orientation="vertical"
         src="https://retool-edge.com/83d4d9a1f1ecd17d111e6b4a014043cd.svg"
-        style={{ ordered: [{ background: "success" }] }}
+        style={{ ordered: [{ background: "primary" }] }}
       >
         <Option id="1b772" itemType="app" label="Menu item 1" />
         <Option id="090cf" label="Menu item 2" />
