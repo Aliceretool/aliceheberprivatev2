@@ -31,7 +31,7 @@ template:
           const body = () => {
             try {
               return { text :"from wf",
-        deploy: "not deployed"}
+        deploy: "deployed"}
             } catch {
               return {'error': true, 'messsage': 'there was a problem parsing the JSON body of webhookReturn1'}
             }
@@ -108,7 +108,7 @@ blockData:
   options:
     body: |-
       { text :"from wf",
-      deploy: "not deployed"}
+      deploy: "deployed"}
     status: '200'
   pluginId: webhookReturn1
   blockType: webhookReturn
