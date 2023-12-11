@@ -1,0 +1,9 @@
+<GlobalFunctions>
+  <RESTQuery
+    id="getAll"
+    query="albums/{{text1.value}}"
+    resourceDisplayName="Spotify"
+    resourceName="aba900e4-042b-42a3-97aa-0ab7a04c42e3"
+    resourceTypeOverride=""
+  />
+</GlobalFunctions>
