@@ -1,0 +1,36 @@
+{
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  },
+  "navigation1": {
+    "container": "moduleContainer",
+    "row": 0.8,
+    "height": 1,
+    "width": 10
+  },
+  "text1": {
+    "container": "moduleContainer",
+    "row": 5,
+    "col": 1,
+    "height": 0.6
+  },
+  "text2": {
+    "container": "moduleContainer",
+    "row": 5.8,
+    "col": 1,
+    "height": 0.6
+  },
+  "text3": {
+    "container": "moduleContainer",
+    "row": 6.6,
+    "col": 1,
+    "height": 0.6
+  },
+  "text4": {
+    "container": "moduleContainer",
+    "row": 7.2,
+    "col": 1,
+    "height": 0.6
+  }
+}
