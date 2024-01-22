@@ -1,0 +1,18 @@
+id: navbarModule1
+type: widget
+subtype: GlobalWidget
+template:
+  ordered:
+    - showFetchingIndicator: boolean
+    - heightType: auto
+    - childNamespace: navbarModule1
+    - name: navbar module
+    - pageUuid: 5c6b0701-6d0d-4e19-b575-4e26564a798f
+style:
+  ordered: []
+position2:
+  position2:
+    row: 2.4
+    height: 2.4
+    width: 12
+createdAt: 2023-12-11T10:01:08.315Z
