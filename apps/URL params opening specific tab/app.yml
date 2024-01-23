@@ -1,0 +1,14 @@
+version: 43.0.9
+pageUuid: 76c64e40-a39e-11eb-bcbd-c74fa03c525f
+appTemplate:
+  urlFragmentDefinitions:
+    - ordered:
+        - name: tab_name
+        - value: '{{tabbedcontainer1.selectedTab}}'
+  pageLoadValueOverrides:
+    - ordered:
+        - name: tabbedcontainer1.selectedTab
+        - value: '{{urlparams.hash.tab_name}}'
+  queryStatusVisibility: true
+  version: 3.31.0
+  markdownLinkBehavior: never
