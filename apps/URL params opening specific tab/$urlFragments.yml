@@ -1,9 +1,0 @@
-id: $urlFragments
-type: setting
-subtype: UrlFragments
-template:
-  ordered:
-    - value:
-        ordered:
-          - tab_name: '{{tabbedContainer2.currentViewIndex}}'
-createdAt: 2024-01-23T08:58:33.124Z
