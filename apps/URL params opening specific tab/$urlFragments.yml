@@ -5,5 +5,5 @@ template:
   ordered:
     - value:
         ordered:
-          - tab_name: '{{tabbedContainer2.currentViewIndex}}'
+          - tab_name: '{{localStorage.values.tab_name}}'
 createdAt: 2024-01-23T08:58:33.124Z
