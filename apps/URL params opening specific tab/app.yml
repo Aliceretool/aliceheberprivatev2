@@ -4,11 +4,11 @@ appTemplate:
   urlFragmentDefinitions:
     - ordered:
         - name: tab_name
-        - value: '{{tabbedcontainer1.selectedTab}}'
+        - value: '{{localStorage.values.tab_name}}'
   pageLoadValueOverrides:
     - ordered:
-        - name: tabbedcontainer1.selectedTab
-        - value: '{{urlparams.hash.tab_name}}'
+        - name: tabbedContainer2.currentViewKey
+        - value: '{{localStorage.values.tab_name}}'
   queryStatusVisibility: true
   version: 3.31.0
   markdownLinkBehavior: never
