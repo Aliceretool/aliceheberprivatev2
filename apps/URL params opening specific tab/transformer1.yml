@@ -1,8 +1,0 @@
-id: transformer1
-type: function
-subtype: Function
-template:
-  ordered:
-    - funcBody: return {{tabbedcontainer1.tabNames.indexOf(urlparams.hash.tab_name)}}
-    - value: ''
-createdAt: 2021-04-22T19:27:07.226Z
