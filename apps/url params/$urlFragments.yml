@@ -1,0 +1,9 @@
+id: $urlFragments
+type: setting
+subtype: UrlFragments
+template:
+  ordered:
+    - value:
+        ordered:
+          - id: '{{numberInput1.value}}'
+createdAt: 2024-01-23T11:16:55.122Z
