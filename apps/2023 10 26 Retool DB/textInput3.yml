@@ -24,7 +24,7 @@ template:
     - tooltipText: ''
     - labelAlign: left
     - formDataKey: '{{ self.id }}'
-    - value: ''
+    - value: '{{table1.data[0].age}}'
     - labelCaption: ''
     - labelWidth: '33'
     - autoFill: ''
