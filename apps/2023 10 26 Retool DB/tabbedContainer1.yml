@@ -49,7 +49,9 @@ template:
         array: []
     - showFooter: false
     - _viewKeys:
-        - ONE
+
+        - NEWONE
+
         - View 2
         - View 3
     - events:
