@@ -1,0 +1,91 @@
+id: tabbedContainer1
+uuid: e6b0fae5-f848-48a6-bfb2-eebc0339bc58
+type: widget
+subtype: ContainerWidget2
+template:
+  ordered:
+    - _disabledByIndex:
+        - ''
+        - ''
+        - ''
+    - heightType: auto
+    - currentViewKey: '{{ self.viewKeys[0] }}'
+    - iconByIndex:
+        array: []
+    - clickable: false
+    - _iconByIndex:
+        - ''
+        - ''
+        - ''
+    - showFooterBorder: true
+    - marginType: normal
+    - enableFullBleed: false
+    - showBorder: true
+    - hidden: false
+    - showHeader: true
+    - hoistFetching: false
+    - paddingType: normal
+    - views:
+        array: []
+    - showInEditor: false
+    - footerPaddingType: normal
+    - tooltipText: ''
+    - hiddenByIndex:
+        array: []
+    - _hiddenByIndex:
+        - ''
+        - ''
+        - ''
+    - currentViewIndex: null
+    - _hasMigratedNestedItems: true
+    - transition: none
+    - showHeaderBorder: true
+    - itemMode: static
+    - _tooltipByIndex:
+        - ''
+        - ''
+        - ''
+    - tooltipByIndex:
+        array: []
+    - showFooter: false
+    - _viewKeys:
+        - NEWONE
+        - View 2
+        - View 3
+    - events:
+        ordered: []
+    - _ids:
+        - a1680
+        - 27ce8
+        - 499c7
+    - viewKeys:
+        array: []
+    - iconPositionByIndex:
+        array: []
+    - _iconPositionByIndex:
+        - ''
+        - ''
+        - ''
+    - hovered: false
+    - loading: false
+    - overflowType: scroll
+    - disabled: false
+    - _labels:
+        - ''
+        - ''
+        - ''
+    - headerPaddingType: normal
+    - disabledByIndex:
+        array: []
+    - maintainSpaceWhenHidden: false
+    - showBody: true
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    row: 15.2
+    height: 0.2
+    width: 6
+createdAt: 2024-01-29T11:01:10.320Z
