@@ -1,31 +1,31 @@
-id: getAll
+id: query2
 type: datasource
-subtype: RESTQuery
-resourceName: a4ea52d8-671e-441f-8fa5-a8e8cc879f72
-resourceDisplayName: Spotify
+subtype: OpenAPIQuery
+resourceName: 78e3d0f5-0b91-4736-9fe5-ea4a93752357
+resourceDisplayName: alice Slack
 template:
   ordered:
     - queryRefreshTime: ''
-    - paginationLimit: ''
+    - method: ''
     - allowedGroupIds: []
     - streamResponse: false
-    - body: ''
+    - operationId: ''
     - lastReceivedFromResourceAt: null
     - queryDisabledMessage: ''
     - servedFromCache: false
+    - server: ''
     - offlineUserQueryInputs: ''
     - successMessage: ''
     - queryDisabled: ''
+    - path: ''
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
-    - runWhenModelUpdates: true
-    - paginationPaginationField: ''
-    - headers: ''
+    - runWhenModelUpdates: false
+    - autoPaginate: false
     - workflowRunId: null
     - showFailureToaster: true
-    - paginationEnabled: false
-    - query: albums/{{text1.value}}
+    - query: ''
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -33,18 +33,21 @@ template:
     - privateParams: []
     - workflowBlockUuid: null
     - runWhenPageLoadsDelay: ''
+    - parameters: ''
     - data: null
+    - specPathOverride: ''
     - importedQueryInputs:
         ordered: []
-    - isImported: false
+    - isImported: true
     - showSuccessToaster: true
     - cacheKeyTtl: ''
     - requestSentTimestamp: null
-    - cookies: ''
     - metadata: null
     - workflowActionType: null
+    - requestBodyDynamicStates: ''
     - queryRunTime: null
     - changesetObject: ''
+    - requestBody: ''
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
         transformer. 
@@ -52,23 +55,25 @@ template:
         // example: return data.find(element => element.isError)
 
         return data.error
+    - specBasePath: ''
     - finished: null
     - confirmationMessage: null
     - isFetching: false
     - changeset: ''
     - rawData: null
     - queryTriggerDelay: '0'
-    - resourceTypeOverride: ''
+    - resourceTypeOverride: null
     - watchedParams: []
+    - serverVariables: ''
     - enableErrorTransformer: false
+    - autoPaginateLimit: 500
     - showLatestVersionUpdatedWarning: false
-    - paginationDataField: ''
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
-    - version: 1
+    - parameterDynamicStates: ''
     - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
     - transformer: |-
@@ -78,17 +83,12 @@ template:
     - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
-    - type: GET
     - queryFailureConditions: ''
     - changesetIsObject: false
     - enableCaching: false
     - allowedGroups: []
-    - workflowBlockPluginId: null
-    - bodyType: none
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
-    - notificationDuration: ''
-style:
-  ordered: []
-createdAt: 2023-12-22T16:37:32.009Z
+    - notificationDuration: 4.5
+createdAt: 2024-01-29T17:57:39.753Z
