@@ -123,6 +123,7 @@ template:
         ordered: []
     - _showHeader: true
     - _currentPage: 0
+    - _actionsOverflowPosition: 0
     - _columnKey:
         ordered:
           - b32d2: id
@@ -614,6 +615,7 @@ template:
           - cc18f: ''
           - 1be96: ''
           - 6c45c: ''
+    - _alwaysShowRowSelectionCheckboxes: false
     - _columnCellTooltipMode:
         ordered:
           - b32d2: ''
@@ -757,6 +759,8 @@ template:
     - _showFooter: true
     - _groupedColumnConfig:
         ordered: []
+    - _dynamicColumnSize:
+        ordered: []
     - _virtualizeStartIndex: 0
     - _toolbarButtonHidden:
         ordered:
@@ -794,6 +798,7 @@ template:
           - 6c45c: ''
     - _rowBackgroundColor:
         array: []
+    - emptyMessage: ''
     - pagination: null
     - selectedDataIndexes:
         array: []
