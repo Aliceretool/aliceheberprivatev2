@@ -1,0 +1,7 @@
+id: $customDocumentTitle
+type: setting
+subtype: DocumentTitle
+template:
+  ordered:
+    - value: alice alice
+createdAt: 2024-01-16T15:18:45.824Z

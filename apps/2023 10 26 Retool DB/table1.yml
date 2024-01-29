@@ -1,0 +1,327 @@
+id: table1
+type: widget
+subtype: TableWidget2
+template:
+  ordered:
+    - selectedRowKey: null
+    - _nextAfterCursor: ''
+    - _columnBackgroundColor:
+        ordered:
+          - '41173': ''
+          - f9999: ''
+          - 6fa9c: ''
+    - _defaultSort: null
+    - _clearChangesetOnSave: true
+    - heightType: fixed
+    - _columnTextColor:
+        ordered: []
+    - disableEdits: false
+    - autoColumnWidth: false
+    - _rowHeight: small
+    - _columnIds:
+        - '41173'
+        - f9999
+        - 6fa9c
+    - _isSaving: false
+    - _actionIds: []
+    - _clearChangeset: false
+    - caseSensitiveFiltering: false
+    - _limitOffsetRowCount: null
+    - selectedSourceRow: null
+    - _dynamicColumnsEnabled: false
+    - disableSave: false
+    - _columnEditableOptions:
+        ordered:
+          - '41173':
+              ordered:
+                - showStepper: true
+          - f9999:
+              ordered: []
+          - 6fa9c:
+              ordered:
+                - showStepper: true
+    - _toolbarPosition: bottom
+    - _groupByColumns: []
+    - _toolbarButtonLabel:
+        ordered:
+          - 1a: Filter
+          - 3c: Download
+          - 4d: Refresh
+    - _nextBeforeCursor: ''
+    - _persistRowSelection: false
+    - _toolbarButtonIcon:
+        ordered:
+          - 1a: bold/interface-text-formatting-filter-2
+          - 3c: bold/interface-download-button-2
+          - 4d: bold/interface-arrows-round-left
+    - changesetArray:
+        array: []
+    - _toolbarButtonType:
+        ordered:
+          - 1a: filter
+          - 3c: custom
+          - 4d: custom
+    - _columnStatusIndicator:
+        ordered: []
+    - _columnOptionList:
+        ordered:
+          - '41173':
+              ordered: []
+          - f9999:
+              ordered: []
+          - 6fa9c:
+              ordered: []
+    - _columnValueOverride:
+        ordered:
+          - '41173': ''
+          - f9999: ''
+          - 6fa9c: ''
+    - marginType: normal
+    - _showBorder: true
+    - _templatePageSize: null
+    - _dynamicColumnProperties:
+        ordered: []
+    - _showHeader: true
+    - _currentPage: 0
+    - _columnKey:
+        ordered:
+          - '41173': id
+          - f9999: name
+          - 6fa9c: age
+    - hidden: false
+    - _toolbarButtonIds:
+        - 1a
+        - 3c
+        - 4d
+    - data: '{{ getAll.data }}'
+    - _cellSelection: none
+    - _serverPaginated: false
+    - _linkedFilterId: null
+    - searchMode: fuzzy
+    - _columnCellTooltip:
+        ordered:
+          - '41173': ''
+          - f9999: ''
+          - 6fa9c: ''
+    - _columnFormat:
+        ordered:
+          - '41173': decimal
+          - f9999: string
+          - 6fa9c: decimal
+    - _cursorCache:
+        object: {}
+    - _calculatedPageSize: null
+    - _primaryKeyColumnId: '41173'
+    - selectedDataIndex: null
+    - _columnAlignment:
+        ordered:
+          - '41173': right
+          - f9999: left
+          - 6fa9c: right
+    - _actionIcon:
+        ordered: []
+    - _columnTooltip:
+        ordered:
+          - '41173': ''
+          - f9999: ''
+          - 6fa9c: ''
+    - _columnIcon:
+        ordered:
+          - '41173': ''
+          - f9999: ''
+          - 6fa9c: ''
+    - _alwaysShowRowSelectionCheckboxes: false
+    - _columnCellTooltipMode:
+        ordered:
+          - '41173': ''
+          - f9999: ''
+          - 6fa9c: ''
+    - _pageSize: null
+    - showInEditor: false
+    - selectedSourceRows:
+        array: []
+    - _enableExpandableRows: false
+    - _selectMultipleRowsOnActionClick: 'no'
+    - _columnSortDisabled:
+        ordered:
+          - '41173': false
+          - f9999: false
+          - 6fa9c: false
+    - _showSummaryRow: false
+    - filterStack: null
+    - _expandedRows: null
+    - changesetObject: null
+    - _actionDisabled:
+        ordered: []
+    - _columnReferenceId:
+        ordered:
+          - '41173': ''
+          - f9999: ''
+          - 6fa9c: ''
+    - _dynamicColumnSource:
+        array: []
+    - _rowSelection: single
+    - _columnCaption:
+        ordered:
+          - '41173': ''
+          - f9999: ''
+          - 6fa9c: ''
+    - _dynamicColumnFormatOptions:
+        ordered: []
+    - _dynamicRowHeights: false
+    - _columnFormatOptions:
+        ordered:
+          - '41173':
+              ordered:
+                - showSeparators: true
+                - notation: standard
+          - f9999:
+              ordered: []
+          - 6fa9c:
+              ordered:
+                - showSeparators: true
+                - notation: standard
+    - _changeset: null
+    - _afterCursor: ''
+    - selectedRowKeys:
+        array: []
+    - _beforeCursor: ''
+    - _columnSummaryAggregationMode:
+        ordered:
+          - '41173': none
+          - f9999: none
+          - 6fa9c: none
+    - searchTerm: ''
+    - selectedRows:
+        array: []
+    - _disabledVirtualization: false
+    - _expandedRowDataIndexes:
+        array: []
+    - _showColumnBorders: false
+    - _columnStatusIndicatorOptions:
+        ordered:
+          - '41173':
+              ordered: []
+          - f9999:
+              ordered: []
+          - 6fa9c:
+              ordered: []
+    - _columnSize:
+        ordered:
+          - '41173': 100
+          - f9999: 100
+          - 6fa9c: 100
+    - _serverPaginationType: limitOffsetBased
+    - _columnSortMode:
+        ordered:
+          - '41173': default
+          - f9999: default
+          - 6fa9c: default
+    - _selectSingleRowsOnActionClick: replace
+    - _showFooter: true
+    - _groupedColumnConfig:
+        ordered: []
+    - _dynamicColumnSize:
+        ordered: []
+    - _virtualizeStartIndex: 0
+    - _toolbarButtonHidden:
+        ordered:
+          - 1a: ''
+          - 3c: ''
+          - 4d: ''
+    - _defaultFilters:
+        ordered: []
+    - events:
+        - ordered:
+            - event: clickRow
+            - type: util
+            - method: openApp
+            - pluginId: ''
+            - targetId: null
+            - params:
+                ordered:
+                  - uuid: fa9a053e-8232-11ee-bcd8-238bef26a585
+            - waitType: debounce
+            - waitMs: '0'
+        - ordered:
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+            - event: clickToolbar
+            - method: exportData
+            - pluginId: table1
+            - targetId: 3c
+        - ordered:
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+            - event: clickToolbar
+            - method: refresh
+            - pluginId: table1
+            - targetId: 4d
+    - _columnEditable:
+        ordered:
+          - '41173': ''
+          - f9999: ''
+          - 6fa9c: ''
+    - _rowBackgroundColor:
+        array: []
+    - emptyMessage: ''
+    - pagination: null
+    - selectedDataIndexes:
+        array: []
+    - _columnGroupAggregationMode:
+        ordered:
+          - '41173': sum
+          - f9999: none
+          - 6fa9c: sum
+    - sortArray:
+        array: []
+    - _selectedCell: null
+    - overflowType: scroll
+    - selectedCell: null
+    - _defaultSelectedRow:
+        ordered:
+          - mode: index
+          - indexType: display
+          - index: 0
+    - _hasNextPage: false
+    - _includeRowInChangesetArray: false
+    - _columnPosition:
+        ordered:
+          - '41173': center
+          - f9999: center
+          - 6fa9c: center
+    - _enableSaveActions: true
+    - _columnPlaceholder:
+        ordered:
+          - '41173': Enter value
+          - f9999: Enter value
+          - 6fa9c: Enter value
+    - _defaultFilterOperator: and
+    - _actionLabel:
+        ordered: []
+    - _virtualizeEndIndex: 0
+    - selectedRow: null
+    - _actionHidden:
+        ordered: []
+    - maintainSpaceWhenHidden: false
+    - _columnHidden:
+        ordered:
+          - '41173': ''
+          - f9999: ''
+          - 6fa9c: ''
+    - _columnLabel:
+        ordered:
+          - '41173': ID
+          - f9999: Name
+          - 6fa9c: Age
+    - _showToolbar: true
+style:
+  ordered: []
+position2:
+  position2:
+    row: 0.4
+    height: 8
+    width: 4
+createdAt: 2023-10-26T13:37:20.978Z
