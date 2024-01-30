@@ -10,7 +10,7 @@ template:
     - submitTargetId: null
     - marginType: normal
     - hidden: false
-    - text: Button
+    - text: new name
     - showInEditor: false
     - tooltipText: ''
     - styleVariant: solid
