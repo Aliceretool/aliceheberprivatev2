@@ -1,0 +1,19 @@
+version: 43.0.9
+pageUuid: 5258dea0-ff8c-11ed-9443-832353c46f8c
+appTemplate:
+  appMaxWidth: 1560px
+  experimentalFeatures:
+    object:
+      sourceControlTemplateDehydration: false
+  preloadedAppJavaScript: |-
+    function fromAppSettings() {
+      console.log('from preloaded js');
+      return 'from app func output';
+    }
+  notificationsSettings:
+    object:
+      globalQueryShowFailureToast: true
+      globalQueryShowSuccessToast: true
+  customDocumentTitleEnabled: true
+  version: 3.30.0
+  experimentalDataTabEnabled: true

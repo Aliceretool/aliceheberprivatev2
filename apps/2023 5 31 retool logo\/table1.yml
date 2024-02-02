@@ -1,0 +1,403 @@
+id: table1
+type: widget
+subtype: TableWidget2
+template:
+  ordered:
+    - selectedRowKey: null
+    - _nextAfterCursor: ''
+    - _columnBackgroundColor:
+        ordered:
+          - 7c4f1: ''
+          - '60842': ''
+          - '55195': ''
+          - d039d: ''
+          - '44766': ''
+          - '65e29': ''
+          - b490b: ''
+          - 0390e: ''
+    - _defaultSort: null
+    - _clearChangesetOnSave: true
+    - heightType: fixed
+    - _columnTextColor:
+        ordered: []
+    - disableEdits: false
+    - autoColumnWidth: false
+    - _rowHeight: small
+    - _columnIds:
+        - 7c4f1
+        - '60842'
+        - '55195'
+        - d039d
+        - '44766'
+        - '65e29'
+        - b490b
+        - 0390e
+    - _isSaving: false
+    - _actionIds: []
+    - _clearChangeset: false
+    - caseSensitiveFiltering: false
+    - _limitOffsetRowCount: null
+    - selectedSourceRow: null
+    - _dynamicColumnsEnabled: false
+    - disableSave: false
+    - _columnEditableOptions:
+        ordered:
+          - 7c4f1:
+              ordered:
+                - showStepper: true
+          - '60842':
+              ordered: []
+          - '55195':
+              ordered:
+                - showStepper: true
+          - d039d:
+              ordered:
+                - showStepper: true
+          - '44766':
+              ordered: []
+          - '65e29':
+              ordered: []
+          - b490b:
+              ordered: []
+          - 0390e:
+              ordered: []
+    - _toolbarPosition: bottom
+    - _groupByColumns: []
+    - _toolbarButtonLabel:
+        ordered: []
+    - _nextBeforeCursor: ''
+    - _persistRowSelection: false
+    - _toolbarButtonIcon:
+        ordered: []
+    - changesetArray:
+        array: []
+    - _toolbarButtonType:
+        ordered: []
+    - _columnStatusIndicator:
+        ordered: []
+    - _columnOptionList:
+        ordered:
+          - 7c4f1:
+              ordered: []
+          - '60842':
+              ordered: []
+          - '55195':
+              ordered: []
+          - d039d:
+              ordered: []
+          - '44766':
+              ordered: []
+          - '65e29':
+              ordered: []
+          - b490b:
+              ordered: []
+          - 0390e:
+              ordered: []
+    - _columnValueOverride:
+        ordered:
+          - 7c4f1: ''
+          - '60842': ''
+          - '55195': ''
+          - d039d: ''
+          - '44766': ''
+          - '65e29': ''
+          - b490b: ''
+          - 0390e: ''
+    - marginType: normal
+    - _showBorder: true
+    - _templatePageSize: null
+    - _dynamicColumnProperties:
+        ordered: []
+    - _showHeader: true
+    - _currentPage: 0
+    - _actionsOverflowPosition: 0
+    - _columnKey:
+        ordered:
+          - 7c4f1: id
+          - '60842': name
+          - '55195': quantity
+          - d039d: unit_price_cents
+          - '44766': created_at
+          - '65e29': updated_at
+          - b490b: image_url
+          - 0390e: part_number
+    - hidden: false
+    - _toolbarButtonIds: []
+    - data: '{{ query2.data }}'
+    - _cellSelection: none
+    - _serverPaginated: false
+    - _linkedFilterId: null
+    - searchMode: fuzzy
+    - _columnCellTooltip:
+        ordered:
+          - 7c4f1: ''
+          - '60842': ''
+          - '55195': ''
+          - d039d: ''
+          - '44766': ''
+          - '65e29': ''
+          - b490b: ''
+          - 0390e: ''
+    - _columnFormat:
+        ordered:
+          - 7c4f1: decimal
+          - '60842': string
+          - '55195': decimal
+          - d039d: decimal
+          - '44766': datetime
+          - '65e29': datetime
+          - b490b: link
+          - 0390e: string
+    - _cursorCache:
+        object: {}
+    - _calculatedPageSize: null
+    - _primaryKeyColumnId: 7c4f1
+    - selectedDataIndex: null
+    - _columnAlignment:
+        ordered:
+          - 7c4f1: right
+          - '60842': left
+          - '55195': right
+          - d039d: right
+          - '44766': left
+          - '65e29': left
+          - b490b: left
+          - 0390e: left
+    - _actionIcon:
+        ordered: []
+    - _columnTooltip:
+        ordered:
+          - 7c4f1: ''
+          - '60842': ''
+          - '55195': ''
+          - d039d: ''
+          - '44766': ''
+          - '65e29': ''
+          - b490b: ''
+          - 0390e: ''
+    - _columnIcon:
+        ordered:
+          - 7c4f1: ''
+          - '60842': ''
+          - '55195': ''
+          - d039d: ''
+          - '44766': ''
+          - '65e29': ''
+          - b490b: ''
+          - 0390e: ''
+    - _alwaysShowRowSelectionCheckboxes: false
+    - _columnCellTooltipMode:
+        ordered: []
+    - _pageSize: null
+    - showInEditor: false
+    - selectedSourceRows:
+        array: []
+    - _enableExpandableRows: false
+    - _selectMultipleRowsOnActionClick: 'no'
+    - _columnSortDisabled:
+        ordered:
+          - 7c4f1: false
+          - '60842': false
+          - '55195': false
+          - d039d: false
+          - '44766': false
+          - '65e29': false
+          - b490b: false
+          - 0390e: false
+    - _showSummaryRow: false
+    - filterStack: null
+    - _expandedRows: null
+    - changesetObject: null
+    - _actionDisabled:
+        ordered: []
+    - style:
+        ordered:
+          - background: rgba(124, 125, 85, 1)
+    - _columnReferenceId:
+        ordered:
+          - 7c4f1: ''
+          - '60842': ''
+          - '55195': ''
+          - d039d: ''
+          - '44766': ''
+          - '65e29': ''
+          - b490b: ''
+          - 0390e: ''
+    - _dynamicColumnSource:
+        array: []
+    - _rowSelection: single
+    - _columnCaption:
+        ordered:
+          - 7c4f1: ''
+          - '60842': ''
+          - '55195': ''
+          - d039d: ''
+          - '44766': ''
+          - '65e29': ''
+          - b490b: ''
+          - 0390e: ''
+    - _dynamicColumnFormatOptions:
+        ordered: []
+    - _dynamicRowHeights: false
+    - _columnFormatOptions:
+        ordered:
+          - 7c4f1:
+              ordered:
+                - showSeparators: true
+          - '60842':
+              ordered: []
+          - '55195':
+              ordered:
+                - showSeparators: true
+          - d039d:
+              ordered:
+                - showSeparators: true
+          - '44766':
+              ordered: []
+          - '65e29':
+              ordered: []
+          - b490b:
+              ordered:
+                - showUnderline: hover
+          - 0390e:
+              ordered: []
+    - _changeset: null
+    - _afterCursor: ''
+    - selectedRowKeys:
+        array: []
+    - _beforeCursor: ''
+    - _columnSummaryAggregationMode:
+        ordered: []
+    - searchTerm: ''
+    - selectedRows:
+        array: []
+    - _disabledVirtualization: false
+    - _expandedRowDataIndexes:
+        array: []
+    - _showColumnBorders: false
+    - _columnStatusIndicatorOptions:
+        ordered: []
+    - _columnSize:
+        ordered:
+          - 7c4f1: 100
+          - '60842': 100
+          - '55195': 100
+          - d039d: 100
+          - '44766': 100
+          - '65e29': 100
+          - b490b: 100
+          - 0390e: 100
+    - _serverPaginationType: limitOffsetBased
+    - _columnSortMode:
+        ordered: []
+    - _selectSingleRowsOnActionClick: replace
+    - _showFooter: true
+    - _groupedColumnConfig:
+        ordered: []
+    - _dynamicColumnSize:
+        ordered: []
+    - _virtualizeStartIndex: 0
+    - _toolbarButtonHidden:
+        ordered: []
+    - _defaultFilters:
+        ordered: []
+    - events:
+        - ordered:
+            - event: clickCell
+            - type: util
+            - method: openUrl
+            - pluginId: ''
+            - targetId: b490b
+            - params:
+                ordered:
+                  - url: '{{ item }}'
+            - waitType: debounce
+            - waitMs: '0'
+    - _columnEditable:
+        ordered:
+          - 7c4f1: ''
+          - '60842': ''
+          - '55195': ''
+          - d039d: ''
+          - '44766': ''
+          - '65e29': ''
+          - b490b: ''
+          - 0390e: ''
+    - _rowBackgroundColor:
+        array: []
+    - emptyMessage: ''
+    - pagination: null
+    - selectedDataIndexes:
+        array: []
+    - _columnGroupAggregationMode:
+        ordered: []
+    - sortArray:
+        array: []
+    - _selectedCell: null
+    - overflowType: scroll
+    - selectedCell: null
+    - _defaultSelectedRow:
+        ordered:
+          - mode: index
+          - indexType: display
+          - index: 0
+    - _hasNextPage: false
+    - _includeRowInChangesetArray: false
+    - _columnPosition:
+        ordered:
+          - 7c4f1: center
+          - '60842': center
+          - '55195': center
+          - d039d: center
+          - '44766': center
+          - '65e29': center
+          - b490b: center
+          - 0390e: center
+    - _enableSaveActions: true
+    - _columnPlaceholder:
+        ordered:
+          - 7c4f1: Enter value
+          - '60842': Enter value
+          - '55195': Enter value
+          - d039d: Enter value
+          - '44766': Enter value
+          - '65e29': Enter value
+          - b490b: ''
+          - 0390e: Enter value
+    - _defaultFilterOperator: and
+    - _actionLabel:
+        ordered: []
+    - _virtualizeEndIndex: 0
+    - selectedRow: null
+    - _actionHidden:
+        ordered: []
+    - maintainSpaceWhenHidden: false
+    - _columnHidden:
+        ordered:
+          - 7c4f1: ''
+          - '60842': ''
+          - '55195': ''
+          - d039d: ''
+          - '44766': ''
+          - '65e29': ''
+          - b490b: ''
+          - 0390e: ''
+    - _columnLabel:
+        ordered:
+          - 7c4f1: ID
+          - '60842': Name
+          - '55195': Quantity
+          - d039d: Unit price cents
+          - '44766': Created at
+          - '65e29': Updated at
+          - b490b: Image URL
+          - 0390e: Part number
+    - _showToolbar: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 0.2
+    height: 8
+    width: 8
+createdAt: 2023-05-31T08:23:31.912Z
