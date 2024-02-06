@@ -4,6 +4,6 @@ appTemplate:
   appMaxWidth: 1560px
   rootScreen: tabscreen
   isMobileApp: true
-  version: 3.19.0
+  version: 3.33.0
   multiScreenMobileApp: true
   experimentalDataTabEnabled: true
