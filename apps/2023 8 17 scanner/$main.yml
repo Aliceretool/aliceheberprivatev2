@@ -1,0 +1,9 @@
+id: $main
+type: frame
+subtype: Frame
+template:
+  ordered:
+    - type: main
+style:
+  ordered: []
+createdAt: 2023-08-17T09:53:59.972Z
