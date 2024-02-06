@@ -1,0 +1,23 @@
+id: text1
+type: widget
+subtype: RNTextWidget
+template:
+  ordered:
+    - value: '{{ current_user.email }}'
+    - size: medium
+    - weight: semibold
+    - width: full
+    - textAlign: left
+    - markdown: false
+    - style:
+        ordered: []
+style:
+  ordered: []
+position2:
+  position2:
+    container: container3
+mobileAppPosition:
+  object:
+    ordinal: 1
+createdAt: 2023-08-17T09:53:59.068Z
+screen: myProfileScreen

@@ -1,0 +1,16 @@
+id: peopleListScreen
+type: screen
+subtype: Screen
+template:
+  ordered:
+    - title: People List
+    - headerLeftActions: []
+    - headerRightActions: []
+    - gap: 16
+    - padding:
+        object:
+          left: 16
+          right: 16
+          top: 8
+          bottom: 8
+createdAt: 2023-08-17T09:53:59.068Z

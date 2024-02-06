@@ -1,0 +1,35 @@
+id: container1
+type: widget
+subtype: RNContainerWidget
+template:
+  ordered:
+    - align: flex-start
+    - width: full
+    - widthGrowFactor: 1
+    - showBorder: false
+    - collapsible: false
+    - layout: row
+    - cornerType: square
+    - justify: flex-start
+    - collapsedIcon: ''
+    - padding:
+        ordered:
+          - left: 0
+          - right: 0
+          - top: 0
+          - bottom: 0
+    - style:
+        ordered: []
+    - expandedIcon: ''
+    - gap: 8
+    - title: ''
+    - elevation: none
+style:
+  ordered: []
+position2:
+  position2: {}
+mobileAppPosition:
+  object:
+    ordinal: 0
+createdAt: 2023-08-17T09:53:59.068Z
+screen: myProfileScreen
