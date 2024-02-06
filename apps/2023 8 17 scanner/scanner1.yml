@@ -30,9 +30,7 @@ template:
 style:
   ordered: []
 position2:
-  position2:
-    height: 0
-    width: 0
+  position2: {}
 mobileAppPosition:
   mobilePosition:
     ordinal: 1

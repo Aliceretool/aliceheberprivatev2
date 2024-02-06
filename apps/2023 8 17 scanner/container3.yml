@@ -23,6 +23,8 @@ template:
     - expandedIcon: ''
     - gap: 8
     - title: ''
+    - events:
+        ordered: []
     - elevation: none
 style:
   ordered: []

@@ -4,6 +4,7 @@ subtype: Frame
 template:
   ordered:
     - type: main
+    - padding: 8px 12px
 style:
   ordered: []
 createdAt: 2023-08-17T09:53:59.972Z
