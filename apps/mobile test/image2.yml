@@ -1,0 +1,16 @@
+id: image2
+type: widget
+subtype: RNImageWidget
+template:
+  src: '{{current_user.profilePhotoUrl}}'
+  ratio: 1.3333333333333333
+  mode: center
+  cornerType: round
+position2:
+  position2:
+    container: container2
+mobileAppPosition:
+  object:
+    ordinal: 0
+createdAt: 2024-02-07T20:41:55.396Z
+screen: myProfileScreen
