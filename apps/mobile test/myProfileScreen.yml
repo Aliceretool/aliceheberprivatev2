@@ -1,0 +1,7 @@
+id: myProfileScreen
+type: screen
+subtype: Screen
+template:
+  map:
+    title: My Profile
+createdAt: 2024-02-07T20:41:55.395Z

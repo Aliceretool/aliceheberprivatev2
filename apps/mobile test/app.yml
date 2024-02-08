@@ -1,0 +1,9 @@
+version: 43.0.9
+pageUuid: 54baa104-c5f9-11ee-83da-7f1a8ef85bbd
+appTemplate:
+  rootScreen: tabscreen
+  isMobileApp: true
+  shortlink: false
+  version: 3.26.6
+  multiScreenMobileApp: true
+  experimentalDataTabEnabled: true

@@ -1,0 +1,11 @@
+id: peopleDetailsScreen
+type: screen
+subtype: Screen
+template:
+  title: Details
+  padding:
+    top: 0
+    bottom: 0
+    left: 12
+    right: 12
+createdAt: 2024-02-07T20:41:55.395Z
