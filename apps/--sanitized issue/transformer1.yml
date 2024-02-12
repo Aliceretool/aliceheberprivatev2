@@ -9,7 +9,6 @@ template:
 
         const name = {{ current_user.firstName || 'world' }}
 
-        this is bs
 
         return 'Hello ' + name
     - value: ''
