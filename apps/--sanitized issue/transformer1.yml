@@ -9,6 +9,7 @@ template:
 
         const name = {{ current_user.firstName || 'world' }}
 
+        const nada = "nada"
 
         return 'Hello ' + name
     - value: ''
