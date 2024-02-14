@@ -9,7 +9,6 @@ template:
 
         const name = {{ current_user.firstName || 'world' }}
 
-
         return 'Hello ' + name
     - value: ''
 createdAt: 2024-01-29T13:43:25.180Z
