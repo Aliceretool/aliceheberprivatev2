@@ -1,19 +1,18 @@
-id: text2
-uuid: fe472ec1-3664-40c8-9f10-cbd071d40b60
+id: text4
+uuid: 68d00559-a4c0-4c3c-8a0c-ae4285470251
 type: widget
 subtype: TextWidget2
 template:
   ordered:
     - heightType: auto
     - horizontalAlign: left
-    - marginType: normal
     - hidden: false
     - imageWidth: fit
     - margin: 4px 8px
     - showInEditor: false
     - verticalAlign: center
     - tooltipText: ''
-    - value: 22 jan
+    - value: to delete branch
     - disableMarkdown: false
     - overflowType: scroll
     - maintainSpaceWhenHidden: false
@@ -21,7 +20,7 @@ style:
   ordered: []
 position2:
   position2:
-    row: 3.4
-    col: 1
+    row: 12
+    col: 3
     height: 0.6
-createdAt: 2024-01-22T14:03:07.990Z
+createdAt: 2024-02-19T10:34:48.601Z

@@ -17,6 +17,7 @@ template:
     - hideValidationMessage: false
     - textBefore: ''
     - validationMessage: ''
+    - margin: 4px 8px
     - textAfter: ''
     - showInEditor: false
     - showClear: false

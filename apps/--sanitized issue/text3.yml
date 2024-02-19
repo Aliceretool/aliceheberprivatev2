@@ -9,6 +9,7 @@ template:
     - marginType: normal
     - hidden: false
     - imageWidth: fit
+    - margin: 4px 8px
     - showInEditor: false
     - verticalAlign: center
     - tooltipText: ''
