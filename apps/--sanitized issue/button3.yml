@@ -11,6 +11,7 @@ template:
     - marginType: normal
     - hidden: false
     - text: Button
+    - margin: 4px 8px
     - showInEditor: false
     - tooltipText: ''
     - styleVariant: solid
