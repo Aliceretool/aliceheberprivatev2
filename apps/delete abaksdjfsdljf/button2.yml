@@ -1,0 +1,32 @@
+id: button2
+uuid: 123643b1-5826-4292-a350-3ce36747c724
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: null
+    - hidden: false
+    - text: delete
+    - margin: 4px 8px
+    - showInEditor: false
+    - tooltipText: ''
+    - styleVariant: solid
+    - submit: false
+    - iconBefore: ''
+    - events:
+        ordered: []
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 6.4
+    height: 1
+    width: 1
+createdAt: 2024-02-19T10:16:03.188Z
