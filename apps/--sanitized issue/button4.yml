@@ -1,5 +1,5 @@
-id: button2
-uuid: 123643b1-5826-4292-a350-3ce36747c724
+id: button4
+uuid: cecdd5af-1b5e-49d5-895d-b87b76c01c1f
 type: widget
 subtype: ButtonWidget2
 template:
@@ -9,7 +9,7 @@ template:
     - iconAfter: ''
     - submitTargetId: null
     - hidden: false
-    - text: delete
+    - text: Button
     - margin: 4px 8px
     - showInEditor: false
     - tooltipText: ''
@@ -26,7 +26,8 @@ style:
   ordered: []
 position2:
   position2:
-    row: 6.4
+    row: 9.2
+    col: 5
     height: 1
     width: 1
-createdAt: 2024-02-19T10:16:03.188Z
+createdAt: 2024-02-19T10:36:51.111Z
