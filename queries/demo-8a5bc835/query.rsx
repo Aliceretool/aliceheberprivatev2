@@ -1,0 +1,32 @@
+<PlaygroundQuery
+  id="demo"
+  adhocResourceType={null}
+  data={null}
+  resourceType="postgresql"
+>
+  <SqlQuery
+    actionType=""
+    allowedGroupIds={[]}
+    allowedGroups={[]}
+    bulkUpdatePrimaryKey=""
+    dataArray={[]}
+    doNotThrowOnNoOp={false}
+    editorMode="sql"
+    enableBulkUpdates={false}
+    events={[]}
+    filterBy=""
+    importedQueryDefaults={{}}
+    importedQueryInputs={{}}
+    privateParams={[]}
+    query={include("./lib/demo.sql", "string")}
+    queryTimeout="100000"
+    recordId=""
+    records=""
+    retoolVersion="3.26.4"
+    showUpdateSetValueDynamicallyToggle={false}
+    tableName=""
+    updateSetValueDynamically={true}
+    warningCodes={[]}
+    watchedParams={[]}
+  />
+</PlaygroundQuery>
