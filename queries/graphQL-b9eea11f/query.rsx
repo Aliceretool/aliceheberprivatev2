@@ -2,16 +2,16 @@
   id="graphQL"
   adhocResourceType={null}
   data={null}
-  resourceType="restapi"
+  resourceType="graphql"
 >
-  <RESTQuery
+  <GraphQLQuery
     allowedGroupIds={[]}
     allowedGroups={[]}
+    body={include("./lib/graphQL.gql", "string")}
     events={[]}
-    importedQueryDefaults={{ playlists: "playlists" }}
-    importedQueryInputs={{ playlists: "" }}
+    importedQueryDefaults={{}}
+    importedQueryInputs={{}}
     privateParams={[]}
-    query="users/alihey/{{playlists}}"
     watchedParams={[]}
   />
 </PlaygroundQuery>
