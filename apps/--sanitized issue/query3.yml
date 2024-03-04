@@ -19,7 +19,7 @@ template:
     - runWhenModelUpdates: false
     - workflowRunId: null
     - showFailureToaster: true
-    - query: return window.myCustomHelper2('hey')
+    - query: return window.myCustomHelperApp('hey')
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
