@@ -3,7 +3,7 @@ pageUuid: dd52d30e-94fa-11ee-9c0d-87ca45934cbf
 appTemplate:
   preloadedAppJavaScript: |-
     function myCustomHelperApp(str){
-      return str + 'preloaded js'
+      return str + 'preloaded js again'
     }
   notificationsSettings:
     object:
