@@ -1,0 +1,19 @@
+<PlaygroundQuery
+  id="demo usage 5mar"
+  adhocResourceType={null}
+  data={null}
+  resourceType="restapi"
+>
+  <RESTQuery
+    allowedGroupIds={[]}
+    allowedGroups={[]}
+    events={[]}
+    importedQueryDefaults={{}}
+    importedQueryInputs={{}}
+    privateParams={[]}
+    query="users/alihey/playlists"
+    queryTimeout="100000"
+    retoolVersion="3.37.0"
+    watchedParams={[]}
+  />
+</PlaygroundQuery>
