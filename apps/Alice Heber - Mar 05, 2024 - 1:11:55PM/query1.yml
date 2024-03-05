@@ -1,0 +1,92 @@
+id: query1
+type: datasource
+subtype: RESTQuery
+resourceName: f0e56132-a402-490d-ac41-3af698c2202d
+resourceDisplayName: delete me
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - paginationLimit: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - body: ''
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: true
+    - paginationPaginationField: ''
+    - headers: ''
+    - workflowRunId: null
+    - showFailureToaster: true
+    - paginationEnabled: false
+    - query: ''
+    - playgroundQueryUuid: 1b071b32-b522-4405-88c6-64119ee3ccc2
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - retoolVersion: 3.37.0
+    - importedQueryInputs:
+        ordered: []
+    - isImported: true
+    - showSuccessToaster: false
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - cookies: ''
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - version: 2
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return data
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - type: GET
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - bodyType: none
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: 4.5
+    - playgroundQueryName: demo usage 5mar
+createdAt: 2024-03-05T13:12:00.777Z
