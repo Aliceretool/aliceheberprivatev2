@@ -1,0 +1,36 @@
+id: formButton1
+uuid: 442683d8-abf3-4284-81e1-ea07d28e8130
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - heightType: fixed
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: noteForm
+    - marginType: normal
+    - hidden: false
+    - text: Submit
+    - margin: 4px 8px
+    - showInEditor: false
+    - tooltipText: ''
+    - styleVariant: solid
+    - submit: true
+    - iconBefore: ''
+    - events:
+        ordered: []
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: noteForm
+    rowGroup: footer
+    col: 8
+    height: 1
+    width: 4
+createdAt: 2024-02-14T07:43:49.092Z

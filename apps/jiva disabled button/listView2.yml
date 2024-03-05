@@ -1,0 +1,33 @@
+id: listView2
+uuid: c6ac6e93-9c91-45d3-bf40-09f5176d9f48
+type: widget
+subtype: ListViewWidget2
+template:
+  ordered:
+    - heightType: fixed
+    - layoutType: list
+    - marginType: none
+    - hidden: false
+    - data: '{{ screenerPendingTable?.selectedRow?.notes }}'
+    - margin: '0'
+    - showInEditor: false
+    - padding: '0'
+    - itemWidth: 200px
+    - _primaryKeys:
+        array: []
+    - numColumns: 3
+    - instanceValues: null
+    - enableInstanceValues: false
+    - overflowType: scroll
+    - _enabledInstances: null
+    - maintainSpaceWhenHidden: false
+    - direction: vertical
+style:
+  ordered: []
+position2:
+  position2:
+    container: callNotesModal
+    row: 1.8
+    height: 9
+    width: 12
+createdAt: 2024-02-20T09:58:05.471Z

@@ -1,0 +1,8 @@
+id: enableModule
+type: globalwidgetprop
+subtype: GlobalWidgetProp
+template:
+  ordered:
+    - value: '{{ true }}'
+    - defaultValue: '{{ false }}'
+createdAt: 2024-02-18T11:06:14.263Z

@@ -1,0 +1,159 @@
+id: approveScreenerStep
+type: datasource
+subtype: GraphQLQuery
+resourceName: bac1861c-bf9e-4819-997b-4aecaf67baf3
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - paginationLimit: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - body: |-
+        mutation ApproveRecruitmentStep($input: RecruitmentStepInput!) {
+          approveRecruitmentStep(recruitmentStepInput: $input) {
+            recruitmentStep {
+              id
+              type
+              status
+              result
+            }
+            errors {
+              code
+              parameter
+              message
+            }
+          }
+        }
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - paginationPaginationField: ''
+    - headers: ''
+    - workflowRunId: null
+    - showFailureToaster: true
+    - paginationEnabled: false
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - graphQLVariables: '[{"key":"input","value":"{{ screenerStepInput.value }}"}]'
+    - showSuccessToaster: false
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - cookies: ''
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        //Use the variables data, metadata, and errors to reference these fields
+        from your query's results
+
+        if (Array.isArray(errors) && errors.length > 0) {
+          return errors[0].message;
+        } else {
+          return false
+        }
+            
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: ''
+    - graphQLErrors: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return data
+    - events:
+        - ordered:
+            - method: showNotification
+            - enabled: >-
+                {{
+                !_.isNull(approveScreenerStep.data.approveRecruitmentStep.errors)
+                }}
+            - params:
+                ordered:
+                  - options:
+                      ordered:
+                        - notificationType: error
+                        - title: >-
+                            {{
+                            approveScreenerStep.data.approveRecruitmentStep.errors?.[0]?.message
+                            }}
+            - targetId: null
+            - pluginId: ''
+            - waitType: debounce
+            - event: success
+            - type: util
+            - waitMs: '0'
+        - ordered:
+            - method: trigger
+            - enabled: >-
+                {{
+                _.isNull(approveScreenerStep.data.approveRecruitmentStep.errors)
+                }}
+            - params:
+                ordered: []
+            - targetId: null
+            - pluginId: stepsQuery
+            - waitType: debounce
+            - event: success
+            - type: datasource
+            - waitMs: '0'
+        - ordered:
+            - method: close
+            - enabled: >-
+                {{
+                _.isNull(approveScreenerStep.data.approveRecruitmentStep.errors)
+                }}
+            - params:
+                ordered: []
+            - targetId: null
+            - pluginId: approveModal
+            - waitType: debounce
+            - event: success
+            - type: widget
+            - waitMs: '0'
+    - isMultiplayerEdited: false
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - type: POST
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - bodyType: raw
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: 4.5
+createdAt: 2024-02-26T05:40:40.606Z

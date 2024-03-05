@@ -1,0 +1,298 @@
+id: screenerAnswersTable
+uuid: 08d1c868-d9b0-43de-8f06-f284997e4253
+type: widget
+subtype: TableWidget2
+template:
+  ordered:
+    - selectedRowKey: null
+    - _nextAfterCursor: ''
+    - _columnBackgroundColor:
+        ordered:
+          - 5b0a5: ''
+          - b6a8b: ''
+          - 0bd6d: ''
+    - _defaultSort: null
+    - _clearChangesetOnSave: true
+    - heightType: fixed
+    - _columnTextColor:
+        ordered:
+          - 5b0a5: ''
+          - b6a8b: ''
+          - 0bd6d: ''
+    - disableEdits: false
+    - autoColumnWidth: false
+    - _rowHeight: large
+    - _columnIds:
+        - 5b0a5
+        - b6a8b
+        - 0bd6d
+    - _isSaving: false
+    - _actionIds: []
+    - _clearChangeset: false
+    - caseSensitiveFiltering: false
+    - _limitOffsetRowCount: null
+    - selectedSourceRow: null
+    - _dynamicColumnsEnabled: false
+    - disableSave: false
+    - _columnEditableOptions:
+        ordered:
+          - 5b0a5:
+              ordered:
+                - showStepper: true
+          - b6a8b:
+              ordered: []
+          - 0bd6d:
+              ordered: []
+    - _toolbarPosition: top
+    - _groupByColumns: []
+    - _toolbarButtonLabel:
+        ordered:
+          - 1a: Filter
+    - _nextBeforeCursor: ''
+    - _persistRowSelection: false
+    - _toolbarButtonIcon:
+        ordered:
+          - 1a: bold/interface-text-formatting-filter-2
+    - changesetArray:
+        array: []
+    - _toolbarButtonType:
+        ordered:
+          - 1a: filter
+    - _columnOptionList:
+        ordered:
+          - 5b0a5:
+              ordered: []
+          - b6a8b:
+              ordered: []
+          - 0bd6d:
+              ordered: []
+    - _columnValueOverride:
+        ordered:
+          - 5b0a5: ''
+          - b6a8b: ''
+          - 0bd6d: ''
+    - marginType: normal
+    - _showBorder: true
+    - _templatePageSize: null
+    - _dynamicColumnProperties:
+        ordered: []
+    - _showHeader: true
+    - _currentPage: 0
+    - overflowActionsOverlayMinWidth: null
+    - _actionsOverflowPosition: 0
+    - _columnKey:
+        ordered:
+          - 5b0a5: id
+          - b6a8b: questionText
+          - 0bd6d: answer
+    - hidden: false
+    - _toolbarButtonIds:
+        - 1a
+    - data: '{{ screenerPendingTable.selectedRow.screenerSubmission }}'
+    - _cellSelection: none
+    - _serverPaginated: false
+    - _linkedFilterId: null
+    - searchMode: fuzzy
+    - _columnCellTooltip:
+        ordered:
+          - 5b0a5: ''
+          - b6a8b: ''
+          - 0bd6d: ''
+    - _columnFormat:
+        ordered:
+          - 5b0a5: decimal
+          - b6a8b: multilineString
+          - 0bd6d: tags
+    - _cursorCache:
+        object: {}
+    - _calculatedPageSize: null
+    - _primaryKeyColumnId: 5b0a5
+    - selectedDataIndex: null
+    - _columnAlignment:
+        ordered:
+          - 5b0a5: right
+          - b6a8b: left
+          - 0bd6d: left
+    - _actionIcon:
+        ordered: []
+    - margin: 4px 8px
+    - _columnTooltip:
+        ordered:
+          - 5b0a5: ''
+          - b6a8b: ''
+          - 0bd6d: ''
+    - _columnIcon:
+        ordered:
+          - 5b0a5: ''
+          - b6a8b: ''
+          - 0bd6d: ''
+    - _alwaysShowRowSelectionCheckboxes: false
+    - _columnCellTooltipMode:
+        ordered:
+          - 5b0a5: ''
+          - b6a8b: ''
+          - 0bd6d: overflow
+    - _pageSize: null
+    - showInEditor: false
+    - selectedSourceRows:
+        array: []
+    - _enableExpandableRows: false
+    - _selectMultipleRowsOnActionClick: 'no'
+    - _columnSortDisabled:
+        ordered:
+          - 5b0a5: false
+          - b6a8b: false
+          - 0bd6d: false
+    - _showSummaryRow: false
+    - filterStack: null
+    - _expandedRows: null
+    - changesetObject: null
+    - _actionDisabled:
+        ordered: []
+    - _columnReferenceId:
+        ordered:
+          - 5b0a5: ''
+          - b6a8b: ''
+          - 0bd6d: ''
+    - _dynamicColumnSource:
+        array: []
+    - _rowSelection: single
+    - _columnCaption:
+        ordered:
+          - 5b0a5: ''
+          - b6a8b: ''
+          - 0bd6d: ''
+    - _dynamicColumnFormatOptions:
+        ordered: []
+    - _dynamicRowHeights: false
+    - _columnFormatOptions:
+        ordered:
+          - 5b0a5:
+              ordered:
+                - showSeparators: true
+                - notation: standard
+          - b6a8b:
+              ordered:
+                - icon: >-
+                    {{ item === "success" ?
+                    "/icon:bold/interface-validation-check-circle" :
+                    "/icon:bold/interface-alert-warning-circle" }}
+          - 0bd6d:
+              ordered:
+                - automaticColors: true
+    - _changeset: null
+    - _afterCursor: ''
+    - selectedRowKeys:
+        array: []
+    - _beforeCursor: ''
+    - _columnSummaryAggregationMode:
+        ordered:
+          - 5b0a5: none
+          - b6a8b: none
+          - 0bd6d: none
+    - searchTerm: ''
+    - selectedRows:
+        array: []
+    - _disabledVirtualization: false
+    - _expandedRowDataIndexes:
+        array: []
+    - _showColumnBorders: false
+    - _columnStatusIndicatorOptions:
+        ordered:
+          - 5b0a5:
+              ordered: []
+          - b6a8b:
+              ordered: []
+          - 0bd6d:
+              ordered: []
+    - overflowActionsOverlayMaxHeight: null
+    - _columnSize:
+        ordered:
+          - 5b0a5: 31.546875
+          - b6a8b: 615
+          - 0bd6d: 100
+    - _serverPaginationType: limitOffsetBased
+    - _columnSortMode:
+        ordered:
+          - 5b0a5: default
+          - b6a8b: default
+          - 0bd6d: default
+    - _selectSingleRowsOnActionClick: replace
+    - _showFooter: true
+    - _groupedColumnConfig:
+        ordered: []
+    - _dynamicColumnSize:
+        ordered: []
+    - _virtualizeStartIndex: 0
+    - _toolbarButtonHidden:
+        ordered:
+          - 1a: ''
+    - _defaultFilters:
+        ordered: []
+    - events: []
+    - _columnEditable:
+        ordered:
+          - 5b0a5: false
+          - b6a8b: ''
+          - 0bd6d: ''
+    - _rowBackgroundColor:
+        array: []
+    - emptyMessage: No rows found
+    - pagination: null
+    - selectedDataIndexes:
+        array: []
+    - _columnGroupAggregationMode:
+        ordered:
+          - 5b0a5: sum
+          - b6a8b: none
+          - 0bd6d: none
+    - sortArray:
+        array: []
+    - _selectedCell: null
+    - overflowType: scroll
+    - selectedCell: null
+    - _defaultSelectedRow:
+        ordered:
+          - mode: index
+          - indexType: display
+          - index: 0
+    - _hasNextPage: false
+    - _includeRowInChangesetArray: false
+    - _columnPosition:
+        ordered:
+          - 5b0a5: center
+          - b6a8b: center
+          - 0bd6d: center
+    - _enableSaveActions: true
+    - _columnPlaceholder:
+        ordered:
+          - 5b0a5: Enter value
+          - b6a8b: Enter value
+          - 0bd6d: Select options
+    - _defaultFilterOperator: and
+    - _actionLabel:
+        ordered: []
+    - _virtualizeEndIndex: 0
+    - selectedRow: null
+    - _actionHidden:
+        ordered: []
+    - maintainSpaceWhenHidden: false
+    - _columnHidden:
+        ordered:
+          - 5b0a5: '{{ true }}'
+          - b6a8b: ''
+          - 0bd6d: ''
+    - _columnLabel:
+        ordered:
+          - 5b0a5: ID
+          - b6a8b: Question text
+          - 0bd6d: Answer
+    - _showToolbar: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: screenerAnswersModal
+    height: 12.199999999999998
+    width: 12
+createdAt: 2024-02-22T07:34:42.281Z

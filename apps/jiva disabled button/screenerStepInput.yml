@@ -1,0 +1,12 @@
+id: screenerStepInput
+type: function
+subtype: Function
+template:
+  ordered:
+    - funcBody: |-
+        return {
+          id: {{ screenerPendingTable.selectedRow.id }},
+          type: 'SCREENER'
+        }
+    - value: ''
+createdAt: 2024-02-26T05:41:35.669Z
