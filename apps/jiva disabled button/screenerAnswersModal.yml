@@ -1,0 +1,28 @@
+id: screenerAnswersModal
+uuid: 195849ae-fad5-4370-a288-757234a530e2
+type: widget
+subtype: ModalWidget
+template:
+  ordered:
+    - opened: false
+    - modalOverflowType: scroll
+    - hidden: '{{ true }}'
+    - onModalClose: ''
+    - modalHeightType: auto
+    - tooltipText: ''
+    - modalHeight: 936px
+    - onModalOpen: ''
+    - modalWidth: 80%
+    - closeOnOutsideClick: false
+    - loading: ''
+    - disabled: ''
+    - buttonText: Screener Answers
+style:
+  ordered: []
+position2:
+  position2:
+    container: moduleContainer
+    row: 6.599999999999998
+    col: 3
+    height: 1
+createdAt: 2024-02-22T07:20:25.317Z

@@ -1,0 +1,28 @@
+id: rejectCandidateModal
+uuid: b14f007a-9412-410e-aad2-b4849b3e8da8
+type: widget
+subtype: ModalWidget
+template:
+  ordered:
+    - opened: false
+    - modalOverflowType: scroll
+    - hidden: 'true'
+    - onModalClose: ''
+    - modalHeightType: auto
+    - tooltipText: ''
+    - modalHeight: ''
+    - onModalOpen: ''
+    - modalWidth: ''
+    - closeOnOutsideClick: false
+    - loading: ''
+    - disabled: ''
+    - buttonText: Reject Candidate
+style:
+  ordered: []
+position2:
+  position2:
+    container: moduleContainer
+    row: 5.599999999999996
+    col: 3
+    height: 1
+createdAt: 2024-02-14T07:49:12.426Z

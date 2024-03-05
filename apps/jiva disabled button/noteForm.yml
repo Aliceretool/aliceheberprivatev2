@@ -1,0 +1,56 @@
+id: noteForm
+uuid: 21a646c8-3746-480e-bb0f-3aa9dd714737
+type: widget
+subtype: FormWidget2
+template:
+  ordered:
+    - disableSubmit: false
+    - heightType: auto
+    - headerPadding: 4px 12px
+    - showFooterBorder: true
+    - resetAfterSubmit: true
+    - submitting: false
+    - marginType: normal
+    - enableFullBleed: false
+    - showBorder: true
+    - hidden: false
+    - data:
+        object: {}
+    - showHeader: true
+    - hoistFetching: false
+    - paddingType: normal
+    - initialData: null
+    - margin: 4px 8px
+    - showInEditor: false
+    - footerPaddingType: normal
+    - tooltipText: ''
+    - padding: 12px
+    - showHeaderBorder: true
+    - footerPadding: 4px 12px
+    - invalid: false
+    - showFooter: true
+    - events:
+        - ordered:
+            - event: submit
+            - type: datasource
+            - method: trigger
+            - pluginId: addNotes
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - loading: false
+    - overflowType: scroll
+    - disabled: false
+    - headerPaddingType: normal
+    - requireValidation: true
+    - maintainSpaceWhenHidden: false
+    - showBody: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: addNotesModal
+    width: 12
+createdAt: 2024-02-14T07:43:49.082Z

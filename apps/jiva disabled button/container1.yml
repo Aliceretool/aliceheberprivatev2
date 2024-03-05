@@ -1,0 +1,80 @@
+id: container1
+uuid: 07a9f8e0-07a4-41bc-ac9a-a3ae827974cc
+type: widget
+subtype: ContainerWidget2
+template:
+  ordered:
+    - _disabledByIndex:
+        - ''
+    - heightType: auto
+    - currentViewKey: null
+    - iconByIndex:
+        array: []
+    - clickable: false
+    - _iconByIndex:
+        - ''
+    - headerPadding: 4px 12px
+    - showFooterBorder: true
+    - marginType: normal
+    - enableFullBleed: false
+    - showBorder: true
+    - hidden: false
+    - showHeader: false
+    - hoistFetching: false
+    - paddingType: normal
+    - margin: 4px 8px
+    - views:
+        array: []
+    - showInEditor: false
+    - footerPaddingType: normal
+    - tooltipText: ''
+    - padding: 12px
+    - hiddenByIndex:
+        array: []
+    - _hiddenByIndex:
+        - ''
+    - currentViewIndex: null
+    - _hasMigratedNestedItems: true
+    - transition: none
+    - showHeaderBorder: true
+    - footerPadding: 4px 12px
+    - itemMode: static
+    - _tooltipByIndex:
+        - ''
+    - tooltipByIndex:
+        array: []
+    - showFooter: false
+    - _viewKeys:
+        - View 1
+    - events:
+        ordered: []
+    - _ids:
+        - 2c356
+    - viewKeys:
+        array: []
+    - iconPositionByIndex:
+        array: []
+    - _iconPositionByIndex:
+        - ''
+    - hovered: false
+    - loading: false
+    - overflowType: scroll
+    - disabled: false
+    - _labels:
+        - ''
+    - headerPaddingType: normal
+    - disabledByIndex:
+        array: []
+    - maintainSpaceWhenHidden: false
+    - showBody: true
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    container: moduleContainer
+    row: 5.400000000000001
+    height: 0.2
+    width: 12
+createdAt: 2024-02-01T09:24:25.386Z

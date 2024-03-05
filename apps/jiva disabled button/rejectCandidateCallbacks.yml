@@ -1,0 +1,119 @@
+id: rejectCandidateCallbacks
+type: datasource
+subtype: SqlTransformQuery
+resourceName: SQL Transforms
+template:
+  ordered:
+    - queryRefreshTime: '5000'
+    - allowedGroupIds: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: '{{ !rejectCandidate1.candidateRejected }}'
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: true
+    - workflowRunId: null
+    - showFailureToaster: true
+    - query: select * from {{rejectCandidate1.candidateRejected}}
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: ''
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return data
+    - events:
+        - ordered:
+            - method: trigger
+            - enabled: '{{ rejectCandidate1.candidateRejected }}'
+            - params:
+                ordered:
+                  - options:
+                      ordered:
+                        - onSuccess: null
+                        - onFailure: null
+                        - additionalScope: null
+            - targetId: null
+            - pluginId: stepsQuery
+            - waitType: debounce
+            - event: success
+            - type: datasource
+            - waitMs: '0'
+        - ordered:
+            - method: setValue
+            - enabled: '{{ rejectCandidate1.candidateRejected }}'
+            - params:
+                ordered:
+                  - value: '{{ false }}'
+            - targetId: null
+            - pluginId: candidateRejected
+            - waitType: debounce
+            - event: success
+            - type: state
+            - waitMs: '0'
+        - ordered:
+            - method: close
+            - enabled: '{{ rejectCandidate1.candidateRejected }}'
+            - params:
+                ordered: []
+            - targetId: null
+            - pluginId: rejectCandidateModal
+            - waitType: debounce
+            - event: success
+            - type: widget
+            - waitMs: '0'
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-02-29T03:06:25.607Z
