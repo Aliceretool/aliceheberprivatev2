@@ -3,5 +3,5 @@ pageUuid: 5f0a6a28-7404-11ee-b1d2-3f21f494057f
 appTemplate:
   inAppRetoolPillAppearance: POWERED_BY_RETOOL
   customDocumentTitleEnabled: true
-  version: 3.24.9
+  version: 3.28.3
   experimentalDataTabEnabled: true

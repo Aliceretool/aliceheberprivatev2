@@ -46,6 +46,7 @@ template:
     - recordId: ''
     - importedQueryInputs:
         ordered: []
+    - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
     - dataArray: []
