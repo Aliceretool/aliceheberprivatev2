@@ -1,0 +1,25 @@
+id: text3
+uuid: 8f6a686a-ec15-412c-ac6a-e3db04adff0a
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - marginType: normal
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: from base 64
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 14
+    height: 0.6
+createdAt: 2024-03-15T11:40:23.167Z

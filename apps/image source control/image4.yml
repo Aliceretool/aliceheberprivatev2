@@ -1,0 +1,39 @@
+id: image4
+uuid: 5291431d-8c66-4c34-aa26-40047529b3a6
+type: widget
+subtype: ImageWidget2
+template:
+  ordered:
+    - heightType: auto
+    - retoolStorageShowLegacyFiles: false
+    - horizontalAlign: center
+    - srcWidth: null
+    - clickable: false
+    - flipVertical: false
+    - src: https://placekitten.com/400/300
+    - retoolFileObject: '{{fileButton1.value[0]}}'
+    - retoolStorageFileId: ''
+    - marginType: normal
+    - hidden: false
+    - srcHeight: null
+    - showInEditor: false
+    - tooltipText: ''
+    - fit: cover
+    - flipHorizontal: false
+    - aspectRatio: null
+    - storageBlobId: ''
+    - altText: ''
+    - dbBlobId: ''
+    - events:
+        ordered: []
+    - retoolStorageDynamicInput: false
+    - srcType: retoolFileObject
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 14.8
+    height: 3
+    width: 2
+createdAt: 2024-03-15T11:40:34.469Z
