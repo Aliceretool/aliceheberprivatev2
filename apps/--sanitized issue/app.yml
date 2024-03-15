@@ -1,6 +1,10 @@
 version: 43.0.9
 pageUuid: dd52d30e-94fa-11ee-9c0d-87ca45934cbf
 appTemplate:
+  preloadedAppJavaScript: |-
+    function myCustomHelperApp(str){
+      return str + 'preloaded js'
+    }
   notificationsSettings:
     object:
       globalQueryShowFailureToast: true
