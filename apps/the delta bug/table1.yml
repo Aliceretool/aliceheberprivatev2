@@ -1,0 +1,323 @@
+id: table1
+uuid: e6a49bce-9c92-48e1-b651-3bbe8d080131
+type: widget
+subtype: TableWidget2
+template:
+  ordered:
+    - selectedRowKey: null
+    - _nextAfterCursor: ''
+    - _columnBackgroundColor:
+        ordered:
+          - 1348c: ''
+          - '26693': ''
+          - '10434': ''
+    - _defaultSort: null
+    - _clearChangesetOnSave: true
+    - heightType: fixed
+    - _columnTextColor:
+        ordered:
+          - 1348c: ''
+          - '26693': ''
+          - '10434': ''
+    - disableEdits: false
+    - autoColumnWidth: false
+    - _rowHeight: small
+    - _columnIds:
+        - 1348c
+        - '26693'
+        - '10434'
+    - _isSaving: false
+    - _actionIds: []
+    - _clearChangeset: false
+    - caseSensitiveFiltering: false
+    - _limitOffsetRowCount: null
+    - selectedSourceRow: null
+    - _dynamicColumnsEnabled: false
+    - disableSave: false
+    - _columnEditableOptions:
+        ordered:
+          - 1348c:
+              ordered: []
+          - '26693':
+              ordered: []
+          - '10434':
+              ordered:
+                - showStepper: true
+    - _toolbarPosition: bottom
+    - _groupByColumns: []
+    - _toolbarButtonLabel:
+        ordered:
+          - 1a: Filter
+          - 3c: Download
+          - 4d: Refresh
+    - _nextBeforeCursor: ''
+    - _persistRowSelection: false
+    - _toolbarButtonIcon:
+        ordered:
+          - 1a: bold/interface-text-formatting-filter-2
+          - 3c: bold/interface-download-button-2
+          - 4d: bold/interface-arrows-round-left
+    - changesetArray:
+        array: []
+    - groupByColumns:
+        array: []
+    - _toolbarButtonType:
+        ordered:
+          - 1a: filter
+          - 3c: custom
+          - 4d: custom
+    - _columnOptionList:
+        ordered:
+          - 1348c:
+              ordered: []
+          - '26693':
+              ordered: []
+          - '10434':
+              ordered: []
+    - _columnValueOverride:
+        ordered:
+          - 1348c: ''
+          - '26693': ''
+          - '10434': ''
+    - _showBorder: true
+    - _templatePageSize: null
+    - _dynamicColumnProperties:
+        ordered: []
+    - _showHeader: true
+    - _currentPage: 0
+    - overflowActionsOverlayMinWidth: null
+    - _actionsOverflowPosition: 0
+    - _columnKey:
+        ordered:
+          - 1348c: name
+          - '26693': date
+          - '10434': Postcode
+    - hidden: false
+    - _toolbarButtonIds:
+        - 1a
+        - 3c
+        - 4d
+    - data: '{{ arrayOfObjects.value }}'
+    - _cellSelection: none
+    - _serverPaginated: false
+    - _linkedFilterId: null
+    - searchMode: fuzzy
+    - _columnCellTooltip:
+        ordered:
+          - 1348c: ''
+          - '26693': ''
+          - '10434': ''
+    - _columnFormat:
+        ordered:
+          - 1348c: string
+          - '26693': date
+          - '10434': decimal
+    - _cursorCache:
+        object: {}
+    - _calculatedPageSize: null
+    - _primaryKeyColumnId: ''
+    - selectedDataIndex: null
+    - _columnAlignment:
+        ordered:
+          - 1348c: left
+          - '26693': left
+          - '10434': right
+    - _actionIcon:
+        ordered: []
+    - margin: 4px 8px
+    - _columnTooltip:
+        ordered:
+          - 1348c: ''
+          - '26693': ''
+          - '10434': ''
+    - _columnIcon:
+        ordered:
+          - 1348c: ''
+          - '26693': ''
+          - '10434': ''
+    - _alwaysShowRowSelectionCheckboxes: false
+    - _columnCellTooltipMode:
+        ordered:
+          - 1348c: ''
+          - '26693': ''
+          - '10434': ''
+    - _pageSize: null
+    - showInEditor: false
+    - _isAddingNewRows: false
+    - selectedSourceRows:
+        array: []
+    - _enableExpandableRows: false
+    - _selectMultipleRowsOnActionClick: 'no'
+    - _columnSortDisabled:
+        ordered:
+          - 1348c: false
+          - '26693': false
+          - '10434': false
+    - _showSummaryRow: false
+    - filterStack: null
+    - _expandedRows: null
+    - changesetObject: null
+    - _actionDisabled:
+        ordered: []
+    - _columnReferenceId:
+        ordered:
+          - 1348c: ''
+          - '26693': ''
+          - '10434': ''
+    - _dynamicColumnSource:
+        array: []
+    - _rowSelection: single
+    - _columnCaption:
+        ordered:
+          - 1348c: ''
+          - '26693': ''
+          - '10434': ''
+    - _dynamicColumnFormatOptions:
+        ordered: []
+    - _dynamicRowHeights: false
+    - _columnFormatOptions:
+        ordered:
+          - 1348c:
+              ordered: []
+          - '26693':
+              ordered: []
+          - '10434':
+              ordered:
+                - showSeparators: true
+                - notation: standard
+    - _changeset: null
+    - _afterCursor: ''
+    - selectedRowKeys:
+        array: []
+    - _beforeCursor: ''
+    - _columnSummaryAggregationMode:
+        ordered:
+          - 1348c: none
+          - '26693': none
+          - '10434': none
+    - searchTerm: ''
+    - selectedRows:
+        array: []
+    - _disabledVirtualization: false
+    - _expandedRowDataIndexes:
+        array: []
+    - _showColumnBorders: false
+    - _columnStatusIndicatorOptions:
+        ordered:
+          - 1348c:
+              ordered: []
+          - '26693':
+              ordered: []
+          - '10434':
+              ordered: []
+    - overflowActionsOverlayMaxHeight: null
+    - _columnSize:
+        ordered:
+          - 1348c: 100
+          - '26693': 100
+          - '10434': 100
+    - _serverPaginationType: limitOffsetBased
+    - _columnSortMode:
+        ordered:
+          - 1348c: default
+          - '26693': default
+          - '10434': default
+    - _selectSingleRowsOnActionClick: replace
+    - _showFooter: true
+    - _groupedColumnConfig:
+        ordered: []
+    - _dynamicColumnSize:
+        ordered: []
+    - _virtualizeStartIndex: 0
+    - _toolbarButtonHidden:
+        ordered:
+          - 1a: ''
+          - 3c: ''
+          - 4d: ''
+    - _defaultFilters:
+        ordered: []
+    - events:
+        - ordered:
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+            - event: clickToolbar
+            - method: exportData
+            - pluginId: table1
+            - targetId: 3c
+        - ordered:
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+            - event: clickToolbar
+            - method: refresh
+            - pluginId: table1
+            - targetId: 4d
+    - _columnEditable:
+        ordered:
+          - 1348c: ''
+          - '26693': ''
+          - '10434': ''
+    - newRows:
+        array: []
+    - _rowBackgroundColor:
+        array: []
+    - emptyMessage: No rows found
+    - pagination: null
+    - selectedDataIndexes:
+        array: []
+    - _columnGroupAggregationMode:
+        ordered:
+          - 1348c: none
+          - '26693': none
+          - '10434': sum
+    - sortArray:
+        array: []
+    - _selectedCell: null
+    - overflowType: scroll
+    - selectedCell: null
+    - _defaultSelectedRow:
+        ordered:
+          - mode: index
+          - indexType: display
+          - index: 0
+    - _hasNextPage: false
+    - _includeRowInChangesetArray: false
+    - _columnPosition:
+        ordered:
+          - 1348c: center
+          - '26693': center
+          - '10434': center
+    - _enableSaveActions: true
+    - _columnPlaceholder:
+        ordered:
+          - 1348c: Enter value
+          - '26693': Enter value
+          - '10434': Enter value
+    - _defaultFilterOperator: and
+    - _actionLabel:
+        ordered: []
+    - _virtualizeEndIndex: 0
+    - selectedRow: null
+    - _actionHidden:
+        ordered: []
+    - maintainSpaceWhenHidden: false
+    - _columnHidden:
+        ordered:
+          - 1348c: ''
+          - '26693': ''
+          - '10434': ''
+    - _columnLabel:
+        ordered:
+          - 1348c: Name
+          - '26693': Date
+          - '10434': Postcode
+    - _showToolbar: true
+style:
+  ordered: []
+position2:
+  position2:
+    row: 1.799999999999999
+    height: 8
+    width: 8
+createdAt: 2024-03-19T10:38:06.835Z
