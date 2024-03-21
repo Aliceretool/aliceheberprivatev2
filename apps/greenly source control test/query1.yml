@@ -21,10 +21,6 @@ template:
     - showFailureToaster: true
     - query: |-
         const translations = {
-          NEWupsellCta:{
-    en:'Book a demo',
-    fr: 'Prenez rendez vous',
-    },
           upsellCta:{
             en:'Book a demo',
             fr: 'Prenez rendez vous',
