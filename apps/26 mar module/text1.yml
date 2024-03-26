@@ -1,0 +1,25 @@
+id: text1
+uuid: 5ea759ad-30f8-4aad-8907-93c651bcb598
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - margin: 4px 8px
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: 👋 **Hello {{ current_user.firstName || 'friend' }}!**
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: moduleContainer
+    height: 0.6
+createdAt: 2024-03-26T09:55:19.990Z
