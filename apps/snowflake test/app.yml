@@ -1,6 +1,0 @@
-version: 43.0.9
-pageUuid: 31df0a78-d556-11ee-90f1-4f6c7d8aea21
-appTemplate:
-  appMaxWidth: 1560px
-  version: 3.33.1
-  experimentalDataTabEnabled: true
