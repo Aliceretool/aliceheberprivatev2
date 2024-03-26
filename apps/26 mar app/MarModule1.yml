@@ -1,0 +1,19 @@
+id: MarModule1
+uuid: 399f26b7-238b-43f6-aabf-8978b049fc59
+type: widget
+subtype: GlobalWidget
+template:
+  ordered:
+    - showFetchingIndicator: boolean
+    - heightType: auto
+    - name: 26 mar module
+    - pageUuid: f1c63daa-eb56-11ee-86d1-cb7e047b58cb
+style:
+  ordered: []
+position2:
+  position2:
+    row: 2.6
+    col: 1
+    height: 2.4
+    width: 11
+createdAt: 2024-03-26T09:56:03.624Z
