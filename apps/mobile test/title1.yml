@@ -1,0 +1,19 @@
+id: title1
+uuid: e60187a1-4db2-4304-b59b-99edfebc8505
+type: widget
+subtype: RNHeadingWidget
+template:
+  ordered:
+    - value: Fred Rogers
+    - size: h4
+    - width: full
+    - textAlign: left
+style:
+  ordered: []
+position2:
+  position2:
+    container: container4
+    height: 0
+    width: 0
+createdAt: 2024-04-08T10:46:49.510Z
+screen: peopleListScreen

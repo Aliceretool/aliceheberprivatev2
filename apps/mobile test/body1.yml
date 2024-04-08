@@ -1,0 +1,21 @@
+id: body1
+uuid: 2f0583b4-4874-4486-b99c-fc1ec9f892c5
+type: widget
+subtype: RNTextWidget
+template:
+  ordered:
+    - value: fred@rogers.com
+    - size: medium
+    - weight: normal
+    - width: full
+    - textAlign: left
+    - markdown: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: container4
+    height: 0
+    width: 0
+createdAt: 2024-04-08T10:46:49.519Z
+screen: peopleListScreen
