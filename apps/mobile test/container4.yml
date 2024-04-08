@@ -1,14 +1,15 @@
-id: container1
+id: container4
+uuid: 576cf916-b6dd-4d8d-9f70-cb94587252a1
 type: widget
 subtype: RNContainerWidget
 template:
   ordered:
-    - align: flex-start
+    - align: center
     - width: full
     - widthGrowFactor: 1
     - showBorder: false
     - collapsible: false
-    - layout: row
+    - layout: column
     - cornerType: square
     - justify: flex-start
     - collapsedIcon: ''
@@ -19,15 +20,17 @@ template:
           - top: 0
           - bottom: 0
     - expandedIcon: ''
-    - gap: 8
+    - gap: 0
     - title: ''
     - events:
         ordered: []
     - elevation: none
+style:
+  ordered: []
 position2:
-  position2: {}
-mobileAppPosition:
-  object:
-    ordinal: 0
-createdAt: 2024-02-07T20:41:55.395Z
-screen: myProfileScreen
+  position2:
+    container: card1
+    height: 0
+    width: 0
+createdAt: 2024-04-08T10:46:49.501Z
+screen: peopleListScreen

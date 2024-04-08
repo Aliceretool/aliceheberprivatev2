@@ -2,6 +2,15 @@ id: myProfileScreen
 type: screen
 subtype: Screen
 template:
-  map:
-    title: My Profile
+  ordered:
+    - title: My Profile
+    - headerLeftActions: []
+    - headerRightActions: []
+    - gap: 16
+    - padding:
+        object:
+          left: 16
+          right: 16
+          top: 8
+          bottom: 8
 createdAt: 2024-02-07T20:41:55.395Z

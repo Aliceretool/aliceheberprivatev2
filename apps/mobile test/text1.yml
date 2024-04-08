@@ -2,11 +2,13 @@ id: text1
 type: widget
 subtype: RNTextWidget
 template:
-  value: '{{ current_user.email }}'
-  size: medium
-  weight: semibold
-  width: full
-  textAlign: left
+  ordered:
+    - value: '{{ current_user.email }}'
+    - size: medium
+    - weight: semibold
+    - width: full
+    - textAlign: left
+    - markdown: false
 position2:
   position2:
     container: container3

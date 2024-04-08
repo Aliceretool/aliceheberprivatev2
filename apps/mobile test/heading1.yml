@@ -2,10 +2,11 @@ id: heading1
 type: widget
 subtype: RNHeadingWidget
 template:
-  value: '{{ current_user.firstName || ''User'' }}'
-  size: h1
-  width: full
-  textAlign: left
+  ordered:
+    - value: '{{ current_user.firstName || ''User'' }}'
+    - size: h1
+    - width: full
+    - textAlign: left
 position2:
   position2:
     container: container3

@@ -2,10 +2,12 @@ id: tabscreen
 type: screen
 subtype: TabScreen
 template:
-  map:
-    items:
-      - screen: peopleListScreen
-        icon: bold/interface-text-formatting-list-bullets
-      - screen: myProfileScreen
-        icon: bold/interface-user-single
+  ordered:
+    - items:
+        - ordered:
+            - screen: peopleListScreen
+            - icon: bold/interface-text-formatting-list-bullets
+        - ordered:
+            - screen: myProfileScreen
+            - icon: bold/interface-user-single
 createdAt: 2024-02-07T20:41:55.395Z
