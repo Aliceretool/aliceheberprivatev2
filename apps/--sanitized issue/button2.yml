@@ -4,6 +4,7 @@ type: widget
 subtype: ButtonWidget2
 template:
   ordered:
+    - heightType: fixed
     - horizontalAlign: stretch
     - clickable: false
     - iconAfter: ''
