@@ -1,5 +1,5 @@
 id: caption1
-uuid: 2f896b0c-0892-467b-9339-3dfcc329ac45
+uuid: c539bb6c-b961-4279-8c69-03ab39265ca0
 type: widget
 subtype: RNTextWidget
 template:
@@ -20,5 +20,5 @@ position2:
     container: container4
     height: 0
     width: 0
-createdAt: 2024-04-08T10:46:49.528Z
+createdAt: 2024-04-08T10:53:24.142Z
 screen: peopleListScreen
