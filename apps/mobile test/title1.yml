@@ -1,5 +1,5 @@
 id: title1
-uuid: e60187a1-4db2-4304-b59b-99edfebc8505
+uuid: 2a895cdd-5bb7-400d-976b-67878205e6ed
 type: widget
 subtype: RNHeadingWidget
 template:
@@ -15,5 +15,5 @@ position2:
     container: container4
     height: 0
     width: 0
-createdAt: 2024-04-08T10:46:49.510Z
+createdAt: 2024-04-08T10:53:24.125Z
 screen: peopleListScreen

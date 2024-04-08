@@ -1,5 +1,5 @@
 id: card1
-uuid: 6d8b5858-3939-4e91-8e6e-0cb4ceec9f3a
+uuid: 53125c03-6810-4424-bd5b-8280e0c82f72
 type: widget
 subtype: RNContainerWidget
 template:
@@ -33,6 +33,6 @@ position2:
     width: 0
 mobileAppPosition:
   mobilePosition:
-    ordinal: 1
-createdAt: 2024-04-08T10:46:49.456Z
+    ordinal: 2
+createdAt: 2024-04-08T10:53:24.076Z
 screen: peopleListScreen
