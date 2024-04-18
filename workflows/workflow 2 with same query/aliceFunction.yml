@@ -1,4 +1,4 @@
-id: function1
+id: aliceFunction
 type: datasource
 subtype: SqlQueryUnified
 resourceName: 9d052a87-5727-41ac-bb18-caacc0d05b90
@@ -106,7 +106,7 @@ blockData:
   uuid: 71883d43-ef50-407b-979d-845bdf3abfcb
   options:
     parameters: []
-  pluginId: function1
+  pluginId: aliceFunction
   blockType: function
   editorType: SqlQueryUnified
   resourceName: 9d052a87-5727-41ac-bb18-caacc0d05b90
