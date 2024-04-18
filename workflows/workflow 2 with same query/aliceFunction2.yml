@@ -1,4 +1,4 @@
-id: aliceFunction
+id: aliceFunction2
 type: datasource
 subtype: SqlQueryUnified
 resourceName: 9d052a87-5727-41ac-bb18-caacc0d05b90
@@ -100,16 +100,16 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: true
     - notificationDuration: ''
-createdAt: 2024-04-18T15:08:07.229Z
+createdAt: 2024-04-18T15:24:37.524Z
 blockData:
   top: 40
   left: 40
-  uuid: 71883d43-ef50-407b-979d-845bdf3abfcb
+  uuid: 1ab5aa9f-4e82-4a80-aed9-32f2847f7fea
   options:
     parameters: []
-  pluginId: aliceFunction
+  pluginId: aliceFunction2
   blockType: function
   editorType: SqlQueryUnified
   resourceName: 9d052a87-5727-41ac-bb18-caacc0d05b90
-  responsePanelState: closed
+  responsePanelState: open
   incomingOnSuccessEdges: []
