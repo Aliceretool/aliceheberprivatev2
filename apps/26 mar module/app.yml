@@ -1,7 +1,0 @@
-version: 43.0.9
-pageUuid: f1c63daa-eb56-11ee-86d1-cb7e047b58cb
-appTemplate:
-  isGlobalWidget: true
-  shortlink: false
-  version: 3.40.0
-  experimentalDataTabEnabled: true
