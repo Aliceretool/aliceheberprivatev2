@@ -1,0 +1,18 @@
+id: jsonExplorer2
+uuid: 25229ad0-d6c1-40f0-8300-aed66762bc3a
+type: widget
+subtype: JSONExplorerWidget
+template:
+  ordered:
+    - value: '{{variable1.value}}'
+    - html: false
+    - expandNodes: true
+style:
+  ordered: []
+position2:
+  position2:
+    row: 11
+    col: 7
+    height: 6
+    width: 4
+createdAt: 2024-05-16T13:56:28.527Z

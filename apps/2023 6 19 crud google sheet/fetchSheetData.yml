@@ -1,55 +1,52 @@
-id: query2
+id: fetchSheetData
 type: datasource
-subtype: SqlQueryUnified
-resourceName: onboarding_db
-resourceDisplayName: onboarding_db
+subtype: GoogleSheetsQuery
+resourceName: 24806adf-48cb-4ebb-ac8a-bf40f803c588
 template:
   ordered:
     - queryRefreshTime: ''
     - allowedGroupIds: []
     - streamResponse: false
-    - records: ''
     - lastReceivedFromResourceAt: null
-    - databasePasswordOverride: ''
     - queryDisabledMessage: ''
     - servedFromCache: false
     - offlineUserQueryInputs: ''
     - successMessage: ''
     - queryDisabled: ''
+    - useSheetRange: false
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
+    - useRawSpreadsheetId: false
     - runWhenModelUpdates: true
     - workflowRunId: null
     - showFailureToaster: true
-    - query: select * from products
+    - spreadsheetId: 16jk-dRC-iwmspkF2y7Mw2Ow5c-GT4Cg2nzBrHcPFD_E
+    - query: ''
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
+    - sheetUpdate: ''
     - privateParams: []
     - workflowBlockUuid: null
+    - sheetIdToCopy: ''
+    - sheetName: ''
     - runWhenPageLoadsDelay: ''
-    - warningCodes: []
+    - doNotThrowOnDeleteNoOp: false
     - data: null
-    - recordId: ''
     - importedQueryInputs:
         ordered: []
-    - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
-    - dataArray: []
     - cacheKeyTtl: ''
     - filterBy: ''
     - requestSentTimestamp: null
-    - databaseHostOverride: ''
     - metadata: null
     - workflowActionType: null
-    - editorMode: sql
     - queryRunTime: null
-    - actionType: ''
+    - actionType: read
     - changesetObject: ''
-    - shouldUseLegacySql: false
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
         transformer. 
@@ -58,26 +55,29 @@ template:
 
         return data.error
     - finished: null
-    - databaseNameOverride: ''
     - confirmationMessage: null
     - isFetching: false
     - changeset: ''
     - rawData: null
+    - offset: ''
     - queryTriggerDelay: '0'
     - resourceTypeOverride: ''
     - watchedParams: []
+    - bulkUpdateRows: ''
     - enableErrorTransformer: false
-    - databaseWarehouseOverride: ''
-    - enableBulkUpdates: false
     - showLatestVersionUpdatedWarning: false
+    - useRawCopyToSpreadsheetId: false
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
+    - valueFormatting: formatted
     - showUpdateSetValueDynamicallyToggle: true
+    - copyToSpreadsheetId: ''
     - overrideOrgCacheForUserCache: false
     - bulkUpdatePrimaryKey: ''
     - runWhenPageLoads: false
+    - sheetTitle: ''
     - transformer: >-
         // type your code here
 
@@ -86,21 +86,18 @@ template:
 
         return data
     - events: []
-    - tableName: ''
     - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
     - queryFailureConditions: ''
     - changesetIsObject: false
+    - limit: ''
     - enableCaching: false
     - allowedGroups: []
     - workflowBlockPluginId: null
-    - databaseUsernameOverride: ''
-    - databaseRoleOverride: ''
-    - shouldEnableBatchQuerying: false
-    - doNotThrowOnNoOp: false
+    - sheetRange: ''
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2023-05-31T08:23:08.164Z
+createdAt: 2023-06-19T14:37:36.884Z

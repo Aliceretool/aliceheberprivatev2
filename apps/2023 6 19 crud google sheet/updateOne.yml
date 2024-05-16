@@ -1,54 +1,52 @@
-id: query4
+id: updateOne
 type: datasource
-subtype: SqlQueryUnified
-resourceName: '[demo resource] PostgreSQL'
-resourceDisplayName: '[demo resource] PostgreSQL'
+subtype: GoogleSheetsQuery
+resourceName: 24806adf-48cb-4ebb-ac8a-bf40f803c588
 template:
   ordered:
     - queryRefreshTime: ''
     - allowedGroupIds: []
     - streamResponse: false
-    - records: ''
     - lastReceivedFromResourceAt: null
-    - databasePasswordOverride: ''
     - queryDisabledMessage: ''
     - servedFromCache: false
     - offlineUserQueryInputs: ''
     - successMessage: ''
     - queryDisabled: ''
+    - useSheetRange: false
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
-    - runWhenModelUpdates: true
+    - useRawSpreadsheetId: false
+    - runWhenModelUpdates: false
     - workflowRunId: null
     - showFailureToaster: true
+    - spreadsheetId: 16jk-dRC-iwmspkF2y7Mw2Ow5c-GT4Cg2nzBrHcPFD_E
     - query: ''
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
+    - sheetUpdate: '{"Name" : "From Query"}'
     - privateParams: []
     - workflowBlockUuid: null
+    - sheetIdToCopy: ''
+    - sheetName: ''
     - runWhenPageLoadsDelay: ''
+    - doNotThrowOnDeleteNoOp: false
     - data: null
-    - recordId: ''
     - importedQueryInputs:
         ordered: []
-    - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
-    - dataArray: []
     - cacheKeyTtl: ''
-    - filterBy: ''
+    - filterBy: '[{"key":"ID","value":"22","operation":"="}]'
     - requestSentTimestamp: null
-    - databaseHostOverride: ''
     - metadata: null
     - workflowActionType: null
-    - editorMode: sql
     - queryRunTime: null
-    - actionType: ''
+    - actionType: update
     - changesetObject: ''
-    - shouldUseLegacySql: false
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
         transformer. 
@@ -57,45 +55,60 @@ template:
 
         return data.error
     - finished: null
-    - databaseNameOverride: ''
     - confirmationMessage: null
     - isFetching: false
     - changeset: ''
     - rawData: null
+    - offset: ''
     - queryTriggerDelay: '0'
-    - resourceTypeOverride: null
+    - resourceTypeOverride: ''
     - watchedParams: []
+    - bulkUpdateRows: '{{table1.changesetArray}}'
     - enableErrorTransformer: false
-    - databaseWarehouseOverride: ''
-    - enableBulkUpdates: false
     - showLatestVersionUpdatedWarning: false
+    - useRawCopyToSpreadsheetId: false
     - timestamp: 0
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
+    - valueFormatting: formatted
     - showUpdateSetValueDynamicallyToggle: true
+    - copyToSpreadsheetId: ''
     - overrideOrgCacheForUserCache: false
-    - bulkUpdatePrimaryKey: ''
+    - bulkUpdatePrimaryKey: ID
     - runWhenPageLoads: false
-    - transformer: |-
-        // Query results are available as the `data` variable
-        return formatDataAsArray(data)
-    - events: []
-    - tableName: ''
+    - sheetTitle: ''
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - events:
+        - ordered:
+            - event: success
+            - type: datasource
+            - method: trigger
+            - pluginId: fetchSheetData
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - isMultiplayerEdited: false
     - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
     - queryFailureConditions: ''
     - changesetIsObject: false
+    - limit: ''
     - enableCaching: false
     - allowedGroups: []
     - workflowBlockPluginId: null
-    - databaseUsernameOverride: ''
-    - databaseRoleOverride: ''
-    - shouldEnableBatchQuerying: false
-    - doNotThrowOnNoOp: false
+    - sheetRange: b9
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2023-09-06T09:57:48.370Z
+createdAt: 2023-11-02T10:17:04.362Z

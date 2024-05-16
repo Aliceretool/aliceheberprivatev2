@@ -1,4 +1,4 @@
-id: query6
+id: query7
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -19,7 +19,17 @@ template:
     - runWhenModelUpdates: false
     - workflowRunId: null
     - showFailureToaster: true
-    - query: return window.fromRetoolSettings();
+    - query: |
+        let obj = variable1.value;
+
+        // Convert the object to a JSON string
+        let str = JSON.stringify(obj);
+
+        // Replace all occurrences of \\n with \n
+        str = str.replace(/\n/g, '');
+        // Parse the modified string back to an object
+        let newObj = JSON.parse(str);
+        return newObj
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -32,7 +42,7 @@ template:
         ordered: []
     - _additionalScope: []
     - isImported: false
-    - showSuccessToaster: true
+    - showSuccessToaster: false
     - cacheKeyTtl: ''
     - requestSentTimestamp: null
     - metadata: null
@@ -77,5 +87,5 @@ template:
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
-    - notificationDuration: null
-createdAt: 2024-01-12T11:16:29.494Z
+    - notificationDuration: 4.5
+createdAt: 2024-05-16T13:42:38.305Z

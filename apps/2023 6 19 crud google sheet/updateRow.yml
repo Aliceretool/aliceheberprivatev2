@@ -1,4 +1,4 @@
-id: code1
+id: updateRow
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -16,16 +16,24 @@ template:
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
-    - runWhenModelUpdates: true
+    - runWhenModelUpdates: false
     - workflowRunId: null
     - showFailureToaster: true
-    - query: |-
-        return [
-          { message: "Hello from Workflows" },
-          { message: "Click the Run (▶) button to execute this block" },
-          { message: "Drag from the green sequence port to connect a new block" },
-          { message: "Click the help (?) button to learn more" },
-        ];
+    - query: >-
+        const data = fetchSheetData.data.values
+
+        // console.log(data)
+
+        data.forEach((row, index) => { // Your SQL logic here to fetch and
+        update the desired value. // Example: Update a value in column C const 
+          updatedValue = row[2] + ", EU"; 
+        // Assuming column C contains numbers. // Run the `updateRow` query with
+        your customized logic. 
+          updateRow.trigger({ 
+            additionalScope: { rowNumber: index + 1, 
+                               updatedValue } 
+          }); 
+        });
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -43,7 +51,6 @@ template:
     - requestSentTimestamp: null
     - metadata: null
     - workflowActionType: null
-    - editorMode: sql
     - queryRunTime: null
     - changesetObject: ''
     - errorTransformer: >-
@@ -64,18 +71,21 @@ template:
     - enableErrorTransformer: false
     - showLatestVersionUpdatedWarning: false
     - timestamp: 0
-    - evalType: script
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
     - showUpdateSetValueDynamicallyToggle: true
     - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
-    - transformer: |-
-        // Query results are available as the `data` variable
-        return formatDataAsArray(data)
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
     - events: []
-    - queryTimeout: '120000'
+    - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
     - queryFailureConditions: ''
@@ -87,19 +97,4 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2023-07-31T11:06:10.516Z
-blockData:
-  top: 144
-  left: 544
-  uuid: 11ef2047-16f1-4c02-b8f5-a5b66ff50177
-  pluginId: code1
-  blockType: code
-  dimensions:
-    width: 565
-    height: 244
-  editorType: JavascriptQuery
-  resourceName: JavascriptQuery
-  responseHeight: 142
-  retryPanelOpen: false
-  responsePanelState: open
-  incomingOnSuccessEdges: []
+createdAt: 2023-06-19T14:40:21.522Z

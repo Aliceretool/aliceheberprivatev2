@@ -1,10 +1,11 @@
-id: image2
+id: image3
+uuid: 035ce92b-9659-405b-9a54-fb8f93b49a20
 type: widget
 subtype: RNImageWidget
 template:
   ordered:
-    - mode: center
-    - src: '{{current_user.profilePhotoUrl}}'
+    - mode: cover
+    - src: https://picsum.photos/id/513/800/600
     - retoolFileObject:
         object: {}
     - retoolStorageFileId: ''
@@ -16,11 +17,12 @@ template:
         ordered: []
     - retoolStorageDynamicInput: false
     - srcType: src
+style:
+  ordered: []
 position2:
   position2:
-    container: container2
-mobileAppPosition:
-  object:
-    ordinal: 0
-createdAt: 2024-02-07T20:41:55.396Z
-screen: myProfileScreen
+    container: card1
+    height: 0
+    width: 0
+createdAt: 2024-04-08T10:53:24.107Z
+screen: peopleListScreen

@@ -2,18 +2,28 @@ id: container3
 type: widget
 subtype: RNContainerWidget
 template:
-  align: flex-start
-  width: full
-  widthGrowFactor: 2
-  layout: column
-  cornerType: square
-  justify: flex-start
-  padding:
-    left: 0
-    right: 0
-    top: 0
-    bottom: 0
-  gap: 8
+  ordered:
+    - align: flex-start
+    - width: full
+    - widthGrowFactor: 2
+    - showBorder: false
+    - collapsible: false
+    - layout: column
+    - cornerType: square
+    - justify: flex-start
+    - collapsedIcon: ''
+    - padding:
+        ordered:
+          - left: 0
+          - right: 0
+          - top: 0
+          - bottom: 0
+    - expandedIcon: ''
+    - gap: 8
+    - title: ''
+    - events:
+        ordered: []
+    - elevation: none
 position2:
   position2:
     container: container1

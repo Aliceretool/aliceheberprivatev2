@@ -1,7 +1,7 @@
-id: query5
+id: query3
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: SqlTransformQuery
+resourceName: SQL Transforms
 template:
   ordered:
     - queryRefreshTime: ''
@@ -16,10 +16,13 @@ template:
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
-    - runWhenModelUpdates: false
+    - runWhenModelUpdates: true
     - workflowRunId: null
     - showFailureToaster: true
-    - query: ''
+    - query: |-
+        SELECT *
+        FROM {{fetchSheetData.data}}
+        WHERE ID IN {{table1.data.map(row => row.ID).join(',')}}
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
@@ -30,7 +33,6 @@ template:
     - data: null
     - importedQueryInputs:
         ordered: []
-    - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
     - cacheKeyTtl: ''
@@ -52,7 +54,7 @@ template:
     - changeset: ''
     - rawData: null
     - queryTriggerDelay: '0'
-    - resourceTypeOverride: null
+    - resourceTypeOverride: ''
     - watchedParams: []
     - enableErrorTransformer: false
     - showLatestVersionUpdatedWarning: false
@@ -63,8 +65,12 @@ template:
     - showUpdateSetValueDynamicallyToggle: true
     - overrideOrgCacheForUserCache: false
     - runWhenPageLoads: false
-    - transformer: |-
-        // Query results are available as the `data` variable
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
         return data
     - events: []
     - queryTimeout: '10000'
@@ -79,4 +85,4 @@ template:
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2023-09-07T16:42:51.861Z
+createdAt: 2023-06-19T15:04:46.042Z

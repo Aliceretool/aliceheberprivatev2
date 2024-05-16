@@ -1,7 +1,7 @@
-id: webhookReturn1
+id: bulkUpdateData
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: GoogleSheetsQuery
+resourceName: 24806adf-48cb-4ebb-ac8a-bf40f803c588
 template:
   ordered:
     - queryRefreshTime: ''
@@ -13,53 +13,39 @@ template:
     - offlineUserQueryInputs: ''
     - successMessage: ''
     - queryDisabled: ''
+    - useSheetRange: true
     - playgroundQuerySaveId: latest
     - workflowParams: null
     - resourceNameOverride: ''
+    - useRawSpreadsheetId: false
     - runWhenModelUpdates: false
     - workflowRunId: null
     - showFailureToaster: true
-    - query: |-
-        const generateReturn = () => {
-            const status = () => {
-              try {
-                return 200
-              } catch {
-                return 200
-              }
-            }
-          const body = () => {
-            try {
-              return { text :"from wf",
-        deploy: "PR and merged",
-        deploy2: "test"}
-            } catch {
-              return {'error': true, 'messsage': 'there was a problem parsing the JSON body of webhookReturn1'}
-            }
-          }
-          return {status: status(), body: body() }
-          }
-          return generateReturn()
-          
+    - spreadsheetId: 16jk-dRC-iwmspkF2y7Mw2Ow5c-GT4Cg2nzBrHcPFD_E
+    - query: ''
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
+    - sheetUpdate: '{"name" : "added nov"}'
     - privateParams: []
     - workflowBlockUuid: null
+    - sheetIdToCopy: ''
+    - sheetName: ''
     - runWhenPageLoadsDelay: ''
+    - doNotThrowOnDeleteNoOp: false
     - data: null
     - importedQueryInputs:
         ordered: []
-    - _additionalScope: []
     - isImported: false
     - showSuccessToaster: true
     - cacheKeyTtl: ''
+    - filterBy: ''
     - requestSentTimestamp: null
     - metadata: null
     - workflowActionType: null
-    - editorMode: sql
     - queryRunTime: null
+    - actionType: bulkUpdate
     - changesetObject: ''
     - errorTransformer: >-
         // The variable 'data' allows you to reference the request's data in the
@@ -73,50 +59,57 @@ template:
     - isFetching: false
     - changeset: ''
     - rawData: null
+    - offset: ''
     - queryTriggerDelay: '0'
-    - resourceTypeOverride: null
+    - resourceTypeOverride: ''
     - watchedParams: []
+    - bulkUpdateRows: '{{table1.changesetArray}}'
     - enableErrorTransformer: false
     - showLatestVersionUpdatedWarning: false
+    - useRawCopyToSpreadsheetId: false
     - timestamp: 0
-    - evalType: script
     - importedQueryDefaults:
         ordered: []
     - enableTransformer: false
+    - valueFormatting: formatted
     - showUpdateSetValueDynamicallyToggle: true
+    - copyToSpreadsheetId: ''
     - overrideOrgCacheForUserCache: false
+    - bulkUpdatePrimaryKey: ID
     - runWhenPageLoads: false
-    - transformer: |-
-        // Query results are available as the `data` variable
+    - sheetTitle: ''
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
         return data
-    - events: []
+    - events:
+        - ordered:
+            - event: success
+            - type: datasource
+            - method: trigger
+            - pluginId: fetchSheetData
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - isMultiplayerEdited: false
     - queryTimeout: '10000'
     - workflowId: null
     - requireConfirmation: false
     - queryFailureConditions: ''
+    - id: bulkUpdateData
     - changesetIsObject: false
+    - limit: ''
     - enableCaching: false
     - allowedGroups: []
+    - workflowBlockPluginId: null
+    - sheetRange: b9
     - offlineQueryType: None
     - queryThrottleTime: '750'
     - updateSetValueDynamically: false
     - notificationDuration: ''
-createdAt: 2023-12-07T16:10:25.001Z
-blockData:
-  top: -160
-  left: 576
-  uuid: 291a5136-98e8-45de-9b28-735e8e9ed702
-  options:
-    body: |-
-      { text :"from wf",
-      deploy: "PR and merged",
-      deploy2: "test"}
-    status: '200'
-  pluginId: webhookReturn1
-  blockType: webhookReturn
-  editorType: JavascriptQuery
-  isMinimized: false
-  resourceName: JavascriptQuery
-  responsePanelState: open
-  incomingOnSuccessEdges:
-    - 99421f6f-a716-40d8-8e2a-fd865df690ad
+createdAt: 2023-11-02T10:08:59.317Z
