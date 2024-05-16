@@ -1,0 +1,14 @@
+id: $main
+type: frame
+subtype: Frame
+template:
+  ordered:
+    - type: main
+    - sticky: null
+    - isHiddenOnDesktop: false
+    - isHiddenOnMobile: false
+    - paddingType: normal
+    - padding: 8px 12px
+style:
+  ordered: []
+createdAt: 2023-06-19T14:39:46.321Z
