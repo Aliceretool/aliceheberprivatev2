@@ -9,7 +9,7 @@ template:
     - persistedValueKey: ''
     - value: |-
         {
-          "name": "CalculateSum",
+          "name": "CalculateSums",
           "description": "Calculates the sum of two numbers",
           "execute": {
             "type": "script",
