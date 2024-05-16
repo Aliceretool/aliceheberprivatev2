@@ -1,0 +1,19 @@
+id: variable1
+type: state
+subtype: State
+template:
+  ordered:
+    - _persistedValueGetter: null
+    - _persistedValueSetter: null
+    - persistValue: false
+    - persistedValueKey: ''
+    - value: |-
+        {
+          "name": "CalculateSum",
+          "description": "Calculates the sum of two numbers",
+          "execute": {
+            "type": "script",
+            "content": "function calculateSum(a, b) {\n  return a + b;\n}\n\nconst result = calculateSum(5, 10);\nreturn result;"
+          }
+        }
+createdAt: 2024-05-16T13:37:45.604Z

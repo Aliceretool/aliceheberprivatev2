@@ -1,0 +1,331 @@
+id: table1
+type: widget
+subtype: TableWidget2
+template:
+  ordered:
+    - selectedRowKey: null
+    - _nextAfterCursor: ''
+    - _columnBackgroundColor:
+        ordered:
+          - 66d71: ''
+          - a2db4: ''
+          - ca850: ''
+          - '07804': ''
+    - _defaultSort: null
+    - _clearChangesetOnSave: true
+    - heightType: fixed
+    - _columnTextColor:
+        ordered:
+          - a2db4: ''
+    - disableEdits: false
+    - autoColumnWidth: false
+    - _rowHeight: small
+    - _columnIds:
+        - 66d71
+        - a2db4
+        - ca850
+        - '07804'
+    - _isSaving: false
+    - _actionIds: []
+    - _clearChangeset: false
+    - caseSensitiveFiltering: false
+    - _limitOffsetRowCount: null
+    - selectedSourceRow: null
+    - _dynamicColumnsEnabled: false
+    - disableSave: false
+    - _columnEditableOptions:
+        ordered:
+          - 66d71:
+              ordered:
+                - showStepper: true
+          - a2db4:
+              ordered: []
+          - ca850:
+              ordered: []
+          - '07804':
+              ordered: []
+    - _toolbarPosition: bottom
+    - _groupByColumns: []
+    - _toolbarButtonLabel:
+        ordered:
+          - 1a: Filter
+          - 3c: Download
+          - 4d: Refresh
+    - _nextBeforeCursor: ''
+    - _persistRowSelection: false
+    - _toolbarButtonIcon:
+        ordered:
+          - 1a: bold/interface-text-formatting-filter-2
+          - 3c: bold/interface-download-button-2
+          - 4d: bold/interface-arrows-round-left
+    - changesetArray:
+        array: []
+    - groupByColumns:
+        array: []
+    - _toolbarButtonType:
+        ordered:
+          - 1a: filter
+          - 3c: custom
+          - 4d: custom
+    - _columnOptionList:
+        ordered:
+          - 66d71:
+              ordered: []
+          - a2db4:
+              ordered: []
+          - ca850:
+              ordered: []
+          - '07804':
+              ordered: []
+    - _columnValueOverride:
+        ordered:
+          - 66d71: ''
+          - a2db4: ''
+          - ca850: '{{ _.startCase(item) }}'
+          - '07804': '{{ _.startCase(item) }}'
+    - marginType: normal
+    - _showBorder: true
+    - _templatePageSize: null
+    - _dynamicColumnProperties:
+        ordered: []
+    - _showHeader: true
+    - _currentPage: 0
+    - overflowActionsOverlayMinWidth: null
+    - _actionsOverflowPosition: 0
+    - _columnKey:
+        ordered:
+          - 66d71: ID
+          - a2db4: Name
+          - ca850: location
+          - '07804': Hobby
+    - hidden: false
+    - _toolbarButtonIds:
+        - 1a
+        - 3c
+        - 4d
+    - data: '{{ fetchSheetData.data }}'
+    - _cellSelection: none
+    - _serverPaginated: false
+    - _linkedFilterId: null
+    - searchMode: fuzzy
+    - _columnCellTooltip:
+        ordered:
+          - 66d71: ''
+          - a2db4: ''
+          - ca850: ''
+          - '07804': ''
+    - _columnFormat:
+        ordered:
+          - 66d71: decimal
+          - a2db4: string
+          - ca850: tag
+          - '07804': tag
+    - _cursorCache:
+        object: {}
+    - _calculatedPageSize: null
+    - _primaryKeyColumnId: 66d71
+    - selectedDataIndex: null
+    - _columnAlignment:
+        ordered:
+          - 66d71: right
+          - a2db4: left
+          - ca850: left
+          - '07804': left
+    - _actionIcon:
+        ordered: []
+    - margin: 4px 8px
+    - _columnTooltip:
+        ordered:
+          - 66d71: ''
+          - a2db4: ''
+          - ca850: ''
+          - '07804': ''
+    - _columnIcon:
+        ordered:
+          - 66d71: ''
+          - a2db4: ''
+          - ca850: ''
+          - '07804': ''
+    - _alwaysShowRowSelectionCheckboxes: false
+    - _columnCellTooltipMode:
+        ordered:
+          - a2db4: ''
+    - _pageSize: null
+    - showInEditor: false
+    - _isAddingNewRows: false
+    - selectedSourceRows:
+        array: []
+    - _enableExpandableRows: false
+    - _selectMultipleRowsOnActionClick: 'no'
+    - _columnSortDisabled:
+        ordered:
+          - 66d71: false
+          - a2db4: false
+          - ca850: false
+          - '07804': false
+    - _showSummaryRow: false
+    - filterStack: null
+    - _expandedRows: null
+    - changesetObject: null
+    - _actionDisabled:
+        ordered: []
+    - _columnReferenceId:
+        ordered:
+          - 66d71: ''
+          - a2db4: ''
+          - ca850: ''
+          - '07804': ''
+    - _dynamicColumnSource:
+        array: []
+    - _rowSelection: single
+    - _columnCaption:
+        ordered:
+          - 66d71: ''
+          - a2db4: ''
+          - ca850: ''
+          - '07804': ''
+    - _dynamicColumnFormatOptions:
+        ordered: []
+    - _dynamicRowHeights: false
+    - _columnFormatOptions:
+        ordered:
+          - 66d71:
+              ordered:
+                - showSeparators: true
+          - a2db4:
+              ordered: []
+          - ca850:
+              ordered:
+                - automaticColors: true
+          - '07804':
+              ordered:
+                - automaticColors: true
+    - _changeset: null
+    - _afterCursor: ''
+    - selectedRowKeys:
+        array: []
+    - _beforeCursor: ''
+    - _columnSummaryAggregationMode:
+        ordered:
+          - a2db4: none
+    - searchTerm: ''
+    - selectedRows:
+        array: []
+    - _disabledVirtualization: false
+    - _expandedRowDataIndexes:
+        array: []
+    - _showColumnBorders: false
+    - _columnStatusIndicatorOptions:
+        ordered:
+          - a2db4:
+              ordered: []
+    - overflowActionsOverlayMaxHeight: null
+    - _columnSize:
+        ordered:
+          - 66d71: 100
+          - a2db4: 100
+          - ca850: 100
+          - '07804': 100
+    - _serverPaginationType: limitOffsetBased
+    - _columnSortMode:
+        ordered:
+          - a2db4: default
+    - _selectSingleRowsOnActionClick: replace
+    - _showFooter: true
+    - _groupedColumnConfig:
+        ordered: []
+    - _dynamicColumnSize:
+        ordered: []
+    - _virtualizeStartIndex: 0
+    - _toolbarButtonHidden:
+        ordered: []
+    - _defaultFilters:
+        ordered: []
+    - events:
+        - ordered:
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+            - event: clickToolbar
+            - method: exportData
+            - pluginId: table1
+            - targetId: 3c
+        - ordered:
+            - type: widget
+            - waitMs: '0'
+            - waitType: debounce
+            - event: clickToolbar
+            - method: refresh
+            - pluginId: table1
+            - targetId: 4d
+    - _columnEditable:
+        ordered:
+          - 66d71: false
+          - a2db4: 'true'
+          - ca850: ''
+          - '07804': ''
+    - newRows:
+        array: []
+    - _rowBackgroundColor:
+        array: []
+    - emptyMessage: ''
+    - pagination: null
+    - selectedDataIndexes:
+        array: []
+    - _columnGroupAggregationMode:
+        ordered:
+          - a2db4: none
+    - sortArray:
+        array: []
+    - _selectedCell: null
+    - overflowType: scroll
+    - selectedCell: null
+    - _defaultSelectedRow:
+        ordered:
+          - mode: index
+          - indexType: display
+          - index: 0
+    - _hasNextPage: false
+    - _includeRowInChangesetArray: false
+    - _columnPosition:
+        ordered:
+          - 66d71: center
+          - a2db4: center
+          - ca850: center
+          - '07804': center
+    - _enableSaveActions: true
+    - _columnPlaceholder:
+        ordered:
+          - 66d71: Enter value
+          - a2db4: Enter value
+          - ca850: Select option
+          - '07804': Select option
+    - _defaultFilterOperator: and
+    - _actionLabel:
+        ordered: []
+    - _virtualizeEndIndex: 0
+    - selectedRow: null
+    - _actionHidden:
+        ordered: []
+    - maintainSpaceWhenHidden: false
+    - _columnHidden:
+        ordered:
+          - 66d71: ''
+          - a2db4: ''
+          - ca850: ''
+          - '07804': ''
+    - _columnLabel:
+        ordered:
+          - 66d71: Id
+          - a2db4: Name
+          - ca850: Location
+          - '07804': Hobby
+    - _showToolbar: true
+style:
+  ordered: []
+position2:
+  position2:
+    row: 0.2
+    height: 8
+    width: 8
+createdAt: 2023-06-19T14:39:46.241Z

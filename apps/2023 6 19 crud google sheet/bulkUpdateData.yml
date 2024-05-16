@@ -1,0 +1,115 @@
+id: bulkUpdateData
+type: datasource
+subtype: GoogleSheetsQuery
+resourceName: 24806adf-48cb-4ebb-ac8a-bf40f803c588
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - useSheetRange: true
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - useRawSpreadsheetId: false
+    - runWhenModelUpdates: false
+    - workflowRunId: null
+    - showFailureToaster: true
+    - spreadsheetId: 16jk-dRC-iwmspkF2y7Mw2Ow5c-GT4Cg2nzBrHcPFD_E
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - sheetUpdate: '{"name" : "added nov"}'
+    - privateParams: []
+    - workflowBlockUuid: null
+    - sheetIdToCopy: ''
+    - sheetName: ''
+    - runWhenPageLoadsDelay: ''
+    - doNotThrowOnDeleteNoOp: false
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - filterBy: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - actionType: bulkUpdate
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - offset: ''
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: ''
+    - watchedParams: []
+    - bulkUpdateRows: '{{table1.changesetArray}}'
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - useRawCopyToSpreadsheetId: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - valueFormatting: formatted
+    - showUpdateSetValueDynamicallyToggle: true
+    - copyToSpreadsheetId: ''
+    - overrideOrgCacheForUserCache: false
+    - bulkUpdatePrimaryKey: ID
+    - runWhenPageLoads: false
+    - sheetTitle: ''
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - events:
+        - ordered:
+            - event: success
+            - type: datasource
+            - method: trigger
+            - pluginId: fetchSheetData
+            - targetId: null
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - isMultiplayerEdited: false
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - id: bulkUpdateData
+    - changesetIsObject: false
+    - limit: ''
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - sheetRange: b9
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2023-11-02T10:08:59.317Z
