@@ -4,6 +4,7 @@ type: widget
 subtype: ButtonWidget2
 template:
   ordered:
+    - heightType: fixed
     - horizontalAlign: stretch
     - clickable: false
     - iconAfter: ''
@@ -11,6 +12,7 @@ template:
     - marginType: normal
     - hidden: false
     - text: Button
+    - margin: 4px 8px
     - showInEditor: false
     - tooltipText: ''
     - styleVariant: solid
