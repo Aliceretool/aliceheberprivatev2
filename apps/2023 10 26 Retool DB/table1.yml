@@ -56,6 +56,8 @@ template:
           - 4d: bold/interface-arrows-round-left
     - changesetArray:
         array: []
+    - groupByColumns:
+        array: []
     - _toolbarButtonType:
         ordered:
           - 1a: filter
@@ -83,6 +85,7 @@ template:
         ordered: []
     - _showHeader: true
     - _currentPage: 0
+    - overflowActionsOverlayMinWidth: null
     - _actionsOverflowPosition: 0
     - _columnKey:
         ordered:
@@ -121,6 +124,7 @@ template:
           - 6fa9c: right
     - _actionIcon:
         ordered: []
+    - margin: 4px 8px
     - _columnTooltip:
         ordered:
           - '41173': ''
@@ -139,6 +143,7 @@ template:
           - 6fa9c: ''
     - _pageSize: null
     - showInEditor: false
+    - _isAddingNewRows: false
     - selectedSourceRows:
         array: []
     - _enableExpandableRows: false
@@ -207,6 +212,7 @@ template:
               ordered: []
           - 6fa9c:
               ordered: []
+    - overflowActionsOverlayMaxHeight: null
     - _columnSize:
         ordered:
           - '41173': 100
@@ -265,12 +271,16 @@ template:
           - '41173': ''
           - f9999: ''
           - 6fa9c: ''
+    - newRows:
+        array: []
     - _rowBackgroundColor:
         array: []
     - emptyMessage: ''
     - pagination: null
     - selectedDataIndexes:
         array: []
+    - _columnEditableInNewRows:
+        ordered: []
     - _columnGroupAggregationMode:
         ordered:
           - '41173': sum

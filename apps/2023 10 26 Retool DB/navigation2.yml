@@ -1,0 +1,19 @@
+id: navigation2
+uuid: d8165c17-adae-47f7-af82-ea2435eb5d9c
+type: widget
+subtype: GlobalWidget
+template:
+  ordered:
+    - showFetchingIndicator: boolean
+    - heightType: auto
+    - name: navigation
+    - pageUuid: e25f2bd6-24b0-11ef-83e7-9b71302002e2
+    - childNamespace: navigation2
+style:
+  ordered: []
+position2:
+  position2:
+    subcontainer: sidebarFrame1
+    height: 2.4
+    width: 1
+createdAt: 2024-06-07T09:34:51.548Z

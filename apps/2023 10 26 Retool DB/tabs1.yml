@@ -27,6 +27,7 @@ template:
         array: []
     - targetContainerId: tabbedContainer1
     - selectedItem: null
+    - margin: 4px 8px
     - showInEditor: false
     - navigateContainer: true
     - value: '{{ self.values[0] }}'
@@ -36,6 +37,7 @@ template:
         - ''
         - ''
         - ''
+    - styleVariant: pill
     - _hasMigratedNestedItems: true
     - itemMode: static
     - selectedIndex: null

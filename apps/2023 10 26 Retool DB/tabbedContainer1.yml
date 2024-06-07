@@ -4,6 +4,7 @@ type: widget
 subtype: ContainerWidget2
 template:
   ordered:
+    - _direction: horizontal
     - _disabledByIndex:
         - ''
         - ''
@@ -17,7 +18,9 @@ template:
         - ''
         - ''
         - ''
+    - headerPadding: 4px 12px
     - showFooterBorder: true
+    - _align: start
     - marginType: normal
     - enableFullBleed: false
     - showBorder: true
@@ -25,11 +28,14 @@ template:
     - showHeader: true
     - hoistFetching: false
     - paddingType: normal
+    - margin: 4px 8px
     - views:
         array: []
     - showInEditor: false
     - footerPaddingType: normal
     - tooltipText: ''
+    - padding: 12px
+    - _justify: start
     - hiddenByIndex:
         array: []
     - _hiddenByIndex:
@@ -40,6 +46,7 @@ template:
     - _hasMigratedNestedItems: true
     - transition: none
     - showHeaderBorder: true
+    - footerPadding: 4px 12px
     - itemMode: static
     - _tooltipByIndex:
         - ''
@@ -49,11 +56,10 @@ template:
         array: []
     - showFooter: false
     - _viewKeys:
-
         - NEWONE
-
         - View 2
         - View 3
+    - _type: grid
     - events:
         ordered: []
     - _ids:
