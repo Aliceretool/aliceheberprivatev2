@@ -1,6 +1,0 @@
-version: 43.0.9
-pageUuid: e159ec50-24b3-11ef-9c03-5fec4f1d27cf
-appTemplate:
-  isGlobalWidget: true
-  version: 3.61.0
-  experimentalDataTabEnabled: true
