@@ -8,6 +8,7 @@ template:
     - heightType: auto
     - name: delete1
     - pageUuid: e159ec50-24b3-11ef-9c03-5fec4f1d27cf
+    - childNamespace: delete1
 style:
   ordered: []
 position2:
