@@ -1,0 +1,51 @@
+id: form1
+uuid: f389520c-3377-40bc-9d20-344faafa446e
+type: widget
+subtype: FormWidget2
+template:
+  ordered:
+    - disableSubmit: false
+    - heightType: auto
+    - headerPadding: 4px 12px
+    - showFooterBorder: true
+    - resetAfterSubmit: true
+    - submitting: false
+    - marginType: normal
+    - enableFullBleed: false
+    - showBorder: true
+    - hidden: false
+    - data:
+        object: {}
+    - showHeader: true
+    - hoistFetching: false
+    - paddingType: normal
+    - initialData: null
+    - margin: 4px 8px
+    - showInEditor: false
+    - footerPaddingType: normal
+    - tooltipText: ''
+    - padding: 12px
+    - showHeaderBorder: true
+    - footerPadding: 4px 12px
+    - invalid: false
+    - showFooter: true
+    - events:
+        ordered: []
+    - loading: false
+    - overflowType: scroll
+    - disabled: false
+    - headerPaddingType: normal
+    - requireValidation: true
+    - maintainSpaceWhenHidden: false
+    - showBody: true
+style:
+  ordered: []
+position2:
+  position2:
+    row: 40.79999999999999
+    width: 4
+mobilePosition2:
+  position2:
+    row: 40.79999999999999
+    width: 4
+createdAt: 2024-04-30T10:38:25.320Z

@@ -1,0 +1,142 @@
+id: chart1
+uuid: cfebf8a0-6120-428a-9a9d-fbb3a2bfea49
+type: widget
+subtype: PlotlyChartWidget
+template:
+  ordered:
+    - dataseries:
+        ordered:
+          - '0':
+              ordered:
+                - label: sales
+                - datasource: |-
+                    {{formatDataAsObject([{
+                      "region" : "East",
+                      "sales": 3700,
+                      "spend": 4000
+                    }, {
+                      "region" : "West",
+                      "sales": 6000,
+                      "spend": 3895
+                    }, {
+                      "region" : "South",
+                      "sales": 4500,
+                      "spend": 5500
+                    }, {
+                      "region" : "Central",
+                      "sales": 5230,
+                      "spend": 4200
+                    }])['sales']}}
+                - chartType: null
+                - aggregationType: sum
+                - color: '#1E3A8A'
+                - colors:
+                    ordered: []
+                - visible: true
+                - hovertemplate: '<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>'
+          - '1':
+              ordered:
+                - label: spend
+                - datasource: |-
+                    {{formatDataAsObject([{
+                      "region" : "East",
+                      "sales": 3700,
+                      "spend": 4000
+                    }, {
+                      "region" : "West",
+                      "sales": 6000,
+                      "spend": 3895
+                    }, {
+                      "region" : "South",
+                      "sales": 4500,
+                      "spend": 5500
+                    }, {
+                      "region" : "Central",
+                      "sales": 5230,
+                      "spend": 4200
+                    }])['spend']}}
+                - chartType: null
+                - aggregationType: sum
+                - color: '#3170F9'
+                - colors:
+                    ordered: []
+                - visible: true
+                - hovertemplate: '<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>'
+    - isDataTemplateDirty: false
+    - datasource: ''
+    - isJsonTemplateDirty: false
+    - groupByDropdown: ''
+    - datasourceInputMode: javascript
+    - datasourceDataType: array
+    - layout: ''
+    - xAxisDropdown: region
+    - data: ''
+    - isStackSeriesEnabled: false
+    - xAxisTickFormat: ''
+    - skipDatasourceUpdate: true
+    - datasourceJS: |-
+        [{
+          "region" : "East",
+          "sales": 3700,
+          "spend": 4000
+        }, {
+          "region" : "West",
+          "sales": 6000,
+          "spend": 3895
+        }, {
+          "region" : "South",
+          "sales": 4500,
+          "spend": 5500
+        }, {
+          "region" : "Central",
+          "sales": 5230,
+          "spend": 4200
+        }]
+    - yAxisTickFormat: ''
+    - datasourcePluginType: null
+    - xAxisType: default
+    - datasourcePluginId: null
+    - legendAlignment: bottom
+    - isLayoutJsonDirty: false
+    - chartType: bar
+    - title: ''
+    - xAxis: |-
+        {{formatDataAsObject([{
+          "region" : "East",
+          "sales": 3700,
+          "spend": 4000
+        }, {
+          "region" : "West",
+          "sales": 6000,
+          "spend": 3895
+        }, {
+          "region" : "South",
+          "sales": 4500,
+          "spend": 5500
+        }, {
+          "region" : "Central",
+          "sales": 5230,
+          "spend": 4200
+        }]).region}}
+    - groupByMode: dropdown
+    - onPointSelectQuery: ''
+    - xAxisMode: dropdown
+    - shouldShowLegend: true
+    - yAxisTitle: ''
+    - selectedPoints:
+        array: []
+    - xAxisTitle: ''
+    - groupByJS: ''
+style:
+  ordered: []
+position2:
+  position2:
+    row: 50.8
+    height: 7
+    width: 6
+mobilePosition2:
+  position2:
+    row: 50.8
+    height: 7
+    width: 6
+createdAt: 2024-04-30T10:38:26.549Z

@@ -1,0 +1,133 @@
+id: select2
+uuid: 8dc86c50-f34d-4236-aad8-b485532b7d09
+type: widget
+subtype: SelectWidget2
+template:
+  ordered:
+    - imageByIndex:
+        array: []
+    - _disabledByIndex:
+        - ''
+        - ''
+        - ''
+    - showSelectionIndicator: true
+    - _values:
+        - Option 1
+        - Option 2
+        - Option 3
+    - iconByIndex:
+        array: []
+    - values:
+        array: []
+    - readOnly: false
+    - clearInputValueOnChange: false
+    - iconAfter: ''
+    - _iconByIndex:
+        - ''
+        - ''
+        - ''
+    - overlayMinWidth: null
+    - allowDeselect: false
+    - inputValue: ''
+    - marginType: normal
+    - hidden: false
+    - customValidation: ''
+    - data:
+        array: []
+    - searchMode: fuzzy
+    - hideValidationMessage: false
+    - fallbackTextByIndex:
+        array: []
+    - textBefore: ''
+    - _fallbackTextByIndex:
+        - ''
+        - ''
+        - ''
+    - selectedItem: null
+    - validationMessage: ''
+    - margin: 4px 8px
+    - automaticItemColors: false
+    - itemAdornmentShape: circle
+    - textAfter: ''
+    - showInEditor: false
+    - showClear: false
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value: null
+    - hiddenByIndex:
+        array: []
+    - labelCaption: ''
+    - labelWidth: '33'
+    - deprecatedLabels:
+        array: []
+    - _hiddenByIndex:
+        - ''
+        - ''
+        - ''
+    - placeholder: Select an option
+    - _captionByIndex:
+        - ''
+        - ''
+        - ''
+    - itemAdornmentSize: auto
+    - label: Label
+    - _hasMigratedNestedItems: true
+    - captionByIndex:
+        array: []
+    - _validate: false
+    - itemMode: static
+    - labelWidthUnit: '%'
+    - allowCustomValue: false
+    - invalid: false
+    - selectedIndex: null
+    - _tooltipByIndex:
+        - ''
+        - ''
+        - ''
+    - _colorByIndex:
+        - ''
+        - ''
+        - ''
+    - tooltipByIndex:
+        array: []
+    - iconBefore: ''
+    - colorByIndex:
+        array: []
+    - selectedLabel: ''
+    - events:
+        ordered: []
+    - _ids:
+        - 1d8c4
+        - 05e9e
+        - b21b0
+    - emptyMessage: No options
+    - overlayMaxHeight: 375
+    - loading: false
+    - disabled: false
+    - labelPosition: top
+    - _labels:
+        - ''
+        - ''
+        - ''
+    - labelWrap: false
+    - disabledValues:
+        array: []
+    - disabledByIndex:
+        array: []
+    - maintainSpaceWhenHidden: false
+    - _imageByIndex:
+        - ''
+        - ''
+        - ''
+    - required: false
+    - labels:
+        array: []
+style:
+  ordered: []
+position2:
+  position2:
+    row: 49.599999999999994
+    height: 0.2
+    width: 4
+createdAt: 2024-04-30T10:38:25.766Z

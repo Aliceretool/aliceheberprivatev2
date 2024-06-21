@@ -1,0 +1,32 @@
+id: text1
+uuid: 28ce7898-4692-4ab6-a83c-feb91e2cf1e4
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - marginType: normal
+    - hidden: false
+    - imageWidth: fit
+    - margin: 4px 8px
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: Flicker bug when table and row height is auto/dynamic
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 13.4
+    height: 0.6
+    width: 8
+mobilePosition2:
+  position2:
+    row: 13.4
+    height: 0.6
+    width: 8
+createdAt: 2024-02-15T13:02:14.604Z

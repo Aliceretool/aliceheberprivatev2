@@ -1,0 +1,67 @@
+id: keyValue1
+uuid: 0a581b39-b26e-497f-9deb-8c0da2c6b2f6
+type: widget
+subtype: KeyValueWidget2
+template:
+  ordered:
+    - _propertyLabel:
+        ordered: []
+    - heightType: auto
+    - editIcon: ''
+    - _isSaving: false
+    - _propertyIds: []
+    - disableSave: false
+    - _propertyEditableOptions:
+        ordered: []
+    - _propertyOptionList:
+        ordered: []
+    - marginType: normal
+    - _propertyValueOverride:
+        ordered: []
+    - groupLayout: singleColumn
+    - hidden: false
+    - data: |-
+        {
+          id: 0,
+          firstName: 'Chic',
+          lastName: 'Footitt',
+          email: 'chic.footitt@yahoo.com',
+          website: 'https://chic.footitt.com',
+          text: 'Nulla sit amet nibh at augue facilisis viverra quis id dui. Nullam mattis ultricies metus. Donec eros lorem, egestas vitae aliquam quis, rutrum a mauris',
+          role: 'Viewer',
+          teams: ['Workplace', 'Infrastructure'],
+          enabled: true,
+          createdAt: '2023-01-16T23:40:20.385Z',
+        }
+    - itemLabelPosition: top
+    - _propertyFormat:
+        ordered: []
+    - margin: 4px 8px
+    - showInEditor: false
+    - changeset: null
+    - _propertyFormatOptions:
+        ordered: []
+    - _propertyEditable:
+        ordered: []
+    - events:
+        ordered: []
+    - overflowType: scroll
+    - _enableSaveActions: false
+    - labelWrap: true
+    - _propertyHidden:
+        ordered: []
+    - minColumnWidth: 0
+    - _propertyPlaceholder:
+        ordered: []
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 57.8
+    height: 8.6
+mobilePosition2:
+  position2:
+    row: 57.8
+    height: 8.6
+createdAt: 2024-04-30T10:38:27.472Z
