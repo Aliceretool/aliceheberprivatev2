@@ -1,0 +1,104 @@
+id: query1
+type: datasource
+subtype: GoogleSheetsQuery
+resourceName: 3a8ac195-90e7-4775-bc03-8685e6aa4461
+resourceDisplayName: GmailRetoolTest
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - useSheetRange: false
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - useRawSpreadsheetId: false
+    - runWhenModelUpdates: true
+    - workflowRunId: null
+    - showFailureToaster: true
+    - spreadsheetId: 1w9jX1orqxfwJvTpnA5W2gVmNLPhOvkZD7YnHlnrucoo
+    - query: ''
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - sheetUpdate: ''
+    - privateParams: []
+    - workflowBlockUuid: null
+    - sheetIdToCopy: ''
+    - sheetName: ''
+    - runWhenPageLoadsDelay: ''
+    - doNotThrowOnDeleteNoOp: false
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - filterBy: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - actionType: read
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - offset: ''
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: ''
+    - watchedParams: []
+    - bulkUpdateRows: ''
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - useRawCopyToSpreadsheetId: false
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - valueFormatting: formatted
+    - showUpdateSetValueDynamicallyToggle: true
+    - copyToSpreadsheetId: ''
+    - overrideOrgCacheForUserCache: false
+    - bulkUpdatePrimaryKey: ''
+    - runWhenPageLoads: false
+    - sheetTitle: ''
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - limit: ''
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - sheetRange: ''
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2023-06-29T13:36:00.373Z

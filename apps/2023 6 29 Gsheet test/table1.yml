@@ -1,0 +1,256 @@
+id: table1
+type: widget
+subtype: TableWidget
+template:
+  ordered:
+    - actionButtonQuery: ''
+    - showCustomButton: false
+    - sortMappedValue:
+        ordered: []
+    - _filteredSortedRenderedDataWithTypes: null
+    - heightType: fixed
+    - normalizedData: null
+    - rowHeight: standard
+    - actionButtonType: runQuery
+    - saveChangesDisabled: ''
+    - columnTypeProperties:
+        ordered: []
+    - columnWidths:
+        - ordered:
+            - id: Title
+            - value: 250
+        - ordered:
+            - id: Sales
+            - value: 80
+    - showSummaryFooter: false
+    - actionButtonDisabled: ''
+    - disableRowSelectInteraction: false
+    - columnWidthsMobile: []
+    - hasNextAfterCursor: ''
+    - columnTypeSpecificExtras:
+        ordered: []
+    - onRowAdded: ''
+    - columnHeaderNames:
+        ordered: []
+    - alwaysShowPaginator: false
+    - columnColors:
+        ordered:
+          - address_id: ''
+          - active: ''
+          - created_at: ''
+          - quantity: ''
+          - image_url: ''
+          - name: ''
+          - Sales: orange
+          - sales: ''
+          - postcode: ''
+          - activebool: ''
+          - create_date: ''
+          - last_update: ''
+          - last_name: ''
+          - part_number: ''
+          - updated_at: ''
+          - Title: blue
+          - store_id: ''
+          - first_name: ''
+          - unit_price_cents: ''
+          - id: ''
+          - customer_id: ''
+          - email: ''
+          - Description: green
+    - columnFrozenAlignments:
+        ordered: []
+    - allowMultiRowSelect: false
+    - columnFormats:
+        ordered: []
+    - columnRestrictedEditing:
+        ordered: []
+    - showFilterButton: true
+    - _columnVisibility:
+        ordered:
+          - address_id: true
+          - active: true
+          - name: true
+          - Sales: true
+          - sales: true
+          - activebool: true
+          - create_date: true
+          - last_update: true
+          - last_name: true
+          - Title: true
+          - store_id: true
+          - first_name: true
+          - id: true
+          - customer_id: true
+          - email: true
+          - Description: true
+    - actionButtonUrl: ''
+    - actionButton: false
+    - _columnSummaryTypes:
+        ordered: []
+    - actionButtonNewWindow: false
+    - _columnsWithLegacyBackgroundColor:
+        set: []
+    - showAddRowButton: false
+    - _unfilteredSelectedIndex: ''
+    - nextBeforeCursor: ''
+    - columnVisibility:
+        ordered:
+          - address_id: true
+          - active: true
+          - name: true
+          - Sales: true
+          - sales: true
+          - activebool: true
+          - create_date: true
+          - last_update: true
+          - last_name: true
+          - Title: true
+          - store_id: true
+          - first_name: true
+          - id: true
+          - customer_id: true
+          - email: true
+          - Description: true
+    - selectedPageIndex: '0'
+    - applyDynamicSettingsToColumnOrder: false
+    - rowColor:
+        array: []
+    - actionButtonColumnName: Actions
+    - resetAfterSave: true
+    - filterStackType: and
+    - downloadRawData: true
+    - showFetchingIndicator: true
+    - serverPaginated: false
+    - data: '{{ query1.data }}'
+    - displayedData: null
+    - actionButtons: []
+    - actionButtonSelectsRow: true
+    - selectRowByDefault: true
+    - defaultSortByColumn: ''
+    - paginationOffset: 0
+    - columnAlignment:
+        ordered: []
+    - columnSummaries:
+        object: {}
+    - showBoxShadow: true
+    - sortedDesc: false
+    - customButtonName: Custom Button
+    - columnMappersRenderAsHTML:
+        ordered: []
+    - actionButtonInternalUrlPath: ''
+    - showRefreshButton: true
+    - pageSize: 6
+    - useDynamicColumnSettings: false
+    - style:
+        ordered: []
+    - selectedColumn: null
+    - actionButtonPosition: left
+    - dynamicRowHeights: false
+    - bulkUpdateAction: ''
+    - afterCursor: ''
+    - onCustomButtonPressQueryName: ''
+    - changeSet:
+        object: {}
+    - sortedColumn: ''
+    - _columnSummaryValues:
+        ordered: []
+    - checkboxRowSelect: true
+    - _compatibilityMode: true
+    - showColumnBorders: true
+    - clearSelectionLabel: Clear selection
+    - _renderedDataWithTypes: null
+    - actionButtonText: ''
+    - columnAllowOverflow:
+        ordered: []
+    - beforeCursor: ''
+    - serverPaginationType: limitOffsetBased
+    - onRowSelect: ''
+    - showDownloadButton: true
+    - selectedIndex: null
+    - defaultSortDescending: false
+    - _sortedDisplayedDataIndices: null
+    - dynamicColumnSettings: null
+    - totalRowCount: ''
+    - recordUpdates:
+        array: []
+    - newRow: null
+    - emptyMessage: No rows found
+    - columnEditable:
+        ordered: []
+    - _viewerColumnSummaryTypes:
+        object: {}
+    - filters:
+        array: []
+    - displayedDataIndices: null
+    - disableSorting:
+        ordered: []
+    - columnMappers:
+        ordered: []
+    - showClearSelection: false
+    - doubleClickToEdit: false
+    - overflowType: pagination
+    - _reverseSortedDisplayedDataIndices: null
+    - showTableBorder: true
+    - selectedCell:
+        object:
+          index: null
+          data: null
+          columnName: null
+    - columns:
+        - Title
+        - Sales
+        - Description
+        - id
+        - name
+        - email
+        - sales
+        - customer_id
+        - store_id
+        - first_name
+        - last_name
+        - address_id
+        - activebool
+        - create_date
+        - last_update
+        - active
+    - defaultSelectedRow: first
+    - freezeActionButtonColumns: false
+    - sort: null
+    - _columns:
+        - Title
+        - Sales
+        - Description
+        - id
+        - name
+        - email
+        - sales
+        - customer_id
+        - store_id
+        - first_name
+        - last_name
+        - address_id
+        - activebool
+        - create_date
+        - last_update
+        - active
+    - actionButtonInternalUrlHashParams: ''
+    - actionButtonInternalUrlQuery: ''
+    - sortByRawValue:
+        ordered: []
+    - calculatedColumns: []
+    - selectedRow:
+        object:
+          index: null
+          data: null
+    - showPaginationOnTop: false
+    - _reverseDisplayedDataIndices: null
+    - nextAfterCursor: ''
+    - useCompactMode: false
+style:
+  ordered: []
+position2:
+  position2:
+    height: 8
+    width: 8
+createdAt: 2018-08-06T18:01:25.280Z
