@@ -1,0 +1,27 @@
+id: modalFrame1
+type: frame
+subtype: ModalFrameWidget
+template:
+  ordered:
+    - size: medium
+    - hideOnEscape: true
+    - overlayInteraction: true
+    - headerPadding: 8px 12px
+    - showFooterBorder: true
+    - enableFullBleed: false
+    - isHiddenOnDesktop: false
+    - showBorder: true
+    - hidden: ''
+    - showHeader: true
+    - padding: 8px 12px
+    - showOverlay: true
+    - isHiddenOnMobile: true
+    - showHeaderBorder: true
+    - footerPadding: 8px 12px
+    - showFooter: true
+    - events:
+        ordered: []
+    - loading: false
+style:
+  ordered: []
+createdAt: 2024-06-06T14:48:16.122Z
