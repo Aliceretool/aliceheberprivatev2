@@ -1,0 +1,14 @@
+version: 43.0.9
+pageUuid: e2a0d77c-1681-11ee-9851-e3c8e54122ef
+appTemplate:
+  appMaxWidth: 1560px
+  experimentalFeatures:
+    object:
+      sourceControlTemplateDehydration: false
+  notificationsSettings:
+    object:
+      globalQueryShowFailureToast: true
+      globalQueryShowSuccessToast: false
+      globalQueryToastDuration: 4.5
+  version: 3.42.0
+  experimentalDataTabEnabled: true
