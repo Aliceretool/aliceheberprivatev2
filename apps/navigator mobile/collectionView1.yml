@@ -1,0 +1,110 @@
+id: collectionView1
+type: widget
+subtype: RNCollectionViewV2Widget
+template:
+  ordered:
+    - cardStyle: flat
+    - prefixImageShapeByIndex: square
+    - titleByIndex: '{{item.name}}'
+    - subtitleByIndex: '{{item.email}}'
+    - prefixIconColorByIndex: ''
+    - showSeparator: true
+    - selectedPageIndex: 0
+    - cardType: compact
+    - serverPaginated: false
+    - data: |-
+        [{
+        "id": 1,
+        "name": "Hanson Deck",
+        "email": "hanson@deck.com",
+        "sales": 37,
+        "image": "https://picsum.photos/id/453/800/800"
+        }, {
+        "id": 2,
+        "name": "Sue Shei",
+        "email": "sueshei@example.com",
+        "sales": 550,
+        "image": "https://picsum.photos/id/1011/800/800"
+        }, {
+        "id": 3,
+        "name": "Jason Response",
+        "email": "jason@response.com",
+        "sales": 55,
+        "image": "https://picsum.photos/id/22/800/800"
+        }, {
+        "id": 4,
+        "name": "Cher Actor",
+        "email": "cher@example.com",
+        "sales": 424,
+        "image": "https://picsum.photos/id/823/800/800"
+        }, {
+        "id": 5,
+        "name": "Erica Widget",
+        "email": "erica@widget.org",
+        "sales": 243,
+        "image": "https://picsum.photos/id/1005/800/800"
+        }]
+    - selectedItem: null
+    - prefixTypeByIndex: image
+    - suffixTypeByIndex: none
+    - prefixIconByIndex: bold/interface-user-single
+    - prefixImageSizeByIndex: 1 to 1
+    - cardSize: full
+    - suffixIconByIndex: bold/interface-arrows-button-right
+    - scrollDirection: vertical
+    - prefixImageFitByIndex: cover
+    - itemMode: dynamic
+    - prefixImageSourceByIndex: '{{item.image}}'
+    - selectedIndex: null
+    - _paginatedData: |-
+        [{
+        "id": 1,
+        "name": "Hanson Deck",
+        "email": "hanson@deck.com",
+        "sales": 37,
+        "image": "https://picsum.photos/id/453/800/800"
+        }, {
+        "id": 2,
+        "name": "Sue Shei",
+        "email": "sueshei@example.com",
+        "sales": 550,
+        "image": "https://picsum.photos/id/1011/800/800"
+        }, {
+        "id": 3,
+        "name": "Jason Response",
+        "email": "jason@response.com",
+        "sales": 55,
+        "image": "https://picsum.photos/id/22/800/800"
+        }, {
+        "id": 4,
+        "name": "Cher Actor",
+        "email": "cher@example.com",
+        "sales": 424,
+        "image": "https://picsum.photos/id/823/800/800"
+        }, {
+        "id": 5,
+        "name": "Erica Widget",
+        "email": "erica@widget.org",
+        "sales": 243,
+        "image": "https://picsum.photos/id/1005/800/800"
+        }]
+    - events:
+        - ordered:
+            - event: press
+            - type: navigator
+            - method: navigateTo
+            - params:
+                ordered:
+                  - screenPluginId: detailsScreen
+    - _ids: []
+    - bodyByIndex: '{{item.sales}}'
+    - suffixValueByIndex: 'false'
+    - suffixTextByIndex: text
+    - subtitleLengthByIndex: 2
+position2:
+  position2: {}
+mobileAppPosition:
+  mobilePosition:
+    ordinal: 1
+createdAt: 2024-07-03T10:33:31.946Z
+screen: screen1
