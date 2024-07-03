@@ -1,0 +1,13 @@
+id: tabscreen
+type: screen
+subtype: TabScreen
+template:
+  ordered:
+    - items:
+        - ordered:
+            - screen: screen1
+            - icon: bold/interface-text-formatting-list-bullets
+        - ordered:
+            - screen: screen2
+            - icon: bold/interface-user-single
+createdAt: 2024-07-03T10:33:31.943Z

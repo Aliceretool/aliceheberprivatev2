@@ -1,0 +1,16 @@
+id: screen2
+type: screen
+subtype: Screen
+template:
+  ordered:
+    - title: Screen 2
+    - headerLeftActions: []
+    - headerRightActions: []
+    - gap: 16
+    - padding:
+        object:
+          left: 16
+          right: 16
+          top: 8
+          bottom: 8
+createdAt: 2024-07-03T10:33:31.944Z
