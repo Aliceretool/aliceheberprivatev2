@@ -12,7 +12,7 @@ template:
     - showInEditor: false
     - verticalAlign: center
     - tooltipText: ''
-    - value: 👋 **Hello {{ current_user.firstName || 'friend' }}!**
+    - value: 👋 **Hello {{ current_user.firstName || 'friend' }}!**kjj
     - disableMarkdown: false
     - overflowType: scroll
     - maintainSpaceWhenHidden: false
