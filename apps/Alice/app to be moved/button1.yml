@@ -1,0 +1,33 @@
+id: button1
+uuid: fe04ce16-01ac-4778-89aa-e1ee08f73bf7
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: null
+    - marginType: normal
+    - hidden: false
+    - text: Button
+    - showInEditor: false
+    - tooltipText: ''
+    - styleVariant: solid
+    - submit: false
+    - iconBefore: ''
+    - events:
+        ordered: []
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 2.6
+    col: 1
+    height: 1
+    width: 1
+createdAt: 2024-04-25T08:46:20.632Z
