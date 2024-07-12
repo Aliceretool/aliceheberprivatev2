@@ -1,0 +1,6 @@
+version: 43.0.9
+pageUuid: 8558d38e-403e-11ef-a379-d7e5f0a4813e
+appTemplate:
+  shortlink: false
+  version: 3.30.16
+  experimentalDataTabEnabled: true
