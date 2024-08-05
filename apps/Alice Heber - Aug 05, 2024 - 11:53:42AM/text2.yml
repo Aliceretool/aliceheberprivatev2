@@ -1,0 +1,26 @@
+id: text2
+uuid: 4db90a4f-c1e8-4d2b-942d-27d6eb11fb5e
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - margin: 4px 8px
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: after release one
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 4.8
+    col: 1
+    height: 0.6
+createdAt: 2024-08-05T10:55:14.092Z
