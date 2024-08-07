@@ -44,8 +44,8 @@ options:
   originalResourceName: debfdad3-4573-4b03-bff0-bc7105e97652
   session_cookie_name: ''
   urlparams:
-    - - ''
-      - ''
+    - - test
+      - test
   verify_session_url: ''
 outboundRegion: null
 port: null
