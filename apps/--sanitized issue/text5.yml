@@ -1,0 +1,26 @@
+id: text5
+uuid: d5721717-0f1f-499d-a0cf-72b41f8f397f
+type: widget
+subtype: TextWidget2
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - margin: 4px 8px
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: main + this
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 12.6
+    col: 9
+    height: 0.6
+createdAt: 2024-08-07T16:13:58.085Z

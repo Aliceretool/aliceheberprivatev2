@@ -11,6 +11,7 @@ template:
     - submitTargetId: null
     - marginType: normal
     - hidden: false
+    - ariaLabel: ''
     - text: Button
     - margin: 4px 8px
     - showInEditor: false
