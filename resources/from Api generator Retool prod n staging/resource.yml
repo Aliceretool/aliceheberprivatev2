@@ -43,8 +43,8 @@ options:
   oauth2_scope: ''
   session_cookie_name: ''
   urlparams:
-    - - ''
-      - ''
+    - - test
+      - test
   verify_session_url: ''
 outboundRegion: null
 port: null
