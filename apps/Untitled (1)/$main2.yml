@@ -1,0 +1,12 @@
+id: $main2
+type: frame
+subtype: Frame
+template:
+  ordered:
+    - type: main
+    - padding: 8px 12px
+    - enableFullBleed: false
+    - isHiddenOnDesktop: false
+    - isHiddenOnMobile: false
+createdAt: 2024-08-12T09:15:36.123Z
+screen: page1

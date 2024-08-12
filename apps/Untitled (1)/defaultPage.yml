@@ -1,0 +1,10 @@
+id: defaultPage
+type: screen
+subtype: Screen
+template:
+  ordered:
+    - title: Default Page
+    - urlSlug: ''
+    - _searchParams: []
+    - _hashParams: []
+createdAt: 2024-08-12T09:15:23.416Z
