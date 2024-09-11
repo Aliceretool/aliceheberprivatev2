@@ -17,7 +17,7 @@ template:
     - title: Note
     - type: info
     - exportFileName: ''
-    - description: this is text in the alert component
+    - description: this is text in the alert component - edit in branch
     - buttonText: ''
 style:
   ordered: []
