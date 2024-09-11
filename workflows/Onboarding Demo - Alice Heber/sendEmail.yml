@@ -1,0 +1,108 @@
+id: sendEmail
+type: datasource
+subtype: RESTQuery
+resourceName: REST-WithoutResource
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - paginationLimit: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - body: >-
+        [{"key":"message","value":"{{composeEmailMessage.data}}"},{"key":"toEmail","value":"alice.heber@gmail.com"},{"key":"workflowId","value":"{{workflowContext.workflowId}}"}]
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: true
+    - paginationPaginationField: ''
+    - headers: ''
+    - workflowRunId: null
+    - showFailureToaster: true
+    - paginationEnabled: false
+    - query: https://api.retool.com/v1/workflows/sendTestEmail
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - cookies: ''
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered: []
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - version: 2
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: >-
+        // type your code here
+
+        // example: return formatDataAsArray(data).filter(row => row.quantity >
+        20)
+
+        return data
+    - events: []
+    - queryTimeout: 12000
+    - workflowId: null
+    - requireConfirmation: false
+    - type: POST
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - workflowBlockPluginId: null
+    - bodyType: json
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2023-02-11T12:19:53.159Z
+blockData:
+  top: 48
+  left: 2832
+  uuid: ef15bd67-1b29-4a2a-8596-5b005d180f89
+  options: {}
+  pluginId: sendEmail
+  blockType: default
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
+  retryPanelOpen: false
+  incomingOnSuccessEdges:
+    - 46a32cba-4167-4a07-948d-f0893e38f1ee
