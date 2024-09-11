@@ -1,0 +1,29 @@
+id: alert1
+uuid: c7c9e441-e85c-4433-8339-3ed2d40e528e
+type: widget
+subtype: AlertWidget
+template:
+  ordered:
+    - valueToCopy: ''
+    - internalUrlHashParams: ''
+    - exportFileType: csv
+    - buttonType: action
+    - url: ''
+    - newWindow: false
+    - exportQuery: ''
+    - action: ''
+    - internalUrlQuery: ''
+    - internalUrlPath: ''
+    - title: Note
+    - type: info
+    - exportFileName: ''
+    - description: this is text in the alert component
+    - buttonText: ''
+style:
+  ordered: []
+position2:
+  position2:
+    row: 2
+    height: 1
+    width: 4
+createdAt: 2024-09-11T09:50:46.938Z
