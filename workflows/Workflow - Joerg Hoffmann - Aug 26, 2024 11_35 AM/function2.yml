@@ -1,0 +1,121 @@
+id: function2
+type: datasource
+subtype: GraphQLQuery
+resourceName: 309ba837-176b-4252-9a05-9b6dea603560
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - paginationLimit: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - body: >-
+        mutation UpdateItemWithValues($itemId: ID!, $board_id: ID!,
+        $json_values: JSON!) {
+            change_multiple_column_values (item_id: $itemId, board_id: $board_id, column_values: $json_values, create_labels_if_missing: true){
+                id
+                name
+            }
+        } 
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - paginationPaginationField: ''
+    - headers: '[{"key":"Authorization","value":"{{accessToken}}"}]'
+    - workflowRunId: null
+    - showFailureToaster: true
+    - paginationEnabled: false
+    - query: ''
+    - playgroundQueryUuid: 3ed96c81-1bd7-4cf2-9616-7965e2cc579d
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        ordered:
+          - accessToken: ''
+          - itemId: '{{wedwefwe}}'
+          - boardId: '{{JSON.stringify(json_values_json)}}'
+          - json_values_stringified: '{{retoolContext.configVars.monday_joerg_token}}'
+    - isImported: true
+    - graphQLVariables: >-
+        [{"key":"itemId","value":"{{itemId}}"},{"key":"board_id","value":"{{boardId}}"},{"key":"json_values","value":"{{json_values_stringified}}"}]
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - cookies: ''
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        //Use the variables data, metadata, and errors to reference these fields
+        from your query's results
+
+        if (Array.isArray(errors) && errors.length > 0) {
+          return errors[0].message;
+        } else {
+          return false
+        }
+            
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - graphQLErrors: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered:
+          - itemId: ''
+          - boardId: ''
+          - accessToken: ''
+          - json_values_stringified: ''
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return data
+    - events: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - type: POST
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - bodyType: raw
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-08-26T10:23:25.739Z
+blockData:
+  top: 40
+  left: 40
+  uuid: 0242eb24-b531-4dbe-a55e-3dbdfc3f97c8
+  options:
+    parameters: []
+  pluginId: function2
+  blockType: function
+  editorType: GraphQLQuery
+  resourceName: 309ba837-176b-4252-9a05-9b6dea603560
+  incomingOnSuccessEdges: []
