@@ -1,0 +1,133 @@
+id: query2_lambda
+type: datasource
+subtype: GraphQLQuery
+resourceName: 309ba837-176b-4252-9a05-9b6dea603560
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - paginationLimit: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - body: >-
+        query Get_items_by_unique_identifier($limit: Int!, $boardId: ID!,
+        $syncId_monday_column_Id: String!, $syncId_value: String!) {  
+          items_page_by_column_values(
+            limit: $limit,
+            board_id: $boardId,
+            columns: [{column_id: $syncId_monday_column_Id, column_values: [$syncId_value]}]
+          ) {
+            cursor
+            items {
+              id
+              name
+              group {
+                id
+              }
+            }
+          }
+        }
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: true
+    - paginationPaginationField: ''
+    - headers: '[{"key":"Authorization","value":"{{accessToken}}"}]'
+    - workflowRunId: null
+    - showFailureToaster: true
+    - paginationEnabled: false
+    - query: ''
+    - playgroundQueryUuid: d360c909-25b2-485a-bc8e-05e0788a97b3
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - retoolVersion: 3.52.1
+    - importedQueryInputs:
+        ordered:
+          - accessToken: ''
+          - limit: ''
+          - boardId: ''
+          - syncId_monday_column_Id: ''
+          - syncId_value: ''
+    - isImported: true
+    - graphQLVariables: >-
+        [{"key":"limit","value":"{{limit}}"},{"key":"boardId","value":"{{boardId}}"},{"key":"syncId_monday_column_Id","value":"{{syncId_monday_column_Id}}"},{"key":"syncId_value","value":"{{syncId_value}}"}]
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - cookies: ''
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        //Use the variables data, metadata, and errors to reference these fields
+        from your query's results
+
+        if (Array.isArray(errors) && errors.length > 0) {
+          return errors[0].message;
+        } else {
+          return false
+        }
+            
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - graphQLErrors: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered:
+          - limit: ''
+          - boardId: ''
+          - accessToken: ''
+          - syncId_value: ''
+          - syncId_monday_column_Id: ''
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return data
+    - events: []
+    - queryTimeout: '100000'
+    - workflowId: null
+    - requireConfirmation: false
+    - type: POST
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - bodyType: raw
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-08-26T09:35:17.039Z
+blockData:
+  top: 64
+  left: 560
+  uuid: 35aaa138-67a4-46ed-8510-0e657e634798
+  pluginId: query2_lambda
+  blockType: default
+  editorType: GraphQLQuery
+  resourceName: 309ba837-176b-4252-9a05-9b6dea603560
+  incomingPorts: []
+  incomingOnSuccessEdges: []

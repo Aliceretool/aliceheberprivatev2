@@ -1,0 +1,127 @@
+id: function5
+type: datasource
+subtype: RESTQuery
+resourceName: aed899b5-9912-4558-a347-2235abc82ccd
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - paginationLimit: ''
+    - allowedGroupIds: []
+    - streamResponse: false
+    - body: >-
+        [{"key":"jql","value":"{{jql_query}}"},{"key":"startAt","value":"{{startAt}}"},{"key":"maxResults","value":"{{maxResults}}"},{"key":"fields","value":"{{fields}}"},{"key":"expand","value":"{{expand}}"}]
+    - lastReceivedFromResourceAt: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - paginationPaginationField: ''
+    - headers: '[{"key":"Authorization","value":"Basic {{accessToken}}"}]'
+    - workflowRunId: null
+    - showFailureToaster: true
+    - paginationEnabled: false
+    - query: search
+    - playgroundQueryUuid: 00bc1aff-f43c-4643-a955-e54a35c9032d
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams: []
+    - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - retoolVersion: 3.33.31
+    - importedQueryInputs:
+        ordered:
+          - jql_query: >-
+              project = PJM AND issuetype = 10103 AND "Product Category" !=
+              PM-56 AND status != Inactive AND "Product Category" != PM-56 AND
+              cf[13000] ~ "24" AND "Project Type Option" = "Main Project for
+              Project Code" ORDER BY cf[10201] DESC,cf[10202]
+              DESC,cf[10264],cf[12501],cf[12507]
+          - startAt: '{{123}}'
+          - maxResults: '{{no}}'
+          - fields: '["summary","customfield_12501"]'
+          - expand: '["names"]'
+          - accessToken: >-
+              {{retoolContext.configVars.jira_dc_joerg_test_user_credentials_b64}}
+    - isImported: true
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - cookies: ''
+    - metadata: null
+    - workflowActionType: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - errorTransformer: >-
+        // The variable 'data' allows you to reference the request's data in the
+        transformer. 
+
+        // example: return data.find(element => element.isError)
+
+        return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - paginationDataField: ''
+    - timestamp: 0
+    - importedQueryDefaults:
+        ordered:
+          - expand: '["names"]'
+          - fields: '["summary","customfield_12501"]'
+          - startAt: '0'
+          - jql_query: >-
+              project = PJM AND issuetype = 10103 AND "Product Category" !=
+              PM-56 AND status != Inactive AND "Product Category" != PM-56 AND
+              cf[13000] ~ "24" AND "Project Type Option" = "Main Project for
+              Project Code" ORDER BY cf[10201] DESC,cf[10202]
+              DESC,cf[10264],cf[12501],cf[12507]
+          - maxResults: '10'
+          - accessToken: >-
+              {{retoolContext.configVars.jira_dc_joerg_test_user_credentials_b64}}
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - version: 2
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: |-
+        // Query results are available as the `data` variable
+        return data
+    - events: []
+    - queryTimeout: '100000'
+    - workflowId: null
+    - requireConfirmation: false
+    - type: POST
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups: []
+    - bodyType: json
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2024-08-26T10:38:15.516Z
+blockData:
+  top: 88
+  left: 88
+  uuid: 4a54f970-fb05-471c-94f1-39b7fff18773
+  options:
+    parameters: []
+  pluginId: function5
+  blockType: function
+  editorType: RESTQuery
+  resourceName: aed899b5-9912-4558-a347-2235abc82ccd
+  incomingOnSuccessEdges: []
