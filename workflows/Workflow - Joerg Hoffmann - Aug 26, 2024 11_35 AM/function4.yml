@@ -27,6 +27,7 @@ template:
     - paginationEnabled: false
     - query: search
     - playgroundQueryUuid: 00bc1aff-f43c-4643-a955-e54a35c9032d
+    - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []
