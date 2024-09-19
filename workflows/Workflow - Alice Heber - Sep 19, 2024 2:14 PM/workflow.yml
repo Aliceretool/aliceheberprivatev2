@@ -123,4 +123,10 @@ version: 43.0.9
 workflowId: f98312e0-c252-4331-9fa1-d157bacb954e
 description: null
 workflowTemplate:
+  pageCodeFolders:
+    object:
+      query2:
+        array: []
+      query3:
+        array: []
   version: 3.52.15
