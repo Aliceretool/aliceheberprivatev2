@@ -33,6 +33,7 @@ template:
     - paginationEnabled: false
     - query: ''
     - playgroundQueryUuid: b372a1a0-268f-48fe-94dc-36b4c2d9212d
+    - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []

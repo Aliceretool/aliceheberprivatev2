@@ -1,4 +1,4 @@
-id: query3
+id: query4
 type: datasource
 subtype: SqlQueryUnified
 resourceName: 9d052a87-5727-41ac-bb18-caacc0d05b90
@@ -24,6 +24,7 @@ template:
     - showFailureToaster: true
     - query: select * from {{table}}
     - playgroundQueryUuid: 3b922283-f8ad-4e87-b522-ddbf567de9e3
+    - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []
@@ -105,7 +106,7 @@ blockData:
   top: -32
   left: 1040
   uuid: 44485e3c-5bc7-4a1b-b501-23d0d201eeee
-  pluginId: query3
+  pluginId: query4
   blockType: default
   editorType: SqlQueryUnified
   resourceName: 9d052a87-5727-41ac-bb18-caacc0d05b90
