@@ -129,4 +129,6 @@ workflowTemplate:
         array: []
       query3:
         array: []
+      query4:
+        array: []
   version: 3.52.15

@@ -1,4 +1,4 @@
-id: query3
+id: query4
 type: datasource
 subtype: SqlQueryUnified
 resourceName: 9d052a87-5727-41ac-bb18-caacc0d05b90
@@ -104,7 +104,7 @@ blockData:
   top: 48
   left: 960
   uuid: f515319a-bdb0-4cc5-ac5d-12b8e5be8c70
-  pluginId: query3
+  pluginId: query4
   blockType: default
   editorType: SqlQueryUnified
   resourceName: 9d052a87-5727-41ac-bb18-caacc0d05b90
