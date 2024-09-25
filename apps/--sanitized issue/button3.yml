@@ -11,6 +11,7 @@ template:
     - submitTargetId: null
     - marginType: normal
     - hidden: false
+    - ariaLabel: ''
     - text: Button
     - margin: 4px 8px
     - showInEditor: false
@@ -28,6 +29,6 @@ style:
   ordered: []
 position2:
   position2:
-    row: 11.8
+    row: 13.4
     height: 1
 createdAt: 2024-02-14T13:00:40.470Z

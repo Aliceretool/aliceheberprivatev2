@@ -4,15 +4,16 @@ type: widget
 subtype: ButtonWidget2
 template:
   ordered:
-
+    - heightType: fixed
     - horizontalAlign: stretch
     - clickable: false
     - iconAfter: ''
     - submitTargetId: null
     - marginType: normal
     - hidden: false
+    - ariaLabel: ''
     - text: Button
-
+    - margin: 4px 8px
     - showInEditor: false
     - tooltipText: ''
     - styleVariant: solid
@@ -28,7 +29,7 @@ style:
   ordered: []
 position2:
   position2:
-    row: 10.6
+    row: 13.2
     col: 6
     height: 1
     width: 1
