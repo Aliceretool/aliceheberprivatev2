@@ -1,0 +1,20 @@
+id: delete1
+uuid: b43f6a0c-4560-4650-b5cd-f71f500cbee0
+type: widget
+subtype: GlobalWidget
+template:
+  ordered:
+    - showFetchingIndicator: boolean
+    - heightType: auto
+    - name: delete1
+    - pageUuid: e159ec50-24b3-11ef-9c03-5fec4f1d27cf
+    - childNamespace: delete1
+style:
+  ordered: []
+position2:
+  position2:
+    row: 3.8
+    col: 1
+    height: 2.4
+    width: 11
+createdAt: 2024-09-27T10:57:33.348Z
