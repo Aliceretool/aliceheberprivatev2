@@ -1,0 +1,17 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "4468c33e-02e0-11ef-821f-4fe1d1e9506b",
+  "appTemplate": {
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false,
+        "globalQueryToastDuration": 4.5
+      }
+    },
+    "shortlink": false,
+    "version": "3.98.0",
+    "experimentalDataTabEnabled": true
+  }
+}

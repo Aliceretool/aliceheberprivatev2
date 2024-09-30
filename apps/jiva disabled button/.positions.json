@@ -1,0 +1,173 @@
+{
+  "addNotesModal": {
+    "container": "callNotesModal",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "approveCheckbox": {
+    "container": "approveForm",
+    "height": 0.6,
+    "width": 12
+  },
+  "approveForm": {
+    "container": "approveModal",
+    "width": 12
+  },
+  "approveModal": {
+    "container": "moduleContainer",
+    "row": 5.6,
+    "col": 6,
+    "height": 1
+  },
+  "button1": {
+    "container": "approveForm",
+    "rowGroup": "footer",
+    "col": 7,
+    "height": 1,
+    "width": 5
+  },
+  "callNotesModal": {
+    "container": "moduleContainer",
+    "row": 5.6,
+    "height": 1
+  },
+  "candidateStandardFilters": {
+    "container": "moduleContainer",
+    "height": 2.4,
+    "width": 12
+  },
+  "container1": {
+    "container": "moduleContainer",
+    "row": 5.4,
+    "height": 0.2,
+    "width": 12
+  },
+  "container2": {
+    "container": "listView2",
+    "height": 3.8,
+    "width": 12
+  },
+  "container3": {
+    "container": "moduleContainer",
+    "row": 2.4,
+    "height": 0.4,
+    "width": 12
+  },
+  "containerTitle1": {
+    "container": "container1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle2": {
+    "container": "container2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle3": {
+    "container": "container3",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "formButton1": {
+    "container": "noteForm",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formButton2": {
+    "container": "approveForm",
+    "rowGroup": "footer",
+    "height": 1,
+    "width": 5
+  },
+  "formTitle1": {
+    "container": "noteForm",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "formTitle2": {
+    "container": "approveForm",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "listView2": {
+    "container": "callNotesModal",
+    "row": 1.8,
+    "height": 9,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 16.6,
+    "width": 12
+  },
+  "noteForm": {
+    "container": "addNotesModal",
+    "width": 12
+  },
+  "noteText": {
+    "container": "noteForm",
+    "height": 1,
+    "width": 12
+  },
+  "rejectCandidate1": {
+    "container": "rejectCandidateModal",
+    "height": 2.4,
+    "width": 12
+  },
+  "rejectCandidateModal": {
+    "container": "moduleContainer",
+    "row": 5.6,
+    "col": 3,
+    "height": 1
+  },
+  "screenerAnswersModal": {
+    "container": "moduleContainer",
+    "row": 6.6,
+    "col": 3,
+    "height": 1
+  },
+  "screenerAnswersTable": {
+    "container": "screenerAnswersModal",
+    "height": 12.2,
+    "width": 12
+  },
+  "screenerPendingTable": {
+    "container": "container1",
+    "subcontainer": "2c356",
+    "height": 10.2,
+    "width": 12
+  },
+  "screenerStatusSelect": {
+    "container": "container3",
+    "subcontainer": "73a01",
+    "height": 1,
+    "width": 5
+  },
+  "text1": {
+    "container": "container2",
+    "subcontainer": "527ea",
+    "height": 0.6,
+    "width": 7
+  },
+  "text2": {
+    "container": "container2",
+    "subcontainer": "527ea",
+    "col": 7,
+    "height": 0.6,
+    "width": 5
+  },
+  "text3": {
+    "container": "container2",
+    "subcontainer": "527ea",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12
+  }
+}

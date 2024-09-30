@@ -1,0 +1,38 @@
+{
+  "fileButton1": {
+    "row": 14.2,
+    "col": 7,
+    "height": 1
+  },
+  "image2": {
+    "row": 1,
+    "height": 3,
+    "width": 2
+  },
+  "image3": {
+    "row": 7,
+    "height": 3,
+    "width": 2
+  },
+  "image4": {
+    "row": 14.8,
+    "height": 3,
+    "width": 2
+  },
+  "text1": {
+    "height": 1
+  },
+  "text2": {
+    "row": 5.8,
+    "height": 0.6
+  },
+  "text3": {
+    "row": 14,
+    "height": 0.6
+  },
+  "text4": {
+    "row": 13.8,
+    "col": 4,
+    "height": 0.6
+  }
+}

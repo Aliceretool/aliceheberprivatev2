@@ -1,0 +1,54 @@
+{
+  "body1": {
+    "container": "container4",
+    "height": 0,
+    "width": 0
+  },
+  "caption1": {
+    "container": "container4",
+    "height": 0,
+    "width": 0
+  },
+  "card1": {
+    "height": 0,
+    "width": 0
+  },
+  "collectionView1": {},
+  "container1": {},
+  "container2": {
+    "container": "container1",
+    "height": 0,
+    "width": 0
+  },
+  "container3": {
+    "container": "container1",
+    "height": 0,
+    "width": 0
+  },
+  "container4": {
+    "container": "card1",
+    "height": 0,
+    "width": 0
+  },
+  "heading1": {
+    "container": "container3"
+  },
+  "image1": {},
+  "image2": {
+    "container": "container2"
+  },
+  "image3": {
+    "container": "card1",
+    "height": 0,
+    "width": 0
+  },
+  "keyValue1": {},
+  "text1": {
+    "container": "container3"
+  },
+  "title1": {
+    "container": "container4",
+    "height": 0,
+    "width": 0
+  }
+}

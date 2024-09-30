@@ -1,0 +1,12 @@
+{
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  },
+  "table1": {
+    "container": "moduleContainer",
+    "row": 1.2,
+    "height": 8,
+    "width": 8
+  }
+}

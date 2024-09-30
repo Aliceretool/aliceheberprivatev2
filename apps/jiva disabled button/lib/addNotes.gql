@@ -1,0 +1,16 @@
+mutation CreateNote($note: String!, $notableInput: NotableInput!) {
+  createNote(note: $note, notableInput: $notableInput) {
+    note {
+      content
+      createdAt
+      createdBy {
+        id
+      }
+    }
+    errors {
+      code
+      parameter
+      message
+    }
+  }
+}

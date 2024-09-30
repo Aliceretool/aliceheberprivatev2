@@ -1,9 +1,0 @@
-version: 43.0.9
-pageUuid: 2ed202d2-7745-11ee-8857-f37cb654762e
-appTemplate:
-  appMaxWidth: 1560px
-  rootScreen: tabscreen
-  isMobileApp: true
-  version: 3.33.0
-  multiScreenMobileApp: true
-  experimentalDataTabEnabled: true

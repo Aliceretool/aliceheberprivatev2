@@ -1,0 +1,15 @@
+mutation ApproveRecruitmentStep($input: RecruitmentStepInput!) {
+  approveRecruitmentStep(recruitmentStepInput: $input) {
+    recruitmentStep {
+      id
+      type
+      status
+      result
+    }
+    errors {
+      code
+      parameter
+      message
+    }
+  }
+}

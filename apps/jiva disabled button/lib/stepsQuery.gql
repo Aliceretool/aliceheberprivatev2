@@ -1,0 +1,51 @@
+query RecruitmentSteps($candidateFilters: CandidateFilterInput, $afterCursor: String, $statuses: [RecruitmentStepStatusEnum!]){
+  recruitmentSteps(candidateFilters: $candidateFilters, type: SCREENER, first: 10, after: $afterCursor, statuses: $statuses){
+    pageInfo{
+      startCursor
+      endCursor
+      hasNextPage
+    }
+    nodes{
+      id
+      candidate{
+        id
+        givenName
+        phoneNumber
+        cropType
+        locationId
+        location{
+          region
+        }
+        address{
+          streetAddress
+          village
+          subDistrict
+          district
+        }
+        createdAt
+        referralSource
+      }
+      ... on ScreenerStep{
+        submissionStatus
+        pendingSince
+        notes{
+          content
+          createdAt
+          createdBy{
+            displayName
+          }
+        }
+        screenerSubmission{
+          confidenceLevel
+          score
+          category
+          screenerAnswers{
+            id
+            questionText
+            answer
+          }
+        }
+      }
+    }
+  }
+}

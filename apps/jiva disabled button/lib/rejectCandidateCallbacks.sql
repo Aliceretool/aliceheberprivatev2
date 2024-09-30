@@ -1,0 +1,1 @@
+select * from {{rejectCandidate1.candidateRejected}}
