@@ -9,6 +9,7 @@
     type="main"
   >
     <Button id="button1" text="Button" />
+    <Button id="button2" text="Button" />
     <Module
       id="navbarModule1"
       name="navbar module"
