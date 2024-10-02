@@ -10,6 +10,7 @@
     sticky={null}
     type="main"
   >
+    <Button id="button2" text="Button" />
     <Module
       id="navbarModule1"
       margin="0"
