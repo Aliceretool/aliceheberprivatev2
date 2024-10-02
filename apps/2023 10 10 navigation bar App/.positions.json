@@ -1,11 +1,17 @@
 {
   "button1": {
-    "row": 4.4,
+    "row": 5.4,
     "col": 6,
     "height": 1
   },
-  "navbarModule1": {
+  "button2": {
     "row": 2,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
+  "navbarModule1": {
+    "row": 3,
     "height": 2.4,
     "width": 12
   }
