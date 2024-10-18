@@ -1,1 +1,0 @@
-return {{ getIssue4.data.assigned_to[0] == current_user.email }} 

@@ -1,1 +1,0 @@
-return {{ formatDataAsArray(getUser_FilteredProject2.data).filter(x => x.userID == getIssue4.data.department_manager[0])[0].email == current_user.email }}

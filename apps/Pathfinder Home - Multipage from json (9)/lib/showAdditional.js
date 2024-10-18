@@ -1,1 +1,0 @@
-return !({{ textArea_withdrawlJustification.value || textArea_impactQSE.value || textArea_impactSupplierClientScheduling.value || textArea_proposedModificationJustification.value || select_typeOfModificationDetail.value }})

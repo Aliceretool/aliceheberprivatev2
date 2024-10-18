@@ -1,1 +1,0 @@
-return {{ getUsers_filteredProjectRole_CRFAdmin.data.project_role.includes("CRF - Administrator") }} 

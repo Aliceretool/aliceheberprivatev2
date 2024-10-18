@@ -1,1 +1,0 @@
-return !({{ textArea3.value || textArea4.value || textArea5.value}})

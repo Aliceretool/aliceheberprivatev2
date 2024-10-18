@@ -1,1 +1,0 @@
-utils.changeLocale(navigation1.language)

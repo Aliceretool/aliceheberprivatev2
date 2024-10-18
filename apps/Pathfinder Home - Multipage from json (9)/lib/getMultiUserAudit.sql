@@ -1,1 +1,0 @@
-SELECT * FROM multi_user_audit

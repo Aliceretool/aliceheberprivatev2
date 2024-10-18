@@ -1,1 +1,0 @@
-return {{ getUser_ProjectRoles3.data.project_role.includes("CRF - Administrator") }} 

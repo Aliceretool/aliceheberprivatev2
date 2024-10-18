@@ -1,1 +1,0 @@
-return {{ ['Approved'].includes(transitionNameTemp3.value) && getIssue6.data.status_value[0] == 'Awaiting Committee Review' || ['More Information Needed'].includes(transitionNameTemp3.value)  }}

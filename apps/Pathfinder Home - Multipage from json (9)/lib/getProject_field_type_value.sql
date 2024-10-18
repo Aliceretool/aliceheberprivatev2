@@ -1,3 +1,0 @@
-SELECT *
-FROM project_field_type_value
-WHERE {{table_project_field_project_type.selectedRow.project_field_project_typeID}} = project_field_project_typeID

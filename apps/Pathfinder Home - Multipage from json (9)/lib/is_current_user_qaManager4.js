@@ -1,1 +1,0 @@
-return {{ getUser_ProjectRoles5.data.project_role.includes("Deviation – Manager") }} 

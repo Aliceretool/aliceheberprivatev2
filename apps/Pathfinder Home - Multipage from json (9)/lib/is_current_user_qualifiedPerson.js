@@ -1,1 +1,0 @@
-return {{ getUser_ProjectRoles.data.project_role.includes("Deviation – Qualified Person") }} 

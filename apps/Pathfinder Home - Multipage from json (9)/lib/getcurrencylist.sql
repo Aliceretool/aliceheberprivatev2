@@ -1,1 +1,0 @@
-select * from currencies order by currency_code ASC

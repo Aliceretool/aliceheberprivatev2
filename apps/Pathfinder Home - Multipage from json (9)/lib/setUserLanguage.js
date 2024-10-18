@@ -1,1 +1,0 @@
-utils.changeLocale(getUserLanguage.data.code[0])
