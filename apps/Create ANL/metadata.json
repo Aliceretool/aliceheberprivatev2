@@ -1,0 +1,89 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "4e5c1e69-74be-45a7-8db1-80a65961766c",
+  "appTemplate": {
+    "appThemeId": "custom",
+    "pageCodeFolders": {
+      "object": {
+        "getProject_field_typeofbatch_values": {
+          "array": []
+        },
+        "selectTypeofBatch": {
+          "array": []
+        },
+        "getProject_field_type_of_certification": {
+          "array": []
+        },
+        "selectTypeofCertification": {
+          "array": []
+        },
+        "textInput_BatchNos": {
+          "array": []
+        },
+        "textInput_ItemNo": {
+          "array": []
+        },
+        "textInput_Parent_Batch_No": {
+          "array": []
+        },
+        "textInput_Pack_Type": {
+          "array": []
+        },
+        "textInput_Yield": {
+          "array": []
+        },
+        "getClients": {
+          "array": []
+        },
+        "textInput_certification_other": {
+          "array": []
+        },
+        "getProject_field_markets": {
+          "array": []
+        },
+        "textInput_LabNos": {
+          "array": []
+        },
+        "textInput_Method": {
+          "array": []
+        },
+        "textInput_Test": {
+          "array": []
+        },
+        "project_ID": {
+          "array": []
+        },
+        "getProject_field_type_of_analysis": {
+          "array": []
+        },
+        "selectTypeofAnalysis": {
+          "array": []
+        },
+        "textInput_analysis_other": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "appThemeName": "Custom app theme",
+    "version": "3.63.0",
+    "experimentalDataTabEnabled": true
+  }
+}

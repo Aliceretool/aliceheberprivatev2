@@ -1,0 +1,43 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "fd1c38df-e8ea-489f-a726-cf3c9a713459",
+  "appTemplate": {
+    "appThemeId": "custom",
+    "pageCodeFolders": {
+      "object": {
+        "getProject_field_responsibleDepartment_valuesCopy": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "appThemeName": "Custom app theme",
+    "version": "3.95.0",
+    "internationalizationSettings": {
+      "object": {
+        "internationalizationEnabled": true,
+        "internationalizationFiles": {
+          "array": ["common.json"]
+        }
+      }
+    },
+    "experimentalDataTabEnabled": true
+  }
+}

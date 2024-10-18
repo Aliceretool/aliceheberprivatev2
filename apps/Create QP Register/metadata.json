@@ -1,0 +1,58 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "318d5d36-adac-4647-a3be-7009823a13ec",
+  "appTemplate": {
+    "appThemeId": "custom",
+    "pageCodeFolders": {
+      "object": {
+        "getProject_field_typeofbatch_values": {
+          "array": []
+        },
+        "selectTypeofBatch": {
+          "array": []
+        },
+        "getProject_field_type_of_certification": {
+          "array": []
+        },
+        "selectTypeofCertification": {
+          "array": []
+        },
+        "textInput_BatchNos": {
+          "array": []
+        },
+        "textInput_ItemNo": {
+          "array": []
+        },
+        "textInput_Parent_Batch_No": {
+          "array": []
+        },
+        "textInput_Pack_Type": {
+          "array": []
+        },
+        "textInput_Yield": {
+          "array": []
+        },
+        "getClients": {
+          "array": []
+        },
+        "textInput_certification_other": {
+          "array": []
+        },
+        "getProject_field_markets": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false
+      }
+    },
+    "isGlobalWidget": true,
+    "appThemeName": "Custom app theme",
+    "version": "3.49.0",
+    "experimentalDataTabEnabled": true
+  }
+}

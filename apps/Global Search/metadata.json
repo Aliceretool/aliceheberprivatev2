@@ -1,0 +1,108 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "3e71b400-e60a-4219-bce1-fa6030073ba5",
+  "appTemplate": {
+    "inAppRetoolPillAppearance": "HIDE_MENU",
+    "pageCodeFolders": {
+      "object": {
+        "switchAssigned": {
+          "array": []
+        },
+        "AssignedToMe": {
+          "array": []
+        },
+        "getOpenAll_CurrentUser": {
+          "array": []
+        },
+        "Proj": {
+          "array": []
+        },
+        "Projec": {
+          "array": []
+        },
+        "ProjectID": {
+          "array": []
+        },
+        "pProjectID": {
+          "array": []
+        },
+        "projectID": {
+          "array": []
+        },
+        "selectAssignedTo": {
+          "array": []
+        },
+        "selectStatus_Values": {
+          "array": []
+        },
+        "project": {
+          "array": []
+        },
+        "projectVAL": {
+          "array": []
+        },
+        "projectValue": {
+          "array": []
+        },
+        "projectVALUE": {
+          "array": []
+        },
+        "dueDate": {
+          "array": []
+        },
+        "tableProject": {
+          "array": []
+        },
+        "getProject_field_typeOfModification_values": {
+          "array": []
+        },
+        "getComments": {
+          "array": []
+        },
+        "getAttachments": {
+          "array": []
+        },
+        "get_attachments": {
+          "array": []
+        },
+        "readFile": {
+          "array": []
+        },
+        "split_frame": {
+          "array": []
+        },
+        "splitPane": {
+          "array": []
+        },
+        "selectProject_Values": {
+          "array": []
+        },
+        "selectProject_value": {
+          "array": []
+        },
+        "getUser_filtered_current": {
+          "array": []
+        },
+        "ref": {
+          "array": []
+        },
+        "refres": {
+          "array": []
+        },
+        "refresh": {
+          "array": []
+        },
+        "refreshtable": {
+          "array": []
+        },
+        "triggerRefresh": {
+          "array": []
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "version": "3.105.0",
+    "experimentalDataTabEnabled": true
+  }
+}

@@ -1,0 +1,235 @@
+{
+  "button2": {
+    "container": "tabbedContainer1",
+    "subcontainer": "320e4",
+    "row": 3.8,
+    "col": 11,
+    "height": 0.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "dateRange2": {
+    "container": "tabbedContainer1",
+    "subcontainer": "a9818",
+    "col": 7,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "group1": {
+    "container": "tabbedContainer1",
+    "subcontainer": "320e4",
+    "height": 3.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "image1": {
+    "container": "moduleContainer",
+    "subcontainer": "modalFrame1",
+    "row": 0,
+    "col": 1,
+    "width": 10
+  },
+  "modalCloseButton1": {
+    "container": "moduleContainer",
+    "rowGroup": "header",
+    "subcontainer": "modalFrame1",
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "modalTitle1": {
+    "container": "moduleContainer",
+    "rowGroup": "header",
+    "subcontainer": "modalFrame1",
+    "height": 0.6,
+    "width": 6
+  },
+  "modalTitle2": {
+    "container": "moduleContainer",
+    "rowGroup": "footer",
+    "subcontainer": "modalFrame1",
+    "height": 0.6,
+    "width": 6
+  },
+  "modalTitle3": {
+    "container": "moduleContainer",
+    "rowGroup": "footer",
+    "subcontainer": "modalFrame1",
+    "row": 0,
+    "col": 6,
+    "height": 0.6,
+    "width": 6
+  },
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  },
+  "select1": {
+    "container": "moduleContainer",
+    "row": 28.2,
+    "col": 6,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "statistic1": {
+    "type": "stack",
+    "container": "group1",
+    "subcontainer": "0ca1a",
+    "row": 0,
+    "height": 0.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 309.6614583333333,
+        "height": 88
+      }
+    }
+  },
+  "statistic2": {
+    "type": "stack",
+    "container": "group1",
+    "subcontainer": "0ca1a",
+    "row": 0,
+    "col": 4,
+    "height": 0.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 322.6614583333333,
+        "height": 88
+      }
+    }
+  },
+  "statistic3": {
+    "type": "stack",
+    "container": "group1",
+    "subcontainer": "0ca1a",
+    "row": 0,
+    "col": 8,
+    "height": 0.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 314.6614583333333,
+        "height": 88
+      }
+    }
+  },
+  "tabbedContainer1": {
+    "container": "moduleContainer",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "table2": {
+    "container": "tabbedContainer1",
+    "subcontainer": "a9818",
+    "row": 0.2,
+    "height": 30.2,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "table2SearchFilter": {
+    "container": "tabbedContainer1",
+    "subcontainer": "a9818",
+    "row": 0,
+    "height": 0.2,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "table4": {
+    "container": "tabbedContainer1",
+    "subcontainer": "320e4",
+    "row": 4.6,
+    "height": 21.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "table4SearchFilter": {
+    "container": "tabbedContainer1",
+    "subcontainer": "320e4",
+    "row": 3.8,
+    "height": 0.2,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tags1": {
+    "container": "moduleContainer",
+    "rowGroup": "header",
+    "subcontainer": "modalFrame1",
+    "col": 7,
+    "height": 0.8,
+    "width": 4
+  }
+}

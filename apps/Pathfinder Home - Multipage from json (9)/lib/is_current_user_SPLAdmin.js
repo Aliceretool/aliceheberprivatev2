@@ -1,0 +1,1 @@
+return {{ getUser_ProjectRoles10.data.project_role.includes("SPL Supervisors") }} 

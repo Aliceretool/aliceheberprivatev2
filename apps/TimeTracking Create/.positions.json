@@ -1,0 +1,82 @@
+{
+  "checkbox_planTimePeriod2": {
+    "container": "form16",
+    "row": 5.4,
+    "col": 1,
+    "height": 0.6,
+    "width": 1
+  },
+  "dateRange_planTime2": {
+    "container": "form16",
+    "row": 1.2,
+    "col": 2,
+    "height": 0.2,
+    "width": 4
+  },
+  "form16": {
+    "container": "moduleContainer",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "formButton12": {
+    "container": "form16",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formTitle16": {
+    "container": "form16",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 11
+  },
+  "modalCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "modalFrame1",
+    "col": 9,
+    "height": 1
+  },
+  "modalTitle1": {
+    "rowGroup": "header",
+    "subcontainer": "modalFrame1",
+    "height": 0.6,
+    "width": 9
+  },
+  "moduleContainer": {
+    "height": 8.4,
+    "width": 6
+  },
+  "numberInput_time2": {
+    "container": "form16",
+    "row": 1.2,
+    "height": 0.2,
+    "width": 2
+  },
+  "select32": {
+    "container": "form16",
+    "height": 0.2,
+    "width": 12
+  },
+  "select33": {
+    "container": "form16",
+    "row": 1.2,
+    "col": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "textArea_planTimeDescription2": {
+    "container": "form16",
+    "row": 0.2,
+    "height": 1,
+    "width": 12
+  }
+}

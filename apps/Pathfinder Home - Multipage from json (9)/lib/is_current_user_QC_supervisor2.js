@@ -1,0 +1,1 @@
+return {{ getUser_ProjectRoles7.data.project_role.includes("RSN Supervisors") }} 

@@ -1,0 +1,1 @@
+return ({{ pageInput1.value }}-1)*10

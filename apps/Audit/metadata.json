@@ -1,0 +1,90 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "bb5fc372-ad3c-4e59-bf4a-1862b74ef2e1",
+  "appTemplate": {
+    "inAppRetoolPillAppearance": "HIDE_MENU",
+    "pageCodeFolders": {
+      "object": {
+        "format_audit_for_timeline": {
+          "array": []
+        },
+        "getPathfinderAudit_issue": {
+          "array": []
+        },
+        "auditsToFetch": {
+          "array": []
+        },
+        "getAvatarUrl": {
+          "array": []
+        },
+        "getIssue": {
+          "array": []
+        },
+        "issueID": {
+          "array": []
+        },
+        "getPathfinderAudit_issueCount": {
+          "array": []
+        },
+        "issue": {
+          "array": []
+        },
+        "issueI": {
+          "array": []
+        },
+        "getComments": {
+          "array": []
+        },
+        "current_project_id": {
+          "array": []
+        },
+        "getUser_FilteredProject": {
+          "array": []
+        },
+        "insComments": {
+          "array": []
+        },
+        "u": {
+          "array": []
+        },
+        "user": {
+          "array": []
+        },
+        "userID": {
+          "array": []
+        },
+        "auditoffset": {
+          "array": []
+        },
+        "formatTransitions": {
+          "array": []
+        },
+        "offsetFromPagination": {
+          "array": []
+        },
+        "getPathfinderAudit_issue_allData": {
+          "array": []
+        },
+        "getPathfinderUsers": {
+          "array": []
+        },
+        "formatusers": {
+          "array": []
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "version": "3.105.0",
+    "internationalizationSettings": {
+      "object": {
+        "internationalizationEnabled": true,
+        "internationalizationFiles": {
+          "array": ["common.json"]
+        }
+      }
+    },
+    "loadingIndicatorsDisabled": true,
+    "experimentalDataTabEnabled": true
+  }
+}

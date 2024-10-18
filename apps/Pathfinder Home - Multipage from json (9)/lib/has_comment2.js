@@ -1,0 +1,1 @@
+return {{ ['More Information Needed', 'Rejected','Send for Approval','Pending Information'].includes(transitionNameTemp2.value) }}

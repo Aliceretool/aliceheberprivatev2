@@ -1,0 +1,1 @@
+select * from time_accounts t where t.status = "Open"

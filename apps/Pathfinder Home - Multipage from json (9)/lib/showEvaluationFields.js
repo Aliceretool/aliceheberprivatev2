@@ -1,0 +1,1 @@
+return !({{ select_chooseQP_display.value || select_classificationDisposition_display.value || select_classificationEvaluationOfRelated_display.value || select_classificationNotification_display.value || select_classificationRecurrence_display.value || select_classificationRootCause_display.value || select_classificationSeverity_display.value || textArea6.value }})

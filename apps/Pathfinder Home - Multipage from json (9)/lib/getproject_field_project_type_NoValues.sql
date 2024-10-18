@@ -1,0 +1,3 @@
+SELECT pf.project_field_project_typeID
+FROM project_field_project_type pf LEFT OUTER JOIN project_field_type_value v on pf.project_field_project_typeID = v.project_field_project_typeID
+WHERE v.project_field_type_valueID is NULL

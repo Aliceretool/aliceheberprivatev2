@@ -1,0 +1,118 @@
+{
+  "button4": {
+    "container": "form1",
+    "rowGroup": "footer",
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
+  "date_due": {
+    "container": "form1",
+    "row": 6.4,
+    "col": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "form1": {
+    "container": "moduleContainer",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "formButton2": {
+    "container": "form_createIssue",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formButton3": {
+    "container": "form1",
+    "rowGroup": "footer",
+    "col": 9,
+    "height": 1
+  },
+  "formTitle2": {
+    "container": "form_createIssue",
+    "rowGroup": "header",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 6
+  },
+  "formTitle3": {
+    "container": "form1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "form_createIssue": {
+    "container": "moduleContainer",
+    "height": 0.2,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 21.6,
+    "width": 6
+  },
+  "richTextEditor_description": {
+    "container": "form1",
+    "row": 0.2,
+    "height": 4,
+    "width": 12
+  },
+  "selectProject": {
+    "container": "form_createIssue",
+    "height": 0.2,
+    "width": 6
+  },
+  "selectProjectType": {
+    "container": "form_createIssue",
+    "row": 0,
+    "col": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "selectTypeofAnalysis": {
+    "container": "form1",
+    "row": 6,
+    "col": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "select_assignee": {
+    "container": "form1",
+    "row": 6.4,
+    "height": 0.2,
+    "width": 6
+  },
+  "textInput_LabNos": {
+    "container": "form1",
+    "row": 5.8,
+    "height": 0.2,
+    "width": 6
+  },
+  "textInput_Method": {
+    "container": "form1",
+    "row": 5.8,
+    "col": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "textInput_Test": {
+    "container": "form1",
+    "row": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "textInput_analysis_other": {
+    "container": "form1",
+    "row": 6.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "textInput_issue": {
+    "container": "form1",
+    "height": 0.2,
+    "width": 12
+  }
+}
