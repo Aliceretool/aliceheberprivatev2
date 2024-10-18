@@ -1,0 +1,1 @@
+SELECT u.userID, p.project_roleID from user u CROSS JOIN project_role p

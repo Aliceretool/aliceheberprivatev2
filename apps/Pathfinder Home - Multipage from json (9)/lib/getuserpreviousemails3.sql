@@ -1,0 +1,1 @@
+select * from client_outgoing_emails where client_outgoing_emails.userID = {{table3.selectedRow.userID}} order by sent_date_time desc 

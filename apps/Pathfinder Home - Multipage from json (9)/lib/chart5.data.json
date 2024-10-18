@@ -1,0 +1,39 @@
+[
+  {
+    "name": "count",
+    "x": {{getIssueOverTime.data.year_week}},
+    "y": {{getIssueOverTime.data['count']}},
+    type: "scatter", // Changed from "line" to "scatter"
+    mode: "lines", // Ensures only lines are drawn
+    line: {
+      shape: "spline", // Makes the line smooth
+      color: "#1E3A8A", // Line color
+      width: 2 // Line width (adjust as needed)
+    },
+    "fill": "tozeroy",
+    "hovertemplate": "<b>%{x}</b><br>%{fullData.name}: %{y}<extra></extra>",
+    "transforms": [
+      {
+        "type": "sort",
+        "target": {{getIssueOverTime.data.year_week}},
+        "order": "ascending"
+      },
+      {
+        "type": "aggregate",
+        "groups": {{getIssueOverTime.data.year_week}},
+        "aggregations": [
+          {
+            "target": "y",
+            "func": "sum",
+            "enabled": true
+          }
+        ]
+      }
+    ],
+    "marker": {
+      "size":0,
+      "color": "#1E3A8A"
+    },
+    "mode": "line"
+  }
+]

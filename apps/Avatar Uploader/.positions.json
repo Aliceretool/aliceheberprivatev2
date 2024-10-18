@@ -1,0 +1,31 @@
+{
+  "button1": {
+    "container": "moduleContainer",
+    "row": 0.4,
+    "col": 2,
+    "height": 1,
+    "width": 4
+  },
+  "button2": {
+    "container": "moduleContainer",
+    "row": 3.2,
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "fileInput1": {
+    "container": "moduleContainer",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 13.6,
+    "width": 12
+  },
+  "select1": {
+    "container": "moduleContainer",
+    "height": 0.2,
+    "width": 12
+  }
+}

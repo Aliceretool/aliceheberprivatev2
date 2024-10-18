@@ -1,0 +1,276 @@
+{
+  "button4": {
+    "container": "moduleContainer",
+    "row": 0.4,
+    "col": 6,
+    "height": 1,
+    "width": 2
+  },
+  "button_createDeviation": {
+    "container": "moduleContainer",
+    "row": 0.4,
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "date_due": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "col": 6,
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 8,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "date_incident": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "deviation_container": {
+    "container": "moduleContainer",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "formButton2": {
+    "container": "form_createIssue",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formTitle2": {
+    "container": "form_createIssue",
+    "rowGroup": "header",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 8
+  },
+  "form_createIssue": {
+    "container": "moduleContainer",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "moduleContainer": {
+    "height": 18,
+    "width": 6
+  },
+  "multiselect_concernedUsers": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "row": 12.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "richTextEditor_description": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "row": 0.4,
+    "height": 4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selectProject": {
+    "container": "form_createIssue",
+    "height": 0.2,
+    "width": 4
+  },
+  "selectProjectType": {
+    "container": "form_createIssue",
+    "col": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "selectResponsibleDepartment": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "row": 6.2,
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selectResponsiblePerson": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "row": 6.2,
+    "col": 6,
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 9,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "switchEquipmentAffected": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "row": 4.4,
+    "col": 6,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 11,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "switchProductsAffected": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "row": 4.4,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 10,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tabs1": {
+    "container": "deviation_container",
+    "rowGroup": "header",
+    "height": 0.8,
+    "width": 12
+  },
+  "textArea_equipmentEffectedComment": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "row": 5,
+    "col": 6,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textArea_productEffectedComment": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "row": 5,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 12,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_batchNo": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "row": 6,
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_code": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "row": 6,
+    "col": 6,
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_issue": {
+    "container": "deviation_container",
+    "subcontainer": "aeee3",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

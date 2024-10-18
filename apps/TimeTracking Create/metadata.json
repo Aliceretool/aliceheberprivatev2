@@ -1,0 +1,44 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "723e21ae-03d7-4006-9534-a60f615b82ef",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "getIssues": {
+          "array": []
+        },
+        "getTimeCodes": {
+          "array": []
+        },
+        "getUser": {
+          "array": []
+        },
+        "insTime": {
+          "array": []
+        },
+        "getTimeAccount": {
+          "array": []
+        },
+        "cl": {
+          "array": []
+        },
+        "close": {
+          "array": []
+        }
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "version": "3.101.0"
+  }
+}

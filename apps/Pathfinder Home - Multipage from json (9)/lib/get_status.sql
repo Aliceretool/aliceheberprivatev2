@@ -1,0 +1,1 @@
+SELECT issue_index, project_value, status_value, COUNT(*) FROM issue where projectID ={{project_id2.value}} AND status_value not in ("Closed", "Done", "Rejected", "Withdrawan") GROUP BY status_value;

@@ -1,0 +1,620 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "9e37026c-8d56-11ef-95a8-c3ea46f19b4a",
+  "appTemplate": {
+    "appMaxWidth": "1420px",
+    "appThemeId": "custom",
+    "inAppRetoolPillAppearance": "HIDE_MENU",
+    "experimentalFeatures": {
+      "object": {
+        "sourceControlTemplateDehydration": false,
+        "multiplayerEditingEnabled": false,
+        "disableMultiplayerEditing": true
+      }
+    },
+    "pageCodeFolders": {
+      "object": {
+        "defaultPage": {
+          "array": ["user", "parameter", "exelcis_Email", "projects"]
+        },
+        "page1": {
+          "array": []
+        },
+        "page2": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "transitions",
+            "projectField",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship",
+            "project_field_translation",
+            "related_tests"
+          ]
+        },
+        "page3": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "transitions",
+            "projectField",
+            "riskAnalysis",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship"
+          ]
+        },
+        "CAPA_Home": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "capa_stats",
+            "comments",
+            "S3"
+          ]
+        },
+        "CAPA_Specific": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "transitions",
+            "projectField",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship",
+            "project_field_translation"
+          ]
+        },
+        "Pathfinder_home": {
+          "array": ["user", "parameter", "exelcis_Email", "projects"]
+        },
+        "Deviations": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "audit",
+            "deviation_stats",
+            "comments",
+            "S3"
+          ]
+        },
+        "deviation_specific": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "tasks",
+            "projectField",
+            "watchers",
+            "collaborators",
+            "comments",
+            "S3",
+            "audit",
+            "notifications",
+            "project_field_translation"
+          ]
+        },
+        "Deviation_specific": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "tasks",
+            "projectField",
+            "watchers",
+            "collaborators",
+            "comments",
+            "S3",
+            "audit",
+            "notifications",
+            "project_field_translation"
+          ]
+        },
+        "getLoggedInUser": {
+          "array": []
+        },
+        "darkMode": {
+          "array": []
+        },
+        "Change_Requests": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "crf_stats",
+            "comments",
+            "S3",
+            "tasks"
+          ]
+        },
+        "CRF_Issue": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "issue_approval",
+            "transitions",
+            "projectField",
+            "riskAnalysis",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship",
+            "tasks",
+            "audit"
+          ]
+        },
+        "setUserDarkMode": {
+          "array": []
+        },
+        "getUserDarkMode": {
+          "array": []
+        },
+        "GlobalSearch": {
+          "array": []
+        },
+        "getUserData": {
+          "array": []
+        },
+        "closeprofilemodal": {
+          "array": []
+        },
+        "QPRegister_Home": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "comments",
+            "QP_stats",
+            "language",
+            "S3"
+          ]
+        },
+        "QPRegister_Issue": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "transitions",
+            "projectField",
+            "riskAnalysis",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship"
+          ]
+        },
+        "AInv_home": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "comments",
+            "ANL_stats",
+            "S3"
+          ]
+        },
+        "AInv_Issue": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "transitions",
+            "projectField",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship"
+          ]
+        },
+        "RSN_Home": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "RSN_stats"
+          ]
+        },
+        "RSN_Details": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "transitions",
+            "projectField",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship"
+          ]
+        },
+        "SPL_Home": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "SPL_stats",
+            "tasks"
+          ]
+        },
+        "SPL_Detail": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "transitions",
+            "projectField",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship",
+            "project_field_translation",
+            "related_tests"
+          ]
+        },
+        "Deviation_Specific": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "tasks",
+            "projectField",
+            "watchers",
+            "collaborators",
+            "comments",
+            "S3",
+            "audit",
+            "notifications",
+            "project_field_translation"
+          ]
+        },
+        "Deviation_Home": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "audit",
+            "deviation_stats",
+            "comments",
+            "S3"
+          ]
+        },
+        "System_Configuration": {
+          "array": [
+            "Parameter",
+            "user",
+            "project",
+            "user_project_role",
+            "project_type",
+            "project_role",
+            "project_field",
+            "project_field_project_type",
+            "project_field_type_value",
+            "Storage",
+            "field_relationship",
+            "language",
+            "project_field_translation"
+          ]
+        },
+        "closetimemodal": {
+          "array": []
+        },
+        "CRM": {
+          "array": ["S3", "Products", "getCRFIssues", "samples", "clients"]
+        },
+        "Enquiries": {
+          "array": []
+        },
+        "Products": {
+          "array": []
+        },
+        "TTCodes": {
+          "array": []
+        },
+        "myProfileModal": {
+          "array": []
+        },
+        "modal_myProfile": {
+          "array": []
+        },
+        "DEVIATION_Home": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "audit",
+            "deviation_stats",
+            "comments",
+            "S3"
+          ]
+        },
+        "DEVIATION_Specific": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "tasks",
+            "projectField",
+            "watchers",
+            "collaborators",
+            "comments",
+            "S3",
+            "audit",
+            "notifications",
+            "project_field_translation"
+          ]
+        },
+        "getIssueOverTime": {
+          "array": []
+        },
+        "cssBackgroundColor": {
+          "array": []
+        },
+        "cssBackground": {
+          "array": []
+        },
+        "cssBackgroundSecondaryColor": {
+          "array": []
+        },
+        "CRF_Home": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "crf_stats",
+            "comments",
+            "S3",
+            "tasks"
+          ]
+        },
+        "get_Suppliers": {
+          "array": []
+        },
+        "get_Buyers": {
+          "array": []
+        },
+        "AINV_home": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "comments",
+            "ANL_stats",
+            "S3"
+          ]
+        },
+        "AINV_Issue": {
+          "array": [
+            "user",
+            "project",
+            "projectType",
+            "issue",
+            "transitions",
+            "projectField",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship"
+          ]
+        },
+        "AINV_Home": {
+          "array": [
+            "user",
+            "project",
+            "project_type",
+            "issue",
+            "status",
+            "ANL_stats"
+          ]
+        },
+        "CRF_Task": {
+          "array": [
+            "user",
+            "project",
+            "issue",
+            "transitions",
+            "projectField",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship",
+            "projectType",
+            "siblingTasks"
+          ]
+        },
+        "taskID": {
+          "array": []
+        },
+        "task_typeID": {
+          "array": []
+        },
+        "site_today": {
+          "array": []
+        },
+        "users_perGroupStaff": {
+          "array": []
+        },
+        "users_perGroupVisitors": {
+          "array": []
+        },
+        "users_perGroupContractors": {
+          "array": []
+        },
+        "groups": {
+          "array": []
+        },
+        "deleteS3File9": {
+          "array": []
+        },
+        "get_ip_address_main": {
+          "array": []
+        },
+        "get_user_ip_address": {
+          "array": []
+        },
+        "TEST": {
+          "array": [
+            "user",
+            "project",
+            "issue",
+            "transitions",
+            "projectField",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship"
+          ]
+        },
+        "button_stopWatching17": {
+          "array": []
+        },
+        "SPL_TEST": {
+          "array": [
+            "user",
+            "project",
+            "issue",
+            "transitions",
+            "projectField",
+            "watchers",
+            "comments",
+            "S3",
+            "field_relationship"
+          ]
+        },
+        "Today": {
+          "array": []
+        },
+        "Todayxxdeletexx": {
+          "array": []
+        },
+        "getIssueOverTime_PerProject": {
+          "array": []
+        },
+        "getsiblingTasks": {
+          "array": []
+        },
+        "getSiblingTasks": {
+          "array": []
+        },
+        "parentIssueID": {
+          "array": []
+        },
+        "getSiblingTasksProgress": {
+          "array": []
+        },
+        "updIssue_wrongstatusvalue": {
+          "array": []
+        },
+        "modalFrameAI": {
+          "array": []
+        },
+        "generative_text": {
+          "array": []
+        },
+        "uploadDocument": {
+          "array": []
+        },
+        "convert_toText": {
+          "array": []
+        },
+        "vector_chat": {
+          "array": []
+        },
+        "parsePDF": {
+          "array": []
+        },
+        "summarizePDF": {
+          "array": []
+        },
+        "PDFChatQuery": {
+          "array": []
+        },
+        "generateTopicWF": {
+          "array": []
+        },
+        "modalAIChat": {
+          "array": []
+        },
+        "botLogo": {
+          "array": []
+        },
+        "randNo": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false
+      }
+    },
+    "rootScreen": "Pathfinder_home",
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isFetching": true,
+    "version": "3.106.0",
+    "internationalizationSettings": {
+      "object": {
+        "internationalizationEnabled": true,
+        "internationalizationFiles": {
+          "array": ["common.json"]
+        }
+      }
+    },
+    "loadingIndicatorsDisabled": true,
+    "experimentalDataTabEnabled": true
+  }
+}

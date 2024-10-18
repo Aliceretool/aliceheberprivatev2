@@ -1,0 +1,1 @@
+return {{ ['Reopen CAPA', 'Withdrawl Rejected', 'Withdrawl Accepted','Modification Rejected', 'Modification Accepted'].includes(transitionNameTemp5.value) }}

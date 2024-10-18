@@ -1,0 +1,1 @@
+select c.id, c.company_name, c.type from clients c

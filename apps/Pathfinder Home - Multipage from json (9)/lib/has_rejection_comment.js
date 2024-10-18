@@ -1,0 +1,1 @@
+return {{ ['Reject'].includes(transitionNameTemp3.value) }}

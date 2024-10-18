@@ -1,0 +1,83 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "b7ad1be8-686f-4df8-8e73-09afabf0c3da",
+  "appTemplate": {
+    "appThemeId": "custom",
+    "pageCodeFolders": {
+      "object": {
+        "getTests": {
+          "array": []
+        },
+        "t": {
+          "array": []
+        },
+        "test": {
+          "array": []
+        },
+        "testSummary": {
+          "array": []
+        },
+        "test_Summary": {
+          "array": []
+        },
+        "test_ummary": {
+          "array": []
+        },
+        "test_summary": {
+          "array": []
+        },
+        "test_": {
+          "array": []
+        },
+        "test_desc": {
+          "array": []
+        },
+        "test_descrip": {
+          "array": []
+        },
+        "test_description": {
+          "array": []
+        },
+        "project_id": {
+          "array": []
+        },
+        "project_type_id": {
+          "array": []
+        },
+        "updateParentIssueStatus": {
+          "array": []
+        },
+        "getProject_field_status_values_parent": {
+          "array": []
+        },
+        "setNextTaskIssueIdx": {
+          "array": []
+        },
+        "getHighestTaskIssueIndex": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "appThemeName": "Custom app theme",
+    "version": "3.104.0",
+    "experimentalDataTabEnabled": true
+  }
+}

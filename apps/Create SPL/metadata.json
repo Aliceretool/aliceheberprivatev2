@@ -1,0 +1,158 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "7e2b05fe-7c0c-4c9c-b788-c8742cbe130d",
+  "appTemplate": {
+    "appThemeId": "custom",
+    "pageCodeFolders": {
+      "object": {
+        "getProject_field_typeofbatch_values": {
+          "array": []
+        },
+        "selectTypeofBatch": {
+          "array": []
+        },
+        "getProject_field_type_of_certification": {
+          "array": []
+        },
+        "selectTypeofCertification": {
+          "array": []
+        },
+        "textInput_BatchNos": {
+          "array": []
+        },
+        "textInput_ItemNo": {
+          "array": []
+        },
+        "textInput_Parent_Batch_No": {
+          "array": []
+        },
+        "textInput_Pack_Type": {
+          "array": []
+        },
+        "textInput_Yield": {
+          "array": []
+        },
+        "getClients": {
+          "array": []
+        },
+        "textInput_certification_other": {
+          "array": []
+        },
+        "getProject_field_markets": {
+          "array": []
+        },
+        "textInput_LabNos": {
+          "array": []
+        },
+        "textInput_Method": {
+          "array": []
+        },
+        "textInput_Test": {
+          "array": []
+        },
+        "project_ID": {
+          "array": []
+        },
+        "getProject_field_type_of_analysis": {
+          "array": []
+        },
+        "selectTypeofAnalysis": {
+          "array": []
+        },
+        "textInput_analysis_other": {
+          "array": []
+        },
+        "textInput_Name": {
+          "array": []
+        },
+        "selectphMeter": {
+          "array": []
+        },
+        "textInput_pHMeterID": {
+          "array": []
+        },
+        "selectpHMeter": {
+          "array": []
+        },
+        "selectBalanceSlip": {
+          "array": []
+        },
+        "textInput_BalanceSlip": {
+          "array": []
+        },
+        "calibrationDate": {
+          "array": []
+        },
+        "textInput_reason": {
+          "array": []
+        },
+        "date_expiry": {
+          "array": []
+        },
+        "textInput_LPR": {
+          "array": []
+        },
+        "select_productName": {
+          "array": []
+        },
+        "getProducts": {
+          "array": []
+        },
+        "textInput_Dose": {
+          "array": []
+        },
+        "textInput_Code": {
+          "array": []
+        },
+        "textInput_Type": {
+          "array": []
+        },
+        "textInput_GRN": {
+          "array": []
+        },
+        "textInput_QTYRecieved": {
+          "array": []
+        },
+        "textInput_IBN": {
+          "array": []
+        },
+        "textInput_EBN": {
+          "array": []
+        },
+        "textInput_Testing": {
+          "array": []
+        },
+        "textInput_Reference_Retention": {
+          "array": []
+        },
+        "textInput_stb_protocol": {
+          "array": []
+        },
+        "textInput_stb_conditions": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "appThemeName": "Custom app theme",
+    "version": "3.64.0",
+    "experimentalDataTabEnabled": true
+  }
+}

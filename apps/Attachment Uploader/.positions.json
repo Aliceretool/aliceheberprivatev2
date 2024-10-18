@@ -1,0 +1,19 @@
+{
+  "button1": {
+    "container": "moduleContainer",
+    "row": 0,
+    "col": 10,
+    "height": 2.4,
+    "width": 2
+  },
+  "fileDropzone1": {
+    "container": "moduleContainer",
+    "row": 2.4,
+    "height": 2.4,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  }
+}

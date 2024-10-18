@@ -1,0 +1,1 @@
+select * from tests t where t.isActive = 1

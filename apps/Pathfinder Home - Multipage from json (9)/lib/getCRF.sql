@@ -1,0 +1,1 @@
+select i.issue_index, i.issue, i.status_value from issue i where projectID = {{ crf_project.value }}

@@ -1,0 +1,5 @@
+[
+  { "key": "emailUser", "value": " {{switch10.value}}" },
+  { "key": "theTopic", "value": "{{ textInput85.value }}" },
+  { "key": "theUser", "value": "{{ getUserData.data.email }}" }
+]

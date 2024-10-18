@@ -1,0 +1,139 @@
+{
+  "button4": {
+    "container": "form1",
+    "rowGroup": "footer",
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
+  "button5": {
+    "container": "moduleContainer",
+    "row": 0.4,
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
+  "date_due": {
+    "container": "form1",
+    "row": 4.2,
+    "col": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "form1": {
+    "container": "moduleContainer",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "formButton2": {
+    "container": "form_createIssue",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formButton3": {
+    "container": "form1",
+    "rowGroup": "footer",
+    "col": 9,
+    "height": 1
+  },
+  "formTitle2": {
+    "container": "form_createIssue",
+    "rowGroup": "header",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "formTitle3": {
+    "container": "form1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "form_createIssue": {
+    "container": "moduleContainer",
+    "height": 0.2,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 20.8,
+    "width": 12
+  },
+  "multiselect_sourceOfChange": {
+    "container": "form1",
+    "row": 4.6,
+    "height": 0.2,
+    "width": 6
+  },
+  "richTextEditor_description": {
+    "container": "form1",
+    "row": 0.2,
+    "height": 4,
+    "width": 12
+  },
+  "selectProject": {
+    "container": "form_createIssue",
+    "height": 0.2,
+    "width": 6
+  },
+  "selectProjectType": {
+    "container": "form_createIssue",
+    "col": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "selectResponsibleDepartment": {
+    "container": "form1",
+    "row": 4.4,
+    "height": 0.2,
+    "width": 6
+  },
+  "selectResponsiblePerson": {
+    "container": "form1",
+    "row": 4.4,
+    "col": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "select_assignee": {
+    "container": "form1",
+    "row": 4.2,
+    "height": 0.2,
+    "width": 6
+  },
+  "select_reference": {
+    "container": "moduleContainer",
+    "row": 0.4,
+    "col": 3,
+    "height": 0.2,
+    "width": 4
+  },
+  "select_type": {
+    "container": "form1",
+    "row": 4.6,
+    "col": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "textInput_issue": {
+    "container": "form1",
+    "height": 0.2,
+    "width": 12
+  },
+  "textInput_specificReference": {
+    "container": "moduleContainer",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 4
+  }
+}

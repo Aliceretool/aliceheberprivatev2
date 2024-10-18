@@ -1,0 +1,313 @@
+{
+  "date_due": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 1.8,
+    "col": 6,
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 13,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "form1": {
+    "container": "moduleContainer",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "formButton2": {
+    "container": "form_createIssue",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formButton3": {
+    "container": "steppedContainer1",
+    "rowGroup": "footer",
+    "row": 0,
+    "col": 8,
+    "height": 1,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 15,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "formTitle2": {
+    "container": "form_createIssue",
+    "rowGroup": "header",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 6
+  },
+  "formTitle3": {
+    "container": "form1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "form_createIssue": {
+    "container": "moduleContainer",
+    "height": 0.2,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 21.6,
+    "width": 12
+  },
+  "selectProject": {
+    "container": "form_createIssue",
+    "height": 0.2,
+    "width": 6
+  },
+  "selectProjectType": {
+    "container": "form_createIssue",
+    "row": 0,
+    "col": 6,
+    "height": 0.2,
+    "width": 6
+  },
+  "select_assignee": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 1.8,
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 14,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "select_productName": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 12,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "steppedContainer1": {
+    "container": "form1",
+    "height": 0.2,
+    "width": 12
+  },
+  "textArea1": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.8,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 16,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_Code": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.2,
+    "col": 6,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 11,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_Dose": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.2,
+    "col": 4,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_EBN": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.4,
+    "col": 9,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 8,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_GRN": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.4,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 9,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_IBN": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.4,
+    "col": 6,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_QTYRecieved": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.4,
+    "col": 4,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_Reference_Retention": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.6,
+    "col": 4,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_Testing": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_Type": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.2,
+    "col": 9,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 10,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_issue": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_stb_conditions": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.6,
+    "col": 9,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "textInput_stb_protocol": {
+    "container": "steppedContainer1",
+    "subcontainer": "a65c4",
+    "row": 0.6,
+    "col": 6,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "auto",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}
