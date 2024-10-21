@@ -118,7 +118,7 @@ triggerWebhooks:
             properties:
               array: []
         useHeaderApiKey: false
-        exampleInputJSON: ''
+        exampleInputJSON: '{"key": "value"}'
 version: 43.0.9
 workflowId: f98312e0-c252-4331-9fa1-d157bacb954e
 description: null
@@ -129,4 +129,4 @@ workflowTemplate:
         array: []
       query3:
         array: []
-  version: 3.52.15
+  version: 3.107.0
