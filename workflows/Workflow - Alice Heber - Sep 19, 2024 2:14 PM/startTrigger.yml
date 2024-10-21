@@ -19,13 +19,14 @@ template:
     - runWhenModelUpdates: false
     - workflowRunId: null
     - showFailureToaster: true
-    - query: return null
+    - query: 'return {"key": "value"}'
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
     - workflowRunBodyType: raw
     - privateParams: []
     - workflowBlockUuid: null
+    - queryRunOnSelectorUpdate: false
     - runWhenPageLoadsDelay: ''
     - data: null
     - importedQueryInputs:
@@ -89,5 +90,5 @@ blockData:
   blockType: webhook
   editorType: JavascriptQuery
   isMinimized: false
-  resourceName: webhook
+  resourceName: JavascriptQuery
   incomingOnSuccessEdges: []
