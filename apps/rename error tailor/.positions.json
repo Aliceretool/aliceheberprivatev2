@@ -1595,7 +1595,7 @@
     "width": 6,
     "stackPosition": {
       "object": {
-        "ordinal": 3,
+        "ordinal": 4,
         "widthType": "fill",
         "width": 1291,
         "height": 1872
@@ -1692,6 +1692,20 @@
       }
     }
   },
+  "text16": {
+    "type": "stack",
+    "container": "pageContainer",
+    "subcontainer": "c79f8",
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 239.5,
+        "height": 24
+      }
+    }
+  },
   "text3": {
     "subcontainer": "lineItemCancelModal",
     "height": 0.6,
@@ -1740,7 +1754,7 @@
     "width": 4,
     "stackPosition": {
       "object": {
-        "ordinal": 2,
+        "ordinal": 3,
         "widthType": "fixed",
         "width": 319.3333333333333,
         "height": 64
