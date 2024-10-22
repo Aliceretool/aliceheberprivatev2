@@ -34,7 +34,5 @@
     sticky={null}
     style={{ ordered: [{ canvas: "rgb(242, 242, 242)" }] }}
     type="main"
-  >
-    <Include src="./src/pageContainer.rsx" />
-  </Frame>
+  />
 </App>
