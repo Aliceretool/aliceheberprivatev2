@@ -50,6 +50,11 @@
       style={{ ordered: [{ background: "rgba(255, 255, 255, 0)" }] }}
     >
       <View id="c79f8" viewKey="View 1">
+        <TextInput
+          id="textInput1"
+          labelPosition="top"
+          placeholder="Enter value"
+        />
         <Include src="./src/tabbedContainer.rsx" />
         <Module
           id="pageHeader"
