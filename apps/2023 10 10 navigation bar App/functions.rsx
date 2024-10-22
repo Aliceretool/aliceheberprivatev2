@@ -24,10 +24,16 @@ return data"
     workflowBlockPluginId={null}
   />
   <SqlQueryUnified
-    id="query3"
-    query={include("./lib/query3.sql", "string")}
+    id="query4"
+    query={include("./lib/query4.sql", "string")}
     resourceDisplayName="Retool DB"
     resourceName="9d052a87-5727-41ac-bb18-caacc0d05b90"
     warningCodes={[]}
+  />
+  <GraphQLQuery
+    id="query5"
+    body={include("./lib/query5.gql", "string")}
+    resourceDisplayName="Alice GraphQL test"
+    resourceName="6cf498fb-1859-42dd-add7-4871824ad324"
   />
 </GlobalFunctions>

@@ -1,0 +1,18 @@
+query {
+  __typename
+}
+# GraphQL queries typically start with a "{" character. Lines that start
+# with a # are ignored.
+#
+# An example GraphQL query with an argument variable "id" of type String might look like:
+#
+#     query ($id: String) {
+#       field(id: $id) {
+#         subField
+#       }
+#     }
+#
+# Keyboard shortcuts:
+#
+#   Auto Complete:  Ctrl-Space (or just start typing)
+
