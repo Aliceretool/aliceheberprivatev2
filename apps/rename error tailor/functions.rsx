@@ -144,13 +144,6 @@
       resourceName="JavascriptQuery"
       showSuccessToaster={false}
     />
-    <JavascriptQuery
-      id="toEdit"
-      notificationDuration={4.5}
-      query={include("./lib/toEdit.js", "string")}
-      resourceName="JavascriptQuery"
-      showSuccessToaster={false}
-    />
     <GraphQLQuery
       id="updateCompletionFlag"
       body={include("./lib/updateCompletionFlag.gql", "string")}
@@ -216,6 +209,13 @@
     <Function
       id="otherActionsDefs"
       funcBody={include("./lib/otherActionsDefs.js", "string")}
+    />
+    <SqlQueryUnified
+      id="query8"
+      query={include("./lib/query8.sql", "string")}
+      resourceDisplayName="retool_db"
+      resourceName="3c301c6a-d252-439c-b49a-40ff9c939fcf"
+      warningCodes={[]}
     />
   </Folder>
 </GlobalFunctions>

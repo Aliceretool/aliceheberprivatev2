@@ -51,7 +51,7 @@
     <ButtonGroup2 id="buttonGroup4" alignment="right" overflowPosition={2}>
       <ButtonGroup2-Button
         id="0e3e2"
-        disabled="{{ deletePurchaseOrder.isFetching }}"
+        disabled="{{ deleteSaleOrder.isFetching }}"
         styleVariant="outline"
         text="キャンセル"
       >
@@ -67,7 +67,7 @@
       </ButtonGroup2-Button>
       <ButtonGroup2-Button
         id="fdc29"
-        disabled="{{ deletePurchaseOrder.isFetching }}"
+        disabled="{{ deleteSaleOrder.isFetching }}"
         styleVariant="danger"
         text={'{{ isApprovalNeeded ? "申請" : "削除" }}'}
       >
@@ -75,7 +75,7 @@
           event="click"
           method="trigger"
           params={{ ordered: [] }}
-          pluginId="deletePurchaseOrder"
+          pluginId="deleteSaleOrder"
           type="datasource"
           waitMs="0"
           waitType="debounce"
