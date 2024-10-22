@@ -1,0 +1,5 @@
+mutation($id: ID!) {
+  wrapDeletePurchaseOrderTextile(input: { id: $id }) {
+    status
+  }
+}
