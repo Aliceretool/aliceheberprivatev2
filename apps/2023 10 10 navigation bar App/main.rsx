@@ -22,7 +22,7 @@
       id="table1"
       cellSelection="none"
       clearChangesetOnSave={true}
-      data="{{ query3.data }}"
+      data="{{ query4.data }}"
       defaultSelectedRow={{ mode: "index", indexType: "display", index: 0 }}
       emptyMessage="No rows found"
       enableSaveActions={true}
