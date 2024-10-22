@@ -1,0 +1,64 @@
+{
+  "alert2": {
+    "subcontainer": "modalFrame1",
+    "height": 1,
+    "width": 6
+  },
+  "alert3": {
+    "container": "modal1",
+    "height": 1,
+    "width": 12
+  },
+  "button1": {
+    "subcontainer": "modalFrame1",
+    "row": 1,
+    "height": 1
+  },
+  "button2": {
+    "row": 1,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
+  "button3": {
+    "container": "modal1",
+    "row": 1,
+    "height": 1,
+    "width": 4
+  },
+  "modal1": {
+    "row": 14.6,
+    "col": 1,
+    "height": 1
+  },
+  "modalCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "modalFrame1",
+    "col": 9,
+    "height": 1
+  },
+  "modalTitle1": {
+    "rowGroup": "header",
+    "subcontainer": "modalFrame1",
+    "height": 0.6,
+    "width": 9
+  },
+  "table1": {
+    "row": 6.6,
+    "col": 1,
+    "height": 8,
+    "width": 8
+  },
+  "table2": {
+    "subcontainer": "modalFrame1",
+    "row": 2,
+    "height": 8,
+    "width": 11
+  },
+  "table3": {
+    "container": "modal1",
+    "row": 2,
+    "height": 8,
+    "width": 12
+  }
+}
