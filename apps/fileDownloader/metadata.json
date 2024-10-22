@@ -1,0 +1,42 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "a016e6ae-8212-48a7-a462-578404c3a551",
+  "appTemplate": {
+    "inAppRetoolPillAppearance": "HIDE_MENU",
+    "pageCodeFolders": {
+      "object": {
+        "container": {
+          "array": []
+        },
+        "button": {
+          "array": []
+        },
+        "formatBytes": {
+          "array": []
+        },
+        "files": {
+          "array": []
+        },
+        "fileSize": {
+          "array": []
+        },
+        "fileTable": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": false,
+        "globalQueryShowSuccessToast": false,
+        "globalQueryToastDuration": 4.5,
+        "globalToastPosition": "bottomRight"
+      }
+    },
+    "isGlobalWidget": true,
+    "version": "3.87.0",
+    "loadingIndicatorsDisabled": true,
+    "experimentalDataTabEnabled": true
+  }
+}

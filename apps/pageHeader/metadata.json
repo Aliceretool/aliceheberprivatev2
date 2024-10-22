@@ -1,0 +1,63 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "74aa064e-1683-4899-84d3-117602d3dee9",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "title": {
+          "array": []
+        },
+        "headerTitle": {
+          "array": []
+        },
+        "container": {
+          "array": []
+        },
+        "buttons": {
+          "array": []
+        },
+        "otherActions": {
+          "array": []
+        },
+        "otherActionsDefs": {
+          "array": []
+        },
+        "primaryAction": {
+          "array": []
+        },
+        "secondaryAction": {
+          "array": []
+        },
+        "secondaryButtonQuery": {
+          "array": []
+        },
+        "secondaryButtonLabel": {
+          "array": []
+        },
+        "otherActionsQuery": {
+          "array": []
+        },
+        "primaryButtonLabel": {
+          "array": []
+        },
+        "primaryButtonQuery": {
+          "array": []
+        }
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "appThemeName": "IMA",
+    "version": "3.98.0"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "fileTable": {
+    "container": "moduleContainer",
+    "height": 1,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  }
+}

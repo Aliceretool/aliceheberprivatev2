@@ -1,0 +1,49 @@
+{
+  "container": {
+    "type": "stack",
+    "container": "moduleContainer",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 1314,
+        "height": 152
+      }
+    }
+  },
+  "headerBreadcrumbs": {
+    "type": "stack",
+    "container": "container",
+    "subcontainer": "413a5",
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": 1106,
+        "height": 24
+      }
+    }
+  },
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  },
+  "pageHeader": {
+    "container": "container",
+    "subcontainer": "413a5",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

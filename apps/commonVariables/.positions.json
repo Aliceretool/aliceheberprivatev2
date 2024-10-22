@@ -1,0 +1,15 @@
+{
+  "moduleContainer": {
+    "type": "stack",
+    "height": 1,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 103.75,
+        "height": 0
+      }
+    }
+  }
+}

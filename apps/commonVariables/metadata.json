@@ -1,0 +1,65 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "e8f04913-4bdb-4cd8-8562-d23896973c85",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "tailorEndpoint": {
+          "array": []
+        },
+        "_tailorEndpoint": {
+          "array": []
+        },
+        "tailorToken": {
+          "array": []
+        },
+        "_tailorToken": {
+          "array": []
+        },
+        "space": {
+          "array": []
+        },
+        "gap": {
+          "array": []
+        },
+        "pagePadding": {
+          "array": []
+        },
+        "accentColor": {
+          "array": []
+        },
+        "darkText": {
+          "array": []
+        },
+        "borderColor": {
+          "array": []
+        },
+        "currentUser": {
+          "array": []
+        },
+        "_currentUser": {
+          "array": []
+        },
+        "dateformat": {
+          "array": []
+        },
+        "timeformat": {
+          "array": []
+        },
+        "unitOptions": {
+          "array": []
+        },
+        "hasRequiredRoles": {
+          "array": []
+        },
+        "_hasRequiredRoles": {
+          "array": []
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "version": "3.102.0",
+    "experimentalDataTabEnabled": true
+  }
+}

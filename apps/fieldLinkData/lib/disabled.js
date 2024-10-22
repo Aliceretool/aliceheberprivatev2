@@ -1,0 +1,1 @@
+return !{{ fieldData.value }} && !{{ fieldSubData.value }};
