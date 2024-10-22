@@ -1,0 +1,21 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "44bc2ff6-8550-44d1-ac80-d7d9f10d88f3",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "label": {
+          "array": []
+        },
+        "required": {
+          "array": []
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "appThemeName": "IMA",
+    "version": "3.87.0",
+    "experimentalDataTabEnabled": true
+  }
+}

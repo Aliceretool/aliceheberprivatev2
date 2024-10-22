@@ -1,0 +1,59 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "eae0e640-d872-4fb5-a966-0decbfe48406",
+  "appTemplate": {
+    "inAppRetoolPillAppearance": "HIDE_MENU",
+    "pageCodeFolders": {
+      "object": {
+        "label": {
+          "array": []
+        },
+        "fieldStack": {
+          "array": []
+        },
+        "formKey": {
+          "array": []
+        },
+        "formLabel": {
+          "array": []
+        },
+        "fieldText": {
+          "array": []
+        },
+        "fieldLabel": {
+          "array": []
+        },
+        "fieldData": {
+          "array": []
+        },
+        "fieldSubData": {
+          "array": []
+        },
+        "displayData": {
+          "array": []
+        },
+        "displayColor": {
+          "array": []
+        },
+        "format": {
+          "array": []
+        }
+      }
+    },
+    "appTesting": {
+      "object": {
+        "testSuites": {
+          "array": []
+        },
+        "tests": {
+          "object": {}
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "appThemeName": "IMA",
+    "version": "3.107.0",
+    "experimentalDataTabEnabled": true
+  }
+}

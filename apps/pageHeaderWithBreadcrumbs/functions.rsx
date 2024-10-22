@@ -1,0 +1,23 @@
+<GlobalFunctions>
+  <GlobalWidgetQuery
+    id="primaryButtonQuery"
+    defaultValue=""
+    resourceName="GlobalWidgetQuery"
+    value=""
+    workflowActionType={null}
+    workflowBlockUuid={null}
+    workflowRunId={null}
+  />
+  <GlobalWidgetQuery
+    id="secondaryButtonQuery"
+    defaultValue=""
+    resourceName="GlobalWidgetQuery"
+    value=""
+  />
+  <GlobalWidgetQuery
+    id="otherActionsQuery"
+    defaultValue=""
+    resourceName="GlobalWidgetQuery"
+    value=""
+  />
+</GlobalFunctions>

@@ -1,0 +1,34 @@
+<GlobalFunctions>
+  <ParentWindowQuery
+    id="_tailorEndpoint"
+    placeholder="https://ima-dev-qbd0103cyw.erp.dev/query"
+    resourceName="ParentWindow"
+    resourceTypeOverride=""
+    selector="tailorEndpoint"
+  />
+  <ParentWindowQuery
+    id="_tailorToken"
+    isMultiplayerEdited={false}
+    placeholder="{{ retoolContext.configVars.PF_MACHINE_USER_TOKEN }}"
+    resourceName="ParentWindow"
+    resourceTypeOverride=""
+    selector="tailorToken"
+  />
+  <ParentWindowQuery
+    id="_currentUser"
+    placeholder={
+      '{\n          "id": "f3661462-8537-491f-bc34-128085e39baa",\n          "name": "山本 拓也",\n          "code": "2003",\n          "emailAddress": "ima2003@tailor.tech",\n          "roles": [\n            "ea2ebc50-def8-40bf-96ae-4e26ad469121"\n          ],\n          "organizations": [\n            "e7d4073a-7991-4df4-9597-9fcb44354bd5",\n            "07842ea5-c54a-4c4b-9682-2df2b870a789"\n          ],\n          "divisionID": "07842ea5-c54a-4c4b-9682-2df2b870a789",\n          "divisionCode": null,\n          "divisionName": "住宅資材部",\n          "departmentID": "c5250eaf-22db-4891-babd-edc313747b0d",\n          "departmentCode": "D000",\n          "departmentName": "化成品事業部門",\n          "sectionID": "e7d4073a-7991-4df4-9597-9fcb44354bd5",\n          "sectionCode": null,\n          "sectionName": "住宅資材１課",\n          "groupID": null,\n          "groupCode": null,\n          "groupName": null,\n          "positionID": "ea2ebc50-def8-40bf-96ae-4e26ad469121",\n          "positionName": "課長"\n}'
+    }
+    resourceName="ParentWindow"
+    resourceTypeOverride=""
+    selector="currentUser"
+  />
+  <ParentWindowQuery
+    id="_hasRequiredRoles"
+    enableTransformer={true}
+    isMultiplayerEdited={false}
+    placeholder="true"
+    resourceName="ParentWindow"
+    selector="hasRequiredRoles"
+  />
+</GlobalFunctions>

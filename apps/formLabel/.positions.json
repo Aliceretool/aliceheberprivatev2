@@ -1,0 +1,50 @@
+{
+  "labelStack": {
+    "container": "moduleContainer",
+    "height": 1,
+    "width": 12
+  },
+  "labelText": {
+    "type": "stack",
+    "container": "labelStack",
+    "subcontainer": "02791",
+    "row": 2.4,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 96.83333333333333,
+        "height": 24
+      }
+    }
+  },
+  "moduleContainer": {
+    "type": "stack",
+    "height": 13.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 1245,
+        "height": 480
+      }
+    }
+  },
+  "requiredTag": {
+    "type": "stack",
+    "container": "labelStack",
+    "subcontainer": "02791",
+    "height": 0.8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 290.5,
+        "height": 32
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "fieldLabel": {
+    "type": "stack",
+    "container": "fieldStack",
+    "subcontainer": "02791",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 158,
+        "height": 43
+      }
+    }
+  },
+  "fieldStack": {
+    "type": "stack",
+    "container": "moduleContainer",
+    "height": 3.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 1241,
+        "height": 32
+      }
+    }
+  },
+  "fieldText": {
+    "type": "stack",
+    "container": "fieldStack",
+    "subcontainer": "02791",
+    "row": 1,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": 1083,
+        "height": 24
+      }
+    }
+  },
+  "moduleContainer": {
+    "type": "stack",
+    "height": 12,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 1245,
+        "height": 480
+      }
+    }
+  }
+}

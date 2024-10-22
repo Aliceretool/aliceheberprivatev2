@@ -1,0 +1,106 @@
+query moreDetail($id: ID!, $bulkCode: String!) {
+  lineItems: purchaseOrderLineItemTextiles(
+    query: {
+      purchaseOrderID: { eq: $id }
+      archived: { eq: false }
+    }
+  ) {
+    collection {
+      purchaseOrderID
+      code
+
+      productID
+      productName
+      productCode
+      warehouseID
+      warehouseName
+      warehouseCode
+      deliveryDate
+      shipDate
+      
+      price
+      quantity
+      unit
+      totalPriceJpy
+      totalPrice
+
+      createdAt
+      updatedAt
+      status
+    }
+  }
+  salesOrders: salesPurchaseOrderRelationTextiles(
+    query: { purchaseOrderID: { eq: $id } }
+  ) {
+    collection {
+      salesOrder {
+        id
+        code
+
+        partnerID
+        partnerName
+        partnerCode
+        
+        archived
+      }
+    }
+  }
+  bulkSalesOrders: salesOrderTextiles(
+    query: {
+      bulkCode: { eq: $bulkCode },
+      archived: { eq: false },
+    }
+  ) {
+    collection {
+      id
+      code
+      
+      partnerID
+      partnerName
+      partnerCode
+    }
+  }
+  instructions: purchaseOrderTextileInstructions(
+    query: {
+      purchaseOrderID: { eq: $id }
+    }
+  ) {
+    collection {
+      instruction {
+        id
+        code
+        shipDate
+
+        archived
+      }
+    }
+  }
+  {{ isApprovalNeeded.value ? `
+  requests(
+    query: {
+      targetCategory: {eq: PURCHASE_TEXTILE}
+      targetID: { eq: $id }
+    }
+  ) {
+    collection {
+      id
+      createdAt
+      type
+      currentStatus
+      requesterName
+    }
+  }
+  ` : `
+  histories: purchaseOrderTextileHistories(
+    query: {
+      purchaseOrderID: { eq: $id }
+    }
+  ) {
+    collection {
+      id      
+      createdAt
+      creatorName
+    }
+  }
+  `}}
+}
