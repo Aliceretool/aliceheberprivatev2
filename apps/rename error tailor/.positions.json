@@ -1595,7 +1595,7 @@
     "width": 6,
     "stackPosition": {
       "object": {
-        "ordinal": 2,
+        "ordinal": 3,
         "widthType": "fill",
         "width": 1291,
         "height": 1872
@@ -1729,6 +1729,21 @@
         "widthType": "fixed",
         "width": 924.0625,
         "height": 40
+      }
+    }
+  },
+  "textInput1": {
+    "type": "stack",
+    "container": "pageContainer",
+    "subcontainer": "c79f8",
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 319.3333333333333,
+        "height": 64
       }
     }
   },
