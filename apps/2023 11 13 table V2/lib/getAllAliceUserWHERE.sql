@@ -1,1 +1,0 @@
-select * from alice_users WHERE ({{ !textInput1.value }} OR name = '{{ textInput1.value }}')
