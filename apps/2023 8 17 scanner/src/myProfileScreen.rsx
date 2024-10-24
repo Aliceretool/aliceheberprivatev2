@@ -9,6 +9,7 @@
     padding={{
       ordered: [{ left: 0 }, { right: 0 }, { top: 0 }, { bottom: 0 }],
     }}
+    showBody={true}
     style={{ ordered: [] }}
     widthGrowFactor={1}
   >
@@ -23,6 +24,7 @@
       padding={{
         ordered: [{ left: 0 }, { right: 0 }, { top: 0 }, { bottom: 0 }],
       }}
+      showBody={true}
       style={{ ordered: [] }}
       widthGrowFactor={1}
     >
@@ -44,6 +46,7 @@
       padding={{
         ordered: [{ left: 0 }, { right: 0 }, { top: 0 }, { bottom: 0 }],
       }}
+      showBody={true}
       style={{ ordered: [] }}
       widthGrowFactor={2}
     >
