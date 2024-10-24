@@ -20,4 +20,6 @@
   </Scanner>
   <Button id="button1" size="large" text="Button" />
   <Button id="button2" size="large" text="Button" />
+  <Button id="button3" size="large" text="Button" />
+  <Button id="button4" size="large" text="Button" />
 </Screen>
