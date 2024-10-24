@@ -13,7 +13,7 @@
     },
     "rootScreen": "tabscreen",
     "isMobileApp": true,
-    "version": "3.33.0",
+    "version": "3.75.6",
     "multiScreenMobileApp": true,
     "experimentalDataTabEnabled": true
   }
