@@ -1,4 +1,8 @@
 {
+  "button1": {
+    "height": 0,
+    "width": 0
+  },
   "container1": {},
   "container2": {
     "container": "container1",
@@ -18,10 +22,7 @@
     "container": "container2"
   },
   "keyValue1": {},
-  "map1": {
-    "height": 0,
-    "width": 0
-  },
+  "map1": {},
   "text1": {
     "container": "container3"
   }

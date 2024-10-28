@@ -9,6 +9,7 @@
     padding={{
       ordered: [{ left: 0 }, { right: 0 }, { top: 0 }, { bottom: 0 }],
     }}
+    showBody={true}
     widthGrowFactor={1}
   >
     <Container
@@ -22,6 +23,7 @@
       padding={{
         ordered: [{ left: 0 }, { right: 0 }, { top: 0 }, { bottom: 0 }],
       }}
+      showBody={true}
       widthGrowFactor={1}
     >
       <Image
@@ -41,6 +43,7 @@
       padding={{
         ordered: [{ left: 0 }, { right: 0 }, { top: 0 }, { bottom: 0 }],
       }}
+      showBody={true}
       widthGrowFactor={2}
     >
       <Heading
