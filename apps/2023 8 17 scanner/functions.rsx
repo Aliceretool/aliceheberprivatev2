@@ -10,7 +10,10 @@ return data.error"
     resourceName="3c301c6a-d252-439c-b49a-40ff9c939fcf"
     transformer="// Query results are available as the `data` variable
 return formatDataAsArray(data)"
+    workflowActionType={null}
     workflowBlockPluginId={null}
+    workflowBlockUuid={null}
+    workflowRunId={null}
   />
   <State
     id="scannerDisable"
