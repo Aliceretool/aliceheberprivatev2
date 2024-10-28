@@ -1,14 +1,5 @@
 {
-  "button1": {},
-  "button2": {},
-  "button3": {},
-
-  "button4": {},
-  "button5": {
-
-    "height": 0,
-    "width": 0
-  },
+  "collectionView1": {},
   "container1": {},
   "container2": {
     "container": "container1",
@@ -28,12 +19,7 @@
     "container": "container2"
   },
   "keyValue1": {},
-  "scanner1": {},
   "text1": {
     "container": "container3"
-  },
-  "zebraDataWedgeReader1": {
-    "height": 0,
-    "width": 0
   }
 }
