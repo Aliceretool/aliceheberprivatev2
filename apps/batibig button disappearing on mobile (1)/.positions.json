@@ -1,0 +1,32 @@
+{
+  "button44": {
+    "container": "container194",
+    "height": 0,
+    "width": 0
+  },
+  "collectionPhotos": {},
+  "container194": {
+    "container": "containerGlobal3",
+    "height": 0
+  },
+  "container196": {
+    "container": "containerGlobal3",
+    "height": 0,
+    "width": 0
+  },
+  "container197": {
+    "container": "containerGlobal3"
+  },
+  "containerGlobal3": {
+    "container": "collectionPhotos",
+    "height": 0,
+    "width": 0
+  },
+  "descriptionPhoto": {
+    "container": "container197"
+  },
+  "image3": {
+    "container": "container196",
+    "height": 0
+  }
+}

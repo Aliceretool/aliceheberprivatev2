@@ -1,0 +1,60 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "fe0c0644-3467-11ef-b7e8-8b7ccd441b60",
+  "appTemplate": {
+    "mobileAppSettings": {
+      "object": {
+        "mobileOfflineModeEnabled": false,
+        "mobileOfflineModeDelaySync": false,
+        "mobileOfflineModeBannerMode": "default",
+        "displaySetting": {
+          "object": {
+            "landscapeMode": false,
+            "tabletMode": false
+          }
+        },
+        "mobileMultiscreenV2Enabled": false
+      }
+    },
+    "pageCodeFolders": {
+      "object": {
+        "collectionPhotos": {
+          "array": []
+        },
+        "collectionViewComponent": {
+          "array": []
+        },
+        "containerGlobal3": {
+          "array": []
+        },
+        "container193": {
+          "array": []
+        },
+        "containersd": {
+          "array": []
+        },
+        "container196": {
+          "array": []
+        },
+        "container194": {
+          "array": []
+        },
+        "container197": {
+          "array": []
+        },
+        "descriptionPhoto": {
+          "array": []
+        },
+        "button44": {
+          "array": []
+        }
+      }
+    },
+    "rootScreen": "tabscreen",
+    "isMobileApp": true,
+    "version": "3.110.0",
+    "multiScreenMobileApp": true,
+    "experimentalDataTabEnabled": true
+  }
+}
