@@ -35,7 +35,10 @@ return data"
   <SqlQueryUnified
     id="query3"
     query={include("./lib/query3.sql", "string")}
-    queryDisabled={'{{ current_user.email === "alice.alice.heber@gmail.com" }}'}
+    queryDisabled={
+      '{{ current_user.email == "alice.heber+something1@gmail.com" }}'
+    }
+
     resourceDisplayName="retool db production"
     resourceName="35d1bdeb-0ee9-46d1-a495-8a94414cc574"
     runWhenModelUpdates={false}
