@@ -33,4 +33,5 @@
       ]"
     zoom={8}
   />
+  <Button id="button1" size="large" text="Button" />
 </Screen>
