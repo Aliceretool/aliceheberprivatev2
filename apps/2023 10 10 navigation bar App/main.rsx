@@ -11,6 +11,7 @@
     type="main"
   >
     <Button id="button2" text="Button" />
+    <Button id="button3" text="Button" />
     <Module
       id="navbarModule1"
       margin="0"
