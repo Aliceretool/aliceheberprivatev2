@@ -1,4 +1,10 @@
 {
+  "MarModule1": {
+    "row": 22.2,
+    "col": 1,
+    "height": 2.4,
+    "width": 11
+  },
   "button1": {
     "row": 5.6,
     "col": 6,
