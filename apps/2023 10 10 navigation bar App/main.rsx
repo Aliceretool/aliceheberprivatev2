@@ -36,7 +36,7 @@
       <Column
         id="9c51e"
         alignment="right"
-        editableOptions={{ showStepper: true }}
+        editableOptions={{ map: { showStepper: true } }}
         format="decimal"
         formatOptions={{ showSeparators: true, notation: "standard" }}
         groupAggregationMode="sum"
@@ -62,7 +62,7 @@
       <Column
         id="c239d"
         alignment="right"
-        editableOptions={{ showStepper: true }}
+        editableOptions={{ map: { showStepper: true } }}
         format="decimal"
         formatOptions={{ showSeparators: true, notation: "standard" }}
         groupAggregationMode="sum"
