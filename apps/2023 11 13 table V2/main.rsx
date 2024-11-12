@@ -162,6 +162,11 @@
         waitType="debounce"
       />
     </Button>
+    <Text
+      id="text3"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <Button id="button1" marginType="normal" text="Button">
       <Event
         event="click"
