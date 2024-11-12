@@ -1,6 +1,5 @@
 <App>
   <Include src="./functions.rsx" />
-  <Include src="./src/modalFrame1.rsx" />
   <Frame
     id="$main"
     enableFullBleed={false}
@@ -11,6 +10,7 @@
     sticky={null}
     type="main"
   >
+    <Text id="text4" value="branchy branch" verticalAlign="center" />
     <Table
       id="table2"
       cellSelection="none"
