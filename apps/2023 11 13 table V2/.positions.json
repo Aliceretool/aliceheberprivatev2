@@ -140,6 +140,11 @@
     "row": 37.8,
     "height": 0.6
   },
+  "text3": {
+    "row": 4,
+    "col": 8,
+    "height": 0.6
+  },
   "textInput1": {
     "row": 14,
     "col": 4,
