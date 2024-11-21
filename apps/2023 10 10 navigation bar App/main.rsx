@@ -10,6 +10,8 @@
     sticky={null}
     type="main"
   >
+    <Text id="text1" value="added!2" verticalAlign="center" />
+    <Text id="text2" value="added" verticalAlign="center" />
     <Button id="button2" text="Button" />
     <Button id="button3" text="Button" />
     <Module
@@ -36,7 +38,7 @@
       <Column
         id="9c51e"
         alignment="right"
-        editableOptions={{ map: { showStepper: true } }}
+        editableOptions={{ showStepper: true }}
         format="decimal"
         formatOptions={{ showSeparators: true, notation: "standard" }}
         groupAggregationMode="sum"
@@ -62,7 +64,7 @@
       <Column
         id="c239d"
         alignment="right"
-        editableOptions={{ map: { showStepper: true } }}
+        editableOptions={{ showStepper: true }}
         format="decimal"
         formatOptions={{ showSeparators: true, notation: "standard" }}
         groupAggregationMode="sum"
