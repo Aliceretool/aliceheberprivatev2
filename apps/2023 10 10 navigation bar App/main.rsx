@@ -11,6 +11,7 @@
     type="main"
   >
     <Text id="text1" value="added" verticalAlign="center" />
+    <Text id="text2" value="2" verticalAlign="center" />
     <Button id="button2" text="Button" />
     <Button id="button3" text="Button" />
     <Module
