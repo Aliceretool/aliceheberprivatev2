@@ -30,6 +30,11 @@
         verticalAlign="center"
       />
       <Text id="text5" value="added text agin here" verticalAlign="center" />
+      <Text
+        id="text6"
+        value="brach aliceheber/patch-89a3"
+        verticalAlign="center"
+      />
     </ModuleContainerWidget>
   </Frame>
 </App>
