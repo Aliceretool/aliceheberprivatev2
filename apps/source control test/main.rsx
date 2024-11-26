@@ -29,6 +29,7 @@
         value="added text but not published release"
         verticalAlign="center"
       />
+      <Text id="text5" value="added text agin here" verticalAlign="center" />
     </ModuleContainerWidget>
   </Frame>
 </App>
