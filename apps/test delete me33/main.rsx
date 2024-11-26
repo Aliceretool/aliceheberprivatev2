@@ -20,6 +20,11 @@
         value="release created and published "
         verticalAlign="center"
       />
+      <Text
+        id="text4"
+        value="protected and about to commit patch-9773"
+        verticalAlign="center"
+      />
     </ModuleContainerWidget>
   </Frame>
 </App>
