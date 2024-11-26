@@ -24,6 +24,11 @@
         value="release created and published"
         verticalAlign="center"
       />
+      <Text
+        id="text4"
+        value="added text but not published release"
+        verticalAlign="center"
+      />
     </ModuleContainerWidget>
   </Frame>
 </App>
