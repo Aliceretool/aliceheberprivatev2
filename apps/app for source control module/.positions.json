@@ -1,4 +1,9 @@
 {
+  "button1": {
+    "row": 9,
+    "height": 1,
+    "width": 2
+  },
   "sourceControlTest1": {
     "row": 0.2,
     "height": 2.4,
