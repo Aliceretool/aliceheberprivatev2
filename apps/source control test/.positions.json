@@ -31,5 +31,10 @@
     "container": "moduleContainer",
     "row": 6.2,
     "height": 0.6
+  },
+  "text7": {
+    "container": "moduleContainer",
+    "row": 7.2,
+    "height": 0.6
   }
 }
