@@ -9,5 +9,12 @@
     type="main"
   >
     <Text id="text1" value="app B" verticalAlign="center" />
+    <Text
+      id="text2"
+      value="unprotected
+changed name to app C
+reprotected"
+      verticalAlign="center"
+    />
   </Frame>
 </App>
