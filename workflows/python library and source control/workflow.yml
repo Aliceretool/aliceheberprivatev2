@@ -1,5 +1,24 @@
+pythonLanguageConfiguration:
+  object:
+    id: b9a43248-bfc3-4c23-a274-d77da5de7c70
+    name: workflow_python_f1ec1914-885f-4a8a-a95e-f5f968013ba5
+    description: null
+    libraries:
+      object: {}
+    librariesFormat: requirements.txt
+    language: python
 customLibraries:
   array:
+    - object:
+        version: 1.0.1
+        language: python
+        codeString: ''
+        libraryName: uszipcode
+    - object:
+        version: 2.0.0.0
+        language: python
+        codeString: ''
+        libraryName: sqlalchemy-mate
     - object:
         version: 4.17.21
         language: javascript
@@ -123,4 +142,4 @@ version: 43.0.9
 workflowId: bff1e290-c36d-4643-ab16-1ee16f808a7f
 description: null
 workflowTemplate:
-  version: 3.75.7
+  version: 3.122.0
