@@ -8,5 +8,15 @@
     "row": 2.6,
     "col": 1,
     "height": 0.6
+  },
+  "text3": {
+    "row": 1.8,
+    "col": 1,
+    "height": 0.6
+  },
+  "text4": {
+    "row": 3.4,
+    "col": 1,
+    "height": 0.6
   }
 }
