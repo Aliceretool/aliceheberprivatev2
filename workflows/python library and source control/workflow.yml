@@ -60,12 +60,6 @@ customLibraries:
           /* Add destructured imports from library below
           eg. const { pow, log } = require("mathjs") */
         libraryName: uuid
-    - object:
-        version: 2.8.2
-        language: python
-        variable: python-dateutil
-        codeString: ''
-        libraryName: python-dateutil
 name: python library and source control
 setupScripts:
   object:
