@@ -40,6 +40,7 @@ template:
     - workflowActionType: null
     - queryRunTime: null
     - changesetObject: ''
+    - offlineOptimisticResponse: null
     - errorTransformer: return data.error
     - finished: null
     - confirmationMessage: null
@@ -82,5 +83,5 @@ blockData:
   blockType: webhook
   editorType: JavascriptQuery
   isMinimized: false
-  resourceName: webhook
+  resourceName: JavascriptQuery
   incomingOnSuccessEdges: []
