@@ -85,10 +85,11 @@ template:
 createdAt: 2024-11-29T12:09:51.807Z
 blockData:
   top: -32
-  left: 1040
+  left: 544
   uuid: 92e6e45c-9d8c-4c43-aa49-f87a8465a9f5
   pluginId: query1
   blockType: default
   editorType: RESTQuery
   resourceName: REST-WithoutResource
-  incomingOnSuccessEdges: []
+  incomingOnSuccessEdges:
+    - 23104e0f-3a87-46cb-a377-00818ab9030d
