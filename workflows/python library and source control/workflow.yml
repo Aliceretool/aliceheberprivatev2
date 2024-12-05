@@ -10,6 +10,16 @@ pythonLanguageConfiguration:
 customLibraries:
   array:
     - object:
+        version: 1.0.1
+        language: python
+        codeString: ''
+        libraryName: uszipcode
+    - object:
+        version: 2.0.0.0
+        language: python
+        codeString: ''
+        libraryName: sqlalchemy-mate
+    - object:
         version: 4.17.21
         language: javascript
         variable: _
