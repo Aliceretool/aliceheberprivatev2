@@ -29,6 +29,11 @@
         value="release three was created"
         verticalAlign="center"
       />
+      <Text
+        id="text5"
+        value="about to create release four from main"
+        verticalAlign="center"
+      />
     </ModuleContainerWidget>
   </Frame>
 </App>
