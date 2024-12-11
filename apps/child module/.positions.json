@@ -26,5 +26,10 @@
     "container": "moduleContainer",
     "row": 6.8,
     "height": 0.6
+  },
+  "text6": {
+    "container": "moduleContainer",
+    "row": 7.8,
+    "height": 0.6
   }
 }

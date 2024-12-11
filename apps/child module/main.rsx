@@ -34,6 +34,7 @@
         value="about to create release four from main"
         verticalAlign="center"
       />
+      <Text id="text6" value="after Four b release" verticalAlign="center" />
     </ModuleContainerWidget>
   </Frame>
 </App>
