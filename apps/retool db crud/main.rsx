@@ -20,7 +20,6 @@
       emptyMessage="No rows found"
       enableSaveActions={true}
       primaryKeyColumnId="ada45"
-      rowHeight="small"
       showBorder={true}
       showFooter={true}
       showHeader={true}

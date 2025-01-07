@@ -5,8 +5,8 @@
 // example: return data.find(element => element.isError)
 return data.error"
     query={include("./lib/getAll.sql", "string")}
-    resourceDisplayName="retool_db"
-    resourceName="3c301c6a-d252-439c-b49a-40ff9c939fcf"
+    resourceDisplayName="Retool DB"
+    resourceName="9d052a87-5727-41ac-bb18-caacc0d05b90"
     resourceTypeOverride=""
     transformer="// Query results are available as the `data` variable
 return data"
@@ -26,7 +26,6 @@ return data"
 // example: return data.find(element => element.isError)
 return data.error"
     query={include("./lib/insertRecord.sql", "string")}
-    resourceDisplayName="retool_db"
     resourceName="3c301c6a-d252-439c-b49a-40ff9c939fcf"
     resourceTypeOverride=""
     runWhenModelUpdates={false}
