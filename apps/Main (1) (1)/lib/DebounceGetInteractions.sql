@@ -1,0 +1,1 @@
+SELECT * FROM {{ interactionsListModule2.outputFilter }}

@@ -1,0 +1,1 @@
+return {{ !!selectedInteraction.value.attachments?.length }}

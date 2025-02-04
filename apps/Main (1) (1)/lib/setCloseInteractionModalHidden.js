@@ -1,0 +1,1 @@
+isCloseInteractionModalOpen.setValue(false);

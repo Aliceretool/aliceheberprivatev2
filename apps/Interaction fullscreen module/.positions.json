@@ -1,0 +1,71 @@
+{
+  "button1": {
+    "type": "stack",
+    "container": "stack1",
+    "subcontainer": "7a7e7",
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 147,
+        "height": 40
+      }
+    }
+  },
+  "divider1": {
+    "subcontainer": "InteractionFullScreen_Modal",
+    "row": 5.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "modalCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "InteractionFullScreen_Modal",
+    "col": 9,
+    "height": 1
+  },
+  "modalTitle1": {
+    "rowGroup": "header",
+    "subcontainer": "InteractionFullScreen_Modal",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 9
+  },
+  "moduleContainer": {
+    "height": 1,
+    "width": 1
+  },
+  "stack1": {
+    "rowGroup": "footer",
+    "subcontainer": "InteractionFullScreen_Modal",
+    "height": 3.8,
+    "width": 12
+  },
+  "text1": {
+    "subcontainer": "InteractionFullScreen_Modal",
+    "row": 5.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "textInput1": {
+    "subcontainer": "InteractionFullScreen_Modal",
+    "height": 0.2,
+    "width": 12
+  },
+  "textInput2": {
+    "container": "moduleContainer",
+    "subcontainer": "InteractionFullScreen_Modal",
+    "row": 1.6,
+    "height": 0.2,
+    "width": 12
+  },
+  "textInput3": {
+    "container": "moduleContainer",
+    "subcontainer": "InteractionFullScreen_Modal",
+    "row": 1.8,
+    "height": 0.2,
+    "width": 12
+  }
+}

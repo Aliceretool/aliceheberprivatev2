@@ -1,0 +1,1 @@
+return {{ CaseContact_ListView?.instanceValues }}

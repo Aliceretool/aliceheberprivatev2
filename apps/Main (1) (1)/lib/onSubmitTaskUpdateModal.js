@@ -1,0 +1,2 @@
+modalTaskUpdating.hide()
+GetTasksListByCase.trigger()
