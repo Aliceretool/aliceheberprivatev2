@@ -1,0 +1,33 @@
+<GlobalFunctions>
+  <GlobalWidgetQuery
+    id="onClose"
+    defaultValue=""
+    isHidden={false}
+    resourceName="GlobalWidgetQuery"
+    value=""
+  />
+  <GlobalWidgetQuery
+    id="onSubmit"
+    defaultValue=""
+    isHidden={false}
+    resourceName="GlobalWidgetQuery"
+    showSuccessToaster={false}
+    value=""
+  />
+  <JavascriptQuery
+    id="moduleContaineronSubmitTrigger"
+    isHidden={false}
+    notificationDuration={4.5}
+    resourceName="JavascriptQuery"
+    showSuccessToaster={false}
+  />
+  <JavascriptQuery
+    id="submitHandler"
+    isHidden={false}
+    notificationDuration={4.5}
+    query={include("./lib/submitHandler.js", "string")}
+    resourceName="JavascriptQuery"
+    showSuccessToaster={false}
+  />
+  <Function id="dateTn" funcBody={include("./lib/dateTn.js", "string")} />
+</GlobalFunctions>

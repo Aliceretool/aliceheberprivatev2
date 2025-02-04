@@ -1,0 +1,92 @@
+{
+  "BeneficiaryTimezone_Text": {
+    "container": "CallMeBack_Form",
+    "row": 0.2,
+    "col": 4,
+    "height": 0.6,
+    "width": 4
+  },
+  "CallMeBack_CancelButton": {
+    "type": "stack",
+    "container": "CallMeBack_ModalActions",
+    "subcontainer": "a3d3e",
+    "row": 1,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 148,
+        "height": 40
+      }
+    }
+  },
+  "CallMeBack_ConfirmButton": {
+    "type": "stack",
+    "container": "CallMeBack_ModalActions",
+    "subcontainer": "a3d3e",
+    "col": 9,
+    "height": 0.8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 160,
+        "height": 32
+      }
+    }
+  },
+  "CallMeBack_Date": {
+    "container": "CallMeBack_Form",
+    "height": 0.2,
+    "width": 4
+  },
+  "CallMeBack_Form": {
+    "container": "moduleContainer",
+    "row": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "CallMeBack_ModalActions": {
+    "container": "CallMeBack_Form",
+    "row": 1.4,
+    "height": 3.8,
+    "width": 12
+  },
+  "CallMeBack_ModalCloseButton": {
+    "container": "moduleContainer",
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "CallMeBack_ModalTitle": {
+    "container": "moduleContainer",
+    "height": 0.6,
+    "width": 8
+  },
+  "CallMeBack_Time": {
+    "container": "CallMeBack_Form",
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "IsUrgent_Checkbox": {
+    "container": "CallMeBack_Form",
+    "row": 0.8,
+    "col": 9,
+    "height": 0.6,
+    "width": 2
+  },
+  "moduleContainer": {
+    "height": 6.2,
+    "width": 12
+  }
+}

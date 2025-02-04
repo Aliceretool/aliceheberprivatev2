@@ -1,0 +1,1 @@
+return {{ GetTaskStatuses.data.map(el => el) }}

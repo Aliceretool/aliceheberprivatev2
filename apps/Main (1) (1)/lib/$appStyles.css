@@ -1,0 +1,8 @@
+[data-testid="RetoolGrid::Content"] div {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+[data-testid="RetoolGrid::Content"] div::-webkit-scrollbar {
+  display: none;
+}
