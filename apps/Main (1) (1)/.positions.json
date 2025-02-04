@@ -1525,7 +1525,7 @@
     "width": 12
   },
   "InteractionMain_Container": {
-    "row": 3.8,
+    "row": 4.8,
     "height": 1,
     "width": 12,
     "stackPosition": {
@@ -2707,6 +2707,11 @@
       }
     }
   },
+  "button3": {
+    "row": 3.8,
+    "height": 1,
+    "width": 2
+  },
   "buttonGroup2": {
     "container": "container10",
     "subcontainer": "83ba8",
@@ -3822,7 +3827,7 @@
     "type": "stack",
     "container": "stack4",
     "subcontainer": "fe9b0",
-    "row": 17.6,
+    "row": 16.8,
     "height": 1,
     "width": 6,
     "stackPosition": {
