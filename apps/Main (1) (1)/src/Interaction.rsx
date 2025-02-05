@@ -153,8 +153,10 @@
     showSuccessToaster={false}
   />
   <State id="policyExtId" />
+  <Include src="./header2.rsx" />
   <Include src="./CreateCallMeBack_Modal.rsx" />
   <Include src="./old.rsx" />
+  <Include src="./sidebar1.rsx" />
   <Frame
     id="$main2"
     enableFullBleed={false}
