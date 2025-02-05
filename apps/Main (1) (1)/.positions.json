@@ -2661,6 +2661,24 @@
       }
     }
   },
+  "avatar6": {
+    "rowGroup": "footer",
+    "subcontainer": "sidebarFrame1",
+    "height": 0.2,
+    "width": 1
+  },
+  "avatar7": {
+    "rowGroup": "footer",
+    "subcontainer": "sidebarFrame2",
+    "height": 0.2,
+    "width": 1
+  },
+  "avatar8": {
+    "rowGroup": "footer",
+    "subcontainer": "sidebarFrame3",
+    "height": 0.2,
+    "width": 1
+  },
   "breadcrumbs1": {
     "type": "stack",
     "container": "InteractionHeader_Container",
@@ -3532,6 +3550,41 @@
     "rowGroup": "header",
     "subcontainer": "ForceEligibility_Modal"
   },
+  "navigation2": {
+    "subcontainer": "header2",
+    "height": 1,
+    "width": 12
+  },
+  "navigation3": {
+    "subcontainer": "sidebarFrame1",
+    "height": 0.8,
+    "width": 1
+  },
+  "navigation4": {
+    "subcontainer": "header3",
+    "height": 1,
+    "width": 12
+  },
+  "navigation5": {
+    "subcontainer": "sidebarFrame2",
+    "height": 0.8,
+    "width": 1
+  },
+  "navigation6": {
+    "subcontainer": "header4",
+    "height": 1,
+    "width": 12
+  },
+  "navigation7": {
+    "subcontainer": "sidebarFrame3",
+    "height": 0.8,
+    "width": 1
+  },
+  "navigation8": {
+    "subcontainer": "header5",
+    "height": 1,
+    "width": 12
+  },
   "sendEmailSmsModule1": {
     "type": "stack",
     "container": "stack26",
@@ -4306,5 +4359,10 @@
     "subcontainer": "Comments_Drawer",
     "height": 1,
     "width": 10
+  },
+  "textInput1": {
+    "row": 3.4,
+    "height": 0.2,
+    "width": 4
   }
 }

@@ -212,6 +212,15 @@
         },
         "AllTasks": {
           "array": ["resources", "functions"]
+        },
+        "page2": {
+          "array": []
+        },
+        "page3": {
+          "array": []
+        },
+        "page4": {
+          "array": []
         }
       }
     },

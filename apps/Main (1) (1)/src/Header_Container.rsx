@@ -1,6 +1,7 @@
 <Container
   id="Header_Container"
   _align="center"
+  _flexWrap={true}
   _gap="0px"
   _justify="space-between"
   _type="stack"
