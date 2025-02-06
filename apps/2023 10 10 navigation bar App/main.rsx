@@ -15,6 +15,11 @@
     <Text id="text3" value="3" verticalAlign="center" />
     <Button id="button3" text="Button" />
     <Button id="button2" text="Button" />
+    <Text
+      id="text4"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <Module
       id="navbarModule1"
       margin="0"
