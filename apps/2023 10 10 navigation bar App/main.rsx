@@ -21,6 +21,82 @@
       name="navbar module"
       pageUuid="269aa854-9044-11ee-883e-93851b44389d"
     />
+    <Table
+      id="table2"
+      cellSelection="none"
+      clearChangesetOnSave={true}
+      data="{{ query1.data }}"
+      defaultSelectedRow={{ mode: "index", indexType: "display", index: 0 }}
+      emptyMessage="No rows found"
+      enableSaveActions={true}
+      showBorder={true}
+      showFooter={true}
+      showHeader={true}
+      toolbarPosition="bottom"
+    >
+      <Column
+        id="c7e6c"
+        alignment="left"
+        format="string"
+        groupAggregationMode="none"
+        key="name"
+        label="Name"
+        placeholder="Enter value"
+        position="center"
+        size={100}
+        summaryAggregationMode="none"
+      />
+      <Column
+        id="a15eb"
+        alignment="right"
+        editableOptions={{ showStepper: true }}
+        format="percent"
+        formatOptions={{ showSeparators: true, notation: "standard" }}
+        groupAggregationMode="average"
+        key="setting"
+        label="Setting"
+        placeholder="Enter value"
+        position="center"
+        size={100}
+        summaryAggregationMode="none"
+      />
+      <ToolbarButton
+        id="1a"
+        icon="bold/interface-text-formatting-filter-2"
+        label="Filter"
+        type="filter"
+      />
+      <ToolbarButton
+        id="3c"
+        icon="bold/interface-download-button-2"
+        label="Download"
+        type="custom"
+      >
+        <Event
+          event="clickToolbar"
+          method="exportData"
+          pluginId="table2"
+          type="widget"
+          waitMs="0"
+          waitType="debounce"
+        />
+      </ToolbarButton>
+      <ToolbarButton
+        id="4d"
+        icon="bold/interface-arrows-round-left"
+        label="Refresh"
+        type="custom"
+      >
+        <Event
+          event="clickToolbar"
+          method="refresh"
+          pluginId="table2"
+          type="widget"
+          waitMs="0"
+          waitType="debounce"
+        />
+      </ToolbarButton>
+    </Table>
     <Button id="button1" marginType="normal" text="Buttons" />
     <Table
       id="table1"
@@ -31,6 +107,7 @@
       emptyMessage="No rows found"
       enableSaveActions={true}
       primaryKeyColumnId="9c51e"
+      rowHeight="small"
       showBorder={true}
       showFooter={true}
       showHeader={true}
