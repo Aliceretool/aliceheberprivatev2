@@ -1,0 +1,35 @@
+<GlobalFunctions>
+  <RetoolStorageQuery
+    id="query1"
+    actionType="read"
+    fileId="d903316c-8c3b-41fb-8b5c-0a23b1052033"
+    resourceDisplayName="retool_storage"
+    resourceName="retool_storage"
+    runWhenModelUpdates={false}
+  />
+  <RetoolStorageQuery
+    id="getAll"
+    fileId="d903316c-8c3b-41fb-8b5c-0a23b1052033"
+    isMultiplayerEdited={false}
+    resourceDisplayName="retool_storage"
+    resourceName="retool_storage"
+  >
+    <Event
+      event="success"
+      method="trigger"
+      params={{ ordered: [] }}
+      pluginId="getNameFromId"
+      type="datasource"
+      waitMs="0"
+      waitType="debounce"
+    />
+  </RetoolStorageQuery>
+  <JavascriptQuery
+    id="getNameFromId"
+    isMultiplayerEdited={false}
+    notificationDuration={4.5}
+    query={include("./lib/getNameFromId.js", "string")}
+    resourceName="JavascriptQuery"
+    showSuccessToaster={false}
+  />
+</GlobalFunctions>
