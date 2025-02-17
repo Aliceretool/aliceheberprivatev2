@@ -148,6 +148,7 @@
         />
       </ToolbarButton>
     </Table>
+    <Button id="button3" text="Button" />
     <Button id="button2" text="Button">
       <Event
         event="click"
@@ -161,8 +162,11 @@
     </Button>
     <Module
       id="MarModule1"
+      input1="TESTING"
       margin="0"
       name="26 mar module"
+      NewName="hey"
+      NewNameAgain="testing"
       pageUuid="f1c63daa-eb56-11ee-86d1-cb7e047b58cb"
     />
     <ListView id="listViewLegacy1" marginType="normal">
