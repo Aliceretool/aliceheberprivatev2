@@ -161,6 +161,7 @@
     </Button>
     <Module
       id="MarModule1"
+      input1="TESTING"
       margin="0"
       name="26 mar module"
       pageUuid="f1c63daa-eb56-11ee-86d1-cb7e047b58cb"
