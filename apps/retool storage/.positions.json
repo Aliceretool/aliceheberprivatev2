@@ -1,14 +1,18 @@
 {
   "image1": {
-    "row": 1.4
+    "row": 1.8
   },
   "image2": {
-    "row": 1.4,
+    "row": 0.8,
     "col": 4
   },
-  "jsonEditor1": {
-    "row": 8,
-    "height": 8,
-    "width": 8
+  "text1": {
+    "row": 0.2,
+    "col": 4,
+    "height": 1
+  },
+  "text2": {
+    "row": 0.2,
+    "height": 0.6
   }
 }
