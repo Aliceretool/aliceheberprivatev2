@@ -3,6 +3,7 @@
   _customShortcuts={[]}
   _hashParams={[]}
   _searchParams={[]}
+  browserTitle=""
   title="Page 1"
   urlSlug=""
 >
@@ -22,6 +23,10 @@
       retoolStorageFileId="{{ getNameFromId.data}}"
       src="https://picsum.photos/id/1025/800/600"
       srcType="retoolStorageFileId"
+    />
+    <JSONEditor
+      id="jsonEditor1"
+      value="image1.retoolStorageFileId : {{image1.retoolStorageFileId}}"
     />
   </Frame>
 </Screen>
