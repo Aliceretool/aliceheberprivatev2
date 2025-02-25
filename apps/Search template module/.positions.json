@@ -1,0 +1,74 @@
+{
+  "Confirm_Button": {
+    "rowGroup": "footer",
+    "subcontainer": "SearchTemplate_Modal",
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "ModalContent_Container": {
+    "subcontainer": "SearchTemplate_Modal",
+    "height": 3.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "SearchTemplateTitle": {
+    "rowGroup": "header",
+    "subcontainer": "SearchTemplate_Modal",
+    "height": 0.6,
+    "width": 9
+  },
+  "SearchTitle_Input": {
+    "type": "stack",
+    "container": "ModalContent_Container",
+    "subcontainer": "8be8f",
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 444,
+        "height": 8
+      }
+    }
+  },
+  "TemplatesListbox": {
+    "type": "stack",
+    "container": "ModalContent_Container",
+    "subcontainer": "8be8f",
+    "row": 0.2,
+    "height": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": 134,
+        "height": 160
+      }
+    }
+  },
+  "containerTitle1": {
+    "container": "ModalContent_Container",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "modalCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "SearchTemplate_Modal",
+    "col": 9,
+    "height": 1
+  },
+  "moduleContainer": {
+    "height": 12,
+    "width": 4
+  }
+}

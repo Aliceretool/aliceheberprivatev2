@@ -1,0 +1,423 @@
+{
+  "Filter_Stack": {
+    "container": "Main_Container",
+    "rowGroup": "header",
+    "subcontainer": "cf576",
+    "row": 0.2,
+    "height": 3.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "FindHospitals_Button": {
+    "type": "stack",
+    "container": "Main_Container",
+    "rowGroup": "header",
+    "subcontainer": "cf576",
+    "row": 4.4,
+    "col": 10,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 152,
+        "height": 40
+      }
+    }
+  },
+  "GoogleMapsSearch_Module": {
+    "type": "stack",
+    "container": "Filter_Stack",
+    "subcontainer": "3c9cf",
+    "height": 0.2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 300,
+        "height": 64
+      }
+    }
+  },
+  "Hospital_Combined_Stack": {
+    "container": "Hospital_Info_Stack",
+    "subcontainer": "4a31b",
+    "col": 1,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Hospital_Container": {
+    "container": "Hospital_ListView",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Hospital_Discance_Stack": {
+    "container": "Hospital_Info_Stack",
+    "subcontainer": "4a31b",
+    "col": 7,
+    "height": 1,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Hospital_Distance_IconText": {
+    "type": "stack",
+    "container": "Hospital_Discance_Stack",
+    "subcontainer": "cec27",
+    "row": 4.4,
+    "col": 8,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 222,
+        "height": 40
+      }
+    }
+  },
+  "Hospital_Icon": {
+    "type": "stack",
+    "container": "Hospital_Icon_Stack",
+    "subcontainer": "79d05",
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 92,
+        "height": 24
+      }
+    }
+  },
+  "Hospital_Icon_Stack": {
+    "type": "stack",
+    "container": "Hospital_Info_Stack",
+    "subcontainer": "4a31b",
+    "height": 4.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 80,
+        "height": 200
+      }
+    }
+  },
+  "Hospital_Info_Stack": {
+    "type": "stack",
+    "container": "Hospital_Container",
+    "rowGroup": "header",
+    "subcontainer": "ca682",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 459,
+        "height": 40
+      }
+    }
+  },
+  "Hospital_Is_Audited_Tag": {
+    "type": "stack",
+    "container": "Hospital_Tags",
+    "subcontainer": "cc9ff",
+    "row": 2.2,
+    "col": 1,
+    "height": 0.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 69.33333333333333,
+        "height": 32
+      }
+    }
+  },
+  "Hospital_Is_Audited_Tag2": {
+    "type": "stack",
+    "container": "Hospital_Tags2",
+    "subcontainer": "cc9ff",
+    "row": 2.2,
+    "col": 1,
+    "height": 0.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 69.33333333333333,
+        "height": 32
+      }
+    }
+  },
+  "Hospital_ListView": {
+    "container": "Main_Container",
+    "subcontainer": "cf576",
+    "height": 10.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Hospital_Location_Text": {
+    "type": "stack",
+    "container": "Hospital_Combined_Stack",
+    "subcontainer": "4a31b",
+    "row": 2.2,
+    "col": 7,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 398,
+        "height": 88
+      }
+    }
+  },
+  "Hospital_MoreInfo_Button": {
+    "type": "stack",
+    "container": "Hospital_Discance_Stack",
+    "subcontainer": "cec27",
+    "col": 10,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 140,
+        "height": 40
+      }
+    }
+  },
+  "Hospital_Rating2": {
+    "type": "stack",
+    "container": "Hospital_Tags2",
+    "subcontainer": "cc9ff",
+    "row": 3,
+    "col": 1,
+    "height": 0.8,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 173.33333333333331,
+        "height": 32
+      }
+    }
+  },
+  "Hospital_Rating_Text2": {
+    "type": "stack",
+    "container": "Hospital_Tags2",
+    "subcontainer": "cc9ff",
+    "row": 2.2,
+    "col": 7,
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "auto",
+        "width": 253.33333333333331,
+        "height": 24
+      }
+    }
+  },
+  "Hospital_Tags": {
+    "type": "stack",
+    "container": "Hospital_Combined_Stack",
+    "subcontainer": "4a31b",
+    "col": 11,
+    "height": 1,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 398,
+        "height": 32
+      }
+    }
+  },
+  "Hospital_Tags2": {
+    "type": "stack",
+    "container": "Hospital_Combined_Stack",
+    "subcontainer": "4a31b",
+    "row": 4.4,
+    "height": 1,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 398,
+        "height": 32
+      }
+    }
+  },
+  "HospitalsNotFound_Text": {
+    "container": "Main_Container",
+    "subcontainer": "cf576",
+    "row": 24,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Keywords_Select": {
+    "type": "stack",
+    "container": "Filter_Stack",
+    "subcontainer": "3c9cf",
+    "row": 0.4,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fill",
+        "width": 180,
+        "height": 64
+      }
+    }
+  },
+  "Main_Container": {
+    "container": "moduleContainer",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Speciality_Select": {
+    "type": "stack",
+    "container": "Filter_Stack",
+    "subcontainer": "3c9cf",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 190,
+        "height": 64
+      }
+    }
+  },
+  "What_Select": {
+    "type": "stack",
+    "container": "Filter_Stack",
+    "subcontainer": "3c9cf",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 190,
+        "height": 64
+      }
+    }
+  },
+  "button1": {
+    "type": "stack",
+    "container": "stack1",
+    "subcontainer": "fe589",
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 140,
+        "height": 40
+      }
+    }
+  },
+  "moduleContainer": {
+    "height": 4.6,
+    "width": 12
+  },
+  "spacer1": {
+    "container": "Main_Container",
+    "rowGroup": "header",
+    "subcontainer": "cf576",
+    "row": 5.4,
+    "height": 0.4,
+    "width": 12
+  },
+  "stack1": {
+    "container": "Hospital_Info_Stack",
+    "subcontainer": "4a31b",
+    "row": 1,
+    "col": 7,
+    "height": 1,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

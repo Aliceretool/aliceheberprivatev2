@@ -1,0 +1,98 @@
+{
+  "CloseInteractin_CloseButton": {
+    "rowGroup": "header",
+    "subcontainer": "CloseInteraction_Modal",
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "CloseInteractionComment_Input": {
+    "container": "CloseInteraction_Form",
+    "row": 0.4,
+    "height": 1,
+    "width": 12
+  },
+  "CloseInteractionReason_Input": {
+    "container": "CloseInteraction_Form",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 6
+  },
+  "CloseInteractionReason_Select": {
+    "container": "CloseInteraction_Form",
+    "height": 0.2,
+    "width": 6
+  },
+  "CloseInteraction_Actions": {
+    "rowGroup": "footer",
+    "subcontainer": "CloseInteraction_Modal",
+    "height": 3.8,
+    "width": 12
+  },
+  "CloseInteraction_Cancel": {
+    "type": "stack",
+    "container": "CloseInteraction_Actions",
+    "subcontainer": "261f0",
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 114,
+        "height": 40
+      }
+    }
+  },
+  "CloseInteraction_Form": {
+    "subcontainer": "CloseInteraction_Modal",
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "CloseInteraction_Submit": {
+    "type": "stack",
+    "container": "CloseInteraction_Actions",
+    "subcontainer": "261f0",
+    "row": 0.8,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 116,
+        "height": 40
+      }
+    }
+  },
+  "CloseInteraction_Title": {
+    "rowGroup": "header",
+    "subcontainer": "CloseInteraction_Modal",
+    "height": 0.6,
+    "width": 9
+  },
+  "formButton2": {
+    "container": "CloseInteraction_Form",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "formTitle2": {
+    "container": "CloseInteraction_Form",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 1,
+    "width": 1
+  }
+}

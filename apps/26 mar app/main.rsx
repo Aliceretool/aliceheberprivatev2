@@ -6,125 +6,25 @@
     isHiddenOnDesktop={false}
     isHiddenOnMobile={false}
     padding="8px 12px"
-    paddingType="normal"
     sticky={null}
     type="main"
   >
-    <Text id="text1" value="added" verticalAlign="center" />
-    <Text id="text2" value="2" verticalAlign="center" />
-    <Text id="text3" value="3" verticalAlign="center" />
-    <Button id="button3" text="Button" />
-    <Button id="button2" text="Button" />
-    <Text
-      id="text4"
-      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
-      verticalAlign="center"
-    />
-    <Text
-      id="text5"
-      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
-      verticalAlign="center"
-    />
-    <Module
-      id="navbarModule1"
-      margin="0"
-      name="navbar module"
-      pageUuid="269aa854-9044-11ee-883e-93851b44389d"
-    />
     <Table
-      id="table2"
+      id="table1"
       cellSelection="none"
       clearChangesetOnSave={true}
       data="{{ query1.data }}"
       defaultSelectedRow={{ mode: "index", indexType: "display", index: 0 }}
       emptyMessage="No rows found"
       enableSaveActions={true}
+      primaryKeyColumnId="5acca"
       showBorder={true}
       showFooter={true}
       showHeader={true}
       toolbarPosition="bottom"
     >
       <Column
-        id="c7e6c"
-        alignment="left"
-        format="string"
-        groupAggregationMode="none"
-        key="name"
-        label="Name"
-        placeholder="Enter value"
-        position="center"
-        size={100}
-        summaryAggregationMode="none"
-      />
-      <Column
-        id="a15eb"
-        alignment="right"
-        editableOptions={{ showStepper: true }}
-        format="percent"
-        formatOptions={{ showSeparators: true, notation: "standard" }}
-        groupAggregationMode="average"
-        key="setting"
-        label="Setting"
-        placeholder="Enter value"
-        position="center"
-        size={100}
-        summaryAggregationMode="none"
-      />
-      <ToolbarButton
-        id="1a"
-        icon="bold/interface-text-formatting-filter-2"
-        label="Filter"
-        type="filter"
-      />
-      <ToolbarButton
-        id="3c"
-        icon="bold/interface-download-button-2"
-        label="Download"
-        type="custom"
-      >
-        <Event
-          event="clickToolbar"
-          method="exportData"
-          pluginId="table2"
-          type="widget"
-          waitMs="0"
-          waitType="debounce"
-        />
-      </ToolbarButton>
-      <ToolbarButton
-        id="4d"
-        icon="bold/interface-arrows-round-left"
-        label="Refresh"
-        type="custom"
-      >
-        <Event
-          event="clickToolbar"
-          method="refresh"
-          pluginId="table2"
-          type="widget"
-          waitMs="0"
-          waitType="debounce"
-        />
-      </ToolbarButton>
-    </Table>
-    <Button id="button1" marginType="normal" text="Buttons" />
-    <Table
-      id="table1"
-      cellSelection="none"
-      clearChangesetOnSave={true}
-      data="{{ query4.data }}"
-      defaultSelectedRow={{ mode: "index", indexType: "display", index: 0 }}
-      emptyMessage="No rows found"
-      enableSaveActions={true}
-      primaryKeyColumnId="9c51e"
-      rowHeight="small"
-      showBorder={true}
-      showFooter={true}
-      showHeader={true}
-      toolbarPosition="bottom"
-    >
-      <Column
-        id="9c51e"
+        id="5acca"
         alignment="right"
         editableOptions={{ showStepper: true }}
         format="decimal"
@@ -138,7 +38,7 @@
         summaryAggregationMode="none"
       />
       <Column
-        id="394d0"
+        id="3ac7f"
         alignment="left"
         format="string"
         groupAggregationMode="none"
@@ -150,7 +50,7 @@
         summaryAggregationMode="none"
       />
       <Column
-        id="c239d"
+        id="ead2f"
         alignment="right"
         editableOptions={{ showStepper: true }}
         format="decimal"
@@ -164,7 +64,7 @@
         summaryAggregationMode="none"
       />
       <Column
-        id="5eca3"
+        id="d34c8"
         alignment="left"
         format="string"
         groupAggregationMode="none"
@@ -176,7 +76,7 @@
         summaryAggregationMode="none"
       />
       <Column
-        id="76a18"
+        id="7f3e6"
         alignment="left"
         format="string"
         groupAggregationMode="none"
@@ -188,7 +88,7 @@
         summaryAggregationMode="none"
       />
       <Column
-        id="2a8c7"
+        id="89b03"
         alignment="left"
         format="boolean"
         groupAggregationMode="none"
@@ -200,24 +100,12 @@
         summaryAggregationMode="none"
       />
       <Column
-        id="2ea79"
+        id="e32a0"
         alignment="left"
         format="string"
         groupAggregationMode="none"
         key="newcolumn"
         label="Newcolumn"
-        placeholder="Enter value"
-        position="center"
-        size={100}
-        summaryAggregationMode="none"
-      />
-      <Column
-        id="abf42"
-        alignment="left"
-        format="string"
-        groupAggregationMode="none"
-        key="tags"
-        label="Tags"
         placeholder="Enter value"
         position="center"
         size={100}
@@ -260,15 +148,48 @@
         />
       </ToolbarButton>
     </Table>
+    <Button id="button3" text="Button" />
+    <Button id="button2" text="Button">
+      <Event
+        event="click"
+        method="trigger"
+        params={{ ordered: [] }}
+        pluginId="query1"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Button>
     <Module
       id="MarModule1"
+      input1="TESTING"
+      margin="0"
       name="26 mar module"
+      NewName="hey"
+      NewNameAgain="testing"
       pageUuid="f1c63daa-eb56-11ee-86d1-cb7e047b58cb"
     />
-    <Module
-      id="MarModule2"
-      name="26 mar module"
-      pageUuid="f1c63daa-eb56-11ee-86d1-cb7e047b58cb"
+    <ListView id="listViewLegacy1" marginType="normal">
+      <Button id="button1" marginType="normal" text="Button" />
+    </ListView>
+    <TableLegacy
+      id="tableLegacy1"
+      _compatibilityMode={false}
+      data={
+        '[{\n  "id": 1,\n  "name": "Hanson Deck",\n  "email": "hanson@deck.com",\n  "sales": 37\n}, {\n  "id": 2,\n  "name": "Sue Shei",\n  "email": "sueshei@example.com",\n  "sales": 550\n}, {\n  "id": 3,\n  "name": "Jason Response",\n  "email": "jason@response.com",\n  "sales": 55\n}, {\n  "id": 4,\n  "name": "Cher Actor",\n  "email": "cher@example.com",\n  "sales": 424\n}, {\n  "id": 5,\n  "name": "Erica Widget",\n  "email": "erica@widget.org",\n  "sales": 243\n}]'
+      }
+      doubleClickToEdit={true}
+      showBoxShadow={false}
+    />
+    <ToggleButton
+      id="toggleButton1"
+      horizontalAlign="stretch"
+      iconForFalse="bold/interface-arrows-button-down"
+      iconForTrue="bold/interface-arrows-button-up"
+      iconPosition="right"
+      marginType="normal"
+      styleVariant="outline"
+      text="{{ self.value ? 'Hide' : 'Show' }}"
     />
   </Frame>
 </App>

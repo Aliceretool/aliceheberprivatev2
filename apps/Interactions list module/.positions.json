@@ -1,0 +1,1202 @@
+{
+  "BusinessPartner_Text": {
+    "type": "stack",
+    "container": "Information_Container",
+    "subcontainer": "4158d",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "auto",
+        "width": 89,
+        "height": 24
+      }
+    }
+  },
+  "BusinessPartner_Text2": {
+    "type": "stack",
+    "container": "Information_Container2",
+    "subcontainer": "4158d",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "auto",
+        "width": 89,
+        "height": 24
+      }
+    }
+  },
+  "CallContext_Text": {
+    "container": "DetailedInteraction_Container",
+    "subcontainer": "98b1a",
+    "row": 5.4,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "CaseLink": {
+    "type": "stack",
+    "container": "LinkedToCase_Container",
+    "subcontainer": "5700b",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 40,
+        "height": 24
+      }
+    }
+  },
+  "CaseLink2": {
+    "type": "stack",
+    "container": "LinkedToCase_Container2",
+    "subcontainer": "5700b",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 40,
+        "height": 24
+      }
+    }
+  },
+  "ClearFilter_Button": {
+    "container": "FilterInteraction_Form",
+    "rowGroup": "footer",
+    "height": 0.6,
+    "width": 2
+  },
+  "DedicatedLine_Text": {
+    "type": "stack",
+    "container": "Information_Container",
+    "subcontainer": "4158d",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "auto",
+        "width": 89,
+        "height": 24
+      }
+    }
+  },
+  "DedicatedLine_Text2": {
+    "type": "stack",
+    "container": "Information_Container2",
+    "subcontainer": "4158d",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "auto",
+        "width": 89,
+        "height": 24
+      }
+    }
+  },
+  "DetailedInteraction_ActionsContainer": {
+    "container": "DetailedInteraction_Container",
+    "rowGroup": "header",
+    "height": 3.8,
+    "width": 12
+  },
+  "DetailedInteraction_AttachToCase": {
+    "type": "stack",
+    "container": "DetailedInteraction_ActionsContainer",
+    "subcontainer": "0b67a",
+    "row": 1.6,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "auto",
+        "width": 108,
+        "height": 40
+      }
+    }
+  },
+  "DetailedInteraction_AttachmentDownload": {
+    "type": "stack",
+    "container": "DetailedInteraction_AttachmentsContainer",
+    "subcontainer": "60aca",
+    "row": 1.4,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "auto",
+        "width": 67,
+        "height": 24
+      }
+    }
+  },
+  "DetailedInteraction_AttachmentIcon": {
+    "type": "stack",
+    "container": "DetailedInteraction_AttachmentsContainer",
+    "subcontainer": "60aca",
+    "row": 2.2,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 34,
+        "height": 24
+      }
+    }
+  },
+  "DetailedInteraction_AttachmentName": {
+    "type": "stack",
+    "container": "DetailedInteraction_AttachmentsContainer",
+    "subcontainer": "60aca",
+    "row": 2.8,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 101,
+        "height": 24
+      }
+    }
+  },
+  "DetailedInteraction_AttachmentsContainer": {
+    "container": "DetailedInteraction_AttachmentsList",
+    "height": 3.8,
+    "width": 12
+  },
+  "DetailedInteraction_AttachmentsList": {
+    "container": "DetailedInteraction_Container",
+    "subcontainer": "98b1a",
+    "row": 8.2,
+    "height": 1,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 8,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "DetailedInteraction_AttachmentsTitle": {
+    "container": "DetailedInteraction_Container",
+    "subcontainer": "98b1a",
+    "row": 9.2,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "DetailedInteraction_CloseInteraction": {
+    "type": "stack",
+    "container": "DetailedInteraction_ActionsContainer",
+    "subcontainer": "0b67a",
+    "row": 2.4,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "auto",
+        "width": 108,
+        "height": 40
+      }
+    }
+  },
+  "DetailedInteraction_Container": {
+    "type": "stack",
+    "container": "Interactions_Container",
+    "subcontainer": "0b67a",
+    "row": 34.2,
+    "height": 3.8,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": 548,
+        "height": 144
+      }
+    }
+  },
+  "DetailedInteraction_Content": {
+    "container": "DetailedInteraction_Container",
+    "subcontainer": "98b1a",
+    "row": 7.6,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "DetailedInteraction_Detach": {
+    "type": "stack",
+    "container": "DetailedInteraction_ActionsContainer",
+    "subcontainer": "0b67a",
+    "row": 0.8,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "auto",
+        "width": 108,
+        "height": 40
+      }
+    }
+  },
+  "DetailedInteraction_FlagsContainer": {
+    "container": "DetailedInteraction_Container",
+    "subcontainer": "98b1a",
+    "col": 7,
+    "height": 3.8,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "DetailedInteraction_Forward": {
+    "type": "stack",
+    "container": "DetailedInteraction_ActionsContainer",
+    "subcontainer": "0b67a",
+    "row": 3.2,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "auto",
+        "width": 108,
+        "height": 40
+      }
+    }
+  },
+  "DetailedInteraction_From": {
+    "type": "stack",
+    "container": "stack3",
+    "subcontainer": "6a76d",
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 89,
+        "height": 24
+      }
+    }
+  },
+  "DetailedInteraction_Fullscreen": {
+    "type": "stack",
+    "container": "DetailedInteraction_ActionsContainer",
+    "subcontainer": "0b67a",
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "auto",
+        "width": 108,
+        "height": 40
+      }
+    }
+  },
+  "DetailedInteraction_HasAttachments": {
+    "type": "stack",
+    "container": "DetailedInteraction_FlagsContainer",
+    "subcontainer": "a4bf7",
+    "row": 0.6,
+    "col": 7,
+    "height": 0.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 28,
+        "height": 28
+      }
+    }
+  },
+  "DetailedInteraction_Important": {
+    "type": "stack",
+    "container": "DetailedInteraction_FlagsContainer",
+    "subcontainer": "a4bf7",
+    "row": 10.6,
+    "col": 7,
+    "height": 0.4,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 28,
+        "height": 30
+      }
+    }
+  },
+  "DetailedInteraction_Reply": {
+    "type": "stack",
+    "container": "DetailedInteraction_ActionsContainer",
+    "subcontainer": "0b67a",
+    "row": 4,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 8,
+        "widthType": "auto",
+        "width": 108,
+        "height": 40
+      }
+    }
+  },
+  "DetailedInteraction_Timestamp": {
+    "type": "stack",
+    "container": "container1",
+    "subcontainer": "67e74",
+    "row": 3.4,
+    "col": 8,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 131,
+        "height": 16
+      }
+    }
+  },
+  "DetailedInteraction_To": {
+    "container": "DetailedInteraction_Container",
+    "subcontainer": "98b1a",
+    "row": 3.8,
+    "height": 0.6,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 9,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "FilterAttachment_Checkbox": {
+    "type": "stack",
+    "container": "stack2",
+    "subcontainer": "8b58e",
+    "row": 2.6,
+    "col": 4,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 135,
+        "height": 24
+      }
+    }
+  },
+  "FilterCaseNumber_Input": {
+    "container": "FilterInteraction_Form",
+    "col": 8,
+    "height": 0.2,
+    "width": 2
+  },
+  "FilterDraft_Checkbox": {
+    "type": "stack",
+    "container": "stack2",
+    "subcontainer": "8b58e",
+    "row": 3.2,
+    "col": 4,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 135,
+        "height": 24
+      }
+    }
+  },
+  "FilterHideCalls_Checkbox": {
+    "type": "stack",
+    "container": "stack2",
+    "subcontainer": "8b58e",
+    "row": 3.8,
+    "col": 4,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 135,
+        "height": 24
+      }
+    }
+  },
+  "FilterInteractionIncomingOutgoing_Select": {
+    "container": "FilterInteraction_Form",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 2
+  },
+  "FilterInteractionStatus_Select": {
+    "container": "FilterInteraction_Form",
+    "col": 4,
+    "height": 0.2,
+    "width": 2
+  },
+  "FilterInteractionType_Select": {
+    "container": "FilterInteraction_Form",
+    "col": 6,
+    "height": 0.2,
+    "width": 2
+  },
+  "FilterInteraction_Collapse": {
+    "type": "stack",
+    "container": "FilterInteraction_Header",
+    "subcontainer": "62766",
+    "col": 9,
+    "height": 0.8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 40,
+        "height": 32
+      }
+    }
+  },
+  "FilterInteraction_Container": {
+    "type": "stack",
+    "container": "InteractionList_Container",
+    "subcontainer": "946a7",
+    "row": 0.6,
+    "height": 4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 805,
+        "height": 232
+      }
+    }
+  },
+  "FilterInteraction_Form": {
+    "container": "FilterInteraction_Container",
+    "subcontainer": "aacf0",
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "FilterInteraction_Header": {
+    "container": "FilterInteraction_Container",
+    "rowGroup": "header",
+    "height": 3.8,
+    "width": 12
+  },
+  "FilterInteraction_Title": {
+    "type": "stack",
+    "container": "FilterInteraction_Header",
+    "subcontainer": "62766",
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 90,
+        "height": 24
+      }
+    }
+  },
+  "FilterNotSent_Checkbox": {
+    "type": "stack",
+    "container": "stack2",
+    "subcontainer": "8b58e",
+    "row": 4.4,
+    "col": 4,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 135,
+        "height": 24
+      }
+    }
+  },
+  "FilterReceivedDate_Range": {
+    "container": "FilterInteraction_Form",
+    "row": 0.4,
+    "height": 0.2
+  },
+  "FilterReceiver_Input": {
+    "container": "FilterInteraction_Form",
+    "col": 2,
+    "height": 0.2,
+    "width": 2
+  },
+  "FilterSenderRecipientType_Select": {
+    "container": "FilterInteraction_Form",
+    "row": 0.2,
+    "col": 2,
+    "height": 0.2,
+    "width": 2
+  },
+  "FilterSender_Input": {
+    "container": "FilterInteraction_Form",
+    "height": 0.2,
+    "width": 2
+  },
+  "IdentifyContact_Select": {
+    "type": "stack",
+    "container": "stack3",
+    "subcontainer": "6a76d",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 127,
+        "height": 8
+      }
+    }
+  },
+  "IncomingIcon": {
+    "type": "stack",
+    "container": "InteractionTypes_Container",
+    "subcontainer": "0b67a",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": 3,
+        "height": 24
+      }
+    }
+  },
+  "Information_Container": {
+    "container": "Interaction_Card",
+    "subcontainer": "98b1a",
+    "row": 1.2,
+    "col": 1,
+    "height": 1,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Information_Container2": {
+    "container": "DetailedInteraction_Container",
+    "subcontainer": "98b1a",
+    "row": 4.4,
+    "height": 1,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "InteractionList_Container": {
+    "container": "moduleContainer",
+    "height": 1,
+    "width": 12
+  },
+  "InteractionStatus": {
+    "type": "stack",
+    "container": "InteractionStatuses_Container",
+    "subcontainer": "0b67a",
+    "row": 3,
+    "height": 3.8,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "auto",
+        "width": 81,
+        "height": 32
+      }
+    }
+  },
+  "InteractionStatus_IsAutomatic": {
+    "type": "stack",
+    "container": "InteractionStatus",
+    "subcontainer": "db297",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 16,
+        "height": 24
+      }
+    }
+  },
+  "InteractionStatus_Select": {
+    "type": "stack",
+    "container": "stack1",
+    "subcontainer": "b7052",
+    "row": 4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 141,
+        "height": 40
+      }
+    }
+  },
+  "InteractionStatus_Text": {
+    "type": "stack",
+    "container": "InteractionStatus",
+    "subcontainer": "db297",
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 1,
+        "height": 24
+      }
+    }
+  },
+  "InteractionStatuses_Container": {
+    "type": "stack",
+    "container": "Interaction_Card",
+    "subcontainer": "98b1a",
+    "col": 8,
+    "height": 1,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 130,
+        "height": 40
+      }
+    }
+  },
+  "InteractionType_Icon": {
+    "type": "stack",
+    "container": "InteractionTypes_Container",
+    "subcontainer": "0b67a",
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 40,
+        "height": 24
+      }
+    }
+  },
+  "InteractionTypes_Container": {
+    "type": "stack",
+    "container": "Interaction_Card",
+    "subcontainer": "98b1a",
+    "height": 1,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 33,
+        "height": 32
+      }
+    }
+  },
+  "Interaction_Card": {
+    "container": "Interactions_List",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Interaction_From": {
+    "type": "stack",
+    "container": "Interaction_Card",
+    "subcontainer": "98b1a",
+    "col": 1,
+    "height": 0.6,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 227,
+        "height": 24
+      }
+    }
+  },
+  "Interaction_HasAttachments": {
+    "type": "stack",
+    "container": "InteractionStatuses_Container",
+    "subcontainer": "0b67a",
+    "row": 7.8,
+    "col": 4,
+    "height": 0.4,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 28,
+        "height": 28
+      }
+    }
+  },
+  "Interaction_IVRChoice": {
+    "type": "stack",
+    "container": "Information_Container",
+    "subcontainer": "4158d",
+    "height": 0.6,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "auto",
+        "width": 763,
+        "height": 24
+      }
+    }
+  },
+  "Interaction_IVRChoice2": {
+    "type": "stack",
+    "container": "Information_Container2",
+    "subcontainer": "4158d",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "auto",
+        "width": 763,
+        "height": 24
+      }
+    }
+  },
+  "Interaction_Important": {
+    "type": "stack",
+    "container": "InteractionStatuses_Container",
+    "subcontainer": "0b67a",
+    "row": 7.4,
+    "col": 4,
+    "height": 0.4,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 28,
+        "height": 27
+      }
+    }
+  },
+  "Interaction_Subject3": {
+    "container": "Information_Container",
+    "subcontainer": "de2fd",
+    "row": 1,
+    "height": 0.6,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Interaction_Subject4": {
+    "container": "Information_Container2",
+    "subcontainer": "de2fd",
+    "row": 1,
+    "height": 0.6,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Interaction_Timestamp2": {
+    "type": "stack",
+    "container": "Information_Container",
+    "subcontainer": "4158d",
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 400,
+        "height": 24
+      }
+    }
+  },
+  "Interaction_Timestamp3": {
+    "container": "Information_Container",
+    "subcontainer": "4158d",
+    "row": 0.6,
+    "col": 7,
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Interaction_Timestamp4": {
+    "container": "Information_Container",
+    "subcontainer": "de2fd",
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "Interaction_To": {
+    "type": "stack",
+    "container": "Interaction_Card",
+    "subcontainer": "98b1a",
+    "row": 0.6,
+    "col": 1,
+    "height": 0.6,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 227,
+        "height": 16
+      }
+    }
+  },
+  "Interactions_Container": {
+    "type": "stack",
+    "container": "InteractionList_Container",
+    "subcontainer": "946a7",
+    "row": 4.6,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": 811,
+        "height": 40
+      }
+    }
+  },
+  "Interactions_List": {
+    "type": "stack",
+    "container": "Interactions_Container",
+    "subcontainer": "0b67a",
+    "row": 1.4,
+    "height": 32.8,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 400,
+        "height": 1312
+      }
+    }
+  },
+  "LinkedToCase_Container": {
+    "container": "Information_Container",
+    "subcontainer": "de2fd",
+    "height": 1,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "LinkedToCase_Container2": {
+    "container": "Information_Container2",
+    "subcontainer": "de2fd",
+    "height": 1,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "LinkedToCase_Label": {
+    "type": "stack",
+    "container": "LinkedToCase_Container",
+    "subcontainer": "5700b",
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 60,
+        "height": 24
+      }
+    }
+  },
+  "LinkedToCase_Label2": {
+    "type": "stack",
+    "container": "LinkedToCase_Container2",
+    "subcontainer": "5700b",
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 60,
+        "height": 24
+      }
+    }
+  },
+  "attachInteractionToCaseModule1": {
+    "type": "stack",
+    "container": "DetailedInteraction_ActionsContainer",
+    "subcontainer": "0b67a",
+    "col": 2,
+    "height": 2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 1,
+        "height": 1
+      }
+    }
+  },
+  "closeInteractionModule1": {
+    "type": "stack",
+    "container": "DetailedInteraction_ActionsContainer",
+    "subcontainer": "0b67a",
+    "row": 4,
+    "col": 2,
+    "height": 2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 1,
+        "height": 1
+      }
+    }
+  },
+  "container1": {
+    "container": "DetailedInteraction_Container",
+    "subcontainer": "98b1a",
+    "row": 3.8,
+    "col": 7,
+    "height": 3.8,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle10": {
+    "container": "Interaction_Card",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "divider5": {
+    "container": "DetailedInteraction_Container",
+    "subcontainer": "98b1a",
+    "row": 9.8,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "formTitle12": {
+    "container": "FilterInteraction_Form",
+    "rowGroup": "header"
+  },
+  "interactionFullscreenModule1": {
+    "type": "stack",
+    "container": "DetailedInteraction_ActionsContainer",
+    "subcontainer": "0b67a",
+    "row": 2,
+    "col": 2,
+    "height": 2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 1,
+        "height": 1
+      }
+    }
+  },
+  "moduleContainer": {
+    "height": 27,
+    "width": 12
+  },
+  "stack1": {
+    "type": "stack",
+    "container": "DetailedInteraction_FlagsContainer",
+    "subcontainer": "a4bf7",
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 155,
+        "height": 32
+      }
+    }
+  },
+  "stack2": {
+    "container": "FilterInteraction_Form",
+    "row": 4,
+    "col": 3,
+    "height": 1,
+    "width": 9
+  },
+  "stack3": {
+    "container": "DetailedInteraction_Container",
+    "subcontainer": "98b1a",
+    "height": 3.8,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text1": {
+    "type": "stack",
+    "container": "container1",
+    "subcontainer": "67e74",
+    "row": 3.8,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 153,
+        "height": 24
+      }
+    }
+  }
+}

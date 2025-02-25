@@ -1,0 +1,39 @@
+{
+  "AllCasesPaginationContainer": {
+    "container": "moduleContainer",
+    "row": 1,
+    "height": 3.8,
+    "width": 12
+  },
+  "AllCasesTable_Pagination": {
+    "type": "stack",
+    "container": "AllCasesPaginationContainer",
+    "subcontainer": "89817",
+    "row": 38.2,
+    "col": 10,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 216,
+        "height": 32
+      }
+    }
+  },
+  "AllCases_Table": {
+    "container": "moduleContainer",
+    "height": 1,
+    "width": 12
+  },
+  "CaseTasks_Table": {
+    "container": "AllCases_Table",
+    "height": 1,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 3,
+    "width": 8
+  }
+}

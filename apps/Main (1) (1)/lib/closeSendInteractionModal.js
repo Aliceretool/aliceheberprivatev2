@@ -1,0 +1,1 @@
+sendInteractionState.setIn(["open"], false);

@@ -1,0 +1,59 @@
+<GlobalFunctions>
+  <RESTQuery
+    id="GetInteractionCloseReasons"
+    query="interaction/close-reasons"
+    resourceName="0fd77fe3-c3ce-49fe-98da-f6debe7f360f"
+  />
+  <Function
+    id="isOtherCloseReason"
+    funcBody={include("./lib/isOtherCloseReason.js", "string")}
+  />
+  <RESTQuery
+    id="CloseInteraction"
+    _additionalScope={[
+      "interactionCloseReasonId",
+      "customCloseReason",
+      "closeComment",
+    ]}
+    body={
+      '{\n  "interactionCloseReason_id": {{ interactionCloseReasonId }},\n  "customCloseReason": {{ customCloseReason }},\n  "closeComment": {{ closeComment }},\n}'
+    }
+    bodyType="raw"
+    headers={'[{"key":"Content-Type","value":"application/json"}]'}
+    notificationDuration={4.5}
+    query="interaction/close/{{ interactionId.value }}"
+    resourceName="0fd77fe3-c3ce-49fe-98da-f6debe7f360f"
+    runWhenModelUpdates={false}
+    showSuccessToaster={false}
+    type="PUT"
+  />
+  <JavascriptQuery
+    id="submitCloseInteractionForm"
+    isMultiplayerEdited={false}
+    notificationDuration={4.5}
+    query={include("./lib/submitCloseInteractionForm.js", "string")}
+    resourceName="JavascriptQuery"
+    showSuccessToaster={false}
+  />
+  <GlobalWidgetQuery
+    id="onCloseInteraction"
+    defaultValue=""
+    resourceName="GlobalWidgetQuery"
+    value=""
+  />
+  <GlobalWidgetQuery
+    id="onModalHide"
+    defaultValue=""
+    resourceName="GlobalWidgetQuery"
+    showFailureToaster={false}
+    showSuccessToaster={false}
+    value=""
+  />
+  <JavascriptQuery
+    id="onHide"
+    notificationDuration={4.5}
+    query={include("./lib/onHide.js", "string")}
+    resourceName="JavascriptQuery"
+    showSuccessToaster={false}
+  />
+</GlobalFunctions>

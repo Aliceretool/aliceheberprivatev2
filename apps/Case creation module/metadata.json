@@ -1,0 +1,118 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "82f651e7-2266-4939-8249-010cb9122b1c",
+  "appTemplate": {
+    "pageCodeFolders": {
+      "object": {
+        "d": {
+          "array": []
+        },
+        "da": {
+          "array": []
+        },
+        "dat": {
+          "array": []
+        },
+        "init": {
+          "array": []
+        },
+        "initD": {
+          "array": []
+        },
+        "initData": {
+          "array": []
+        },
+        "passedData": {
+          "array": []
+        },
+        "h": {
+          "array": []
+        },
+        "hidd": {
+          "array": []
+        },
+        "hidden": {
+          "array": []
+        },
+        "formValidation": {
+          "array": []
+        },
+        "o": {
+          "array": []
+        },
+        "on": {
+          "array": []
+        },
+        "onc": {
+          "array": []
+        },
+        "onCa": {
+          "array": []
+        },
+        "onCas": {
+          "array": []
+        },
+        "cl": {
+          "array": []
+        },
+        "clo": {
+          "array": []
+        },
+        "clos": {
+          "array": []
+        },
+        "closeMo": {
+          "array": []
+        },
+        "closeMod": {
+          "array": []
+        },
+        "closeModal": {
+          "array": []
+        },
+        "closeModalH": {
+          "array": []
+        },
+        "closeModalHan": {
+          "array": []
+        },
+        "closeModalHandle": {
+          "array": []
+        },
+        "closeModalHandler": {
+          "array": []
+        },
+        "closeModalHandlerr": {
+          "array": []
+        },
+        "caseBuilder": {
+          "array": []
+        },
+        "getAllCases": {
+          "array": []
+        },
+        "ca": {
+          "array": []
+        },
+        "caseI": {
+          "array": []
+        },
+        "caseId": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": true,
+        "globalQueryToastDuration": 4.5,
+        "globalToastPosition": "topCenter"
+      }
+    },
+    "isGlobalWidget": true,
+    "version": "3.124.0",
+    "experimentalDataTabEnabled": true
+  }
+}

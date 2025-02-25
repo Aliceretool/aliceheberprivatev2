@@ -1,0 +1,309 @@
+{
+  "AddCaseContact_Select": {
+    "type": "stack",
+    "container": "stack2",
+    "subcontainer": "6b967",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 167,
+        "height": 8
+      }
+    }
+  },
+  "AddTemplate_Link": {
+    "type": "stack",
+    "container": "stack1",
+    "subcontainer": "5fe7f",
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 120,
+        "height": 24
+      }
+    }
+  },
+  "BccInput": {
+    "type": "stack",
+    "container": "SendEmailSMS_Container",
+    "subcontainer": "6c1d0",
+    "row": 0.4,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fill",
+        "width": 232,
+        "height": 8
+      }
+    }
+  },
+  "CcInput": {
+    "type": "stack",
+    "container": "SendEmailSMS_Container",
+    "subcontainer": "6c1d0",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fill",
+        "width": 232,
+        "height": 8
+      }
+    }
+  },
+  "ConfirmTemplateReplacement_Button": {
+    "type": "stack",
+    "container": "stack3",
+    "subcontainer": "6b967",
+    "row": 1.8,
+    "col": 9,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 115.99739583333333,
+        "height": 40
+      }
+    }
+  },
+  "EmailBody_Input": {
+    "type": "stack",
+    "container": "SendEmailSMS_Container",
+    "subcontainer": "6c1d0",
+    "row": 5.4,
+    "height": 4,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fill",
+        "width": 232,
+        "height": 340
+      }
+    }
+  },
+  "EmailSubject_Input": {
+    "type": "stack",
+    "container": "SendEmailSMS_Container",
+    "subcontainer": "6c1d0",
+    "height": 0.2,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 638,
+        "height": 64
+      }
+    }
+  },
+  "SMSBody_Input": {
+    "type": "stack",
+    "container": "SendEmailSMS_Container",
+    "subcontainer": "14756",
+    "height": 1,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fill",
+        "width": 232,
+        "height": 40
+      }
+    }
+  },
+  "SelectedTemplate_IconText": {
+    "type": "stack",
+    "container": "stack1",
+    "subcontainer": "5fe7f",
+    "row": 4,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "auto",
+        "width": 116,
+        "height": 24
+      }
+    }
+  },
+  "SendEmailSMS_Container": {
+    "subcontainer": "SendEmailSMS_Modal",
+    "row": 8,
+    "height": 4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "SendInteractionTitle": {
+    "rowGroup": "header",
+    "subcontainer": "SendEmailSMS_Modal",
+    "height": 0.6,
+    "width": 8
+  },
+  "ToInput": {
+    "type": "stack",
+    "subcontainer": "SendEmailSMS_Modal",
+    "row": 7.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fill",
+        "width": 232,
+        "height": 8
+      }
+    }
+  },
+  "ToInput_PhoneNumber": {
+    "subcontainer": "SendEmailSMS_Modal",
+    "row": 7.8,
+    "height": 0.2,
+    "width": 12
+  },
+  "ToLabel": {
+    "type": "stack",
+    "container": "stack2",
+    "subcontainer": "6b967",
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "auto",
+        "width": 3,
+        "height": 24
+      }
+    }
+  },
+  "button1": {
+    "type": "stack",
+    "container": "stack3",
+    "subcontainer": "6b967",
+    "row": 1,
+    "col": 7,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 90.99739583333333,
+        "height": 40
+      }
+    }
+  },
+  "button2": {
+    "rowGroup": "footer",
+    "subcontainer": "SendEmailSMS_Modal",
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "divider1": {
+    "type": "stack",
+    "container": "SendEmailSMS_Container",
+    "subcontainer": "6c1d0",
+    "row": 5.2,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fill",
+        "width": 232,
+        "height": 8
+      }
+    }
+  },
+  "modalCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "SendEmailSMS_Modal",
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "modalCloseButton2": {
+    "rowGroup": "header",
+    "subcontainer": "ConfirmTemplatePlacement_Modal",
+    "col": 9,
+    "height": 1
+  },
+  "modalTitle2": {
+    "rowGroup": "header",
+    "subcontainer": "ConfirmTemplatePlacement_Modal",
+    "height": 0.6,
+    "width": 9
+  },
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  },
+  "searchTemplateModule1": {
+    "type": "stack",
+    "container": "stack1",
+    "subcontainer": "5fe7f",
+    "row": 1.6,
+    "height": 2.4,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "auto",
+        "width": 232,
+        "height": 1
+      }
+    }
+  },
+  "stack1": {
+    "subcontainer": "SendEmailSMS_Modal",
+    "height": 3.8,
+    "width": 12
+  },
+  "stack2": {
+    "type": "stack",
+    "subcontainer": "SendEmailSMS_Modal",
+    "row": 3.8,
+    "height": 3.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fill",
+        "width": 348,
+        "height": 40
+      }
+    }
+  },
+  "stack3": {
+    "subcontainer": "ConfirmTemplatePlacement_Modal",
+    "row": 0.6,
+    "height": 3.8,
+    "width": 12
+  },
+  "text2": {
+    "subcontainer": "ConfirmTemplatePlacement_Modal",
+    "height": 0.6,
+    "width": 12
+  }
+}

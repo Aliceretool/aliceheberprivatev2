@@ -1,0 +1,256 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "3b0cbe18-e2ef-11ef-b906-9f64fb747184",
+  "appTemplate": {
+    "appThemeId": 2,
+    "pageCodeFolders": {
+      "object": {
+        "sidebarNavItems": {
+          "array": []
+        },
+        "sidebarItems": {
+          "array": []
+        },
+        "sidebar": {
+          "array": []
+        },
+        "sidebarState": {
+          "array": []
+        },
+        "ParentMenu": {
+          "array": []
+        },
+        "ParentMenuList": {
+          "array": []
+        },
+        "ChildMenu": {
+          "array": []
+        },
+        "ParentMenu_List": {
+          "array": []
+        },
+        "ChildMenu_Toolbar": {
+          "array": []
+        },
+        "ChildMenu_Header": {
+          "array": []
+        },
+        "ChildMenu_Title": {
+          "array": []
+        },
+        "SidebarContainer": {
+          "array": []
+        },
+        "Logo": {
+          "array": []
+        },
+        "Header_Navigation": {
+          "array": []
+        },
+        "Wiki": {
+          "array": []
+        },
+        "Wiki_Button": {
+          "array": []
+        },
+        "TnC_Button": {
+          "array": []
+        },
+        "Providers_Button": {
+          "array": []
+        },
+        "Tools_Button": {
+          "array": []
+        },
+        "Users_Button": {
+          "array": []
+        },
+        "defaultPage2": {
+          "array": []
+        },
+        "HomePage": {
+          "array": []
+        },
+        "statistics": {
+          "array": []
+        },
+        "MyCases_Statistic": {
+          "array": []
+        },
+        "Search_Form": {
+          "array": []
+        },
+        "TopBar_Container": {
+          "array": []
+        },
+        "Statistics_Container": {
+          "array": []
+        },
+        "CreateCase_Button": {
+          "array": []
+        },
+        "Search_Input": {
+          "array": []
+        },
+        "SearchCriteria_Button": {
+          "array": []
+        },
+        "Search_Button": {
+          "array": []
+        },
+        "Sidebar": {
+          "array": []
+        },
+        "ParentItem_Container": {
+          "array": []
+        },
+        "ParentItem_Icon": {
+          "array": []
+        },
+        "Home": {
+          "array": ["Search"]
+        },
+        "handleSidebarItemClick": {
+          "array": []
+        },
+        "ChildItem_Title": {
+          "array": []
+        },
+        "ChildItem_Caption": {
+          "array": []
+        },
+        "handleSidebarCollapse": {
+          "array": []
+        },
+        "topbarConfig": {
+          "array": []
+        },
+        "page1": {
+          "array": []
+        },
+        "Interaction": {
+          "array": ["callerInformation", "interaction"]
+        },
+        "sidebarWidth": {
+          "array": []
+        },
+        "pageWidth": {
+          "array": []
+        },
+        "pageMargin": {
+          "array": []
+        },
+        "pagePadding": {
+          "array": []
+        },
+        "MyCases_Title": {
+          "array": []
+        },
+        "MyCases_Value": {
+          "array": []
+        },
+        "MyTasks_Statistic": {
+          "array": []
+        },
+        "MyTasks_Title": {
+          "array": []
+        },
+        "MyTasks_Value": {
+          "array": []
+        },
+        "MyInteractions_Statistic": {
+          "array": []
+        },
+        "MyInteractions_Title": {
+          "array": []
+        },
+        "MyInteractions_Value": {
+          "array": []
+        },
+        "NoResults_Container": {
+          "array": []
+        },
+        "NoResults_Title": {
+          "array": []
+        },
+        "NoResultsForceEligibility_Button": {
+          "array": []
+        },
+        "pagePaddingRight": {
+          "array": []
+        },
+        "User_Avatar": {
+          "array": []
+        },
+        "Header_Container": {
+          "array": []
+        },
+        "CASE_CREATION_HIDDEN": {
+          "array": []
+        },
+        "Case": {
+          "array": [
+            "documentation",
+            "interactions",
+            "case_details",
+            "contacts",
+            "missions",
+            "tasks",
+            "hospitals",
+            "top_section"
+          ]
+        },
+        "AllInteractions": {
+          "array": []
+        },
+        "CallBack": {
+          "array": []
+        },
+        "AllCases": {
+          "array": []
+        },
+        "AllTasks": {
+          "array": ["resources", "functions"]
+        },
+        "page2": {
+          "array": []
+        },
+        "page3": {
+          "array": []
+        },
+        "page4": {
+          "array": []
+        }
+      }
+    },
+    "customComponentCollections": {
+      "array": [
+        {
+          "object": {
+            "collectionName": "Genesys",
+            "collectionRevisionUuid": "343023a5-8d90-46fe-8b32-8ef172eaf463",
+            "collectionUuid": "ba3d689a-023e-411e-b374-dc6c637024f6"
+          }
+        }
+      ]
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": false,
+        "globalQueryToastDuration": 4.5,
+        "globalToastPosition": "topCenter"
+      }
+    },
+    "rootScreen": "Home",
+    "appThemeName": "Theme EA - Design Kit",
+    "preloadedAppJSLinks": {
+      "array": [
+        "https://sdk-cdn.mypurecloud.com/javascript/207.0.0/purecloud-platform-client-v2.min.js"
+      ]
+    },
+    "version": "3.133.0",
+    "experimentalDataTabEnabled": true
+  }
+}

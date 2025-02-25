@@ -1,0 +1,1 @@
+isAttachToCaseModalOpen.setValue(false);
