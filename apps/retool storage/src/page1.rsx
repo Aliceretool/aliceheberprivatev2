@@ -15,14 +15,17 @@
     padding="8px 12px"
     type="main"
   >
-    <Image
-      id="image1"
-      heightType="fixed"
-      horizontalAlign="center"
-      retoolStorageDynamicInput={true}
-      retoolStorageFileId="{{ getNameFromId.data}}"
-      src="https://picsum.photos/id/1025/800/600"
-      srcType="retoolStorageFileId"
+    <Text
+      id="text2"
+      value={
+        'image source: from query - finding ID of file with name "marmelade.jpg"'
+      }
+      verticalAlign="center"
+    />
+    <Text
+      id="text1"
+      value="image source: selected file from storage (which has 2 different uuids in both instances)"
+      verticalAlign="center"
     />
     <Image
       id="image2"
@@ -32,9 +35,14 @@
       src="https://picsum.photos/id/1025/800/600"
       srcType="retoolStorageFileId"
     />
-    <JSONEditor
-      id="jsonEditor1"
-      value="image1.retoolStorageFileId: {{image1.retoolStorageFileId}}"
+    <Image
+      id="image1"
+      heightType="fixed"
+      horizontalAlign="center"
+      retoolStorageDynamicInput={true}
+      retoolStorageFileId="{{ getNameFromId.data}}"
+      src="https://picsum.photos/id/1025/800/600"
+      srcType="retoolStorageFileId"
     />
   </Frame>
 </Screen>
