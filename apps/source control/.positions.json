@@ -1,0 +1,23 @@
+{
+  "button1": {
+    "row": 2.6,
+    "height": 1,
+    "width": 2
+  },
+  "tabbedContainer1": {
+    "row": 2.6,
+    "col": 2,
+    "height": 0.2,
+    "width": 6
+  },
+  "tabs1": {
+    "container": "tabbedContainer1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "text1": {
+    "row": 8,
+    "height": 1
+  }
+}
