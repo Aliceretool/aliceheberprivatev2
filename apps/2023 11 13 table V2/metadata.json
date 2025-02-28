@@ -11,7 +11,17 @@
         "globalQueryToastDuration": 4.5
       }
     },
-    "version": "3.98.0",
+    "appTesting": {
+      "object": {
+        "tests": {
+          "object": {}
+        },
+        "testSuites": {
+          "array": []
+        }
+      }
+    },
+    "version": "3.114.12",
     "experimentalDataTabEnabled": true
   }
 }

@@ -10,6 +10,7 @@
     sticky={null}
     type="main"
   >
+    <Button id="button8" text="Button" />
     <Text id="text4" value="branchy branch" verticalAlign="center" />
     <Table
       id="table2"
@@ -337,20 +338,6 @@
       </Header>
       <View id="1eb3a" viewKey="View 1" />
     </Container>
-    <Select
-      id="select1"
-      emptyMessage="No options"
-      itemMode="static"
-      labelPosition="top"
-      marginType="normal"
-      overlayMaxHeight={375}
-      placeholder="Select an option"
-      showSelectionIndicator={true}
-    >
-      <Option id="1d8c4" value="Option 1" />
-      <Option id="05e9e" value="Option 2" />
-      <Option id="b21b0" value="Option 3" />
-    </Select>
     <NumberInput
       id="numberInput1"
       currency="USD"
@@ -368,7 +355,6 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
-    <Button id="button6" marginType="normal" text="Button" />
     <Form
       id="form1"
       footerPadding="4px 12px"
@@ -402,6 +388,20 @@
         />
       </Footer>
     </Form>
+    <Select
+      id="select1"
+      emptyMessage="No options"
+      itemMode="static"
+      labelPosition="top"
+      marginType="normal"
+      overlayMaxHeight={375}
+      placeholder="Select an option"
+      showSelectionIndicator={true}
+    >
+      <Option id="1d8c4" value="Option 1" />
+      <Option id="05e9e" value="Option 2" />
+      <Option id="b21b0" value="Option 3" />
+    </Select>
     <Container
       id="container2"
       footerPadding="4px 12px"
@@ -424,6 +424,7 @@
       </Header>
       <View id="1eb3a" viewKey="View 1" />
     </Container>
+    <Button id="button6" marginType="normal" text="Button" />
     <Select
       id="select2"
       emptyMessage="No options"
