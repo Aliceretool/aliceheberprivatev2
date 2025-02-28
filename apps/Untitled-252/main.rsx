@@ -151,5 +151,4 @@
       />
     </ToolbarButton>
   </Table>
-  <Button id="button2" text="Button" />
 </App>
