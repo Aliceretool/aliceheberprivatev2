@@ -13,7 +13,10 @@ return data.error"
     transformer="// Query results are available as the `data` variable
 return data"
     warningCodes={[]}
+    workflowActionType={null}
     workflowBlockPluginId={null}
+    workflowBlockUuid={null}
+    workflowRunId={null}
   >
     <Event
       event="success"
@@ -39,7 +42,10 @@ return data.error"
     transformer="// Query results are available as the `data` variable
 return data"
     warningCodes={[]}
+    workflowActionType={null}
     workflowBlockPluginId={null}
+    workflowBlockUuid={null}
+    workflowRunId={null}
   />
   <RESTQuery
     id="getAll"
@@ -54,7 +60,10 @@ return data.error"
     resourceTypeOverride=""
     transformer="// Query results are available as the `data` variable
 return data"
+    workflowActionType={null}
     workflowBlockPluginId={null}
+    workflowBlockUuid={null}
+    workflowRunId={null}
   />
   <SqlQueryUnified
     id="getAllAliceUser"
@@ -67,7 +76,10 @@ return data.error"
     transformer="// Query results are available as the `data` variable
 return data"
     warningCodes={[]}
+    workflowActionType={null}
     workflowBlockPluginId={null}
+    workflowBlockUuid={null}
+    workflowRunId={null}
   />
   <SqlQueryUnified
     id="getAllAliceUserWHERE"
@@ -80,7 +92,10 @@ return data.error"
     transformer="// Query results are available as the `data` variable
 return data"
     warningCodes={[]}
+    workflowActionType={null}
     workflowBlockPluginId={null}
+    workflowBlockUuid={null}
+    workflowRunId={null}
   />
   <JavascriptQuery
     id="query6"
@@ -92,22 +107,28 @@ return data.error"
     resourceName="JavascriptQuery"
     transformer="// Query results are available as the `data` variable
 return data"
+    workflowActionType={null}
     workflowBlockPluginId={null}
+    workflowBlockUuid={null}
+    workflowRunId={null}
   />
   <RetoolAIQuery
     id="query7"
-    defaultModelInitialized={false}
+    dynamicModelName="gpt-4o-mini"
+    dynamicModelNameEnabled={false}
+    dynamicModelProvider="openAI"
     errorTransformer="// The variable 'data' allows you to reference the request's data in the transformer. 
 // example: return data.find(element => element.isError)
 return data.error"
     model="gpt-4o"
     notificationDuration={4.5}
-    providerId="retoolAIBuiltIn::openAI"
-    providerName="openAI"
     resourceDisplayName="retool_ai"
     resourceName="retool_ai"
     transformer="// Query results are available as the `data` variable
 return data"
+    workflowActionType={null}
+    workflowBlockUuid={null}
+    workflowRunId={null}
   />
   <JavascriptQuery
     id="query8"
@@ -118,5 +139,8 @@ return data.error"
     resourceName="JavascriptQuery"
     transformer="// Query results are available as the `data` variable
 return data"
+    workflowActionType={null}
+    workflowBlockUuid={null}
+    workflowRunId={null}
   />
 </GlobalFunctions>
