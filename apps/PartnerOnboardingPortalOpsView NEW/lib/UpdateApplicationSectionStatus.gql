@@ -1,0 +1,8 @@
+mutation($id:ID!, $data: ApplicationSectionStatusUpdateInput!){
+  updateApplicationSectionStatus(
+    where: {id: $id},
+    data: $data
+  ){
+    id
+  }
+}

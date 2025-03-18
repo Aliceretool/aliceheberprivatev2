@@ -1,0 +1,6 @@
+query{
+ 	currentSungageUser{
+    fullName
+    sungageUserId
+  }
+}

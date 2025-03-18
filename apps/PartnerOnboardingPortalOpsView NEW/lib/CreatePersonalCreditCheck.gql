@@ -1,0 +1,7 @@
+mutation($data: [PersonalCreditCheckCreateInput!]!){
+  createPersonalCreditChecks(
+    data: $data
+  ){
+    id
+  }
+}

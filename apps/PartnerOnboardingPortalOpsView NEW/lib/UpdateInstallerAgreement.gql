@@ -1,0 +1,8 @@
+mutation($id:ID, $data: AgreementUpdateInput!){
+  updateAgreement(
+    where: {id: $id},
+    data: $data
+  ){
+    id
+  }
+}
