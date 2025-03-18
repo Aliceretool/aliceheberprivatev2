@@ -1,0 +1,11 @@
+mutation($id: ID, $data: AccountUpdateInput!){
+  updateAccount(
+    where: {id: $id},
+    data: $data
+  ){
+    id
+    name
+  }
+}
+
+

@@ -1,0 +1,26 @@
+query($id: ID){
+  installerApplication(where: {id: $id}){
+    businessFilingChecksCompleted
+    dateOfFormationFromSOSLicense
+    phoneVerificationNumberCompleted
+    functioningWebsite 
+    websiteDomainChecksCompleted
+    applicationCompany{
+      address {
+        street1
+        city
+        state
+        zipCode
+      }
+      id
+      legalName
+      dbaName
+      yearOfFormation
+      stateOfFormation
+      businessPhoneNumber
+      website
+    }
+  }
+}
+
+

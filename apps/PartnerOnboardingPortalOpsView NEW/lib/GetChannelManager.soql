@@ -1,0 +1,3 @@
+SELECT Id, Name, Sungage_Channel_Manager__r.Name, Sungage_Channel_Manager__r.Email, External_ID__c, Most_Recent_Installer_Application__r.Experian_Business_Response__c
+FROM Account 
+WHERE External_ID__c = '{{ GetAccountHome.data.account.externalId }}'

@@ -1,0 +1,13 @@
+query GetRecheckReviews($id: ID!) {
+  recheckReviews(
+    where: { installerApplicationId: $id },
+    skip: 0,
+    take: 100
+  ){
+    id
+    companySearched
+    principalsSearched
+    resultFound
+    notes
+  }
+}

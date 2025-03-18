@@ -1,0 +1,45 @@
+query($id: ID!) {
+  installerApplicationUsers(
+    where: {applicationCompany: {installerApplication: {id: $id}}}
+    orderBy: [{createdAt: ASC}],
+    skip: 0, 
+    take: 100
+  ) {
+    id
+    title
+    isPrincipal
+    isLegalSigner
+    percentageOwned
+    phone
+    preferredContactMethod
+    backgroundCheckComplete
+    backgroundCheckNotPossible
+    firstName
+    lastName
+    middleInitial
+    fullName
+    email
+    creditAuthorizationForms{
+      id
+      dob 
+      homeAddress{
+        street1
+        street2
+        city
+        state 
+        zipCode
+      }
+    }
+    authUser {
+      id
+      email
+    }
+    personalCreditChecks(orderBy: [{createdAt: DESC}], take: 1){
+      id
+      ficoScore
+      bankruptcyPlusScore
+      personalCreditPulled
+      creditResponseId
+    }
+  }
+}

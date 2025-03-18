@@ -1,0 +1,6 @@
+mutation($data: [PersonalCreditChecksUpdateInput!]!){
+  updatePersonalCreditChecks(data: $data){
+    id
+  }
+}
+
