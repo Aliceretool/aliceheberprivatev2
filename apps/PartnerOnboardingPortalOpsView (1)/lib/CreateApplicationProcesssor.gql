@@ -1,0 +1,8 @@
+mutation($id:ID, $data:InstallerApplicationUpdateInput!){
+  updateInstallerApplication(
+    where: {id: $id}, 
+    data: $data
+  ){
+    id
+  }
+}

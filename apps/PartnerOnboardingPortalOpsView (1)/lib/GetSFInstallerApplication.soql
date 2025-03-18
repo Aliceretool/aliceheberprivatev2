@@ -1,0 +1,3 @@
+SELECT Id, External_ID__c, Internal_Vetting_Notes__c
+FROM Installer_Application__c 
+WHERE External_ID__c = '{{ GetAccountHome.data.externalId }}'

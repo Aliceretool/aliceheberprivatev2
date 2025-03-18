@@ -1,0 +1,5 @@
+mutation CreateRecheckReview($data: RecheckReviewCreateInput!) {
+  createRecheckReview(data: $data) {
+    id
+  }
+}

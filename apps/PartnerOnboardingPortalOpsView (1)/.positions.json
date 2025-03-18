@@ -1,0 +1,22 @@
+{
+  "insuranceVerificationKickBackForm2": {
+    "subcontainer": "insuranceVerificationKickBackModal",
+    "col": 1,
+    "height": 0.2,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "modalCloseButton7": {
+    "rowGroup": "header",
+    "subcontainer": "insuranceVerificationKickBackModal",
+    "col": 9,
+    "height": 1
+  }
+}
