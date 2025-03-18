@@ -1,0 +1,89 @@
+query ($id: ID!) {
+  installerApplication(
+    where: { id: $id }
+  ) {
+    id
+    isWorkersCompRequired
+    contractTwoYearWarrantyVerified
+    agreement{
+      id
+      type
+      invalidatedAt
+      recipientName
+      version
+      label
+      signingDocument{
+        id
+        createdAt
+        updatedAt
+        completedAt
+        status
+        documentType
+        createdBy{
+          id
+          email
+        }
+        updatedBy{
+          id
+          email
+        }
+        documentPdf{
+          file {
+            url
+            urlForPreview
+            filename
+          }
+        }
+      }
+    }
+    insurances(
+      where: { invalidatedAt: null, usedFor: Onboarding },
+      skip: 0,
+      take: 100
+    ) {
+      id
+      usedFor
+      insuranceType
+      verified
+      notes
+      policyNumber
+      expirationDate
+      documentStatus
+      signingDocument{
+        id
+        createdAt
+        updatedAt
+        completedAt
+        status
+        documentType
+        createdBy{
+          id
+          email
+        }
+        updatedBy{
+          id
+          email
+        }
+        documentPdf{
+          file {
+            url
+            urlForPreview
+            filename
+          }
+        }
+        signature1{
+          authUser {
+            fullName
+          }
+        } 
+      }
+      invalidatedAt
+      attachments {
+        id
+        file {
+          filename
+        }
+      }
+    }
+  }
+}

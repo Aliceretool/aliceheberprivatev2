@@ -1,0 +1,8 @@
+mutation UpdateRecheckReview($id: ID!, $data: RecheckReviewUpdateInput!) {
+  updateRecheckReview(
+    where: { id: $id },
+    data: $data
+  ) {
+    id
+  }
+}

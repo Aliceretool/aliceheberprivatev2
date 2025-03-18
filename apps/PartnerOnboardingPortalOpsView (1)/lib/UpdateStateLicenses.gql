@@ -1,0 +1,9 @@
+mutation($data: [StateLicensesUpdateInput!]!){
+  updateStateLicenses (
+    data: $data
+  ) {
+    id
+    state
+    licenseNumber
+  }
+}
