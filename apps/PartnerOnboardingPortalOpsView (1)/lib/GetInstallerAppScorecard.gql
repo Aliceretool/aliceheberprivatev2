@@ -1,0 +1,14 @@
+query($id: ID){
+  installerApplication(where: {id: $id}){
+    minimumBusinessAgeMet
+    dateScorecardCompleted
+    provisionalScorecardException
+    totalProvisionalScore
+    dateFlaggedForHighRisk
+    highRiskNotes
+    financialStabilityRiskScore
+    intelliscore
+    applicationDecision
+  }
+}
+

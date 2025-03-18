@@ -1,0 +1,5 @@
+mutation UpdateFinancialStatements($data: [FinancialStatementsUpdateInput!]!) {
+  updateFinancialStatements(data: $data) {
+    id
+  }
+}

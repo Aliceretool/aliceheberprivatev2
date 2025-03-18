@@ -1,0 +1,241 @@
+{
+  "accountNameText": {
+    "type": "stack",
+    "subcontainer": "header",
+    "col": 5,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 456.7395833333333,
+        "height": 24
+      }
+    }
+  },
+  "accountPageLink": {
+    "type": "stack",
+    "subcontainer": "header",
+    "col": 2,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 342.5546875,
+        "height": 24
+      }
+    }
+  },
+  "addNotesButton": {
+    "type": "stack",
+    "subcontainer": "header",
+    "col": 9,
+    "height": 1,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 114.18489583333333,
+        "height": 40
+      }
+    }
+  },
+  "avatar1": {
+    "rowGroup": "footer",
+    "subcontainer": "sidebarFrame1",
+    "height": 0.2,
+    "width": 1
+  },
+  "backToInstallerAppList": {
+    "rowGroup": "footer",
+    "subcontainer": "sidebarFrame1",
+    "row": 0.2,
+    "height": 1,
+    "width": 1
+  },
+  "confirmChangesButton2": {
+    "subcontainer": "saveReminderModal",
+    "row": 2.4,
+    "col": 3,
+    "height": 1,
+    "width": 6
+  },
+  "discardChangesButton2": {
+    "subcontainer": "saveReminderModal",
+    "row": 3.8,
+    "col": 3,
+    "height": 1,
+    "width": 6
+  },
+  "modalCloseButton10": {
+    "rowGroup": "header",
+    "subcontainer": "statesAndLicensesKickBackModal",
+    "col": 9,
+    "height": 1
+  },
+  "modalCloseButton8": {
+    "rowGroup": "header",
+    "subcontainer": "principalsKickBackModal",
+    "col": 9,
+    "height": 1
+  },
+  "modalCloseButton9": {
+    "rowGroup": "header",
+    "subcontainer": "saveReminderModal",
+    "col": 9,
+    "height": 1
+  },
+  "navigation": {
+    "subcontainer": "sidebarFrame1",
+    "height": 0.8,
+    "width": 1
+  },
+  "ownershipKickBackFormTitle2": {
+    "container": "principalsKickBackForm2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "principalSelectionMultiSelect": {
+    "container": "principalsKickBackForm2",
+    "row": 1,
+    "height": 0.2,
+    "width": 12
+  },
+  "principalsKickBackForm2": {
+    "subcontainer": "principalsKickBackModal",
+    "col": 1,
+    "height": 0.2,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "principalsKickBackSelectionRadioGroup": {
+    "container": "principalsKickBackForm2",
+    "height": 0.6,
+    "width": 12
+  },
+  "principalsKickBackSubmitButton2": {
+    "container": "principalsKickBackForm2",
+    "rowGroup": "footer",
+    "col": 7,
+    "height": 1,
+    "width": 5
+  },
+  "principalsRejectionReasonTextArea": {
+    "container": "principalsKickBackForm2",
+    "row": 1.6,
+    "height": 1,
+    "width": 12
+  },
+  "saveButton": {
+    "type": "stack",
+    "subcontainer": "header",
+    "row": 1,
+    "col": 10,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 228.36979166666666,
+        "height": 40
+      }
+    }
+  },
+  "shareAppLinkButton": {
+    "type": "stack",
+    "subcontainer": "header",
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 228.36979166666666,
+        "height": 40
+      }
+    }
+  },
+  "spacer38": {
+    "container": "principalsKickBackForm2",
+    "row": 2.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer39": {
+    "container": "principalsKickBackForm2",
+    "row": 0.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer40": {
+    "container": "principalsKickBackForm2",
+    "row": 1.2,
+    "height": 0.4,
+    "width": 12
+  },
+  "statesAndLicensesKickBackForm2": {
+    "subcontainer": "statesAndLicensesKickBackModal",
+    "col": 1,
+    "height": 0.2,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "statesAndLicensesKickBackFormTitle2": {
+    "container": "statesAndLicensesKickBackForm2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "statesAndLicensesKickBackRejectionReasonTextArea2": {
+    "container": "statesAndLicensesKickBackForm2",
+    "height": 1,
+    "width": 12
+  },
+  "statesAndLicensesKickBackSubmitButton2": {
+    "container": "statesAndLicensesKickBackForm2",
+    "rowGroup": "footer",
+    "col": 7,
+    "height": 1,
+    "width": 5
+  },
+  "sungagenNavLogo": {
+    "type": "stack",
+    "rowGroup": "header",
+    "subcontainer": "sidebarFrame1",
+    "height": 1,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 215.109375,
+        "height": 40
+      }
+    }
+  },
+  "text17": {
+    "subcontainer": "saveReminderModal",
+    "col": 2,
+    "height": 0.6,
+    "width": 8
+  }
+}

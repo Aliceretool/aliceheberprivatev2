@@ -1,0 +1,8 @@
+mutation($id: ID, $data: ApplicationCompanyUpdateInput!){
+  updateApplicationCompany (
+    where: {id: $id},
+    data: $data
+  ) {
+    id
+  }
+}

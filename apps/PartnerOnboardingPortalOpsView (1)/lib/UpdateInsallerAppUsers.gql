@@ -1,0 +1,8 @@
+mutation($data: [InstallerApplicationUsersUpdateInput!]!){
+  updateInstallerApplicationUsers (
+    data: $data
+  ) {
+    id
+  }
+}
+
