@@ -1,0 +1,11 @@
+query($id: ID){
+  installerApplication(where: {id: $id}){
+    licensesSOSFraudChecksReviewStatus
+    principalsBgChecksAssocSearchReviewStatus
+    commercialCreditReviewStatus
+    financialsReviewStatus
+    insurancesContrCheckInstallerAgrReviewStatus
+    minimumBusinessAgeMet
+    dateScorecardCompleted
+  }
+}

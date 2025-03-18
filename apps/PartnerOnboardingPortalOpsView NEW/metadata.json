@@ -1,0 +1,245 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "cf4deec4-0407-11f0-9e9f-0f35e77cc8b9",
+  "appTemplate": {
+    "mobileAppSettings": {
+      "object": {
+        "mobileOfflineModeEnabled": false
+      }
+    },
+    "appMaxWidth": "1560px",
+    "appThemeId": 818,
+    "experimentalFeatures": {
+      "object": {
+        "sourceControlTemplateDehydration": false
+      }
+    },
+    "preloadedAppJavaScript": "window.setStateForUpdate = (stateToUpdate, fieldName, currentValue, newValue, isDateField = false) => {\n  const updates = { ...stateToUpdate.value };\n  if (isDateField && !areValuesEqual(currentValue, newValue, true)) {\n    updates[fieldName] = newValue === '' ? null : newValue + moment().format('THH:mm:ssZ');\n  } else if (!isDateField && !areValuesEqual(currentValue, newValue)) {\n    updates[fieldName] = newValue;\n  } else {\n    delete updates[fieldName];\n  }\n  stateToUpdate.setValue(updates);\n};\n\nwindow.areValuesEqual = (currentValue, newValue, isDateField = false) => {\n  if (isDateField) {\n    const currentDate = moment(currentValue).format('YYYY-MM-DD');\n    const newDate = moment(newValue).format('YYYY-MM-DD');\n    return currentDate === newDate;\n  }\n  return currentValue === newValue;\n};",
+    "pageCodeFolders": {
+      "object": {
+        "financialsContainer": {
+          "array": []
+        },
+        "financialsTitle": {
+          "array": []
+        },
+        "financialsKickBackButton": {
+          "array": []
+        },
+        "GetFinancialStatement": {
+          "array": []
+        },
+        "ocrolusProcessingDateInput": {
+          "array": []
+        },
+        "ocrolusAuthenticityScoreInput": {
+          "array": []
+        },
+        "bankStatementsOverrideInput": {
+          "array": []
+        },
+        "ocrolusUploadNotesTextArea": {
+          "array": []
+        },
+        "bankStatementsLink": {
+          "array": []
+        },
+        "taxReturnsLink": {
+          "array": []
+        },
+        "balanceSheetLink": {
+          "array": []
+        },
+        "profitAndLossLink": {
+          "array": []
+        },
+        "financialsUpdates": {
+          "array": []
+        },
+        "UpdateFinancialStatement": {
+          "array": []
+        },
+        "GetFinancialStatements": {
+          "array": []
+        },
+        "financialsKickBackModal": {
+          "array": []
+        },
+        "financialsKickBackForm": {
+          "array": []
+        },
+        "financialsRejectionReasonTextArea": {
+          "array": []
+        },
+        "financialsKickBackRejectionReasonTextArea": {
+          "array": []
+        },
+        "financialsDocumentsToInvalidateMultiselect": {
+          "array": []
+        },
+        "attachmentsToInvalidateFromFinancials": {
+          "array": []
+        },
+        "UpdateKickbackRelatedAttachmentsForFinancials": {
+          "array": []
+        },
+        "countOfOpenedLinks": {
+          "array": []
+        },
+        "openMultipleLinks": {
+          "array": []
+        },
+        "recheckContainer": {
+          "array": []
+        },
+        "recheckContainerTitle": {
+          "array": []
+        },
+        "recheckSpacer": {
+          "array": []
+        },
+        "recheckSpacer2": {
+          "array": []
+        },
+        "recheckSpacer3": {
+          "array": []
+        },
+        "recheckCompanySearchedDate": {
+          "array": []
+        },
+        "recheckPrincipalsSearchedDate": {
+          "array": []
+        },
+        "recheckResultFoundSelect": {
+          "array": []
+        },
+        "recheckNotesTextArea": {
+          "array": []
+        },
+        "recheckNotesTextarea": {
+          "array": []
+        },
+        "financialsSpacer": {
+          "array": []
+        },
+        "financialsSpacer2": {
+          "array": []
+        },
+        "financialsSpacer3": {
+          "array": []
+        },
+        "financialsSpacer4": {
+          "array": []
+        },
+        "financialsSpacer5": {
+          "array": []
+        },
+        "financialsKickBackNotesCollapsibleContainer": {
+          "array": []
+        },
+        "financialsKickBackNotesText": {
+          "array": []
+        },
+        "TEST_DO_NOT_USE": {
+          "array": []
+        },
+        "GetRecheckReviews": {
+          "array": []
+        },
+        "documentStatusSelect": {
+          "array": []
+        },
+        "UpdateRecheckReview": {
+          "array": []
+        },
+        "recheckReviewUpdates": {
+          "array": []
+        },
+        "documentStatusSelectGeneralLiability": {
+          "array": []
+        },
+        "documentStatusSelectWorkersComp": {
+          "array": []
+        },
+        "CreateRecheckReview": {
+          "array": []
+        },
+        "UpdateFinancialsStatements": {
+          "array": []
+        },
+        "UpdateFinancialStatements": {
+          "array": []
+        },
+        "TEST": {
+          "array": []
+        },
+        "appResubmittedDate": {
+          "array": []
+        },
+        "appProcessorClaimedDate": {
+          "array": []
+        },
+        "returnedToAccountManagerDate": {
+          "array": []
+        },
+        "sendToApplicantForRevisionDate": {
+          "array": []
+        },
+        "returnedToApplicationProcessingDate": {
+          "array": []
+        },
+        "applicationProcessingCompletedDate": {
+          "array": []
+        },
+        "discussWithIRCDate": {
+          "array": []
+        },
+        "applicationProcessingCompletedDateDate": {
+          "array": []
+        },
+        "newListViewContainer": {
+          "array": []
+        },
+        "stateLicenseListView": {
+          "array": []
+        },
+        "stateLicenseListViewNew": {
+          "array": []
+        },
+        "stateLicenseContainerNew": {
+          "array": []
+        },
+        "stateHeader": {
+          "array": []
+        },
+        "licenseByStateContainer": {
+          "array": []
+        },
+        "licenseByStateView": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": true
+      }
+    },
+    "serializedLayout": null,
+    "appTesting": {
+      "object": {
+        "tests": {
+          "object": {}
+        },
+        "testSuites": {
+          "array": []
+        }
+      }
+    },
+    "isFetching": true,
+    "customDocumentTitleEnabled": true,
+    "version": "3.171.0"
+  }
+}

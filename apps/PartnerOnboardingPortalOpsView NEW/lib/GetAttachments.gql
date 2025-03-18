@@ -1,0 +1,132 @@
+ query($id:ID!){
+  attachments(
+    where: { installerApplicationId: $id },
+    skip: 0,
+    take: 100
+  ){
+    id
+    createdAt
+    updatedAt
+    createdBy{
+      id
+      email
+    }
+    updatedBy{
+      id
+      email
+    }
+    file{
+      filename
+      url
+      urlForPreview
+    }
+    type
+    invalidatedAt
+  }
+   
+  stateLicenses(
+    where: { installerApplicationId: $id },
+    skip: 0,
+    take: 100
+  ){
+    attachments{
+      id
+      createdAt
+      updatedAt
+      createdBy{
+        id
+        email
+      }
+      updatedBy{
+        id
+        email
+      }
+      file{
+        filename
+        url
+        urlForPreview
+      }
+      type
+    } 
+  }
+
+  installerApplicationUsers(
+    where: { applicationCompany: { installerApplication: { id: $id } } },
+    skip: 0,
+    take: 100
+  ){
+    attachments{
+      id
+      createdAt
+      updatedAt
+      createdBy{
+        id
+        email
+      }
+      updatedBy{
+        id
+        email
+      }
+      file{
+        filename
+        url
+        urlForPreview
+      }
+      type
+    }
+  }
+
+  personalCreditChecks(
+    where:  {installerApplicationUser: { applicationCompany:{ installerApplication: { id: $id } } } },
+    skip: 0,
+    take: 100
+  ){
+    attachments{
+      id
+      createdAt
+      updatedAt
+      createdBy{
+        id
+        email
+      }
+      updatedBy{
+        id
+        email
+      }
+      file{
+        filename
+        url
+        urlForPreview
+      }
+      type
+    }
+  }
+
+  financialStatements(
+    where: { installerApplicationId: $id },
+    skip: 0,
+    take: 100
+  ){
+    attachments{
+      id
+      invalidatedAt
+      createdAt
+      updatedAt
+      createdBy{
+        id
+        email
+      }
+      updatedBy{
+        id
+        email
+      }
+      file{
+        filename
+        url
+        urlForPreview
+      }
+      type
+    }
+    statementType
+  }
+}

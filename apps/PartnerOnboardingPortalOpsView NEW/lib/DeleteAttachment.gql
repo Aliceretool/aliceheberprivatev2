@@ -1,0 +1,7 @@
+mutation ($id: String!){
+  deleteAttachment(where: {id: $id}){
+    id
+    name
+    type
+  }
+}
