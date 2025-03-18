@@ -1,0 +1,16 @@
+mutation($name: String!, $accountName: String!, $email: String!, $portalKey: ID!, $cafId: ID!){
+  sendReminderEmail(
+    name: $name
+    accountName: $accountName
+    email: $email
+    portalKey: $portalKey
+    cafId: $cafId
+  ) {
+    id
+    principal{
+      id
+      email
+    }
+    lastSentDate
+  }
+}

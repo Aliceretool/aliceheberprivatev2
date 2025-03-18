@@ -1,0 +1,6 @@
+mutation($data: [InsurancesUpdateInput!]!){
+  updateInsurances(data: $data){
+    id
+  }
+}
+

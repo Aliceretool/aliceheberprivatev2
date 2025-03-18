@@ -1,0 +1,5 @@
+mutation($portalKey: ID!){
+  fullPrincipalsKickBack(portalKey: $portalKey) {
+    id
+  }
+}

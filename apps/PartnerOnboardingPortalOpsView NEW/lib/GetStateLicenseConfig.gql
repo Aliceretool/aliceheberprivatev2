@@ -1,0 +1,17 @@
+query GetStateLicenseConfig ($states: [AllUsStates!]!) {
+  configStateLicenses(
+    where: { state: { in: $states } },
+    skip: 0,
+    take: 100
+  ){
+    id
+    state
+    licenseOptions
+    numberRequired
+    isNonSungageState
+    
+  }
+}
+
+
+

@@ -1,0 +1,21 @@
+query GetFinancialStatements($id: ID!) {
+  financialStatements(
+    where: { installerApplicationId: $id },
+    skip: 0,
+    take: 100
+  ){
+    id
+    invalidatedAt
+    bankStatementOverride
+    ocrolusAuthenticityScore
+    ocrolusProcessingDate
+    ocrolusUploadNotes
+    statementType
+    attachments {
+      id
+      name
+      invalidatedAt
+      createdAt
+    }
+  }
+}
