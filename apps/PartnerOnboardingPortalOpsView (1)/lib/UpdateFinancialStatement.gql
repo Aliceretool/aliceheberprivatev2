@@ -1,0 +1,8 @@
+mutation UpdateFinancialStatement($id: ID!, $data: FinancialStatementUpdateInput!) {
+  updateFinancialStatement(
+    where: {id: $id},
+    data: $data
+  ) {
+    id
+  }
+}
