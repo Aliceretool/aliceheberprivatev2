@@ -1,0 +1,5 @@
+mutation($data: [CreditAuthorizationFormsUpdateInput!]!){
+  updateCreditAuthorizationForms(data: $data){
+    id
+  }
+}

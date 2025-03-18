@@ -1,0 +1,7 @@
+mutation($data: [StateLicenseCreateInput!]!){
+  createStateLicenses(data: $data){
+    id 
+    state
+  }
+}
+

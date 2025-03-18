@@ -1,0 +1,6 @@
+mutation($installerApplicationUserId: ID!, $emailType: EmailType!){
+  sendInstallerApplicationUserEmail(
+    installerApplicationUserId: $installerApplicationUserId
+    emailType: $emailType
+  )
+}

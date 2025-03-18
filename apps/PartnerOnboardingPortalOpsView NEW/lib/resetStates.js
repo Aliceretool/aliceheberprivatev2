@@ -1,0 +1,10 @@
+applicationCompanyUpdates.setValue(null);
+stateLicensesUpdates.setValue({});
+cafBackgroundUpdates.setValue({});
+personalCreditCheckUpdates.setValue({});
+insuranceUpdates.setValue({});
+installerApplicationUpdates.setValue({});
+createAttachmentVariables.setValue({});
+financialsUpdates.setValue({});
+recheckReviewUpdates.setValue({});
+saveReminderModal.hide({});
