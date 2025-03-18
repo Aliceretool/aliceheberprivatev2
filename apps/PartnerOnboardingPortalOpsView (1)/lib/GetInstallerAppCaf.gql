@@ -1,0 +1,9 @@
+query($id: ID){
+  installerApplication(where: {id: $id}){
+    legalActionSearchComplete 
+    sungageAssociationSearchCompleted
+    sungageAssociationSearchNotes
+  }
+}
+
+

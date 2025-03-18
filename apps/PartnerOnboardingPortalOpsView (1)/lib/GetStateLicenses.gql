@@ -1,0 +1,17 @@
+query($installerApplicationId: ID!, $usedFor: DocumentUseType) {
+  stateLicenses(
+    where: { installerApplicationId: $installerApplicationId, usedFor: $usedFor },
+    skip: 0,
+    take: 100
+ ){
+    id
+    expirationDate
+    licenseNumber
+    licenseType
+    nameOnLicense
+    state
+    licenseNumberVerified
+    removedAt
+    documentStatus
+  }
+}

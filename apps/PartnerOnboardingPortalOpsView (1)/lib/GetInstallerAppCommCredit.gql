@@ -1,0 +1,20 @@
+query($id: ID){
+  installerApplication(where: {id: $id}){
+    abilityToPullBiq
+    abilityToScoreBiq
+    financialStabilityRiskScore
+    intelliscore
+    daysBeyondTerms
+    commercialCreditCheckCompleted
+    ofacCheckCompleted
+    overallReputationSummary
+    hasMoreThanFiveOnlineReviews
+    yelpReviews
+    BBBReviews
+    googleReviews
+    solarReviews 
+    otherReviews
+    onlineReviewsComplete
+    minimumBusinessAgeMet
+  }
+}

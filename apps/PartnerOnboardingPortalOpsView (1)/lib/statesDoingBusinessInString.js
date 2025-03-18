@@ -1,0 +1,1 @@
+return GetAccountHome.data?.currentOperatingStates?.join(", ");

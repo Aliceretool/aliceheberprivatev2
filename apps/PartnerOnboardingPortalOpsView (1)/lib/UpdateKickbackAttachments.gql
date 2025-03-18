@@ -1,0 +1,7 @@
+mutation($data: [AttachmentsUpdateInput!]!){
+  updateAttachments (
+    data: $data
+  ) {
+    id
+  }
+}
