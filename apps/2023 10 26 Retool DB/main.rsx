@@ -162,6 +162,7 @@
         />
       </ToolbarButton>
     </Table>
+    <Button id="button3" text="Button" />
     <Button id="button2" text="Button" />
     <Text
       id="text2"
