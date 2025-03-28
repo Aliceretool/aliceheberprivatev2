@@ -163,6 +163,11 @@
       </ToolbarButton>
     </Table>
     <Button id="button2" text="Button" />
+    <Text
+      id="text2"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <NumberInput
       id="numberInput1"
       currency="USD"

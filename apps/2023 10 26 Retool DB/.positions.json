@@ -34,5 +34,11 @@
   },
   "text1": {
     "height": 0.6
+  },
+  "text2": {
+    "row": 6,
+    "col": 1,
+    "height": 0.6,
+    "width": 2
   }
 }
