@@ -4,7 +4,9 @@
   "pageUuid": "54d3f5fc-87c7-11ee-a681-cf8f5463b0f2",
   "appTemplate": {
     "preloadedAppJavaScript": "// Define the function\nasync function loadOrderDetails() {\n  try {\n    // Wait for 4 seconds\n    await new Promise(resolve => setTimeout(resolve, 4000));\n\n    // Show the `viewOrderDrawer` component\n    viewOrderDrawer.show();\n\n    //  // Trigger the required queries to fetch order data\n    await Promise.all([\n      getAll.trigger()\n    ]);\n\n    // Log success message\n    console.log(\"Order details loaded successfully.\");\n  } catch (error) {\n    // Log error in case something fails\n    console.error(\"Error loading order details:\", error);\n  }\n}\n\n// Example: Call the function\n// loadOrderDetails();\n",
-    "version": "3.180.0",
+
+    "version": "3.148.1",
+
     "experimentalDataTabEnabled": true
   }
 }
