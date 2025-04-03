@@ -31,4 +31,11 @@
       type="navigator"
     />
   </CollectionView>
+  <Text
+    id="text2"
+    markdown={true}
+    size="medium"
+    value="👋 Hello {{ current_user.firstName || 'friend' }}!"
+    weight="normal"
+  />
 </Screen>

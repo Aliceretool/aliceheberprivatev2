@@ -1,4 +1,7 @@
 <MobileApp>
+  <Include src="./src/detailsScreen.rsx" />
+  <Include src="./src/screen1.rsx" />
+  <Include src="./src/screen2.rsx" />
   <TabScreen
     id="tabscreen"
     items={[
@@ -16,7 +19,4 @@
       },
     ]}
   />
-  <Include src="./src/screen1.rsx" />
-  <Include src="./src/screen2.rsx" />
-  <Include src="./src/detailsScreen.rsx" />
 </MobileApp>

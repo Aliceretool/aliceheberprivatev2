@@ -21,5 +21,9 @@
   "keyValue1": {},
   "text1": {
     "container": "container3"
+  },
+  "text2": {
+    "height": 0,
+    "width": 0
   }
 }
