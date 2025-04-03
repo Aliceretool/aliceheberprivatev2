@@ -1,0 +1,31 @@
+<PlaygroundQuery
+  id="queryiduuid"
+  adhocResourceType={null}
+  data={null}
+  resourceType="postgresql"
+>
+  <SqlQuery
+    _additionalScope={[]}
+    actionType=""
+    allowedGroupIds={[]}
+    allowedGroups={[]}
+    bulkUpdatePrimaryKey=""
+    dataArray={[]}
+    doNotThrowOnNoOp={false}
+    editorMode="sql"
+    enableBulkUpdates={false}
+    events={[]}
+    filterBy=""
+    importedQueryDefaults={{}}
+    importedQueryInputs={{}}
+    privateParams={[]}
+    queryTimeout="100000"
+    recordId=""
+    records=""
+    retoolVersion="3.181.0"
+    showUpdateSetValueDynamicallyToggle={false}
+    tableName=""
+    updateSetValueDynamically={true}
+    watchedParams={[]}
+  />
+</PlaygroundQuery>
