@@ -4,10 +4,6 @@
   "button3": {},
   "button4": {},
   "button5": {},
-  "button6": {
-    "height": 0,
-    "width": 0
-  },
   "container1": {},
   "container2": {
     "container": "container1",
