@@ -1,0 +1,1 @@
+return 'https://www.bornfree.org.uk/wp-content/uploads/2024/08/Charging-Baby-Elephant-c-George-Logan.jpg'
