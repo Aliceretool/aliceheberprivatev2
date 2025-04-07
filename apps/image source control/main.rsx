@@ -19,7 +19,7 @@
       id="image2"
       horizontalAlign="center"
       marginType="normal"
-      src="https://placekitten.com/400/300"
+      src="https://www.bornfree.org.uk/wp-content/uploads/2024/08/Charging-Baby-Elephant-c-George-Logan.jpg"
     />
     <Text
       id="text2"
@@ -33,7 +33,7 @@
       horizontalAlign="center"
       marginType="normal"
       src="https://placekitten.com/400/300"
-      srcType="dbBlobId"
+      srcType="retoolFileObject"
     />
     <Text
       id="text4"
