@@ -53,5 +53,13 @@
         waitType="debounce"
       />
     </FileInput>
+    <Image
+      id="image4"
+      dbBlobId="e2702ebc-547a-4c0c-8c17-50410fdbc468"
+      heightType="fixed"
+      horizontalAlign="center"
+      src="https://picsum.photos/id/1025/800/600"
+      srcType="dbBlobId"
+    />
   </Frame>
 </App>
