@@ -61,5 +61,6 @@
       src="https://picsum.photos/id/1025/800/600"
       srcType="dbBlobId"
     />
+    <Button id="button1" text="Button" />
   </Frame>
 </App>
