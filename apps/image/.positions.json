@@ -1,0 +1,30 @@
+{
+  "fileInput1": {
+    "row": 6,
+    "col": 8,
+    "height": 0.2,
+    "width": 4
+  },
+  "image1": {
+    "row": 1
+  },
+  "image2": {
+    "row": 1,
+    "col": 4
+  },
+  "image3": {
+    "row": 1,
+    "col": 8
+  },
+  "text1": {
+    "height": 1
+  },
+  "text2": {
+    "col": 4,
+    "height": 0.6
+  },
+  "text3": {
+    "col": 8,
+    "height": 0.6
+  }
+}
