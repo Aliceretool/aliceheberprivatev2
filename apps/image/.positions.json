@@ -1,4 +1,10 @@
 {
+  "button1": {
+    "row": 12.6,
+    "col": 4,
+    "height": 1,
+    "width": 2
+  },
   "fileInput1": {
     "row": 6,
     "col": 8,
@@ -15,6 +21,10 @@
   "image3": {
     "row": 1,
     "col": 8
+  },
+  "image4": {
+    "row": 7,
+    "col": 4
   },
   "text1": {
     "height": 1
