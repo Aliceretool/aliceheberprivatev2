@@ -20,6 +20,7 @@
       defaultSelectedRow={{ mode: "index", indexType: "display", index: 0 }}
       enableSaveActions={true}
       primaryKeyColumnId="9a065"
+      rowHeight="small"
       showBorder={true}
       showFooter={true}
       showHeader={true}
@@ -168,6 +169,7 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
+    <Button id="button9" text="Button" />
     <Button id="button1" marginType="normal" text="Button">
       <Event
         event="click"
@@ -195,6 +197,7 @@
       enableSaveActions={true}
       heightType="auto"
       primaryKeyColumnId="8575f"
+      rowHeight="small"
       showBorder={true}
       showFooter={true}
       showHeader={true}
