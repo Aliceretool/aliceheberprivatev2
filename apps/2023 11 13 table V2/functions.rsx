@@ -120,6 +120,7 @@ return data"
     errorTransformer="// The variable 'data' allows you to reference the request's data in the transformer. 
 // example: return data.find(element => element.isError)
 return data.error"
+    metadata={null}
     model="gpt-4o"
     notificationDuration={4.5}
     resourceDisplayName="retool_ai"
