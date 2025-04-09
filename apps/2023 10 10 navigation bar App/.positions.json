@@ -32,6 +32,12 @@
     "height": 1,
     "width": 2
   },
+  "button5": {
+    "row": 4.2,
+    "col": 2,
+    "height": 1,
+    "width": 2
+  },
   "navbarModule1": {
     "row": 5.6,
     "height": 2.4,

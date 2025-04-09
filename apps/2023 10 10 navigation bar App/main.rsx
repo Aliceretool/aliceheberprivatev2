@@ -25,6 +25,7 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
+    <Button id="button5" text="Button" />
     <Button id="button4" text="Button" />
     <Module
       id="navbarModule1"
