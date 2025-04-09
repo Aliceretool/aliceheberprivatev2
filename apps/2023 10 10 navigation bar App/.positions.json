@@ -1,16 +1,16 @@
 {
   "MarModule1": {
-    "row": 24,
+    "row": 25,
     "height": 2.4,
     "width": 11
   },
   "MarModule2": {
-    "row": 26.4,
+    "row": 27.4,
     "height": 2.4,
     "width": 12
   },
   "button1": {
-    "row": 15,
+    "row": 16,
     "col": 6,
     "height": 1
   },
@@ -26,18 +26,24 @@
     "height": 1,
     "width": 2
   },
-  "navbarModule1": {
+  "button4": {
     "row": 4.6,
+    "col": 4,
+    "height": 1,
+    "width": 2
+  },
+  "navbarModule1": {
+    "row": 5.6,
     "height": 2.4,
     "width": 12
   },
   "table1": {
-    "row": 16,
+    "row": 17,
     "height": 8,
     "width": 8
   },
   "table2": {
-    "row": 7,
+    "row": 8,
     "col": 4,
     "height": 8,
     "width": 8
