@@ -3,7 +3,30 @@
     "container": "steppedContainer2",
     "subcontainer": "e4c37",
     "height": 1,
-    "width": 2
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "button2": {
+    "container": "steppedContainer2",
+    "subcontainer": "b4037",
+    "col": 5,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
   },
   "nextButton2": {
     "container": "steppedContainer2",
