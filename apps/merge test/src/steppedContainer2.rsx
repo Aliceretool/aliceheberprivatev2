@@ -35,7 +35,6 @@
     <Button id="button3" text="Button" />
   </View>
   <View id="d0413" viewKey="Step 3">
-    <Button id="button4" text="Button" />
     <Button id="button2" text="Button" />
   </View>
   <Footer>
