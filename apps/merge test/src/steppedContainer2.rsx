@@ -35,6 +35,13 @@
   <View id="d0413" viewKey="Step 3">
     <Button id="button2" text="Button" />
   </View>
+  <View
+    id="1e11b"
+    disabled={false}
+    hidden={false}
+    iconPosition="left"
+    viewKey="Step 4"
+  />
   <Footer>
     <Button
       id="prevButton2"
