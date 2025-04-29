@@ -32,7 +32,9 @@
     <Button id="button1" text="Button" />
   </View>
   <View id="b4037" viewKey="Step 2" />
-  <View id="d0413" viewKey="Step 3" />
+  <View id="d0413" viewKey="Step 3">
+    <Button id="button2" text="Button" />
+  </View>
   <Footer>
     <Button
       id="prevButton2"
