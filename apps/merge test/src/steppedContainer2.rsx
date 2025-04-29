@@ -24,6 +24,11 @@
     </Steps>
   </Header>
   <View id="e4c37" viewKey="Step 1">
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <Button id="button1" text="Button" />
   </View>
   <View id="b4037" viewKey="Step 2">
