@@ -31,8 +31,11 @@
     />
     <Button id="button1" text="Button" />
   </View>
-  <View id="b4037" viewKey="Step 2" />
+  <View id="b4037" viewKey="Step 2">
+    <Button id="button3" text="Button" />
+  </View>
   <View id="d0413" viewKey="Step 3">
+    <Button id="button4" text="Button" />
     <Button id="button2" text="Button" />
   </View>
   <Footer>

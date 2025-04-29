@@ -17,8 +17,40 @@
   "button2": {
     "container": "steppedContainer2",
     "subcontainer": "d0413",
-    "row": 0.8,
+    "row": 1.4,
     "col": 7,
+    "height": 1,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "button3": {
+    "container": "steppedContainer2",
+    "subcontainer": "b4037",
+    "row": 0.4,
+    "col": 4,
+    "height": 1,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "button4": {
+    "container": "steppedContainer2",
+    "subcontainer": "d0413",
+    "row": 0.4,
+    "col": 4,
     "height": 1,
     "width": 4,
     "stackPosition": {
@@ -69,7 +101,7 @@
     "height": 1,
     "stackPosition": {
       "object": {
-        "ordinal": 2,
+        "ordinal": 4,
         "widthType": "fixed",
         "width": 0,
         "height": 0
