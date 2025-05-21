@@ -16,7 +16,7 @@
     "connectionString": "",
     "queryEditorModes": { "allowGuiMode": true, "allowSqlMode": true },
     "rejectUnauthorized": true,
-    "disableServerSidePrepare": false,
+    "disableServerSidePrepare": true,
     "userExplicitlySetRejectUnauthorized": true
   },
   "environment": "production",
