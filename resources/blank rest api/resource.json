@@ -10,7 +10,7 @@
   "ssl": null,
   "editPrivilege": null,
   "options": {
-    "baseURL": "",
+    "baseURL": "https://www.testing.com",
     "headers": [["", ""]],
     "urlparams": [["", ""]],
     "auth0_domain": "",
