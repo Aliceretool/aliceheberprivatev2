@@ -1,4 +1,11 @@
 {
+  "button1": {
+    "container": "moduleContainer",
+    "row": 1.4,
+    "col": 3,
+    "height": 1,
+    "width": 2
+  },
   "jsonEditor1": {
     "container": "moduleContainer",
     "row": 10.2,

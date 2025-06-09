@@ -15,6 +15,7 @@
       backgroundColor="white"
       isGlobalWidgetContainer={true}
     >
+      <Button id="button1" text="Button" />
       <Navigation
         id="navigation1"
         itemMode="static"

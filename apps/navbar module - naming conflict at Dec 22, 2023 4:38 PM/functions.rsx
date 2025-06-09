@@ -5,7 +5,17 @@
     resourceDisplayName="main DB"
     resourceName="730be827-73b8-4ab6-a896-25d124c7df31"
     warningCodes={[]}
-  />
+  >
+    <Event
+      event="success"
+      method="trigger"
+      params={{}}
+      pluginId="query2"
+      type="datasource"
+      waitMs="0"
+      waitType="debounce"
+    />
+  </SqlQueryUnified>
   <JavascriptQuery
     id="function1"
     isFunction={true}
