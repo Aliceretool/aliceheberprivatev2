@@ -24,7 +24,7 @@ template:
   query: |-
     return {
         assignees: ,
-        expiryTimeout: ,
+        expiryTimeout: 1/144,
         inputsTemplateString: startTrigger.data
       }
   playgroundQueryUuid: ''
@@ -91,6 +91,7 @@ blockData:
     assignees:
       - id: 1
         type: group
+    expiryTimeout: 1/144
     groupAssignments:
       - 1
     adminUserAssignments: []
