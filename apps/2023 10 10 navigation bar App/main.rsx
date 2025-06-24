@@ -13,12 +13,13 @@
     <Button id="button5" text="amended in alice.retool.dev" />
     <Text id="text1" value="added" verticalAlign="center" />
     <Text id="text2" value="2" verticalAlign="center" />
+    <Button id="button6" text="Button" />
+    <Text id="text3" value="3" verticalAlign="center" />
     <Text
       id="text6"
       value="{{ retoolContext.configVars.emailTest}}"
       verticalAlign="center"
     />
-    <Text id="text3" value="3" verticalAlign="center" />
     <Button id="button3" text="Button" />
     <Button id="button2" text="Button" />
     <Text
