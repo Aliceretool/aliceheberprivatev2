@@ -196,7 +196,7 @@
         />
       </ToolbarButton>
     </Table>
-    <Button id="button4" text="new new new" />
+    <Button id="button4" text="1113" />
     <Button id="button1" allowWrap={true} text="trigger QL perm query">
       <Event
         event="click"
@@ -224,13 +224,6 @@
       showSeparators={true}
       showStepper={true}
       value={0}
-    />
-    <IFrame
-      id="iFrame1"
-      allowDownloads={true}
-      allowForms={true}
-      src="https://alice.retool.dev/mobile/editor/mobile%20test%202"
-      title="{{ self.src }}"
     />
     <Table
       id="table2"
@@ -464,5 +457,12 @@
         />
       </ToolbarButton>
     </Table>
+    <IFrame
+      id="iFrame1"
+      allowDownloads={true}
+      allowForms={true}
+      src="https://alice.retool.dev/mobile/editor/mobile%20test%202"
+      title="{{ self.src }}"
+    />
   </Frame>
 </App>
