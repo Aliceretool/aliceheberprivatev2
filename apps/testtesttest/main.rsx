@@ -15,6 +15,7 @@
       overflowType="hidden"
     >
       <Button id="button1" text="module" />
+      <Button id="button2" text="branch 1037" />
     </ModuleContainerWidget>
   </Frame>
 </App>

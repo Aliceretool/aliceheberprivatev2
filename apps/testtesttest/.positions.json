@@ -6,6 +6,13 @@
     "height": 1,
     "width": 2
   },
+  "button2": {
+    "container": "moduleContainer",
+    "row": 5,
+    "col": 3,
+    "height": 1,
+    "width": 2
+  },
   "moduleContainer": {
     "height": 12,
     "width": 12
