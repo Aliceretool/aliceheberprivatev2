@@ -1,1 +1,0 @@
-utils.openUrl("https://silocatalog.retool.com/logout",{newTab:false})
