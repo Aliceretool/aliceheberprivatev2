@@ -1,4 +1,4 @@
-id: code1
+id: code2
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -18,7 +18,7 @@ template:
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: true
+  runWhenModelUpdates: false
   workflowRunExecutionType: sync
   showFailureToaster: true
   query: |-
@@ -52,15 +52,13 @@ template:
   queryRunOnSelectorUpdate: false
   runWhenPageLoadsDelay: ''
   data: null
-  importedQueryInputs:
-    ordered: []
+  importedQueryInputs: {}
   _additionalScope: []
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
   metadata: null
-  editorMode: sql
   queryRunTime: null
   changesetObject: ''
   offlineOptimisticResponse: null
@@ -74,19 +72,17 @@ template:
   resourceTypeOverride: null
   watchedParams: []
   enableErrorTransformer: false
-  isHidden: false
   showLatestVersionUpdatedWarning: false
   timestamp: 0
   evalType: script
-  importedQueryDefaults:
-    ordered: []
+  importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
   overrideOrgCacheForUserCache: false
   runWhenPageLoads: false
   transformer: return data
   events: []
-  queryTimeout: '120000'
+  queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
   queryFailureConditions: ''
@@ -97,17 +93,14 @@ template:
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2025-07-09T14:17:48.596Z
+createdAt: 2025-07-09T14:31:03.572Z
 blockData:
-  top: 48
-  left: 480
-  uuid: 32461d8a-f4d6-4923-af14-02e5c6c55bba
-  pluginId: code1
+  top: 80
+  left: 1840
+  uuid: f992e76f-f03f-45d5-9b06-9e62f0a72873
+  pluginId: code2
   blockType: code
-  dimensions:
-    width: 736
-    height: 520
   editorType: JavascriptQuery
   resourceName: JavascriptQuery
   incomingOnSuccessEdges:
-    - 964ce190-f6a0-4166-82d8-2d69e226a368
+    - 11a46cec-ccf8-4774-8d90-ed2d8f72606a
