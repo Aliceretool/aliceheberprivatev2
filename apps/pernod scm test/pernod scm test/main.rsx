@@ -9,6 +9,7 @@
     type="main"
   >
     <Button id="button3" text="Button" />
+    <Button id="button4" text="Button" />
     <Button id="button1" text="Button" />
     <Button id="button2" text="Button" />
     <Module
