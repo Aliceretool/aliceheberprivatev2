@@ -10,6 +10,12 @@
     "height": 1,
     "width": 2
   },
+  "button3": {
+    "row": 0.4,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
   "navbarModule1": {
     "row": 4.6,
     "col": 2,
