@@ -6,7 +6,7 @@
     "appThemeId": -1,
     "preloadedAppJavaScript": "function myCustomHelper(str) {\n  return str + 'test';\n}\n",
     "rootScreen": "page1",
-    "version": "3.246.0",
+    "version": "3.247.0",
     "experimentalDataTabEnabled": true
   }
 }
