@@ -4,9 +4,9 @@
   "pageUuid": "5e9e26c2-6e0f-11f0-b911-87774dd81c66",
   "appTemplate": {
     "appThemeId": -1,
-    "preloadedAppJavaScript": "function myCustomHelper(str) {\n  return str + 'test';\n}\n",
+    "preloadedAppJavaScript": "function myCustomHelper(str) {\n  return str + 'test 1646';\n}\n",
     "rootScreen": "page1",
-    "version": "3.246.0",
+    "version": "3.247.0",
     "experimentalDataTabEnabled": true
   }
 }
