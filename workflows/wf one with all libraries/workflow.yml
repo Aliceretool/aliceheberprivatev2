@@ -1,0 +1,633 @@
+pythonLanguageConfiguration:
+  object:
+    id: 599c4471-b1cc-446b-ade5-9526d7e4350e
+    name: workflow_python_f136dc89-3d34-49fa-80ca-b2b8bcf79828
+    description: null
+    libraries:
+      object:
+        rsa:
+          object:
+            specVersion: '4.9'
+            actualVersion: ''
+        bson:
+          object:
+            specVersion: 0.5.10
+            actualVersion: ''
+        pytz:
+          object:
+            specVersion: '2022.7'
+            actualVersion: ''
+        boto3:
+          object:
+            specVersion: 1.26.151
+            actualVersion: ''
+        geopy:
+          object:
+            specVersion: 2.3.0
+            actualVersion: ''
+        numpy:
+          object:
+            specVersion: 1.24.1
+            actualVersion: ''
+        pypdf:
+          object:
+            specVersion: 3.17.4
+            actualVersion: ''
+        scipy:
+          object:
+            specVersion: 1.9.3
+            actualVersion: ''
+        ffmpeg:
+          object:
+            specVersion: '1.4'
+            actualVersion: ''
+        jinja2:
+          object:
+            specVersion: 3.1.2
+            actualVersion: ''
+        openai:
+          object:
+            specVersion: 0.27.8
+            actualVersion: ''
+        pandas:
+          object:
+            specVersion: 1.5.2
+            actualVersion: ''
+        pillow:
+          object:
+            specVersion: 10.0.1
+            actualVersion: ''
+        pysftp:
+          object:
+            specVersion: 0.2.9
+            actualVersion: ''
+        pyyaml:
+          object:
+            specVersion: '6.0'
+            actualVersion: ''
+        geojson:
+          object:
+            specVersion: 3.0.1
+            actualVersion: ''
+        seaborn:
+          object:
+            specVersion: 0.12.2
+            actualVersion: ''
+        protobuf:
+          object:
+            specVersion: 4.21.12
+            actualVersion: ''
+        requests:
+          object:
+            specVersion: 2.28.1
+            actualVersion: ''
+        packaging:
+          object:
+            specVersion: '22.0'
+            actualVersion: ''
+        markupsafe:
+          object:
+            specVersion: 2.1.1
+            actualVersion: ''
+        matplotlib:
+          object:
+            specVersion: 3.7.0
+            actualVersion: ''
+        python-pdf:
+          object:
+            specVersion: '0.39'
+            actualVersion: ''
+        cryptography:
+          object:
+            specVersion: 38.0.4
+            actualVersion: ''
+        async-timeout:
+          object:
+            specVersion: 4.0.2
+            actualVersion: ''
+        beautifulsoup4:
+          object:
+            specVersion: 4.11.1
+            actualVersion: ''
+        python-dateutil:
+          object:
+            specVersion: 2.8.2
+            actualVersion: ''
+        charset-normalizer:
+          object:
+            specVersion: 2.1.1
+            actualVersion: ''
+    librariesFormat: requirements.txt
+    language: python
+customLibraries:
+  array:
+    - object:
+        version: '4.9'
+        language: python
+        codeString: ''
+        libraryName: rsa
+    - object:
+        version: 0.5.10
+        language: python
+        codeString: ''
+        libraryName: bson
+    - object:
+        version: '2022.7'
+        language: python
+        codeString: ''
+        libraryName: pytz
+    - object:
+        version: 1.26.151
+        language: python
+        codeString: ''
+        libraryName: boto3
+    - object:
+        version: 2.3.0
+        language: python
+        codeString: ''
+        libraryName: geopy
+    - object:
+        version: 1.24.1
+        language: python
+        codeString: ''
+        libraryName: numpy
+    - object:
+        version: 3.17.4
+        language: python
+        codeString: ''
+        libraryName: pypdf
+    - object:
+        version: 1.9.3
+        language: python
+        codeString: ''
+        libraryName: scipy
+    - object:
+        version: '1.4'
+        language: python
+        codeString: ''
+        libraryName: ffmpeg
+    - object:
+        version: 3.1.2
+        language: python
+        codeString: ''
+        libraryName: jinja2
+    - object:
+        version: 0.27.8
+        language: python
+        codeString: ''
+        libraryName: openai
+    - object:
+        version: 1.5.2
+        language: python
+        codeString: ''
+        libraryName: pandas
+    - object:
+        version: 10.0.1
+        language: python
+        codeString: ''
+        libraryName: pillow
+    - object:
+        version: 0.2.9
+        language: python
+        codeString: ''
+        libraryName: pysftp
+    - object:
+        version: '6.0'
+        language: python
+        codeString: ''
+        libraryName: pyyaml
+    - object:
+        version: 3.0.1
+        language: python
+        codeString: ''
+        libraryName: geojson
+    - object:
+        version: 0.12.2
+        language: python
+        codeString: ''
+        libraryName: seaborn
+    - object:
+        version: 4.21.12
+        language: python
+        codeString: ''
+        libraryName: protobuf
+    - object:
+        version: 2.28.1
+        language: python
+        codeString: ''
+        libraryName: requests
+    - object:
+        version: '22.0'
+        language: python
+        codeString: ''
+        libraryName: packaging
+    - object:
+        version: 2.1.1
+        language: python
+        codeString: ''
+        libraryName: markupsafe
+    - object:
+        version: 3.7.0
+        language: python
+        codeString: ''
+        libraryName: matplotlib
+    - object:
+        version: '0.39'
+        language: python
+        codeString: ''
+        libraryName: python-pdf
+    - object:
+        version: 38.0.4
+        language: python
+        codeString: ''
+        libraryName: cryptography
+    - object:
+        version: 4.0.2
+        language: python
+        codeString: ''
+        libraryName: async-timeout
+    - object:
+        version: 4.11.1
+        language: python
+        codeString: ''
+        libraryName: beautifulsoup4
+    - object:
+        version: 2.8.2
+        language: python
+        codeString: ''
+        libraryName: python-dateutil
+    - object:
+        version: 2.1.1
+        language: python
+        codeString: ''
+        libraryName: charset-normalizer
+    - object:
+        version: 6.2.5
+        language: javascript
+        codeString: ''
+        libraryName: csv
+    - object:
+        version: 2.29.3
+        language: javascript
+        codeString: ''
+        libraryName: date-fns
+    - object:
+        version: 7.4.0
+        language: javascript
+        codeString: ''
+        libraryName: rambda
+    - object:
+        version: 0.20.3
+        language: javascript
+        codeString: ''
+        libraryName: xlsx
+    - object:
+        version: 4.2.0
+        language: javascript
+        codeString: ''
+        libraryName: crypto-js
+    - object:
+        version: 3.2.1
+        language: javascript
+        codeString: ''
+        libraryName: openai
+    - object:
+        version: 6.1.4
+        language: javascript
+        codeString: ''
+        libraryName: node-html-parser
+    - object:
+        version: 13.0.1
+        language: javascript
+        codeString: ''
+        libraryName: markdown-it
+    - object:
+        version: 4.2.3
+        language: javascript
+        codeString: ''
+        libraryName: marked
+    - object:
+        version: 3.1.0
+        language: javascript
+        codeString: ''
+        libraryName: exponential-backoff
+    - object:
+        version: 11.4.0
+        language: javascript
+        codeString: ''
+        libraryName: mathjs
+    - object:
+        version: 4.1.1
+        language: javascript
+        codeString: ''
+        libraryName: object-assign
+    - object:
+        version: 3.3.6
+        language: javascript
+        codeString: ''
+        libraryName: underscore.string
+    - object:
+        version: 8.11.2
+        language: javascript
+        codeString: ''
+        libraryName: ajv
+    - object:
+        version: 2.1.2
+        language: javascript
+        codeString: ''
+        libraryName: clone
+    - object:
+        version: 9.1.0
+        language: javascript
+        codeString: ''
+        libraryName: bignumber.js
+    - object:
+        version: 2.1.0
+        language: javascript
+        codeString: ''
+        libraryName: deep-equal
+    - object:
+        version: 4.6.3
+        language: javascript
+        codeString: ''
+        libraryName: dateformat
+    - object:
+        version: 1.2.2
+        language: javascript
+        codeString: ''
+        libraryName: crc-32
+    - object:
+        version: 1.0.6
+        language: javascript
+        codeString: ''
+        libraryName: plotly
+    - object:
+        version: 0.0.3
+        language: javascript
+        codeString: ''
+        libraryName: datetime
+    - object:
+        version: 4.17.0
+        language: javascript
+        codeString: ''
+        libraryName: algoliasearch
+    - object:
+        version: 4.5.0
+        language: javascript
+        codeString: ''
+        libraryName: fast-xml-parser
+    - object:
+        version: 2.0.0
+        language: javascript
+        codeString: ''
+        libraryName: ndjson
+    - object:
+        version: 3.10.1
+        language: javascript
+        codeString: ''
+        libraryName: jszip
+    - object:
+        version: 0.27.2
+        language: javascript
+        codeString: ''
+        libraryName: axios
+    - object:
+        version: 4.0.0
+        language: javascript
+        codeString: ''
+        libraryName: intercom-client
+    - object:
+        version: 5.1.3
+        language: javascript
+        codeString: ''
+        libraryName: pusher
+    - object:
+        version: 3.2.32
+        language: javascript
+        codeString: ''
+        libraryName: google-libphonenumber
+    - object:
+        version: 1.0.9
+        language: javascript
+        codeString: ''
+        libraryName: recursive-diff
+    - object:
+        version: 0.16.0
+        language: javascript
+        codeString: ''
+        libraryName: jmespath
+    - object:
+        version: 4.0.0
+        language: javascript
+        codeString: ''
+        libraryName: form-data
+    - object:
+        version: 61.0.0
+        language: javascript
+        codeString: ''
+        libraryName: googleapis
+    - object:
+        version: 2.1133.0
+        language: javascript
+        codeString: ''
+        libraryName: aws-sdk
+    - object:
+        version: 20.4.0
+        language: javascript
+        codeString: ''
+        libraryName: puppeteer-core
+    - object:
+        version: 168.2.0
+        language: javascript
+        codeString: ''
+        libraryName: purecloud-platform-client-v2
+    - object:
+        version: 4.2.0
+        language: javascript
+        codeString: ''
+        libraryName: mustache
+    - object:
+        version: 2.3.3
+        language: javascript
+        codeString: ''
+        libraryName: sqlstring
+    - object:
+        version: 4.0.0
+        language: javascript
+        codeString: ''
+        libraryName: postgres-interval
+    - object:
+        version: 3.5.29
+        language: javascript
+        codeString: ''
+        libraryName: jspdf-autotable
+    - object:
+        version: 8.7.3
+        language: javascript
+        codeString: ''
+        libraryName: pg
+    - object:
+        version: 0.1.3
+        language: javascript
+        codeString: ''
+        libraryName: imagemagick
+    - object:
+        version: 2.88.2
+        language: javascript
+        codeString: ''
+        libraryName: request
+    - object:
+        version: 0.22.0
+        language: javascript
+        codeString: ''
+        libraryName: cheerio
+    - object:
+        version: 0.0.106
+        language: javascript
+        codeString: ''
+        libraryName: langchain
+    - object:
+        version: 2.5.1
+        language: javascript
+        codeString: ''
+        libraryName: jspdf
+    - object:
+        version: 0.13.0
+        language: javascript
+        codeString: ''
+        libraryName: pdfkit
+    - object:
+        version: 9.0.4
+        language: javascript
+        codeString: ''
+        libraryName: ssh2-sftp-client
+    - object:
+        version: 4.17.21
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const _ = require('lodash')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: lodash
+    - object:
+        version: 2.1.0
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const numbro = require('numbro')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: numbro
+    - object:
+        version: 5.3.2
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const Papa = require('papaparse')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: papaparse
+    - object:
+        version: 0.5.23
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const moment = require('moment-timezone')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: moment-timezone
+    - object:
+        version: 3.4.0
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const uuid = require('uuid')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: uuid
+name: wf one with all libraries
+setupScripts:
+  object:
+    python:
+      object:
+        codeString: ''
+    javascript:
+      object:
+        codeString: |
+          // lodash
+          /* Edit library variable below */
+
+          const _ = require('lodash')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // numbro
+          /* Edit library variable below */
+
+          const numbro = require('numbro')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // papaparse
+          /* Edit library variable below */
+
+          const Papa = require('papaparse')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // moment-timezone
+          /* Edit library variable below */
+
+          const moment = require('moment-timezone')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // uuid
+          /* Edit library variable below */
+
+          const uuid = require('uuid')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+javascriptLanguageConfiguration:
+  object:
+    id: 30e2882c-bb6c-4f57-a975-4079a2261cb6
+    name: workflow_javascript_f136dc89-3d34-49fa-80ca-b2b8bcf79828
+    description: null
+    libraries:
+      object: {}
+    librariesFormat: package.json
+    language: javascript
+triggerWebhooks:
+  array:
+    - object:
+        name: startTrigger
+        uuid: startTrigger
+        headers: '{}'
+        inputSchema:
+          object:
+            properties:
+              array: []
+        useHeaderApiKey: false
+        exampleInputJSON: ''
+        examplePathParams: ''
+version: 43.0.9
+workflowId: f136dc89-3d34-49fa-80ca-b2b8bcf79828
+description: null
+workflowTemplate:
+  version: 3.196.2
