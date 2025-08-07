@@ -1,5 +1,5 @@
 <App>
-  <GlobalWidgetBooleanProp id="input1" />
+  <GlobalWidgetProp id="input1" />
   <Frame
     id="$main"
     enableFullBleed={false}
@@ -16,6 +16,7 @@
       overflowType="hidden"
     >
       <Button id="button1" text="Button" />
+      <Button id="button2" text="Button" />
     </ModuleContainerWidget>
   </Frame>
 </App>
