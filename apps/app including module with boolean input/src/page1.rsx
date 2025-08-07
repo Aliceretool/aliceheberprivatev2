@@ -19,9 +19,11 @@
     <Module
       id="moduleWithBooleanInput1"
       heightType="fixed"
+      input1=""
       name="module with boolean input"
       overflowType="hidden"
       pageUuid="af425998-7366-11f0-a86f-e7b7a5f572fe"
     />
+    <Button id="button1" text="Button" />
   </Frame>
 </Screen>
