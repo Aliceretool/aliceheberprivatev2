@@ -24,6 +24,7 @@
       overflowType="hidden"
       pageUuid="af425998-7366-11f0-a86f-e7b7a5f572fe"
     />
+    <Button id="button2" text="Button" />
     <Button id="button1" text="Button" />
   </Frame>
 </Screen>
