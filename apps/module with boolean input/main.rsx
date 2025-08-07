@@ -1,5 +1,5 @@
 <App>
-  <GlobalWidgetProp id="input1" />
+  <GlobalWidgetStringProp id="input1" />
   <Frame
     id="$main"
     enableFullBleed={false}
