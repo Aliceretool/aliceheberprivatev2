@@ -16,6 +16,7 @@
       overflowType="hidden"
     >
       <Button id="button1" text="Button" />
+      <Button id="button2" text="Button" />
     </ModuleContainerWidget>
   </Frame>
 </App>
