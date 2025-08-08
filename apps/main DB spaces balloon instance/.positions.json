@@ -1,0 +1,118 @@
+{
+  "SubmitFormButton1": {
+    "container": "updateDataForm",
+    "rowGroup": "footer",
+    "col": 6,
+    "height": 1,
+    "width": 6
+  },
+  "addButton": {
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "formTitle1": {
+    "container": "updateDataForm",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "form_dateTime1": {
+    "container": "updateDataForm",
+    "height": 1,
+    "width": 12
+  },
+  "form_dateTime2": {
+    "container": "updateDataForm",
+    "row": 0.2,
+    "height": 1,
+    "width": 12
+  },
+  "form_numberInput6": {
+    "container": "updateDataForm",
+    "row": 1,
+    "height": 1,
+    "width": 12
+  },
+  "form_textInput3": {
+    "container": "updateDataForm",
+    "row": 0.4,
+    "height": 1,
+    "width": 12
+  },
+  "form_textInput4": {
+    "container": "updateDataForm",
+    "row": 0.6,
+    "height": 1,
+    "width": 12
+  },
+  "form_textInput5": {
+    "container": "updateDataForm",
+    "row": 0.8,
+    "height": 1,
+    "width": 12
+  },
+  "form_textInput7": {
+    "container": "updateDataForm",
+    "row": 1.2,
+    "height": 1,
+    "width": 12
+  },
+  "form_textInput8": {
+    "container": "updateDataForm",
+    "row": 1.4,
+    "height": 1,
+    "width": 12
+  },
+  "searchBar": {
+    "row": 0,
+    "col": 5,
+    "height": 1
+  },
+  "table1": {
+    "row": 0.6,
+    "height": 17.2,
+    "width": 8
+  },
+  "table2": {
+    "row": 19,
+    "height": 8,
+    "width": 8
+  },
+  "table3": {
+    "row": 29.8,
+    "height": 1,
+    "width": 8
+  },
+  "table4": {
+    "row": 33.8,
+    "height": 8,
+    "width": 8
+  },
+  "text1": {
+    "row": 18.4,
+    "height": 0.6
+  },
+  "titleText": {
+    "height": 0.6,
+    "width": 5
+  },
+  "updateDataForm": {
+    "container": "updateFormContainer",
+    "subcontainer": "a83fc",
+    "height": 2,
+    "width": 12
+  },
+  "updateFormContainer": {
+    "row": 1,
+    "col": 8,
+    "height": 0.2,
+    "width": 4
+  },
+  "updateFormContainerTitle": {
+    "container": "updateFormContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  }
+}
