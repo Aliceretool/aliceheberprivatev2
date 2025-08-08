@@ -1,1 +1,0 @@
-select * from grid_managed_cluster_resources
