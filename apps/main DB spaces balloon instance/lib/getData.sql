@@ -1,0 +1,1 @@
+select * from "access_control_list_members" where ({{ !searchBar.value }} or cast("memberType" as text) ilike {{ '%' + searchBar.value + '%' }});
