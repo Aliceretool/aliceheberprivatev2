@@ -1,0 +1,1 @@
+select * from source_control_provider_configs
