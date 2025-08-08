@@ -1,0 +1,44 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "32dea0de-d171-11ee-8a43-1bf2f622a95c",
+  "appTemplate": {
+    "mobileAppSettings": {
+      "object": {
+        "mobileOfflineModeEnabled": false,
+        "mobileOfflineModeDelaySync": false
+      }
+    },
+    "appMaxWidth": "1560px",
+    "experimentalFeatures": {
+      "object": {
+        "sourceControlTemplateDehydration": false
+      }
+    },
+    "pageCodeFolders": {
+      "object": {
+        "getAllSCMrepoVersionMigration": {
+          "array": []
+        },
+        "getAllSpaces": {
+          "array": []
+        },
+        "getAllAuditTrail": {
+          "array": []
+        },
+        "getAllFolders": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": true,
+        "globalQueryToastDuration": 4.5
+      }
+    },
+    "version": "3.148.13",
+    "experimentalDataTabEnabled": true
+  }
+}
