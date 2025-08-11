@@ -61,5 +61,12 @@
       />
     </Button>
     <JSONEditor id="jsonEditor1" value="{{ get200.data }}" />
+    <TextInput
+      id="url1"
+      label="pipedream link"
+      labelPosition="top"
+      patternType="url"
+      value="https://pipedream.com/@retool1/requestbin-p_6lCDbB2/inspect"
+    />
   </Frame>
 </Screen>
