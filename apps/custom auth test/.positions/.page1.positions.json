@@ -1,0 +1,11 @@
+{
+  "button1": {
+    "height": 1,
+    "width": 2
+  },
+  "jsonEditor1": {
+    "row": 1.2,
+    "height": 8,
+    "width": 4
+  }
+}
