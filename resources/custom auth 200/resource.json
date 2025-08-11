@@ -11,16 +11,22 @@
   "editPrivilege": null,
   "options": {
     "baseURL": "https://eojfv4p3kzkp0zq.m.pipedream.net",
-    "headers": [["", ""]],
+    "headers": [
+      ["Authorization", "Bearer auth_token"],
+      ["Content-Type", "application/json"]
+    ],
     "authSteps": [
-      { "type": "javascript", "javascriptQuery": "return 'custom_token'" },
       {
-        "type": "http_request",
-        "query": "https://eojfv4p3kzkp0zq.m.pipedream.net",
-        "method": "POST",
-        "headers": "[{\"key\":\"Authorization\",\"value\":\"Bearer {{ javascript1.returnValue }}\"}]",
-        "bodyType": "json",
-        "runWhenModelUpdates": false
+        "form": [
+          { "key": "email", "type": "email" },
+          { "key": "custom_token", "type": "password" }
+        ],
+        "type": "form_modal"
+      },
+      {
+        "type": "define_variable",
+        "defined_variable_name": "auth_token",
+        "defined_variable_value": "{{ form1.custom_token }}"
       }
     ],
     "urlparams": [["", ""]],
