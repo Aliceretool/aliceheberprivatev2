@@ -12,7 +12,7 @@
     id="get200"
     body={'{"test": "event"}'}
     bodyType="raw"
-    headers={'[{"key":"Authorization","value":"Bearer custom_token"}]'}
+    headers="[]"
     resourceDisplayName="custom auth 200"
     resourceName="d029e243-fe00-42ab-b3bf-980587851bb8"
     resourceTypeOverride=""
@@ -30,6 +30,7 @@
     resourceDisplayName="custom auth return 400 test"
     resourceName="40c30b29-01a1-48e4-bc1b-97ecdcbdb0f5"
     resourceTypeOverride=""
+    runWhenModelUpdates={false}
     runWhenPageLoadsDelay="3000"
     type="POST"
   />
@@ -38,6 +39,7 @@
     query="https://eojfv4p3kzkp0zq.m.pipedream.net"
     resourceDisplayName="blank rest api"
     resourceName="e4fe7db9-f97e-4031-aa5b-929fec8863e6"
+    runWhenModelUpdates={false}
   />
   <Frame
     id="$main"
