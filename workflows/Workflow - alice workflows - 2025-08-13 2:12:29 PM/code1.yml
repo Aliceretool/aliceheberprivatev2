@@ -24,6 +24,8 @@ template:
   query: |-
     x = 5
     y = 10
+    a = 20
+
     return y
   playgroundQueryUuid: ''
   playgroundQueryId: null
