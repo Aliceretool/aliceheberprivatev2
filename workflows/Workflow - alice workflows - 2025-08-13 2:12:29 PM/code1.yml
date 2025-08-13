@@ -1,7 +1,7 @@
 id: code1
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: PythonQuery
+resourceName: PythonQuery
 template:
   queryRefreshTime: ''
   allowedGroupIds: []
@@ -18,22 +18,13 @@ template:
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: true
+  runWhenModelUpdates: false
   workflowRunExecutionType: sync
   showFailureToaster: true
   query: |-
-    def process_start_trigger():
-        val = startTrigger.data.get("key")
-        
-        if val:
-            return f"The key exists and its value is: {val}"
-        else:
-            return "The key does not exist."
-
-    # Call the function
-    result = process_start_trigger()
-
-    return result
+    x = 5
+    y = 10
+    return x
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -43,13 +34,11 @@ template:
   runWhenPageLoadsDelay: ''
   data: null
   importedQueryInputs: {}
-  _additionalScope: []
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
   metadata: null
-  editorMode: sql
   queryRunTime: null
   changesetObject: ''
   offlineOptimisticResponse: null
@@ -73,7 +62,7 @@ template:
   runWhenPageLoads: false
   transformer: return data
   events: []
-  queryTimeout: '120000'
+  queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
   queryFailureConditions: ''
@@ -94,7 +83,7 @@ blockData:
   dimensions:
     width: 400
     height: 280
-  editorType: JavascriptQuery
-  resourceName: JavascriptQuery
+  editorType: PythonQuery
+  resourceName: PythonQuery
   incomingOnSuccessEdges:
     - 0474c846-bb19-49cb-9892-da19afdfedfd
