@@ -20,11 +20,11 @@ template:
     - workflowRunExecutionType: sync
     - showFailureToaster: true
     - query: |-
-        x = 5
+        one = "one"
         y = 10
         a = 20
 
-        return y
+        return one
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
