@@ -22,7 +22,7 @@ template:
     - query: |-
         let one = "one"
         let two = "two"
-        return one
+        return two
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
