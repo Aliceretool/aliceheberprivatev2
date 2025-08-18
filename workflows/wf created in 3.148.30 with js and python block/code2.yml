@@ -21,7 +21,7 @@ template:
     - showFailureToaster: true
     - query: |-
         one = "one"
-        y = 10
+        two = "two"
         a = 20
 
         return one
