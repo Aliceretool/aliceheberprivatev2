@@ -24,7 +24,7 @@ template:
         two = "two"
         a = 20
 
-        return one
+        return two
     - playgroundQueryUuid: ''
     - playgroundQueryId: null
     - error: null
