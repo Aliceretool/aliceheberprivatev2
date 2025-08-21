@@ -1,0 +1,73 @@
+{
+  "type": "restapi",
+  "host": null,
+  "port": null,
+  "databaseName": null,
+  "databaseUsername": null,
+  "databasePassword": null,
+  "description": " old https://eo343z6phaob2yd.m.pipedream.net",
+  "outboundRegion": null,
+  "ssl": null,
+  "editPrivilege": null,
+  "options": {
+    "baseURL": "https://httpbin.org/get/bearer",
+    "headers": [
+      ["Content-Type", "application/json"],
+      ["Authorization", "Bearer auth_token"]
+    ],
+    "authSteps": [
+      { "type": "http_request", "bodyType": "json" },
+      {
+        "type": "define_variable",
+        "defined_variable_name": "auth_token",
+        "defined_variable_value": "{{ form1.text2 }}"
+      }
+    ],
+    "urlparams": [["", ""]],
+    "auth0_domain": "",
+    "bearer_token": "",
+    "oauth2_scope": "",
+    "auth0_clientID": "",
+    "authentication": "custom",
+    "basic_password": "",
+    "basic_username": "",
+    "digest_password": "",
+    "digest_username": "",
+    "oauth2_auth_url": "",
+    "cookiesToForward": [],
+    "oauth1_token_key": "",
+    "oauth2_client_id": "",
+    "forwardAllCookies": false,
+    "skipConsentScreen": true,
+    "auth0_clientSecret": "",
+    "disableUrlEncoding": false,
+    "extraBodyKeyValues": [["", ""]],
+    "verify_session_url": "",
+    "oauth1_consumer_key": "",
+    "oauth1_token_secret": "",
+    "oauth2_access_token": "",
+    "oauth2_callback_url": "OAUTH2_CALLBACK_URL",
+    "session_cookie_name": "",
+    "oauth2_client_secret": "",
+    "oauth2_refresh_token": "",
+    "auth0_custom_audience": "",
+    "verify_session_action": {
+      "type": "http_request",
+      "query": "https://httpbin.org/status/400",
+      "method": "GET",
+      "headers": "[{\"key\":\"\",\"value\":\"\"}]",
+      "bodyType": "none",
+      "runWhenModelUpdates": true
+    },
+    "oauth1_consumer_secret": "",
+    "oauth1_realm_parameter": "",
+    "oauth1_signature_method": "HMAC-SHA1",
+    "oauth2_access_token_url": "",
+    "verify_session_action_enabled": true,
+    "digest_server_auth_header_response": ""
+  },
+  "environment": "production",
+  "dynamicallyQueryable": false,
+  "uuid": "d029e243-fe00-42ab-b3bf-980587851bb8",
+  "toolscriptVersion": "1.0.0"
+}
