@@ -67,5 +67,6 @@
       authType="custom"
     />
     <JSONEditor id="jsonEditor1" value="{{ get200.data }}" />
+    <Button id="button2" text="Button" />
   </Frame>
 </Screen>
