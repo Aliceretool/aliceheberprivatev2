@@ -10,8 +10,9 @@
 >
   <RESTQuery
     id="query1"
-    resourceDisplayName="custom auth 200"
-    resourceName="d029e243-fe00-42ab-b3bf-980587851bb8"
+    resourceDisplayName="blank RestApi"
+    resourceName="df3a766f-54d3-4154-bb73-68c35ff34879"
+    resourceTypeOverride=""
   />
   <Frame
     id="$main"
