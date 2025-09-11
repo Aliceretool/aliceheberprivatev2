@@ -1,0 +1,28 @@
+{
+  "type": "postgresql",
+  "host": "retooldb-postgresql",
+  "port": "5432",
+  "databaseName": "postgres",
+  "databaseUsername": "retool",
+  "databasePassword": "",
+  "description": "set up as described here https://retooled.slack.com/archives/C03THV8QH0S/p1692870180462869",
+  "outboundRegion": null,
+  "ssl": false,
+  "editPrivilege": false,
+  "options": {
+    "sshHost": "",
+    "version": "SqlQueryUnified",
+    "sshPassword": "",
+    "sshUsername": "",
+    "authentication": "user_password",
+    "connectionString": "",
+    "queryEditorModes": { "allowGuiMode": true, "allowSqlMode": true },
+    "sshTunnelEnabled": false,
+    "sshPrivateKeyName": "",
+    "disableServerSidePrepare": true
+  },
+  "environment": "production",
+  "dynamicallyQueryable": false,
+  "uuid": "9d052a87-5727-41ac-bb18-caacc0d05b90",
+  "toolscriptVersion": "1.0.0"
+}
