@@ -1,0 +1,85 @@
+<Screen
+  id="page1"
+  _customShortcuts={[]}
+  _hashParams={[]}
+  _searchParams={[{ key: "releaseVersion", value: "0.1.0" }]}
+  browserTitle=""
+  title="Page 1"
+  urlSlug=""
+  uuid="3d875865-5b8a-4c95-90ff-a58baaab6e55"
+>
+  <RetoolUserActionQuery
+    id="query1"
+    loginMethod="saml_sso"
+    resourceName="RetoolUserAction"
+  >
+    <Event
+      event="success"
+      method="trigger"
+      params={{}}
+      pluginId="query2"
+      type="datasource"
+      waitMs="0"
+      waitType="debounce"
+    />
+    <Event
+      event="failure"
+      method="trigger"
+      params={{}}
+      pluginId="query2"
+      type="datasource"
+      waitMs="0"
+      waitType="debounce"
+    />
+  </RetoolUserActionQuery>
+  <WorkflowRun
+    id="query2"
+    notificationDuration={4.5}
+    resourceName="WorkflowRun"
+    showSuccessToaster={false}
+    workflowId="375fa46a-f3a9-46a1-a8ad-36bf3cd4cc2f"
+  />
+  <Frame
+    id="$main"
+    enableFullBleed={false}
+    isHiddenOnDesktop={false}
+    isHiddenOnMobile={false}
+    padding="8px 12px"
+    type="main"
+  >
+    <Button id="button1" text="Button">
+      <Event
+        event="click"
+        method="trigger"
+        params={{}}
+        pluginId="query1"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Button>
+    <AuthLogin id="authLogin1" />
+    <Button id="button2" text="Button">
+      <Event
+        event="click"
+        method="trigger"
+        params={{}}
+        pluginId="query1"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Button>
+    <Button id="button3" text="Button">
+      <Event
+        event="click"
+        method="trigger"
+        params={{}}
+        pluginId="query1"
+        type="datasource"
+        waitMs="0"
+        waitType="debounce"
+      />
+    </Button>
+  </Frame>
+</Screen>
