@@ -1,0 +1,23 @@
+{
+  "authLogin1": {
+    "row": 0.6,
+    "col": 3,
+    "height": 1,
+    "width": 4
+  },
+  "button1": {
+    "row": 0.6,
+    "height": 1,
+    "width": 2
+  },
+  "button2": {
+    "row": 2.4,
+    "height": 1,
+    "width": 2
+  },
+  "button3": {
+    "row": 4.4,
+    "height": 1,
+    "width": 2
+  }
+}
