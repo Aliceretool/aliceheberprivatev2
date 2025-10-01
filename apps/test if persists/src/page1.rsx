@@ -17,5 +17,9 @@
     type="main"
   >
     <Button id="button1" text="1 button on initial protect" />
+    <Button
+      id="button2"
+      text="added button which i will commit but not merge"
+    />
   </Frame>
 </Screen>
