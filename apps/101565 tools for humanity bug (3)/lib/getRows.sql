@@ -1,1 +1,0 @@
-select * from mobile_app_sample_data
