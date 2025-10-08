@@ -1,1 +1,0 @@
-select * from boolean_example;

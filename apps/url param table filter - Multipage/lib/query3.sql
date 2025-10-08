@@ -1,1 +1,0 @@
-select * from long_table LIMIT 10;

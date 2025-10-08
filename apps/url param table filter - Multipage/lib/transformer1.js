@@ -1,1 +1,0 @@
-return {{tabbedcontainer1.tabNames.indexOf(urlparams.hash.tab_name)}}
