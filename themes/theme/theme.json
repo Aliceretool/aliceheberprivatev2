@@ -1,0 +1,63 @@
+{
+  "name": "theme",
+  "theme": {
+    "_migrated": true,
+    "automatic": [
+      "#ea8034",
+      "#f5c10a",
+      "#2fa772",
+      "#3c92dc",
+      "#a385db",
+      "#ea62ad",
+      "#ea4f2d"
+    ],
+    "borderRadius": "4px",
+    "canvas": "#3A435F",
+    "danger": "#ea4f2d",
+    "highlight": "#f6e5c4",
+    "info": "#3c92dc",
+    "labelEmphasizedFont": {
+      "fontWeight": "600",
+      "size": "12px"
+    },
+    "labelFont": {
+      "fontWeight": "500",
+      "size": "12px"
+    },
+    "modeIds": [
+      "7b4ee6c3"
+    ],
+    "modeMap": {
+      "7b4ee6c3": {
+        "id": "7b4ee6c3",
+        "label": "Default",
+        "theme": {},
+        "tokenValues": {
+          "4689f002": {
+            "type": "colorToken",
+            "value": "rgba(207, 16, 233, 1)"
+          }
+        }
+      }
+    },
+    "primary": "#F6D87A",
+    "secondary": "",
+    "success": "#2fa772",
+    "surfacePrimary": "#555F7D",
+    "surfaceSecondary": "#7888A7",
+    "tertiary": "",
+    "textDark": "#FFFFFF",
+    "textLight": "#3A435F",
+    "tokens": [
+      {
+        "id": "4689f002",
+        "type": "colorToken",
+        "label": "Secondary",
+        "value": "#FFFFFF"
+      }
+    ],
+    "warning": "#ea8034"
+  },
+  "type": null,
+  "version": "1.0.0"
+}
