@@ -1,9 +1,4 @@
 {
-  "button1": {
-    "row": 16,
-    "height": 1,
-    "width": 2
-  },
   "fileDropzone1": {
     "row": 1,
     "height": 2,
@@ -19,5 +14,11 @@
     "row": 5.8,
     "height": 9,
     "width": 6
+  },
+  "textInput1": {
+    "row": 2.8,
+    "col": 5,
+    "height": 0.2,
+    "width": 4
   }
 }

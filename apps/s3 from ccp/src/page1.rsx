@@ -205,6 +205,7 @@ return base64;"
       placeholder="Select or drag and drop"
       selectionType="multiple"
     />
+    <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
     <PDFViewer
       id="pdf1"
       retoolFileObject=""
@@ -212,6 +213,5 @@ return base64;"
       src="https://upload.wikimedia.org/wikipedia/commons/1/14/Marspathfinder.pdf"
       srcType="retoolFileObject"
     />
-    <Button id="button1" text="Button" />
   </Frame>
 </Screen>
