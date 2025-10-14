@@ -212,5 +212,6 @@ return base64;"
       src="https://upload.wikimedia.org/wikipedia/commons/1/14/Marspathfinder.pdf"
       srcType="retoolFileObject"
     />
+    <Button id="button1" text="Button" />
   </Frame>
 </Screen>
