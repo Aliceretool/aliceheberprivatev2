@@ -3,8 +3,10 @@
   "version": "43.0.9",
   "pageUuid": "6fbc40a8-a909-11f0-b835-23de01158a36",
   "appTemplate": {
+    "appThemeId": 170027,
     "rootScreen": "page1",
-    "version": "3.253.6",
+    "appThemeName": "theme",
+    "version": "3.288.0",
     "experimentalDataTabEnabled": true
   }
 }
