@@ -1,0 +1,119 @@
+id: loop3
+type: datasource
+subtype: SqlQueryUnified
+resourceName: 3c301c6a-d252-439c-b49a-40ff9c939fcf
+resourceDisplayName: retool_db
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  records: ''
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  databasePasswordOverride: ''
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  recordId: ''
+  importedQueryInputs:
+    ordered: []
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  dataArray: []
+  cacheKeyTtl: ''
+  filterBy: '[{"key":"id","value":"{{ value.id }}","operation":"="}]'
+  requestSentTimestamp: null
+  databaseHostOverride: ''
+  metadata: null
+  editorMode: gui
+  queryRunTime: null
+  actionType: UPDATE_BY
+  changesetObject: ''
+  shouldUseLegacySql: false
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  databaseNameOverride: ''
+  confirmationMessage: null
+  isFetching: false
+  changeset: '[{"key":"postcode","value":"2"}]'
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  databaseWarehouseOverride: ''
+  enableBulkUpdates: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults:
+    ordered: []
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  bulkUpdatePrimaryKey: ''
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  tableName: twohundred
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  databaseUsernameOverride: ''
+  databaseRoleOverride: ''
+  shouldEnableBatchQuerying: false
+  doNotThrowOnNoOp: false
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-01-09T21:36:30.968Z
+blockData:
+  top: 320
+  left: 1072
+  uuid: 699b778d-0a31-4c7c-b4a2-4817dd68286f
+  options:
+    iterable: 03c5ebd0-d2d1-4d33-832a-0c1690a9f442
+    batchConfig:
+      batchSize: 1
+      delayInMs: 0
+    executionMode: sequential
+    breakCondition: ''
+    iterationErrorConfig:
+      errorPolicy: ignore
+  pluginId: loop3
+  blockType: loop
+  dimensions:
+    width: 608
+    height: 655
+  editorType: SqlQueryUnified
+  onboarding: false
+  isMinimized: false
+  resourceName: 3c301c6a-d252-439c-b49a-40ff9c939fcf
+  incomingOnSuccessEdges:
+    - 03c5ebd0-d2d1-4d33-832a-0c1690a9f442
