@@ -1,0 +1,126 @@
+id: matchWebofficeFields
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    return webofficeSearch.data.map((row) => {
+      const matches = [];
+
+      if (matchFuzzy(extractValues.data.email, row.EmailAddresses__c)) {
+        matches.push("Email");
+      }
+      if (matchFuzzy(extractValues.data.phone, row.PhoneNumbers__c)) {
+        matches.push("Phone");
+      }
+      if (matchFuzzy(extractValues.data.mobilePhone, row.TelephoneNumbers__c)) {
+        matches.push("Mobile Phone");
+      }
+      if (match(extractValues.data.dateOfBirth, row.DateOfBirth__c)) {
+        matches.push("Date of Birth");
+      }
+      if (matchFuzzy(extractValues.data.fullName, row.OwnerName__c) || matchFuzzy(extractValues.data.fullName, row.CompanyAlias__c)) {
+        matches.push("Owner Name");
+      }
+      if (matchFuzzy(extractValues.data.addressPostalCode, row.Postcode__c)) {
+        matches.push("Postal Code");
+      }
+      if (matchFuzzy(extractValues.data.addressStreet, row.Street__c)) {
+        matches.push("Street");
+      }
+      if (matchFuzzy(extractValues.data.companyName, row.Company_Name__c) || matchFuzzy(extractValues.data.companyName, row.CompanyAlias__c)) {
+        matches.push("Company Name");
+      }
+
+      return {
+        ...row,
+        matches: matches,
+      }
+    });
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-08-19T21:01:31.355Z
+blockData:
+  top: -400
+  left: 2384
+  uuid: c6c6a52b-bc32-4e47-b9a8-6c5ea40c465a
+  comment:
+    body: >-
+      Gets the results from the Weboffice query and figures out which fields
+      have been matched on
+    visible: true
+    pluginId: matchAndRankResults-comment
+  pluginId: matchWebofficeFields
+  blockType: code
+  dimensions:
+    width: 576
+    height: 192
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges:
+    - 24b9fc6f-7358-4848-8cfd-47cab0ce6469
