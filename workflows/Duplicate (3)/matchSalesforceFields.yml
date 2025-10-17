@@ -1,0 +1,132 @@
+id: matchSalesforceFields
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    return salesforceSearch.data.map((row) => {
+      const matches = [];
+
+      if (match(extractValues.data.fullName, row.Name)) {
+        matches.push("Owner Name");
+      }
+      if (matchFuzzy(extractValues.data.companyName, row.Account.Name)) {
+        matches.push("Company Name");
+      }
+      if (match(extractValues.data.email, row.Email)) {
+        matches.push("Email");
+      }
+      if (match(extractValues.data.phone, row.Phone)) {
+        matches.push("Phone");
+      }
+      if (match(extractValues.data.mobilePhone, row.MobilePhone)) {
+        matches.push("Mobile Phone");
+      }
+      if (match(extractValues.data.dateOfBirth, row.Birthdate)) {
+        matches.push("Date of Birth");
+      }
+      if (match(extractValues.data.addressStreet, row.Account.BillingStreet)) {
+        matches.push("Street");
+      }
+      if (match(extractValues.data.addressCity, row.Account.BillingCity)) {
+        matches.push("City");
+      }
+      if (match(extractValues.data.addressCounty, row.Account.BillingState)) {
+        matches.push("State");
+      }
+      if (match(extractValues.data.addressPostalCode, row.Account.BillingPostalCode)) {
+        matches.push("Postal Code");
+      }
+
+      return {
+        ...row,
+        matches: matches,
+      }
+    });
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-08-19T20:04:28.398Z
+blockData:
+  top: -1408
+  left: 2384
+  uuid: 3ffe20eb-726e-4360-86b0-bfc2b1ed1e22
+  comment:
+    body: >-
+      Gets the results from the Salesforce query and figures out which fields
+      have been matched on
+    visible: true
+    pluginId: matchAndRankResults-comment
+  pluginId: matchSalesforceFields
+  blockType: code
+  dimensions:
+    width: 576
+    height: 736
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges:
+    - 865a7386-6533-4d74-97db-6695bdb639b0
