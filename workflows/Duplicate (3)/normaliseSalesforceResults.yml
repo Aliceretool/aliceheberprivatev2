@@ -1,0 +1,107 @@
+id: normaliseSalesforceResults
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |
+    return matchSalesforceFields.data.map((row) => ({
+      id: row.Id,
+      email: row.Email ?? "",
+      phone: row.Phone ?? "",
+      mobilePhone: row.MobilePhone ?? "",
+      companyName: row.Account.Name ?? "",
+      dateOfBirth: row.Birthdate ?? "",
+      postcode: row.Account.BillingPostalCode ?? "",
+      street: row.Account.BillingStreet ?? "",
+      city: row.Account.BillingCity ?? "",
+      state: row.Account.BillingState ?? "",
+      ownerName: row.Name ?? "",
+      hasDebt: row.Account.Has_Debt__c === true,
+      hasOpenComplaints: row.Open_Complaints__c === true,
+      matches: row.matches
+    }));
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-08-19T19:54:30.526Z
+blockData:
+  top: -1408
+  left: 3392
+  uuid: 0256dc77-6204-4430-99f4-f02c9b4d2339
+  comment:
+    body: Normalise into a common format for final step
+    visible: true
+    pluginId: normaliseSalesforceResults-comment
+  pluginId: normaliseSalesforceResults
+  blockType: code
+  dimensions:
+    width: 640
+    height: 704
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges:
+    - 3ffe20eb-726e-4360-86b0-bfc2b1ed1e22

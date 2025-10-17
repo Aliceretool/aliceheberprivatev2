@@ -1,0 +1,114 @@
+id: extractValues
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    const getValue = (type, escape) => {
+      let val = startTrigger.data.checkValues.find(cv => cv.type === type).value
+
+      if (escape) {
+        val = val?.replaceAll("'", "\\\'")?.replaceAll('%', '\%');
+      }
+      return val
+    }
+
+    return {
+      companyName: getValue('COMPANY_NAME', true),
+      email: getValue('EMAIL', true),
+      mobilePhone: getValue('MOBILE_PHONE', true),
+      phone: getValue('PHONE', true),
+      firstName: getValue('FIRST_NAME', true),
+      lastName: getValue('LAST_NAME', true),
+      fullName: (getValue('FIRST_NAME', true) + ' ' + getValue('LAST_NAME', true)).trim(),
+      dateOfBirth: getValue('DATE_OF_BIRTH'),
+      addressStreet: getValue('ADDRESS_LINE_1', true),
+      addressCity: getValue('ADDRESS_CITY', true),
+      addressCounty: getValue('ADDRESS_COUNTY', true),
+      addressPostalCode: getValue('ADDRESS_POSTAL_CODE', true),
+    }
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-08-12T12:04:13.573Z
+blockData:
+  top: -1088
+  left: 64
+  uuid: c86b223c-d97c-468c-ad09-922562fe4f68
+  comment:
+    body: ''
+    visible: false
+    pluginId: extractValues-comment
+  pluginId: extractValues
+  blockType: code
+  dimensions:
+    width: 672
+    height: 528
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges:
+    - 238d4cb9-dced-4883-9a3b-c3743485b1ca
