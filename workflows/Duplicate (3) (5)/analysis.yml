@@ -1,0 +1,209 @@
+id: analysis
+type: datasource
+subtype: RetoolAIQuery
+resourceName: retool_ai
+resourceDisplayName: retool_ai
+template:
+  vectorNamespaceIds: []
+  vectorDynamicUrls: ''
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  vectorActionNamespaceDynamicModeEnabled: false
+  vectorCreateAndFetchDynamicModeEnabled: false
+  streamResponse: true
+  imageClassifierDynamicLabels: ''
+  lastReceivedFromResourceAt: null
+  vectorSemanticSearchString: ''
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  customTemperature: '0'
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  vectorUrls: []
+  customSystemMessage: >-
+    You are a duplicate detection system. Your task is to compare a newMember
+    against an array of previousContacts and determine if the newMember is a
+    duplicate.
+
+      # Critical Rules
+      - Return "FAIL" ONLY if the newMember matches the EXACT criteria below
+      - Return "PASS" if none of the criteria are met
+      - Be strict - when in doubt, return "PASS"
+      - A match requires comparing against a SINGLE previousContact record (not across multiple records)
+
+      # FAIL Criteria (Duplicate Detected)
+      Return "FAIL" if ANY of these conditions are true for ANY SINGLE previousContact:
+
+      1. **Email AND Mobile Phone Match**: Both fields match exactly with one previousContact
+         - newMember.email === previousContact.email AND
+         - newMember.mobilePhone === previousContact.mobilePhone
+
+      2. **Name AND Date of Birth Match**: Both fields match exactly with one previousContact
+         - newMember.name === previousContact.name AND
+         - newMember.dateOfBirth === previousContact.dateOfBirth
+
+      3. **Has Debt Match**: previousContact has debt AND matches on Email AND any 2 of 3 additional fields
+         - previousContact.hasDebt === true AND
+         - newMember.email === previousContact.email AND
+         - At least 2 of the following match:
+           * newMember.phone === previousContact.phone
+           * newMember.mobilePhone === previousContact.mobilePhone
+           * newMember.name === previousContact.name
+
+      # PASS Criteria (Not a Duplicate)
+      Return "PASS" if none of the above conditions are met.
+
+      # Important Notes
+      - Empty, null, or undefined fields should NOT be considered matches
+      - Matches must be exact (case-insensitive for text fields)
+      - All conditions for a FAIL must be met within a SINGLE previousContact record
+      - Do not combine fields across multiple previousContacts
+
+      # Output Format
+      CRITICAL: You must respond with ONLY raw JSON. Do NOT use markdown code fences, do NOT use ```json```, do NOT add any text before or after the JSON.
+
+      Your response must be valid JSON in this exact format:
+      {
+        "status": "PASS",
+        "summary": "Brief explanation of why this determination was made"
+      }
+
+      OR
+
+      {
+        "status": "FAIL",
+        "summary": "Brief explanation of why this determination was made"
+      }
+
+      # Examples
+
+      Example 1 - FAIL due to email and mobile match:
+      {"status":"FAIL","summary":"Duplicate detected: newMember matches previousContact ID 12345 on both email (john@example.com) and mobile phone (555-1234)"}
+
+      Example 2 - PASS despite partial matches:
+      {"status":"PASS","summary":"No duplicate detected: Email matches previousContact ID 12345, but mobile phone differs. No single record matches all required criteria"}
+
+      Example 3 - PASS with no matches:
+      {"status":"PASS","summary":"No duplicate detected: No matching fields found across any previousContacts"}
+
+      Example 4 - FAIL due to hasDebt condition:
+      {"status":"FAIL","summary":"Duplicate detected: previousContact ID 67890 has debt and matches on email (jane@example.com), mobile phone (555-9876), and name (Jane Doe)"}
+
+      REMEMBER: Return ONLY the raw JSON object. No markdown, no code fences, no additional text.
+  textExtractorDynamicLabels: ''
+  imageExtractorLabels: []
+  query: ''
+  playgroundQueryUuid: ''
+  imageExtractorDynamicModeEnabled: false
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  model: gpt-4o-mini
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  defaultModelInitialized: true
+  providerId: retoolAIBuiltIn::openAI
+  textClassifierLabels: []
+  textClassifierDynamicModeEnabled: false
+  importedQueryInputs: {}
+  instruction: |
+    PotentialMatches: {{  combinedData.data}}
+  isImported: false
+  imageModel: dall-e-3
+  showSuccessToaster: true
+  fileUseDynamicSource: false
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: {}
+  textClassifierDynamicLabels: ''
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  embeddingModel: text-embedding-ada-002
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  chatInput: ''
+  rawData: null
+  vectorNamespaceId: ''
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  vectorDynamicNamespaces: ''
+  enableErrorTransformer: false
+  imageExtractorDynamicLabels: ''
+  multimodalModel: gpt-4o
+  showLatestVersionUpdatedWarning: false
+  vectorActionDynamicNamespace: ''
+  dynamicModelName: ''
+  timestamp: 0
+  evalType: script
+  textExtractorDynamicModeEnabled: false
+  action: textGeneration
+  textExtractorLabels: []
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  fileSource: ''
+  filterLabels: []
+  dynamicModelEnabled: false
+  systemMessage: You are a helpful assistant
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  content: ''
+  transformer: return data
+  events: []
+  vectorAction: upsertDocument
+  queryTimeout: '120000'
+  workflowId: null
+  vectorNamespacesDynamicModeEnabled: false
+  requireConfirmation: false
+  queryFailureConditions: ''
+  source: ''
+  imageClassifierLabels: []
+  imageClassifierDynamicModeEnabled: false
+  changesetIsObject: false
+  vectorModeEnabled: false
+  vectorNamespaceIdsFilters: []
+  providerName: openAI
+  enableCaching: false
+  allowedGroups: []
+  chatHistory: ''
+  imageContent: ''
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-08-12T14:31:05.720Z
+blockData:
+  top: -864
+  left: 4928
+  uuid: 6913f559-59de-48c1-91c4-10ea0bd31fa3
+  comment:
+    body: >+
+      This prompt currently doesn't do a whole lot and was mostly structural
+      copypasta from director check.
+
+    visible: true
+    pluginId: query1-comment
+  pluginId: analysis
+  blockType: default
+  editorType: RetoolAIQuery
+  isMinimized: false
+  resourceName: retool_ai
+  incomingOnSuccessEdges:
+    - 78f11cfd-4d4f-4a89-b785-cc0a9448d574
