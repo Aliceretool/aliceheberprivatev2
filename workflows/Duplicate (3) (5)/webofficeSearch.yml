@@ -1,0 +1,133 @@
+id: webofficeSearch
+type: datasource
+subtype: SalesforceQuery
+resourceName: b684aac0-1247-44f8-aec8-f8a41198460e
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  queryType: soql
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  apexMethod: get
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  apexBody: ''
+  successMessage: ''
+  SOQLQueryAutoFlatten: false
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  bulkLoadOptions: ''
+  runWhenModelUpdates: false
+  crudResourceType: ''
+  workflowRunExecutionType: sync
+  apexPath: ''
+  showFailureToaster: true
+  crudResourceID: ''
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  crudResourceBody: ''
+  bulkLoadAction: ''
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  bulkRecords: ''
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  SOQLQuery: |-
+    SELECT
+      Id,
+      Name,
+      Company_Name__c,
+      OwnerName__c,
+      CompanyAlias__c,
+      PhoneNumbers__c,
+      EmailAddresses__c,
+      City__c,
+      Postcode__c,
+      Town__c,
+      Street__c,
+      TelephoneNumbers__c,
+      MobileNumbers__c,
+      DateOfBirth__c
+    FROM WebOffice_Company__c
+    WHERE (
+      (EmailAddresses__c != NULL AND EmailAddresses__c LIKE '%{{ extractValues.data.email }}%') OR
+      (PhoneNumbers__c != NULL AND PhoneNumbers__c LIKE '%{{ extractValues.data.phone }}%') OR
+      (TelephoneNumbers__c != NULL AND TelephoneNumbers__c LIKE '%{{ extractValues.data.mobilePhone }}%') OR
+      (DateOfBirth__c = {{ extractValues.data.dateOfBirth }}) OR
+      (Postcode__c != NULL AND Postcode__c LIKE '%{{ extractValues.data.addressPostalCode }}%') OR
+      (Street__c != NULL AND Street__c LIKE '%{{ extractValues.data.addressStreet }}%') OR
+      (OwnerName__c != NULL AND OwnerName__c LIKE '%{{ extractValues.data.fullName }}%') OR
+      (CompanyAlias__c != NULL AND CompanyAlias__c LIKE '%{{ extractValues.data.fullName }}%') OR
+      (Company_Name__c != NULL AND Company_Name__c LIKE '%{{ extractValues.data.companyName }}%') OR
+      (CompanyAlias__c != NULL AND CompanyAlias__c LIKE '%{{ extractValues.data.companyName }}%')
+    )
+  errorTransformer: return data.error
+  finished: null
+  bulkLoadType: ''
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  crudAction: retrieve
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-08-14T15:21:28.701Z
+blockData:
+  top: -400
+  left: 1120
+  uuid: 24b9fc6f-7358-4848-8cfd-47cab0ce6469
+  comment:
+    body: ''
+    visible: false
+    pluginId: salesforce_company_search-comment
+  pluginId: webofficeSearch
+  blockType: default
+  dimensions:
+    width: 960
+    height: 995
+  editorType: SalesforceQuery
+  resourceName: b684aac0-1247-44f8-aec8-f8a41198460e
+  outgoingPorts: []
+  incomingOnSuccessEdges:
+    - c86b223c-d97c-468c-ad09-922562fe4f68

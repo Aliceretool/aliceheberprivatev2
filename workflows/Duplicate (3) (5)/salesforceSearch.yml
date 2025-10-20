@@ -1,0 +1,137 @@
+id: salesforceSearch
+type: datasource
+subtype: SalesforceQuery
+resourceName: b684aac0-1247-44f8-aec8-f8a41198460e
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  queryType: soql
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  apexMethod: get
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  apexBody: ''
+  successMessage: ''
+  SOQLQueryAutoFlatten: false
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  bulkLoadOptions: ''
+  runWhenModelUpdates: false
+  crudResourceType: ''
+  workflowRunExecutionType: sync
+  apexPath: ''
+  showFailureToaster: true
+  crudResourceID: ''
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  crudResourceBody: ''
+  bulkLoadAction: ''
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  bulkRecords: ''
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  SOQLQuery: |-
+    SELECT
+        Id,
+        Account.Name,
+        Account.Id,
+        Account.Trader_Id__c,
+        Name,
+        Account.Status__c,
+        Birthdate,
+        Birthdate_Assistant__c,
+        FirstName,
+        LastName,
+        Email,
+        MobilePhone,
+        Phone,
+        Account.BillingCity,
+        Account.BillingState,
+        Account.BillingPostalCode,
+        Account.BillingStreet,
+        Account.Has_Debt__c,
+        Open_Complaints__c
+    FROM Contact
+    WHERE Account.Id != NULL AND Id != '{{startTrigger.data.sfContactId}}' AND (
+      Email LIKE '{{ extractValues.data.email }}' OR
+      MobilePhone = '{{ extractValues.data.mobilePhone }}' OR
+      Phone = '{{ extractValues.data.phone }}' OR
+      (FirstName LIKE '{{ extractValues.data.firstName }}' AND LastName LIKE '{{ extractValues.data.lastName }}') OR
+      Birthdate = {{ extractValues.data.dateOfBirth }} OR
+      Account.BillingStreet LIKE '{{ extractValues.data.addressStreet }}' OR
+      Account.BillingPostalCode LIKE '{{ extractValues.data.addressPostalCode }}' OR
+      Account.Name LIKE '%{{ extractValues.data.companyName }}%'
+    )
+  errorTransformer: return data.error
+  finished: null
+  bulkLoadType: ''
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  crudAction: retrieve
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-08-14T12:27:22.678Z
+blockData:
+  top: -1408
+  left: 1120
+  uuid: 865a7386-6533-4d74-97db-6695bdb639b0
+  comment:
+    body: ''
+    visible: false
+    pluginId: salesforce_company_search-comment
+  pluginId: salesforceSearch
+  blockType: default
+  dimensions:
+    width: 832
+    height: 964
+  editorType: SalesforceQuery
+  resourceName: b684aac0-1247-44f8-aec8-f8a41198460e
+  incomingPorts: []
+  outgoingPorts: []
+  incomingOnSuccessEdges:
+    - c86b223c-d97c-468c-ad09-922562fe4f68

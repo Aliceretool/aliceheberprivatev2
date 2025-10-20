@@ -1,0 +1,91 @@
+id: match
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: return a && b && a.toLowerCase() === b.toLowerCase();
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-08-20T08:22:42.274Z
+blockData:
+  top: 40
+  left: 40
+  uuid: fba5c66d-6fba-4717-b8ec-88faedb4cf92
+  options:
+    parameters:
+      - id: d6093aa1-943b-4006-a403-5ac40023d501
+        name: a
+        exampleValue: test
+      - id: 434e563c-dfab-4c6f-b33a-3e1f4b967f1f
+        name: b
+        exampleValue: Testa
+  pluginId: match
+  blockType: function
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges: []

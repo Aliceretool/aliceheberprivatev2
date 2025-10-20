@@ -1,0 +1,103 @@
+id: errorCheckRun
+type: datasource
+subtype: RESTQuery
+resourceName: 624dcc5c-c226-4354-9554-68775d92a9e6
+template:
+  queryRefreshTime: ''
+  paginationLimit: ''
+  allowedGroupIds: []
+  streamResponse: false
+  body: '{{ errorHandler.data.result }}'
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  paginationPaginationField: ''
+  workflowRunExecutionType: sync
+  headers: '[{"key":"Content-Type","value":"application/json"}]'
+  showFailureToaster: true
+  paginationEnabled: false
+  query: >-
+    vetting/v1/checks/{{ errorHandler.data.checkId }}/check-runs/{{
+    errorHandler.data.checkRunId }}
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  cookies: ''
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  paginationDataField: ''
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  version: 2
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '15000'
+  workflowId: null
+  requireConfirmation: false
+  type: PUT
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  bodyType: raw
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-10-02T14:13:27.695Z
+blockData:
+  top: -64
+  left: 6304
+  uuid: 2b2068e1-9e67-4a1e-9ab1-62aa8e908587
+  pluginId: errorCheckRun
+  blockType: default
+  dimensions:
+    width: 576
+    height: 218
+  editorType: RESTQuery
+  retryPolicy:
+    numAttempts: 4
+    initialIntervalMs: 250
+    maximumIntervalMs: 120000
+    backoffCoefficient: 2
+  resourceName: 624dcc5c-c226-4354-9554-68775d92a9e6
+  incomingOnSuccessEdges:
+    - f8778a73-891f-4c68-b0bf-afac3cd390cf
