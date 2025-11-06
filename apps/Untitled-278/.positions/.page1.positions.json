@@ -4,6 +4,12 @@
     "height": 1,
     "width": 2
   },
+  "button2": {
+    "row": 2.4,
+    "col": 4,
+    "height": 1,
+    "width": 2
+  },
   "jsonEditor1": {
     "row": 5.2,
     "height": 8,

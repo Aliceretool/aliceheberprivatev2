@@ -35,6 +35,7 @@
         waitType="debounce"
       />
     </Button>
+    <Button id="button2" text="Button" />
     <JSONEditor id="jsonEditor1" value="{{ query1.data }}" />
   </Frame>
 </Screen>
