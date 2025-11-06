@@ -67,6 +67,7 @@
         type="custom"
       >
         <Event
+          id="1db9b340"
           event="clickToolbar"
           method="exportData"
           pluginId="table1"
@@ -82,6 +83,7 @@
         type="custom"
       >
         <Event
+          id="35cc1e2f"
           event="clickToolbar"
           method="refresh"
           pluginId="table1"
@@ -91,5 +93,8 @@
         />
       </ToolbarButton>
     </Table>
+    <JSONEditor id="jsonEditor1" value="{{ query4.data }}" />
+    <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
+    <JSONEditor id="jsonEditor2" value="{{ query5.data }}" />
   </Frame>
 </App>

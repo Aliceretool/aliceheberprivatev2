@@ -1,0 +1,20 @@
+query GetUserRepositories {
+ user(login: "{{ query5.data}}") {
+   repositories(first: 10, privacy: PUBLIC) {
+     edges {
+       node {
+         name
+         description
+         url
+       }
+       cursor
+     }
+     pageInfo {
+       startCursor
+       endCursor
+       hasNextPage
+       hasPreviousPage
+     }
+   }
+ }
+}
