@@ -9,6 +9,11 @@
     sticky={null}
     type="main"
   >
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <Table
       id="table1"
       cellSelection="none"
