@@ -1,0 +1,133 @@
+id: startTrigger
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |2-
+
+      const evalStartTriggerBlock = () => {
+        const getExampleInputJSON = () => {
+          try {
+            return {
+      "envelopeId": "db1382cd-cd0d-41da-83f7-b0650aef1a0e",
+      "signers": [
+        {
+          "name": "Rodrigo Castiello",
+          "email": "rcastiello-ext@moethennessy.com",
+          "status": "completed",
+          "userId": "58115dc2-b255-4c3e-95b5-7b2078d46f56"
+        },
+        {
+          "name": "Rodrigo Castiello",
+          "email": "rcastiello-ext@moethennessy.com",
+          "status": "sent",
+          "userId": "58115dc2-b255-4c3e-95b5-7b2078d46f56"
+        }
+      ]
+    }
+
+          } catch {
+            return { error: true, message: 'Error parsing example input JSON' }
+          }
+        }
+        const getExamplePathParams = () => {
+          try {
+            return {}
+          } catch {
+            return { error: true, message: 'Error parsing example path params' }
+          }
+        }
+        const getExampleHeaders = () => {
+          try {
+            return {}
+          } catch {
+            return { error: true, message: 'Error parsing example headers' }
+          }
+        }
+        return {
+          _retool_exampleInputJSON: getExampleInputJSON(),
+          _retool_exampleHeaders: getExampleHeaders(),
+          _retool_examplePathParams: getExamplePathParams(),
+        }
+      }
+      return evalStartTriggerBlock()
+      
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-09-15T21:47:54.244Z
+blockData:
+  top: 48
+  left: -608
+  uuid: 5346f8c4-4040-4721-a503-369732af7d3e
+  options: {}
+  pluginId: startTrigger
+  blockType: webhook
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges: []

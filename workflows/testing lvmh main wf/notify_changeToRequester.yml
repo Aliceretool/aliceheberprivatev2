@@ -1,0 +1,93 @@
+id: notify_changeToRequester
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: return null
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  editorMode: sql
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '120000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-10-14T16:40:01.530Z
+blockData:
+  top: 80
+  left: -160
+  uuid: 6fde5194-1452-4126-af7b-6bbf2b5ff72c
+  options:
+    functionId: cf3dbe72-b960-43f1-b955-4fa83fb9b5fb
+    parameters:
+      2ea4062a-710a-422b-ac5d-c15cc5ad7ceb: nobody
+      3cc25575-58c5-4c78-8168-2112b004aa5e: thisStatus
+      b8321735-a24d-42bc-9211-76e421bd8556: '1'
+  pluginId: notify_changeToRequester
+  blockType: runFunction
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: JavascriptQuery
+  incomingPorts: []
+  incomingOnSuccessEdges:
+    - 5346f8c4-4040-4721-a503-369732af7d3e
