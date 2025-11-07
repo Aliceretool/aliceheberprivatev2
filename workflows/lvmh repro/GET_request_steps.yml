@@ -1,0 +1,122 @@
+id: GET_request_steps
+type: datasource
+subtype: SqlQueryUnified
+resourceName: 71b6f033-9283-4ac4-8127-ccf6eaafa93d
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  records: ''
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  databasePasswordOverride: ''
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    SELECT
+      rs.*,
+      r.process_steps_sequence,
+      ps.type,
+      ps.sequence
+    FROM
+      `EWORKFLOW_APP_DATA`.request_steps rs
+      LEFT JOIN `EWORKFLOW_APP_DATA`.requests r
+        ON r.id = rs.request_id
+      LEFT JOIN `EWORKFLOW_APP_DATA`.process_steps ps
+        ON ps.id = rs.process_step_id
+    WHERE
+      r.docusign_envelope_id = '{{ startTrigger.data.envelopeId }}'
+    ORDER BY
+      ps.sequence;
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  warningCodes: []
+  data: null
+  recordId: ''
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  dataArray: []
+  cacheKeyTtl: ''
+  filterBy: ''
+  requestSentTimestamp: null
+  databaseHostOverride: ''
+  metadata: null
+  editorMode: sql
+  queryRunTime: null
+  actionType: ''
+  changesetObject: ''
+  shouldUseLegacySql: false
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  databaseNameOverride: ''
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  databaseWarehouseOverride: ''
+  enableBulkUpdates: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  bulkUpdatePrimaryKey: ''
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  tableName: ''
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  databaseUsernameOverride: ''
+  databaseRoleOverride: ''
+  shouldEnableBatchQuerying: false
+  doNotThrowOnNoOp: false
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-09-15T21:50:10.383Z
+blockData:
+  top: 256
+  left: 1056
+  uuid: 6f9d5e9e-9689-42d8-ab8e-cee09ae75aea
+  pluginId: GET_request_steps
+  blockType: default
+  dimensions:
+    width: 432
+    height: 480
+  editorType: SqlQueryUnified
+  resourceName: 71b6f033-9283-4ac4-8127-ccf6eaafa93d
+  incomingPorts: []
+  incomingOnSuccessEdges:
+    - fc7312af-b480-4f6f-8bb4-16bd14237990

@@ -1,0 +1,120 @@
+id: approvalsSuccess
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    const generateReturn = () => {
+        const status = () => {
+          try {
+            return 200
+          } catch {
+            return 200
+          }
+        }
+      const body = () => {
+        try {
+          return {
+      description: 'Approvals successfully stored',
+      response: INSERT_approval.data
+    }
+        } catch {
+          return {'error': true, 'message': 'There was a problem parsing the JSON body of response1'}
+        }
+      }
+      return {status: status(), body: body() }
+      }
+      return generateReturn()
+      
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  editorMode: sql
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-09-16T00:32:37.679Z
+blockData:
+  top: 656
+  left: 4144
+  uuid: 34d70689-328e-4ba7-8d11-81a3079aead0
+  options:
+    body: |-
+      {
+        description: 'Approvals successfully stored',
+        response: UPSERT_approvals.data
+      }
+    status: '200'
+  pluginId: approvalsSuccess
+  blockType: webhookReturn
+  dimensions:
+    width: 336
+    height: 207
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: JavascriptQuery
+  incomingPorts:
+    - portId: aa40d713-29ad-4b10-924b-d0d8df6a610f
+      blockId: 7715599f-4a3c-4968-af10-eacb3b4fca2a
+  incomingOnSuccessEdges: []
