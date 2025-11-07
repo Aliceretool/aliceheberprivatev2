@@ -93,8 +93,8 @@ template:
   notificationDuration: ''
 createdAt: 2025-11-07T10:20:06.065Z
 blockData:
-  top: -80
-  left: 512
+  top: 48
+  left: 480
   uuid: 2ca4ad2c-8064-4ab4-999a-630f6264e87c
   options:
     body: '{ "return": startTrigger.data}'
