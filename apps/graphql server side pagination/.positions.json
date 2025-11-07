@@ -1,7 +1,27 @@
 {
+  "jsonEditor1": {
+    "row": 11,
+    "height": 8,
+    "width": 6
+  },
+  "jsonEditor2": {
+    "row": 19.4,
+    "height": 8,
+    "width": 4
+  },
   "table1": {
     "row": 1.8,
     "height": 8,
     "width": 8
+  },
+  "text1": {
+    "row": 0.4,
+    "height": 1
+  },
+  "textInput1": {
+    "row": 11.4,
+    "col": 7,
+    "height": 0.2,
+    "width": 4
   }
 }

@@ -1,0 +1,100 @@
+id: get_cancelledSteps
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    // Sort steps by sequence in ascending order
+    const nextSteps = GET_next_steps.data || [];
+
+    // Exclude skipped steps
+    const filteredSteps = nextSteps.filter(s => s.status !== 'skipped');
+
+    return filteredSteps.map(s => ({
+      id: s.id,
+      status: 'cancelled',
+      updated_at: new Date().toISOString(),
+    }));
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-10-01T16:47:39.680Z
+blockData:
+  top: 48
+  left: 6480
+  uuid: ce820a4a-64d8-4f7e-bd68-b64c44954966
+  pluginId: get_cancelledSteps
+  blockType: code
+  dimensions:
+    width: 320
+    height: 400
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingPorts:
+    - portId: 7bf213c4-949a-429c-8e45-a4ae71473bb0
+      blockId: 7013728b-55e6-4138-8095-5b13a2d446b4
+  incomingOnSuccessEdges: []

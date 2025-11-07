@@ -1,0 +1,145 @@
+id: get_request
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: >-
+    const steps = map_rows_from_signers.data || []; // recently updated signer
+    results
+
+    const reqSteps = (GET_request_steps.data || []).slice().sort((a,b) =>
+    Number(a.sequence) - Number(b.sequence));
+
+    const request_id = reqSteps[0]?.request_id;
+
+    if (!request_id) return null;
+
+
+    // Apply live signer status by step
+
+    const live = steps.reduce((m, r) => {
+      const s = r.status;
+      // Rejection dominates
+      m[r.request_step_id] = (s === 'rejected') ? 'rejected' : (m[r.request_step_id] || s);
+      return m;
+    }, {});
+
+
+    // Merge live status with request steps
+
+    const effective = reqSteps.map(s => ({
+      ...s,
+      effStatus: live[s.id] || s.status
+    }));
+
+
+    const isFinal = s =>
+    ['approved','rejected','cancelled'].includes(s.effStatus);
+
+
+    // If any step is rejected → stop there
+
+    const rejIdx = effective.findIndex(s => s.effStatus === 'rejected');
+
+    if (rejIdx !== -1)
+      return { request_id, status: 'rejected', process_step_sequence: rejIdx + 1 };
+
+    // Get the last updated step index
+
+    const updatedIds = steps.map(s => s.request_step_id);
+
+    const lastUpdatedIdx = effective.findIndex(s => updatedIds.includes(s.id));
+
+
+    // Move to the next open step after the updated one
+
+    const nextIdx = effective.findIndex((s, i) => i > lastUpdatedIdx &&
+    !isFinal(s));
+
+
+    if (nextIdx === -1)
+      return { request_id, status: 'approved', process_step_sequence: effective.length };
+
+    return { request_id, status: 'opened', process_step_sequence: nextIdx + 1 };
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-09-16T00:25:12.173Z
+blockData:
+  top: 48
+  left: 4688
+  uuid: be119b7f-1a0d-4358-9281-7b11724c68f7
+  pluginId: get_request
+  blockType: code
+  dimensions:
+    width: 464
+    height: 368
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingPorts: []
+  incomingOnSuccessEdges:
+    - 486e384d-06a5-48e5-8ba4-677dfa1684b4
