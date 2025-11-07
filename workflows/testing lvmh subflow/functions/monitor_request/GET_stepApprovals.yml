@@ -1,0 +1,127 @@
+id: GET_stepApprovals
+type: datasource
+subtype: SqlQueryUnified
+resourceName: 71b6f033-9283-4ac4-8127-ccf6eaafa93d
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds:
+        array: []
+    - streamResponse: false
+    - records: ''
+    - lastReceivedFromResourceAt: null
+    - isFunction: false
+    - databasePasswordOverride: ''
+    - functionParameters: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - functionDescription: null
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunExecutionType: sync
+    - showFailureToaster: true
+    - query: >-
+        SELECT *
+
+        FROM `EWORKFLOW_APP_DATA`.approvals
+
+        WHERE request_step_id IN ({{ GET_requestStepsInfo.data.map(r =>
+        `'${r.id}'`).join(',') }})
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams:
+        array: []
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - recordId: ''
+    - importedQueryInputs:
+        object: {}
+    - _additionalScope:
+        array: []
+    - isImported: false
+    - showSuccessToaster: true
+    - dataArray:
+        array: []
+    - cacheKeyTtl: ''
+    - filterBy: ''
+    - requestSentTimestamp: null
+    - databaseHostOverride: ''
+    - metadata: null
+    - editorMode: sql
+    - queryRunTime: null
+    - actionType: ''
+    - changesetObject: ''
+    - shouldUseLegacySql: false
+    - offlineOptimisticResponse: null
+    - errorTransformer: return data.error
+    - finished: null
+    - databaseNameOverride: ''
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams:
+        array: []
+    - enableErrorTransformer: false
+    - databaseWarehouseOverride: ''
+    - enableBulkUpdates: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        object: {}
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - bulkUpdatePrimaryKey: ''
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events:
+        array: []
+    - tableName: ''
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups:
+        array: []
+    - databaseUsernameOverride: ''
+    - databaseRoleOverride: ''
+    - shouldEnableBatchQuerying: false
+    - doNotThrowOnNoOp: false
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+    - warningCodes:
+        array: []
+createdAt: 2025-10-06T15:40:51.772Z
+blockData:
+  top: 48
+  left: 1376
+  uuid: 1b693fac-de8b-4438-91b5-f11f7c5b00f8
+  comment:
+    body: Get approvals of the docusign steps.
+    visible: true
+    pluginId: GET_stepApprovals-comment
+  pluginId: GET_stepApprovals
+  blockType: default
+  dimensions:
+    width: 384
+    height: 272
+  editorType: SqlQueryUnified
+  resourceName: 71b6f033-9283-4ac4-8127-ccf6eaafa93d
+  incomingOnSuccessEdges:
+    - 8a34ad74-68f0-428b-92d1-228872f3113c
