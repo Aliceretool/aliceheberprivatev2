@@ -112,7 +112,7 @@ template:
 createdAt: 2025-09-15T21:47:54.244Z
 blockData:
   top: 48
-  left: -608
+  left: 48
   uuid: 5346f8c4-4040-4721-a503-369732af7d3e
   options: {}
   pluginId: startTrigger

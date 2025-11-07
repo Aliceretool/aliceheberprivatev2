@@ -75,7 +75,7 @@ template:
 createdAt: 2025-10-14T16:40:01.530Z
 blockData:
   top: 48
-  left: -176
+  left: 560
   uuid: 6fde5194-1452-4126-af7b-6bbf2b5ff72c
   options:
     functionId: cf3dbe72-b960-43f1-b955-4fa83fb9b5fb
