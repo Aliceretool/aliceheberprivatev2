@@ -1,0 +1,179 @@
+customLibraries:
+  array:
+    - object:
+        version: 18.0.1
+        language: javascript
+        codeString: ''
+        libraryName: joi
+    - object:
+        version: 3.4.0
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const uuid = require('uuid')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: uuid
+    - object:
+        version: 4.17.21
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const _ = require('lodash')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: lodash
+    - object:
+        version: 2.1.0
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const numbro = require('numbro')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: numbro
+    - object:
+        version: 5.3.2
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const Papa = require('papaparse')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: papaparse
+    - object:
+        version: 0.5.23
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const moment = require('moment-timezone')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: moment-timezone
+name: testing lvmh main wf
+setupScripts:
+  object:
+    python:
+      object:
+        codeString: ''
+    javascript:
+      object:
+        codeString: |
+          // lodash
+          /* Edit library variable below */
+
+          const _ = require('lodash')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // numbro
+          /* Edit library variable below */
+
+          const numbro = require('numbro')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // papaparse
+          /* Edit library variable below */
+
+          const Papa = require('papaparse')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // moment-timezone
+          /* Edit library variable below */
+
+          const moment = require('moment-timezone')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // uuid
+          /* Edit library variable below */
+
+          const uuid = require('uuid')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+hasProtectedTriggers: false
+javascriptLanguageConfiguration:
+  object:
+    id: 7846dcc7-c4a2-4fc7-bef5-eb0449dcf58c
+    name: workflow_javascript_f9fe5edf-53d2-41df-b6a2-b78b1fd3cbad
+    description: null
+    libraries:
+      object:
+        joi:
+          object:
+            specVersion: 18.0.1
+            actualVersion: ''
+        uuid:
+          object:
+            specVersion: 3.4.0
+            actualVersion: ''
+        lodash:
+          object:
+            specVersion: 4.17.21
+            actualVersion: ''
+        numbro:
+          object:
+            specVersion: 2.1.0
+            actualVersion: ''
+        papaparse:
+          object:
+            specVersion: 5.3.2
+            actualVersion: ''
+        moment-timezone:
+          object:
+            specVersion: 0.5.23
+            actualVersion: ''
+    librariesFormat: package.json
+    language: javascript
+triggerWebhooks:
+  array:
+    - object:
+        name: startTrigger
+        uuid: startTrigger
+        headers: '{}'
+        inputSchema:
+          object:
+            properties:
+              array: []
+        useHeaderApiKey: false
+        exampleInputJSON: |
+          {
+            "envelopeId": "db1382cd-cd0d-41da-83f7-b0650aef1a0e",
+            "signers": [
+              {
+                "name": "Rodrigo Castiello",
+                "email": "rcastiello-ext@moethennessy.com",
+                "status": "completed",
+                "userId": "58115dc2-b255-4c3e-95b5-7b2078d46f56"
+              },
+              {
+                "name": "Rodrigo Castiello",
+                "email": "rcastiello-ext@moethennessy.com",
+                "status": "sent",
+                "userId": "58115dc2-b255-4c3e-95b5-7b2078d46f56"
+              }
+            ]
+          }
+        examplePathParams: ''
+version: 43.0.9
+workflowId: f9fe5edf-53d2-41df-b6a2-b78b1fd3cbad
+description: null
+workflowTemplate:
+  version: 3.302.0
