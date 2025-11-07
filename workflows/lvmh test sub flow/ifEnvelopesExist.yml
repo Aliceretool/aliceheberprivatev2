@@ -1,0 +1,104 @@
+id: ifEnvelopesExist
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: >
+    if (GET_envelopes_sql.data.map(e => e.docusign_envelope_id).length > 0 &&
+    GET_envelopes_sql.data) {
+      executePathAtMostOnce('0')
+    }
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  editorMode: sql
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-10-06T13:50:01.383Z
+blockData:
+  top: 48
+  left: 912
+  uuid: 75c54110-7bd5-40fc-be7e-2d91886f5347
+  options:
+    conditions:
+      - id: 0a70c9e1-f47a-4054-bee5-95dc77ebcd6d
+        type: if
+        statement: >-
+          GET_envelopes_sql.data.map(e => e.docusign_envelope_id).length > 0 &&
+          GET_envelopes_sql.data
+        outgoingPortId: 3e28470a-9a18-4ac1-af7d-6c7dfce5bf23
+  pluginId: ifEnvelopesExist
+  blockType: conditional
+  editorType: JavascriptQuery
+  onboarding: false
+  isMinimized: false
+  resourceName: JavascriptQuery
+  incomingPorts: []
+  outgoingPorts:
+    - id: 3e28470a-9a18-4ac1-af7d-6c7dfce5bf23
+      name: '0'
+      type: conditional
+  incomingOnSuccessEdges:
+    - 3df08720-c060-4ec1-bd50-a1b7cda9a344
