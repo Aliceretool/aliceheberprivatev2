@@ -1,0 +1,102 @@
+id: get_enveloppesStatus
+type: datasource
+subtype: WorkflowRun
+resourceName: WorkflowRun
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: '{{ value }}'
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: c4685670-8b08-4251-9d22-f9d1a611cc03
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-10-06T13:52:15.987Z
+blockData:
+  top: 48
+  left: 1696
+  uuid: d03547ac-13ad-44f6-915c-96e2ca6e2967
+  comment:
+    body: >-
+      Loop to get enveloppe status.
+
+
+      Note: Needs to be sequential. Docusign can NOT handle all requests at the
+      same time.
+    visible: true
+    pluginId: get_enveloppesStatus-comment
+  options:
+    iterable: ef8c7ead-458b-4977-863d-d115779c8fc5
+    batchConfig:
+      batchSize: 1
+      delayInMs: 0
+    executionMode: sequential
+    iterationErrorConfig:
+      errorPolicy: ignore
+  pluginId: get_enveloppesStatus
+  blockType: loop
+  editorType: WorkflowRun
+  onboarding: false
+  isMinimized: false
+  resourceName: WorkflowRun
+  incomingOnSuccessEdges:
+    - ef8c7ead-458b-4977-863d-d115779c8fc5
