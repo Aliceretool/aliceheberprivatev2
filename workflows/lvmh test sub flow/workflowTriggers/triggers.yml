@@ -1,5 +1,43 @@
+- id: 1dbc9b71-1c09-4206-a892-9e57c66101c2
+  createdBy: null
+  enabledAt: null
+  workflowId: ec30dd5b-7903-41a0-8d61-0653cd6dfcba
+  triggerType: webhook
+  environmentId: d1740648-3281-4bba-8f30-3ba2bffb8d07
+  triggerOptions: null
+  concurrencyLimit: null
+- id: 410900ae-b305-4a49-a208-181bd9b162dd
+  createdBy: null
+  enabledAt: null
+  workflowId: ec30dd5b-7903-41a0-8d61-0653cd6dfcba
+  triggerType: schedule
+  environmentId: d1740648-3281-4bba-8f30-3ba2bffb8d07
+  triggerOptions:
+    crontab: 0 0 * * *
+    timezone: UTC
+    scheduleType: interval
+  concurrencyLimit: 1
 - id: 5eb09cd4-d9fb-4c1e-82ca-41d47bb8e628
   createdBy: 524273
+  enabledAt: null
+  workflowId: ec30dd5b-7903-41a0-8d61-0653cd6dfcba
+  triggerType: webhook
+  environmentId: d1740648-3281-4bba-8f30-3ba2bffb8d07
+  triggerOptions: null
+  concurrencyLimit: null
+- id: 8b91aaef-f317-431a-8787-a46feb1f40ae
+  createdBy: null
+  enabledAt: null
+  workflowId: ec30dd5b-7903-41a0-8d61-0653cd6dfcba
+  triggerType: schedule
+  environmentId: d1740648-3281-4bba-8f30-3ba2bffb8d07
+  triggerOptions:
+    crontab: 0 0 * * *
+    timezone: UTC
+    scheduleType: interval
+  concurrencyLimit: 1
+- id: 8eb76b3d-e84e-4c04-9775-d37555100def
+  createdBy: null
   enabledAt: null
   workflowId: ec30dd5b-7903-41a0-8d61-0653cd6dfcba
   triggerType: webhook
