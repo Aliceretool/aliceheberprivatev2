@@ -32,7 +32,7 @@ template:
         }
       const body = () => {
         try {
-          return { "return": startTrigger.data}
+          return { "returns": startTrigger.data}
         } catch {
           return {'error': true, 'message': 'There was a problem parsing the JSON body of response1'}
         }
@@ -97,7 +97,7 @@ blockData:
   left: 480
   uuid: 2ca4ad2c-8064-4ab4-999a-630f6264e87c
   options:
-    body: '{ "return": startTrigger.data}'
+    body: '{ "returns": startTrigger.data}'
     status: '200'
   pluginId: response1
   blockType: webhookReturn
