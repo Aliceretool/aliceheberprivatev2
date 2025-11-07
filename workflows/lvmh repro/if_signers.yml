@@ -1,0 +1,109 @@
+id: if_signers
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    if (map_rows_from_signers.data && map_rows_from_signers.data.length > 0) {
+      executePathAtMostOnce('0')
+    }
+    else { executePathAtMostOnce('1') }
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  editorMode: sql
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-10-28T18:59:05.488Z
+blockData:
+  top: 48
+  left: 1984
+  uuid: fbbb7d6d-e0d7-4c31-bdf2-0f8ba7e62710
+  options:
+    conditions:
+      - id: 96958ecc-5b9e-4042-863e-d064982577f6
+        type: if
+        statement: map_rows_from_signers.data && map_rows_from_signers.data.length > 0
+        outgoingPortId: fc5b3f65-116a-47da-846f-d1e05c708e6e
+      - id: b54391ee-05e7-4208-8115-dd83473526bd
+        type: else
+        statement: ''
+        outgoingPortId: a6952e10-ce39-424e-b645-cc52c9806d9e
+  pluginId: if_signers
+  blockType: conditional
+  editorType: JavascriptQuery
+  onboarding: false
+  isMinimized: false
+  resourceName: JavascriptQuery
+  incomingPorts: []
+  outgoingPorts:
+    - id: fc5b3f65-116a-47da-846f-d1e05c708e6e
+      name: '0'
+      type: conditional
+    - id: a6952e10-ce39-424e-b645-cc52c9806d9e
+      name: '1'
+      type: conditional
+  incomingOnSuccessEdges:
+    - a460354b-e5d5-4227-8606-d09dd67fc995

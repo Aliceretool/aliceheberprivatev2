@@ -1,0 +1,143 @@
+id: emailData
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds:
+        array: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - isFunction: false
+    - functionParameters: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - functionDescription: null
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunExecutionType: sync
+    - showFailureToaster: true
+    - query: >-
+        // Find step label (x/x) from GET_request_steps
+
+        const stepData = (GET_request_steps?.data || []).find(
+          (s) => s.request_step_id === params.request_step_id
+        );
+
+        const stepLabel = stepData?.step_label ? ` - step
+        ${stepData.step_label}` : "";
+
+
+        const prefixTitle = (
+          formatted_data.data.request.contract_type || "EWF"
+        ).toUpperCase();
+
+        const requestTitle = formatted_data.data.request.title;
+
+        const requestStepStatus = params.status;
+
+
+        // Dynamic subject logic
+
+        const subject = `${prefixTitle} - ${requestTitle}${stepLabel}
+        ${requestStepStatus}`;
+
+
+        const emailData = {
+          personalizations: [{
+            to: [{
+              email: GET_requesterEmail.data[0].email
+            }]
+          }],
+          from: {
+            email: "noreply@data.moethennessy.com"
+          },
+          subject,
+          content: [
+            {
+              type: "text/html",
+              value: htmlData.data
+            }
+          ]
+        }
+
+
+        return emailData
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams:
+        array: []
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        object: {}
+    - _additionalScope:
+        array: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - offlineOptimisticResponse: null
+    - errorTransformer: return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams:
+        array: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        object: {}
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events:
+        array: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups:
+        array: []
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2025-10-14T16:37:32.033Z
+blockData:
+  top: 624
+  left: 1520
+  uuid: f657f3f0-a7ac-490c-a1c2-c0c48e66fbb5
+  pluginId: emailData
+  blockType: code
+  dimensions:
+    width: 320
+    height: 560
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges:
+    - e08dd6b7-db3d-4c86-9d6f-a7281a17e558
+    - bda3bfb7-7695-46a1-adf9-644cd271f8d3
+    - 9a971fda-a30d-4299-838e-d3587cb6014e
