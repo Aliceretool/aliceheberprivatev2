@@ -24,6 +24,7 @@
     padding="8px 12px"
     type="main"
   >
+    <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
     <Button id="button1" text="trigger wf">
       <Event
         event="click"
