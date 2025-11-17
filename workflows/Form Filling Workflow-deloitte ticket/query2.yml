@@ -1,0 +1,98 @@
+id: query2
+type: datasource
+subtype: RetoolStorageQuery
+resourceName: retool_storage
+resourceDisplayName: retool_storage
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  dataSource: []
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  fileName: '{{ formData.data.claim_reference_number }}.pdf'
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: '{{ fileHandler.data.pdf }}'
+  selectFolderNameBy: programmatic
+  importedQueryInputs: {}
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  actionType: upload
+  shouldOverwriteOnNameCollision: true
+  pageSize: '100'
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  isPublic: false
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  dynamicFileId: false
+  timestamp: 0
+  evalType: script
+  enableAsyncFileUpload: false
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  fileId: ''
+  uploadBy: component
+  pageNumber: '1'
+  overrideOrgCacheForUserCache: false
+  folderName: '{{ formData.data.claim_reference_number }}'
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  newFolderName: ''
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-06-18T15:53:56.061Z
+blockData:
+  top: 144
+  left: 1232
+  uuid: 85e7169d-05b0-4e62-8fcc-4ee569ab056e
+  pluginId: query2
+  blockType: default
+  editorType: RetoolStorageQuery
+  resourceName: retool_storage
+  incomingOnSuccessEdges:
+    - 9d61c396-6021-4bd6-ad54-f438a7e6c497

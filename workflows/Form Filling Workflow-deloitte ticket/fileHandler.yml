@@ -1,0 +1,224 @@
+id: fileHandler
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: true
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: >
+    //  const pdfBytes = pdfTemplate.data.base64Data;
+
+    const pdfBytes = formData.data.claim_language === "en" ?
+    englishBase64.data.base64Data : frenchBase64.data.base64Data;
+
+    const pdfDoc = await PDFDocument.load(pdfBytes);
+
+    const form = pdfDoc.getForm();
+
+
+    const fontNormal = await pdfDoc.embedFont(StandardFonts.Helvetica);
+
+
+    /* ---------------- helper ---------------- */
+
+    const lockCheckBox = (field, checked) => {
+      if (!field || field.constructor.name !== "PDFCheckBox") return;
+      checked ? field.check() : field.uncheck();
+      field.enableReadOnly();
+    };
+
+
+    /* ---------------- master list of race checkboxes ---------------- */
+
+    const allRaces = [
+      "Black",
+      "Chinese",
+      "East_Southeast_Asian",
+      "Filipino",
+      "Japanese",
+      "Korean",
+      "Latino_Latina_Latinx",
+      "Middle_Eastern",
+      "South_Asian",
+      "West_Asian",
+    ];
+
+
+    /* ---------------- array coming from the form ---------------- */
+
+    const selected = new Set(formData.data.racial_identity_racialized_groups ||
+    []);
+
+
+    /* ---------------- process every race checkbox ---------------- */
+
+    allRaces.forEach((name) => {
+      const cb = form.getFieldMaybe(name);
+      lockCheckBox(cb, selected.has(name));
+    });
+
+
+    /* ---------------- fill all remaining fields as before ---------------- */
+
+    const setField = (field, value) => {
+      if (field.constructor.name === "PDFTextField") {
+        field.setText(String(value ?? ""), { font: fontNormal, size: 11 });
+        field.enableReadOnly();
+      } else if (field.constructor.name === "PDFCheckBox") {
+        lockCheckBox(field, !!value);
+      } else if (field.constructor.name === "PDFDropdown") {
+        field.select(String(value));
+        field.enableReadOnly();
+      } else if (field.constructor.name === "PDFRadioGroup") {
+        field.select(String(value));
+        field.enableReadOnly();
+      }
+    };
+
+
+    Object.entries(formData.data).forEach(([key, val]) => {
+      if (key === "racial_identity_racialized_groups") return; // already handled
+      const field = form.getFieldMaybe(key);
+      if (field) setField(field, val);
+    });
+
+
+    // 6. —— NEW: stamp the signature image ——
+
+    if(!!formData.data.declaration_claimant_signature_url) {
+      const signatureBase64 = formData.data.declaration_claimant_signature_url;
+    if (signatureBase64) {
+      const sigField = form.getField("declaration_claimant_signature_url");
+      if (sigField) {
+        // pull its widget and rectangle
+        const widget = sigField.acroField.getWidgets()[0];
+        const { x, y, width, height } = widget.getRectangle();
+
+        // embed and draw the PNG onto page 17 (index 16)
+        const pngImage = await pdfDoc.embedPng(signatureBase64);
+        const page = pdfDoc.getPages()[16];
+        page.drawImage(pngImage, { x, y, width, height });
+
+        // remove the empty field so it doesn’t cover your image
+        //  form.removeField('declaration_claimant_signature_url');
+      }
+    }
+
+    }
+
+
+    if(!!formData.data.declaration_witness_signature_url) {
+      const signatureWitnessBase64 = formData.data.declaration_witness_signature_url;
+    if (signatureWitnessBase64) {
+      const sigField = form.getField("declaration_witness_signature_url");
+      if (sigField) {
+        // pull its widget and rectangle
+        const widget = sigField.acroField.getWidgets()[0];
+        const { x, y, width, height } = widget.getRectangle();
+
+        // embed and draw the PNG onto page 17 (index 16)
+        const pngImage = await pdfDoc.embedPng(signatureWitnessBase64);
+        const page = pdfDoc.getPages()[16];
+        page.drawImage(pngImage, { x, y, width, height });
+
+        // remove the empty field so it doesn’t cover your image
+        //  form.removeField('declaration_witness_signature_url');
+      }
+    }
+
+    }
+
+
+
+    /* ---------------- rebuild appearances + export ---------------- */
+
+    form.updateFieldAppearances(fontNormal);
+
+    /* ---------------- flatten into static content ---------------- */
+
+    form.flatten();
+
+    const b64 = await pdfDoc.saveAsBase64();
+
+    return { pdf: b64 };
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  editorMode: sql
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '120000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-06-18T15:09:00.594Z
+blockData:
+  top: 288
+  left: 464
+  uuid: 9d61c396-6021-4bd6-ad54-f438a7e6c497
+  pluginId: fileHandler
+  blockType: code
+  dimensions:
+    width: 640
+    height: 952
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges:
+    - 9d68083c-52b3-4622-b9c9-74238fb2c747
+    - 28b4a16f-f997-4011-b1bc-5e6b13ea16f3

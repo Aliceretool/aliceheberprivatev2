@@ -1,0 +1,101 @@
+id: pdfTemplate
+type: datasource
+subtype: RetoolStorageQuery
+resourceName: retool_storage
+resourceDisplayName: retool_storage
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  dataSource: []
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  fileName: ''
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: ''
+  selectFolderNameBy: dropdown
+  importedQueryInputs: {}
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  actionType: read
+  shouldOverwriteOnNameCollision: false
+  pageSize: '100'
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  isPublic: false
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  dynamicFileId: true
+  timestamp: 0
+  evalType: script
+  enableAsyncFileUpload: false
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  fileId: >-
+    {{ formData.data.claim_language !== "en" ?
+    '49980ab0-f03a-4deb-aa91-d86bee99203d' :
+    '6c869631-82b2-4cc6-be76-54f881552061' }}
+  uploadBy: component
+  pageNumber: '1'
+  overrideOrgCacheForUserCache: false
+  folderName: ''
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  newFolderName: ''
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-06-18T15:13:18.212Z
+blockData:
+  top: -688
+  left: -528
+  uuid: 7d8ed21c-c1a2-49e0-abfc-977b335e53a2
+  pluginId: pdfTemplate
+  blockType: default
+  editorType: RetoolStorageQuery
+  resourceName: retool_storage
+  incomingPorts: []
+  incomingOnSuccessEdges: []

@@ -1,0 +1,340 @@
+pythonLanguageConfiguration:
+  object:
+    id: 445c3129-9e70-42ac-9d89-e771d4bc9fca
+    name: workflow_python_54a490f8-69ed-405a-99c9-f6332e232afd
+    description: null
+    libraries:
+      object:
+        pypdf:
+          object:
+            specVersion: 5.6.0
+            actualVersion: ''
+        pillow:
+          object:
+            specVersion: 12.0.0
+            actualVersion: ''
+        reportlab:
+          object:
+            specVersion: 4.4.4
+            actualVersion: ''
+    librariesFormat: requirements.txt
+    language: python
+customLibraries:
+  array:
+    - object:
+        version: 5.6.0
+        language: python
+        codeString: ''
+        libraryName: pypdf
+    - object:
+        version: 12.0.0
+        language: python
+        codeString: ''
+        libraryName: pillow
+    - object:
+        version: 4.4.4
+        language: python
+        codeString: ''
+        libraryName: reportlab
+    - object:
+        version: 3.4.0
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const uuid = require('uuid')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: uuid
+    - object:
+        version: 3.0.1
+        language: javascript
+        codeString: ''
+        libraryName: jspdf
+    - object:
+        version: 4.17.21
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const _ = require('lodash')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: lodash
+    - object:
+        version: 2.1.0
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const numbro = require('numbro')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: numbro
+    - object:
+        version: 1.17.1
+        language: javascript
+        codeString: ''
+        libraryName: pdf-lib
+    - object:
+        version: 1.1.0
+        language: javascript
+        codeString: ''
+        libraryName: fill-pdf
+    - object:
+        version: 5.3.2
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const Papa = require('papaparse')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: papaparse
+    - object:
+        version: 0.5.23
+        language: javascript
+        codeString: |
+          /* Edit library variable below */
+
+          const moment = require('moment-timezone')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+        libraryName: moment-timezone
+name: Form Filling Workflow-deloitte ticket
+setupScripts:
+  object:
+    python:
+      object:
+        codeString: ''
+    javascript:
+      object:
+        codeString: |
+          // lodash
+          /* Edit library variable below */
+
+          const _ = require('lodash')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // numbro
+          /* Edit library variable below */
+
+          const numbro = require('numbro')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // papaparse
+          /* Edit library variable below */
+
+          const Papa = require('papaparse')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // moment-timezone
+          /* Edit library variable below */
+
+          const moment = require('moment-timezone')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          // uuid
+          /* Edit library variable below */
+
+          const uuid = require('uuid')
+
+          /* Add destructured imports from library below
+          eg. const { pow, log } = require("mathjs") */
+
+          const {
+            PDFDocument,
+            StandardFonts,
+            PDFName,
+            PDFBool,
+            PDFDict,
+            PDFArray,
+            rgb
+          } = require('pdf-lib')
+
+          const {fillPdf} = require('fill-pdf')
+
+          const { jsPDF } = require('jspdf')
+hasProtectedTriggers: false
+javascriptLanguageConfiguration:
+  object:
+    id: 456e08bf-f6ff-430d-b51b-f28dcbf260ff
+    name: workflow_javascript_54a490f8-69ed-405a-99c9-f6332e232afd
+    description: null
+    libraries:
+      object:
+        uuid:
+          object:
+            specVersion: 3.4.0
+            actualVersion: ''
+        jspdf:
+          object:
+            specVersion: 3.0.1
+            actualVersion: ''
+        lodash:
+          object:
+            specVersion: 4.17.21
+            actualVersion: ''
+        numbro:
+          object:
+            specVersion: 2.1.0
+            actualVersion: ''
+        pdf-lib:
+          object:
+            specVersion: 1.17.1
+            actualVersion: ''
+        fill-pdf:
+          object:
+            specVersion: 1.1.0
+            actualVersion: ''
+        papaparse:
+          object:
+            specVersion: 5.3.2
+            actualVersion: ''
+        moment-timezone:
+          object:
+            specVersion: 0.5.23
+            actualVersion: ''
+    librariesFormat: package.json
+    language: javascript
+triggerWebhooks:
+  array:
+    - object:
+        name: startTrigger
+        uuid: startTrigger
+        headers: '{}'
+        inputSchema:
+          object:
+            properties:
+              array: []
+        useHeaderApiKey: false
+        exampleInputJSON: >-
+          {
+
+          id: "123",
+
+          user_id: "5192ebb2-2a93-47bb-a40d-8dcc6415fd05",
+
+          claim_language: "en",
+
+          claimant_legal_first_name: "Wednéŝdäy",
+
+          claimant_middle_name: "B.",
+
+          claimant_legal_last_name: "Jordan",
+
+          claimant_other_names: "Jackie",
+
+          claimant_preferred_honorific: "Mr.",
+
+          claimant_date_of_birth: "2025-06-06",
+
+          submitted_alternative_id: true,
+
+          contact_mailing_address: "Street 12",
+
+          contact_city_town: "Townville",
+
+          contact_province_territory: "New Jersy",
+
+          contact_postal_zip_code: "23442",
+
+          contact_country: "England",
+
+          contact_daytime_phone: "0012343121",
+
+          contact_evening_phone: "00483738899",
+
+          contact_preferred_method:
+              "Evening_Telephone_Number",
+          is_deceased_or_disabled: false,
+
+          date_of_death_or_disability: null,
+
+          personal_representative_name: "",
+
+          personal_representative_phone: "",
+
+          caf_is_currently_serving: true,
+
+          caf_is_former_member: false,
+
+          caf_last_current_unit: "DFC",
+
+          caf_join_date_1: '2025/12/12',
+
+          caf_join_dates: ['2019/10/10'],
+
+          caf_release_dates: ['2022/10/22'],
+
+          caf_service_number: "23429",
+
+          sin_number: "",
+
+          cep_declaration_racial_discrimination: false,
+
+          racial_identity_indigenous_flag: true,
+
+          racial_identity_indigenous_first_nations: false,
+
+          racial_identity_indigenous_first_nations_specify: "",
+
+          racial_identity_indigenous_inuk: true,
+
+          racial_identity_indigenous_inuk_specify: "Yes I am inuk",
+
+          racial_identity_indigenous_metis: false,
+
+          racial_identity_indigenous_metis_specify: "",
+
+          racial_identity_racialized_groups: ['Japanese'],
+
+          racial_identity_section_c_details: "I am something",
+
+          impact_personal_dignity_details: "Good",
+
+          impact_bodily_emotional_integrity_details: "Bad",
+
+          impact_spiritual_well_being_details: "Sad",
+
+          impact_individual_relationships_details: "Dad",
+
+          declaration_claimant_name_printed: "Michael",
+
+          declaration_claimant_signature_url:
+          "https://cafrd.deloitteca.retool.com/api/file/3c143349-9604-4a99-8060-dff8114e49c0",
+
+          declaration_claimant_signature_date: "6/24/2025, 12:16:20 PM",
+
+          declaration_witness_name_printed: "Henry",
+
+          declaration_witness_signature_url:
+          "https://cafrd.deloitteca.retool.com/api/file/a94d43b2-2c83-4f63-bd83-aaed09416ea2",
+
+          declaration_witness_signature_date: "6/24/2025, 12:16:20 PM",
+
+          assisted_by_helper: true,
+
+          claim_reference_number: "CAF-250624-VIO"
+
+          }
+        examplePathParams: ''
+version: 43.0.9
+workflowId: 54a490f8-69ed-405a-99c9-f6332e232afd
+description: null
+workflowTemplate:
+  appMaxWidth: 1200px
+  version: 3.291.0

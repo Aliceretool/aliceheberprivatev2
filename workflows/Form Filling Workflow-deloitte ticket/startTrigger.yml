@@ -1,0 +1,223 @@
+id: startTrigger
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: >2-
+
+      const evalStartTriggerBlock = () => {
+        const getExampleInputJSON = () => {
+          try {
+            return {
+    id: "123",
+
+    user_id: "5192ebb2-2a93-47bb-a40d-8dcc6415fd05",
+
+    claim_language: "en",
+
+    claimant_legal_first_name: "Wednéŝdäy",
+
+    claimant_middle_name: "B.",
+
+    claimant_legal_last_name: "Jordan",
+
+    claimant_other_names: "Jackie",
+
+    claimant_preferred_honorific: "Mr.",
+
+    claimant_date_of_birth: "2025-06-06",
+
+    submitted_alternative_id: true,
+
+    contact_mailing_address: "Street 12",
+
+    contact_city_town: "Townville",
+
+    contact_province_territory: "New Jersy",
+
+    contact_postal_zip_code: "23442",
+
+    contact_country: "England",
+
+    contact_daytime_phone: "0012343121",
+
+    contact_evening_phone: "00483738899",
+
+    contact_preferred_method:
+        "Evening_Telephone_Number",
+    is_deceased_or_disabled: false,
+
+    date_of_death_or_disability: null,
+
+    personal_representative_name: "",
+
+    personal_representative_phone: "",
+
+    caf_is_currently_serving: true,
+
+    caf_is_former_member: false,
+
+    caf_last_current_unit: "DFC",
+
+    caf_join_date_1: '2025/12/12',
+
+    caf_join_dates: ['2019/10/10'],
+
+    caf_release_dates: ['2022/10/22'],
+
+    caf_service_number: "23429",
+
+    sin_number: "",
+
+    cep_declaration_racial_discrimination: false,
+
+    racial_identity_indigenous_flag: true,
+
+    racial_identity_indigenous_first_nations: false,
+
+    racial_identity_indigenous_first_nations_specify: "",
+
+    racial_identity_indigenous_inuk: true,
+
+    racial_identity_indigenous_inuk_specify: "Yes I am inuk",
+
+    racial_identity_indigenous_metis: false,
+
+    racial_identity_indigenous_metis_specify: "",
+
+    racial_identity_racialized_groups: ['Japanese'],
+
+    racial_identity_section_c_details: "I am something",
+
+    impact_personal_dignity_details: "Good",
+
+    impact_bodily_emotional_integrity_details: "Bad",
+
+    impact_spiritual_well_being_details: "Sad",
+
+    impact_individual_relationships_details: "Dad",
+
+    declaration_claimant_name_printed: "Michael",
+
+    declaration_claimant_signature_url:
+    "https://cafrd.deloitteca.retool.com/api/file/3c143349-9604-4a99-8060-dff8114e49c0",
+
+    declaration_claimant_signature_date: "6/24/2025, 12:16:20 PM",
+
+    declaration_witness_name_printed: "Henry",
+
+    declaration_witness_signature_url:
+    "https://cafrd.deloitteca.retool.com/api/file/a94d43b2-2c83-4f63-bd83-aaed09416ea2",
+
+    declaration_witness_signature_date: "6/24/2025, 12:16:20 PM",
+
+    assisted_by_helper: true,
+
+    claim_reference_number: "CAF-250624-VIO"
+
+    }
+          } catch {
+            return { error: true, message: 'Error parsing example input JSON' }
+          }
+        }
+        const getExamplePathParams = () => {
+          try {
+            return {}
+          } catch {
+            return { error: true, message: 'Error parsing example path params' }
+          }
+        }
+        const getExampleHeaders = () => {
+          try {
+            return {}
+          } catch {
+            return { error: true, message: 'Error parsing example headers' }
+          }
+        }
+        return {
+          _retool_exampleInputJSON: getExampleInputJSON(),
+          _retool_exampleHeaders: getExampleHeaders(),
+          _retool_examplePathParams: getExamplePathParams(),
+        }
+      }
+      return evalStartTriggerBlock()
+      
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-06-18T15:09:00.593Z
+blockData:
+  top: 304
+  left: -2048
+  uuid: 37b5fde3-d279-4114-b8d9-8b34ee37b20c
+  options: {}
+  pluginId: startTrigger
+  blockType: webhook
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges: []

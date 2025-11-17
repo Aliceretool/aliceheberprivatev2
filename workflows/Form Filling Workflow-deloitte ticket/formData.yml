@@ -1,0 +1,114 @@
+id: formData
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: |-
+    const data = startTrigger.data;
+    data.user_id = getCallerUserId.data[0].id
+    data.caf_join_dates = [];
+    data.caf_release_dates = [];
+
+    if(data.caf_join_date_1) 
+    data.caf_join_dates.push(data.caf_join_date_1);
+    if(data.caf_join_date_2) 
+      data.caf_join_dates.push(data.caf_join_date_2);
+    if(data.caf_join_date_3) 
+      data.caf_join_dates.push(data.caf_join_date_3);
+
+    if(data.caf_release_date_1)
+      data.caf_release_dates.push(data.caf_release_date_1);
+    if(data.caf_release_date_2)
+      data.caf_release_dates.push(data.caf_release_date_2);
+    if(data.caf_release_date_3)
+      data.caf_release_dates.push(data.caf_release_date_3);
+
+    if (data.contact_preferred_method === 'Daytime_Telephone_Number')
+        data.Daytime_Telephone_Number = true;
+    if (data.contact_preferred_method === 'Evening_Telephone_Number')
+        data.Evening_Telephone_Number = true;
+    if (data.contact_preferred_method === 'Mail')
+        data.Mail = true;
+
+    return data;
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-06-24T12:09:13.823Z
+blockData:
+  top: 304
+  left: -592
+  uuid: 676c5b51-5587-4e58-a0bc-40cfd6b8f85a
+  pluginId: formData
+  blockType: code
+  dimensions:
+    width: 496
+    height: 720
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges:
+    - 2187287e-86ac-4d8d-bbbe-ef9b1610beeb

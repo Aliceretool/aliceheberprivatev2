@@ -1,0 +1,113 @@
+id: savePDFAttachment
+type: datasource
+subtype: SqlQueryUnified
+resourceName: 0bb54f6e-bbb0-44ef-a6bf-93ca95197c1a
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  records: ''
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  databasePasswordOverride: ''
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  recordId: ''
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  dataArray: []
+  cacheKeyTtl: ''
+  filterBy: '[{"key":"id","value":"{{ query2.data.id }}","operation":"="}]'
+  requestSentTimestamp: null
+  databaseHostOverride: ''
+  metadata: null
+  editorMode: gui
+  queryRunTime: null
+  actionType: UPDATE_OR_INSERT_BY
+  changesetObject: ''
+  shouldUseLegacySql: false
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  databaseNameOverride: ''
+  confirmationMessage: null
+  isFetching: false
+  changeset: >-
+    [{"key":"uploaded_by_user_id","value":"{{ getCallerUserId.data[0].id
+    }}"},{"key":"attachment_type_id","value":"0012bbd4-7809-435d-8ccf-8cf4265ca3e4"},{"key":"file_size_bytes","value":"{{
+    query2.data.sizeBytes }}"},{"key":"claim_id","value":"{{ formData.data.id
+    }}"},{"key":"original_file_name","value":"{{ query2.data.name
+    }}"},{"key":"file_retool_storage_url","value":"{{ query2.data.url
+    }}"},{"key":"file_mime_type","value":"{{ query2.data.type
+    }}"},{"key":"is_archived","value":"false"},{"key":"user_retool_id","value":"{{
+    current_user.id }}"},{"key":"id","value":"{{ query2.data.id }}"}]
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  databaseWarehouseOverride: ''
+  enableBulkUpdates: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  evalType: script
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  bulkUpdatePrimaryKey: ''
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  tableName: attachments
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  databaseUsernameOverride: ''
+  databaseRoleOverride: ''
+  shouldEnableBatchQuerying: false
+  doNotThrowOnNoOp: false
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-07-01T09:37:46.227Z
+blockData:
+  top: 256
+  left: 1856
+  uuid: dff6e28d-c967-4e14-b44f-19b006bcfdc2
+  pluginId: savePDFAttachment
+  blockType: default
+  dimensions:
+    width: 464
+    height: 752
+  editorType: SqlQueryUnified
+  resourceName: 0bb54f6e-bbb0-44ef-a6bf-93ca95197c1a
+  incomingOnSuccessEdges:
+    - 85e7169d-05b0-4e62-8fcc-4ee569ab056e
