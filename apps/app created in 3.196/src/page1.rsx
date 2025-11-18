@@ -6,7 +6,7 @@
   browserTitle=""
   title="Page 1"
   urlSlug=""
-  uuid="1d3816fb-27b2-472a-893c-7c6f821bc7b4"
+  uuid="ae5701ed-39e0-4a07-a0ed-93ddd114db70"
 >
   <RESTQuery
     id="query1"
@@ -33,5 +33,6 @@
       textBetween="-"
       value={{ start: "", end: "" }}
     />
+    <Button id="button1" text="Button" />
   </Frame>
 </Screen>
