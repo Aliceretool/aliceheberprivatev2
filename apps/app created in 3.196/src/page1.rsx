@@ -34,6 +34,7 @@
       value={{ start: "", end: "" }}
     />
     <Button id="button1" text="Button" />
+    <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
     <Button id="button2" text="Button" />
     <Button id="button3" text="Button" />
     <Button id="button4" text="Button" />
