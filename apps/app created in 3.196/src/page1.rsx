@@ -36,7 +36,5 @@
     <Button id="button1" text="Button" />
     <Button id="button2" text="Button" />
     <Button id="button3" text="Button" />
-    <Button id="button4" text="Button" />
-    <Button id="button5" text="Button" />
   </Frame>
 </Screen>
