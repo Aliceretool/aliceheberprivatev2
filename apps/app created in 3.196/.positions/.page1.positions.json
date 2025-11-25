@@ -23,6 +23,12 @@
     "height": 1,
     "width": 2
   },
+  "button5": {
+    "row": 9.2,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
   "search_dateRange": {
     "row": 1,
     "height": 0.2,
