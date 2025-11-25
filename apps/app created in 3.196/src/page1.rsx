@@ -37,6 +37,7 @@
     <TextInput id="textInput1" labelPosition="top" placeholder="Enter value" />
     <Button id="button2" text="Button" />
     <Button id="button3" text="Button" />
+    <Text id="text1" value="this is from brnch 5894" verticalAlign="center" />
     <Button id="button4" text="Button" />
     <Button id="button5" text="Button" />
   </Frame>
