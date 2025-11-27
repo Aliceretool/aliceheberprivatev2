@@ -24,7 +24,6 @@
     type="main"
   >
     <Button id="button1" text="Button" />
-    <Button id="button2" text="Button" />
     <DateRange
       id="search_dateRange"
       dateFormat="MMM d, yyyy"
