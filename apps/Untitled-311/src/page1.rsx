@@ -10,10 +10,11 @@
 >
   <RESTQuery
     id="query1"
-    body="{{moment(search_dateRange.value.end).add(1,'d').format('YYYY-MM-DDHH:mm:ss')}}"
+    body="{{moment(search_dateRange.value.end).add(1,'d').utc().format('YYYY-MM-DDHH:mm:ssZ')}}"
     bodyType="raw"
-    resourceDisplayName="pipedream test that returns env-production"
-    resourceName="b06eec6c-76ad-4d60-8465-ad1dbea10712"
+    resourceDisplayName="httpbin"
+    resourceName="4e35e578-e111-4459-9b7b-b844051dc8dd"
+    resourceTypeOverride=""
   />
   <Frame
     id="$main"
@@ -23,7 +24,6 @@
     padding="8px 12px"
     type="main"
   >
-    <Button id="button2" text="Button" />
     <DateRange
       id="search_dateRange"
       dateFormat="MMM d, yyyy"
@@ -34,6 +34,5 @@
       textBetween="-"
       value={{ start: "", end: "" }}
     />
-    <JSONEditor id="jsonEditor1" value="{{ query1 }}" />
   </Frame>
 </Screen>
