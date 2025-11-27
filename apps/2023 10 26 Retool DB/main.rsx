@@ -197,7 +197,7 @@
       </ToolbarButton>
     </Table>
     <Button id="button4" text="1113" />
-    <Button id="button1" allowWrap={true} text="trigger QL perm query">
+    <Button id="button1" text="trigger QL perm query">
       <Event
         event="click"
         method="trigger"
@@ -208,8 +208,8 @@
         waitType="debounce"
       />
     </Button>
-    <Button id="button3" allowWrap={true} text="Button" />
-    <Button id="button2" allowWrap={true} text="Button" />
+    <Button id="button3" text="Button" />
+    <Button id="button2" text="Button" />
     <Text
       id="text2"
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
