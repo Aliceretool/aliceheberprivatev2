@@ -9,7 +9,11 @@
     sticky={null}
     type="main"
   >
+
     <Text id="text3" value="added in patch 590d" verticalAlign="center" />
+
+    <Text id="text4" value="from patch 522a" verticalAlign="center" />
+
     <Module
       id="navbarHeaderModule1"
       name="navbar header module"
