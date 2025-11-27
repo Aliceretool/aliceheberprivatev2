@@ -10,7 +10,7 @@
 >
   <RESTQuery
     id="query1"
-    body="{{moment(search_dateRange.value.end).add(1,'d').format('YYYY-MM-DDHH:mm:ss')}}"
+    body="{{moment(search_dateRange.value.end).add(1,'d').utc().format('YYYY-MM-DDHH:mm:ssZ')}}"
     bodyType="raw"
     resourceDisplayName="pipedream test that returns env-production"
     resourceName="b06eec6c-76ad-4d60-8465-ad1dbea10712"
