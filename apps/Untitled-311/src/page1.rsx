@@ -34,5 +34,6 @@
       textBetween="-"
       value={{ start: "", end: "" }}
     />
+    <JSONEditor id="jsonEditor1" value="{{ query1 }}" />
   </Frame>
 </Screen>
