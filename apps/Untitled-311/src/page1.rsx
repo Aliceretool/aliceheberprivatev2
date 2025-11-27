@@ -23,7 +23,7 @@
     padding="8px 12px"
     type="main"
   >
-    <Button id="button1" text="Button" />
+    <Button id="button2" text="Button" />
     <DateRange
       id="search_dateRange"
       dateFormat="MMM d, yyyy"
@@ -33,11 +33,6 @@
       startPlaceholder="Start date"
       textBetween="-"
       value={{ start: "", end: "" }}
-    />
-    <Text
-      id="text1"
-      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
-      verticalAlign="center"
     />
   </Frame>
 </Screen>
