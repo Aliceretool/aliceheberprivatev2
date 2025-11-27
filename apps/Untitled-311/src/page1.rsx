@@ -10,7 +10,7 @@
 >
   <RESTQuery
     id="query1"
-    body="{{moment(search_dateRange.value.end).add(1,'d').utc().format('YYYY-MM-DDHH:mm:ssZ')}}"
+    body="{{moment(search_dateRange.value.end)}}"
     bodyType="raw"
     resourceDisplayName="httpbin"
     resourceName="4e35e578-e111-4459-9b7b-b844051dc8dd"
