@@ -80,7 +80,7 @@ blockData:
   options:
     functionId: cf3dbe72-b960-43f1-b955-4fa83fb9b5fb
     parameters:
-      2ea4062a-710a-422b-ac5d-c15cc5ad7ceb: nobody
+      2ea4062a-710a-422b-ac5d-c15cc5ad7ceb: Nobody
       3cc25575-58c5-4c78-8168-2112b004aa5e: thisStatus
       b8321735-a24d-42bc-9211-76e421bd8556: '1'
   pluginId: notify_changeToRequester
