@@ -25,6 +25,11 @@
     type="main"
   >
     <Button id="button1" text="Button" />
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <DateRange
       id="search_dateRange"
       dateFormat="MMM d, yyyy"
