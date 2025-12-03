@@ -23,7 +23,7 @@ template:
   showFailureToaster: true
   query: |-
     return [
-      { message: "Hello from Workflows" },
+      { message: "Hello from Workflowsssssss" },
       { message: "Click the Run (▶) button to execute this block" },
       { message: "Drag from the green sequence port to connect a new blockssss" },
       { message: "Click the help (?) button to learn moresssssssss" },
