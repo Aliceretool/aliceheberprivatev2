@@ -1,15 +1,16 @@
 id: query1
 type: datasource
-subtype: RESTQuery
-resourceName: REST-WithoutResource
+subtype: SqlQueryUnified
+resourceName: 063bf153-71a4-4be4-bff3-a8ee367fa502
+resourceDisplayName: retool_db
 template:
   queryRefreshTime: ''
-  paginationLimit: ''
   allowedGroupIds: []
   streamResponse: false
-  body: ''
+  records: ''
   lastReceivedFromResourceAt: null
   isFunction: false
+  databasePasswordOverride: ''
   functionParameters: null
   queryDisabledMessage: ''
   servedFromCache: false
@@ -20,12 +21,9 @@ template:
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: true
-  paginationPaginationField: ''
+  runWhenModelUpdates: false
   workflowRunExecutionType: sync
-  headers: ''
   showFailureToaster: true
-  paginationEnabled: false
   query: ''
   playgroundQueryUuid: ''
   playgroundQueryId: null
@@ -35,18 +33,26 @@ template:
   queryRunOnSelectorUpdate: false
   runWhenPageLoadsDelay: ''
   data: null
+  recordId: ''
   importedQueryInputs: {}
+  _additionalScope: []
   isImported: false
   showSuccessToaster: true
+  dataArray: []
   cacheKeyTtl: ''
+  filterBy: ''
   requestSentTimestamp: null
-  cookies: ''
+  databaseHostOverride: ''
   metadata: null
+  editorMode: sql
   queryRunTime: null
+  actionType: ''
   changesetObject: ''
+  shouldUseLegacySql: false
   offlineOptimisticResponse: null
   errorTransformer: return data.error
   finished: null
+  databaseNameOverride: ''
   confirmationMessage: null
   isFetching: false
   changeset: ''
@@ -55,27 +61,31 @@ template:
   resourceTypeOverride: null
   watchedParams: []
   enableErrorTransformer: false
+  databaseWarehouseOverride: ''
+  enableBulkUpdates: false
   showLatestVersionUpdatedWarning: false
-  paginationDataField: ''
   timestamp: 0
   evalType: script
   importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
-  version: 2
   overrideOrgCacheForUserCache: false
+  bulkUpdatePrimaryKey: ''
   runWhenPageLoads: false
   transformer: return data
   events: []
+  tableName: ''
   queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
-  type: GET
   queryFailureConditions: ''
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
-  bodyType: none
+  databaseUsernameOverride: ''
+  databaseRoleOverride: ''
+  shouldEnableBatchQuerying: false
+  doNotThrowOnNoOp: false
   offlineQueryType: None
   queryThrottleTime: '750'
   updateSetValueDynamically: false
@@ -87,7 +97,7 @@ blockData:
   uuid: 2a396ee5-e12a-433c-b902-aaef3bbd8262
   pluginId: query1
   blockType: default
-  editorType: RESTQuery
-  resourceName: REST-WithoutResource
+  editorType: SqlQueryUnified
+  resourceName: 063bf153-71a4-4be4-bff3-a8ee367fa502
   incomingOnSuccessEdges:
     - f242d2d1-c24f-45c3-8c24-bae14904cbbc
