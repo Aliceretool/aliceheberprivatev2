@@ -21,7 +21,7 @@ template:
   runWhenModelUpdates: true
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: return "on new release"
+  query: return "on new releaseXXXXX"
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
