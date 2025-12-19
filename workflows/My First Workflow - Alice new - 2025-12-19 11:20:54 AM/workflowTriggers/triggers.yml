@@ -1,6 +1,6 @@
 - id: a92c413c-c01d-4afd-9a6a-bce0857c6574
   createdBy: 1
-  enabledAt: null
+  enabledAt: '2025-12-19T11:22:35.295Z'
   workflowId: d5edde9c-4f5a-4ea9-bdf1-3ae4606bc282
   triggerType: webhook
   environmentId: e5c69b75-4aa5-4a8e-929f-129d3cb34c84
