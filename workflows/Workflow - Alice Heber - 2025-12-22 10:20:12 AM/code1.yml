@@ -21,7 +21,7 @@ template:
   runWhenModelUpdates: true
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: return "v0.0.1"
+  query: return "v1.0.0"
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
