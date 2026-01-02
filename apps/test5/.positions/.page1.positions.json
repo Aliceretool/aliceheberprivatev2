@@ -13,5 +13,10 @@
     "row": 4,
     "height": 8,
     "width": 8
+  },
+  "table2": {
+    "row": 4.8,
+    "col": 9,
+    "height": 8
   }
 }
