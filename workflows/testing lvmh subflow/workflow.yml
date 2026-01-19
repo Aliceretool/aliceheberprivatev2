@@ -122,7 +122,7 @@ triggerWebhooks:
         useHeaderApiKey: false
         exampleInputJSON: |-
           {
-            "status": "sent",
+            "status": "sent1",
             "documentsUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/documents",
             "recipientsUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/recipients",
             "attachmentsUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/attachments",
