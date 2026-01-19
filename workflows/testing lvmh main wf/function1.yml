@@ -1,11 +1,13 @@
-id: notify_changeToRequester
+id: function1
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: RESTQuery
+resourceName: REST-WithoutResource
 template:
   queryRefreshTime: ''
+  paginationLimit: ''
   allowedGroupIds: []
   streamResponse: false
+  body: ''
   lastReceivedFromResourceAt: null
   isFunction: false
   functionParameters: null
@@ -18,10 +20,13 @@ template:
   playgroundQuerySaveId: latest
   workflowParams: null
   resourceNameOverride: ''
-  runWhenModelUpdates: false
+  runWhenModelUpdates: true
+  paginationPaginationField: ''
   workflowRunExecutionType: sync
+  headers: ''
   showFailureToaster: true
-  query: return null
+  paginationEnabled: false
+  query: null
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -31,13 +36,12 @@ template:
   runWhenPageLoadsDelay: ''
   data: null
   importedQueryInputs: {}
-  _additionalScope: []
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
   requestSentTimestamp: null
+  cookies: ''
   metadata: null
-  editorMode: sql
   queryRunTime: null
   changesetObject: ''
   offlineOptimisticResponse: null
@@ -52,39 +56,39 @@ template:
   watchedParams: []
   enableErrorTransformer: false
   showLatestVersionUpdatedWarning: false
+  paginationDataField: ''
   timestamp: 0
-  evalType: script
   importedQueryDefaults: {}
   enableTransformer: false
   showUpdateSetValueDynamicallyToggle: true
+  version: 2
   overrideOrgCacheForUserCache: false
   runWhenPageLoads: false
   transformer: return data
   events: []
-  queryTimeout: '120000'
+  queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
+  type: GET
   queryFailureConditions: ''
   changesetIsObject: false
   enableCaching: false
   allowedGroups: []
+  bodyType: none
   offlineQueryType: None
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2025-10-14T16:40:01.530Z
+createdAt: 2026-01-19T18:09:15.179Z
 blockData:
-  top: 80
-  left: -160
-  uuid: 6fde5194-1452-4126-af7b-6bbf2b5ff72c
+  top: 40
+  left: 40
+  uuid: 25238206-a738-4637-b221-a91d35b9e99a
   options:
-    functionId: 25238206-a738-4637-b221-a91d35b9e99a
-    parameters: {}
-  pluginId: notify_changeToRequester
-  blockType: runFunction
-  editorType: JavascriptQuery
-  isMinimized: false
-  resourceName: JavascriptQuery
-  incomingPorts: []
-  incomingOnSuccessEdges:
-    - 5346f8c4-4040-4721-a503-369732af7d3e
+    subflowId: 34bfe683-4f5d-45b7-8ee8-7a1b58e0fe38
+    parameters: []
+  pluginId: function1
+  blockType: function
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
+  incomingOnSuccessEdges: []

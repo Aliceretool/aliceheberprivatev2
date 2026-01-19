@@ -1,4 +1,4 @@
-id: notify_changeToRequester
+id: response1
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -21,7 +21,26 @@ template:
   runWhenModelUpdates: false
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: return null
+  query: |-
+    const generateReturn = () => {
+        const status = () => {
+          try {
+            return 200
+          } catch {
+            return 200
+          }
+        }
+      const body = () => {
+        try {
+          return {}
+        } catch {
+          return {'error': true, 'message': 'There was a problem parsing the JSON body of a webhook return block'}
+        }
+      }
+      return {status: status(), body: body() }
+      }
+      return generateReturn()
+      
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -61,7 +80,7 @@ template:
   runWhenPageLoads: false
   transformer: return data
   events: []
-  queryTimeout: '120000'
+  queryTimeout: '10000'
   workflowId: null
   requireConfirmation: false
   queryFailureConditions: ''
@@ -72,19 +91,18 @@ template:
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2025-10-14T16:40:01.530Z
+createdAt: 2026-01-19T18:10:06.603Z
 blockData:
-  top: 80
-  left: -160
-  uuid: 6fde5194-1452-4126-af7b-6bbf2b5ff72c
+  top: 96
+  left: 912
+  uuid: 497d4a48-ce43-49e2-a15d-c552ef0347a3
   options:
-    functionId: 25238206-a738-4637-b221-a91d35b9e99a
-    parameters: {}
-  pluginId: notify_changeToRequester
-  blockType: runFunction
+    body: ''
+    status: '200'
+  pluginId: response1
+  blockType: webhookReturn
   editorType: JavascriptQuery
   isMinimized: false
   resourceName: JavascriptQuery
-  incomingPorts: []
   incomingOnSuccessEdges:
-    - 5346f8c4-4040-4721-a503-369732af7d3e
+    - c8afe20d-09a5-4cc8-aec7-47db96e1efe8

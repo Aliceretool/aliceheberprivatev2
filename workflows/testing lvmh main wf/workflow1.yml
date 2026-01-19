@@ -1,7 +1,7 @@
-id: notify_changeToRequester
+id: workflow1
 type: datasource
-subtype: JavascriptQuery
-resourceName: JavascriptQuery
+subtype: WorkflowRun
+resourceName: WorkflowRun
 template:
   queryRefreshTime: ''
   allowedGroupIds: []
@@ -21,7 +21,7 @@ template:
   runWhenModelUpdates: false
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: return null
+  query: ''
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -31,7 +31,6 @@ template:
   runWhenPageLoadsDelay: ''
   data: null
   importedQueryInputs: {}
-  _additionalScope: []
   isImported: false
   showSuccessToaster: true
   cacheKeyTtl: ''
@@ -61,8 +60,8 @@ template:
   runWhenPageLoads: false
   transformer: return data
   events: []
-  queryTimeout: '120000'
-  workflowId: null
+  queryTimeout: '10000'
+  workflowId: 35547643-5775-4b66-9f25-cfe583852a46
   requireConfirmation: false
   queryFailureConditions: ''
   changesetIsObject: false
@@ -72,19 +71,14 @@ template:
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2025-10-14T16:40:01.530Z
+createdAt: 2026-01-19T18:09:47.352Z
 blockData:
-  top: 80
-  left: -160
-  uuid: 6fde5194-1452-4126-af7b-6bbf2b5ff72c
-  options:
-    functionId: 25238206-a738-4637-b221-a91d35b9e99a
-    parameters: {}
-  pluginId: notify_changeToRequester
-  blockType: runFunction
-  editorType: JavascriptQuery
-  isMinimized: false
-  resourceName: JavascriptQuery
-  incomingPorts: []
+  top: 96
+  left: 320
+  uuid: c8afe20d-09a5-4cc8-aec7-47db96e1efe8
+  pluginId: workflow1
+  blockType: default
+  editorType: WorkflowRun
+  resourceName: WorkflowRun
   incomingOnSuccessEdges:
-    - 5346f8c4-4040-4721-a503-369732af7d3e
+    - 6fde5194-1452-4126-af7b-6bbf2b5ff72c
