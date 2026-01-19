@@ -21,7 +21,180 @@ template:
   runWhenModelUpdates: false
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: return null
+  query: |2-
+
+      const evalStartTriggerBlock = () => {
+        const getExampleInputJSON = () => {
+          try {
+            return {
+      "status": "sent",
+      "documentsUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/documents",
+      "recipientsUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/recipients",
+      "attachmentsUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/attachments",
+      "envelopeUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af",
+      "emailSubject": "Please sign this test document",
+      "envelopeId": "fd0ffbf5-2867-44b4-80e9-a662670f28af",
+      "signingLocation": "online",
+      "customFieldsUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/custom_fields",
+      "notificationUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/notification",
+      "enableWetSign": "false",
+      "allowMarkup": "false",
+      "allowReassign": "true",
+      "createdDateTime": "2025-10-06T15:15:08.4570000Z",
+      "lastModifiedDateTime": "2025-10-06T15:15:08.4730000Z",
+      "initialSentDateTime": "2025-10-06T15:15:09.5670000Z",
+      "sentDateTime": "2025-10-06T15:23:04.1400000Z",
+      "statusChangedDateTime": "2025-10-06T15:23:03.0170000Z",
+      "documentsCombinedUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/documents/combined",
+      "certificateUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/documents/certificate",
+      "templatesUri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/templates",
+      "brandId": "76493a2e-f258-4e08-b93f-c79fbba00e58",
+      "expireEnabled": "true",
+      "expireDateTime": "2025-11-05T15:15:09.5670000Z",
+      "expireAfter": "30",
+      "sender": {
+        "userName": "Moët Hennessy Diageo",
+        "userId": "ec330ff2-9a9d-4db1-8e23-e89db30798e2",
+        "accountId": "c4ff0b32-c414-47e6-95dc-86d33ad12749",
+        "email": "jlavergne-ext@moethennessy.com",
+        "ipAddress": "35.90.103.134"
+      },
+      "recipients": {
+        "signers": [
+          {
+            "creationReason": "sender",
+            "isBulkRecipient": "false",
+            "recipientSuppliesTabs": "true",
+            "requireUploadSignature": "false",
+            "name": "Rodrigo Castiello",
+            "email": "rcastiello-ext@moethennessy.com",
+            "recipientId": "1",
+            "recipientIdGuid": "44af90c0-d14f-4938-8292-8cad4c81851c",
+            "requireIdLookup": "false",
+            "userId": "58115dc2-b255-4c3e-95b5-7b2078d46f56",
+            "routingOrder": "1",
+            "status": "completed",
+            "completedCount": "1",
+            "signedDateTime": "2025-10-06T15:23:03.0170000Z",
+            "deliveredDateTime": "2025-10-06T15:22:55.0170000Z",
+            "sentDateTime": "2025-10-06T15:15:09.5200000Z",
+            "deliveryMethod": "email",
+            "recipientType": "signer"
+          },
+          {
+            "creationReason": "sender",
+            "isBulkRecipient": "false",
+            "recipientSuppliesTabs": "true",
+            "requireUploadSignature": "false",
+            "name": "Rodrigo Testing",
+            "email": "rcastiello-ext+test@moethennessy.com",
+            "recipientId": "2",
+            "recipientIdGuid": "26278d11-e81f-4f45-a8c4-9bb95171b640",
+            "requireIdLookup": "false",
+            "userId": "4508df1b-c9e3-4ab6-a52b-78a8b21972f1",
+            "routingOrder": "2",
+            "status": "sent",
+            "completedCount": "0",
+            "sentDateTime": "2025-10-06T15:23:04.1100000Z",
+            "deliveryMethod": "email",
+            "recipientType": "signer"
+          }
+        ],
+        "agents": [],
+        "editors": [],
+        "intermediaries": [],
+        "carbonCopies": [],
+        "certifiedDeliveries": [],
+        "inPersonSigners": [],
+        "seals": [],
+        "witnesses": [],
+        "notaries": [],
+        "recipientCount": "2",
+        "currentRoutingOrder": "2"
+      },
+      "envelopeDocuments": [
+        {
+          "documentId": "1",
+          "documentIdGuid": "a5cb7b51-dddc-4f90-9a93-dbf9c7d893ce",
+          "name": "Agreement.pdf",
+          "type": "content",
+          "uri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/documents/1",
+          "order": "1",
+          "pages": [
+            {
+              "pageId": "0cae1514-1cd9-42db-8bac-8499540c3e0f",
+              "sequence": "1",
+              "height": "792",
+              "width": "612",
+              "dpi": "72"
+            }
+          ],
+          "display": "inline",
+          "includeInDownload": "true",
+          "signerMustAcknowledge": "no_interaction",
+          "templateRequired": "false",
+          "authoritativeCopy": "false"
+        },
+        {
+          "documentId": "certificate",
+          "documentIdGuid": "312f23cd-08f4-428e-bf16-a9399cc25008",
+          "name": "Summary",
+          "type": "summary",
+          "uri": "/envelopes/fd0ffbf5-2867-44b4-80e9-a662670f28af/documents/certificate",
+          "order": "999",
+          "display": "inline",
+          "includeInDownload": "true",
+          "signerMustAcknowledge": "no_interaction",
+          "templateRequired": "false",
+          "authoritativeCopy": "false"
+        }
+      ],
+      "purgeState": "unpurged",
+      "envelopeIdStamping": "true",
+      "is21CFRPart11": "false",
+      "signerCanSignOnMobile": "true",
+      "autoNavigation": "true",
+      "isSignatureProviderEnvelope": "false",
+      "uSigState": "esign",
+      "hasFormDataChanged": "false",
+      "allowViewHistory": "true",
+      "envelopeMetadata": {
+        "allowAdvancedCorrect": "true",
+        "enableSignWithNotary": "false",
+        "allowCorrect": "true"
+      },
+      "anySigner": null,
+      "envelopeLocation": "current_site",
+      "isDynamicEnvelope": "false",
+      "burnDefaultTabData": "false",
+      "isTicketRelatedEnvelope": "false"
+    }
+          } catch {
+            return { error: true, message: 'Error parsing example input JSON' }
+          }
+        }
+        const getExamplePathParams = () => {
+          try {
+            return {}
+          } catch {
+            return { error: true, message: 'Error parsing example path params' }
+          }
+        }
+        const getExampleHeaders = () => {
+          try {
+            return {}
+          } catch {
+            return { error: true, message: 'Error parsing example headers' }
+          }
+        }
+        return {
+          _retool_exampleInputJSON: getExampleInputJSON(),
+          _retool_exampleHeaders: getExampleHeaders(),
+          _retool_examplePathParams: getExamplePathParams(),
+        }
+      }
+      return evalStartTriggerBlock()
+      
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
