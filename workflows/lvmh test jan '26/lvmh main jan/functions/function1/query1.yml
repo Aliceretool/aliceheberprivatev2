@@ -68,7 +68,7 @@ template:
     - events:
         array: []
     - queryTimeout: '10000'
-    - workflowId: 8d118a72-6a13-4f8e-8528-36aa6b6c2f65
+    - workflowId: 5768ee30-b2d7-47fe-957d-a0e9901a1fd9
     - requireConfirmation: false
     - queryFailureConditions: ''
     - changesetIsObject: false
