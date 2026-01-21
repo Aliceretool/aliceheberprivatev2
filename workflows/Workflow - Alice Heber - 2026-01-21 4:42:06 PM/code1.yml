@@ -21,7 +21,7 @@ template:
   runWhenModelUpdates: true
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: return "just created - second commit"
+  query: return "just created - second commit - created release"
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
