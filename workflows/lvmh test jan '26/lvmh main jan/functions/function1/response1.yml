@@ -34,7 +34,7 @@ template:
             }
           const body = () => {
             try {
-              return {"functionResponse": query1.data}
+              return {"Response": query1.data}
             } catch {
               return {'error': true, 'message': 'There was a problem parsing the JSON body of response1'}
             }
@@ -106,7 +106,7 @@ blockData:
   left: 960
   uuid: e5404897-7441-4bed-a44d-06d7d33c8f06
   options:
-    body: '{"functionResponse": query1.data}'
+    body: '{"Response": query1.data}'
     status: '200'
   pluginId: response1
   blockType: webhookReturn
