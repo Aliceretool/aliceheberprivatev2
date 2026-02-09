@@ -5,5 +5,9 @@
   "text2": {
     "row": 1.2,
     "height": 0.6
+  },
+  "text3": {
+    "row": 2.2,
+    "height": 0.6
   }
 }
