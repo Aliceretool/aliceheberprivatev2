@@ -2,4 +2,4 @@ version: 1.0.0
 name: QA
 apps:
   - uuid: ca9aa650-05b0-11f1-80d1-cb7d728e6135
-    release: 1.0.0
+    release: 2.0.0
