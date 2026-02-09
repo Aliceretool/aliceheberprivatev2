@@ -23,5 +23,6 @@
 "
       verticalAlign="center"
     />
+    <Text id="text2" value="release One" verticalAlign="center" />
   </Frame>
 </Screen>
