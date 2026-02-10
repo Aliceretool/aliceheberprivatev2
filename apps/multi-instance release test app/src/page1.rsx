@@ -25,5 +25,6 @@
     />
     <Text id="text2" value="release One" verticalAlign="center" />
     <Text id="text3" value="release Two" verticalAlign="center" />
+    <Text id="text4" value="new" verticalAlign="center" />
   </Frame>
 </Screen>
