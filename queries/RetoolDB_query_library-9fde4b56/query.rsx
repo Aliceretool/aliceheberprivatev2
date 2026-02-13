@@ -1,0 +1,48 @@
+<PlaygroundQuery
+  id="RetoolDB_query_library"
+  adhocResourceType={null}
+  data={null}
+  resourceType="retoolDb"
+>
+  <SqlQuery
+    _additionalScope={[]}
+    actionType=""
+    allowedGroupIds={[]}
+    allowedGroups={[]}
+    autoPaginate={false}
+    autoPaginateLimit={500}
+    bulkUpdatePrimaryKey=""
+    dataArray={[]}
+    doNotThrowOnNoOp={false}
+    editorMode="sql"
+    enableBulkUpdates={false}
+    events={[]}
+    filterBy=""
+    importedQueryDefaults={{}}
+    importedQueryInputs={{}}
+    method=""
+    operationId=""
+    parameterDynamicStates=""
+    parameterMetadata=""
+    parameters=""
+    path=""
+    privateParams={[]}
+    query={include("./lib/RetoolDB_query_library.sql", "string")}
+    queryTimeout="100000"
+    recordId=""
+    records=""
+    requestBody=""
+    requestBodyDynamicStates=""
+    requestBodyMetadata=""
+    retoolVersion="3.341.0"
+    server={null}
+    serverVariables=""
+    showUpdateSetValueDynamicallyToggle={false}
+    specBasePath={null}
+    specPathOverride=""
+    tableName=""
+    updateSetValueDynamically={true}
+    warningCodes={[]}
+    watchedParams={[]}
+  />
+</PlaygroundQuery>
