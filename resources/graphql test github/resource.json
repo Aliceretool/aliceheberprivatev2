@@ -11,7 +11,7 @@
   "editPrivilege": null,
   "options": {
     "baseURL": "https://api.github.com/graphql",
-    "headers": [["Authorization", ""]],
+    "headers": [["test", "fromResource"]],
     "urlparams": [["", ""]],
     "auth0_domain": "",
     "bearer_token": "",
