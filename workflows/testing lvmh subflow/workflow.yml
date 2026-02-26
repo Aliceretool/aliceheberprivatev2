@@ -1,3 +1,4 @@
+private: false
 customLibraries:
   array:
     - object:
@@ -269,5 +270,4 @@ version: 43.0.9
 workflowId: a360c17c-711f-4de0-846b-b1ed9258bb6d
 description: null
 workflowTemplate:
-  appMaxWidth: 1200px
-  version: 3.302.0
+  version: 3.342.0
