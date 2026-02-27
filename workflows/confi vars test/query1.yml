@@ -97,5 +97,4 @@ blockData:
   blockType: default
   editorType: SMTPQuery
   resourceName: retool_email
-  incomingOnSuccessEdges:
-    - d5e5cf58-c585-43ee-be9a-a2a5ef08145e
+  incomingOnSuccessEdges: []
