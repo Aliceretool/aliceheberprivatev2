@@ -4,5 +4,7 @@ apps:
   - uuid: ca9aa650-05b0-11f1-80d1-cb7d728e6135
     release: 1.0.0
 workflows:
+  - uuid: 930c0b68-26ff-431a-8102-ed18f3d5b099
+    release: latest
   - uuid: d17eb315-67bc-417b-ab66-d3d7ec465e15
     release: latest
