@@ -1,11 +1,11 @@
 - id: afb59a26-7794-417e-95c7-4399d9123a54
   createdBy: 1528579
-  enabledAt: '2026-02-27T13:42:29.935Z'
+  enabledAt: '2026-02-27T13:47:07.223Z'
   workflowId: 930c0b68-26ff-431a-8102-ed18f3d5b099
   triggerType: schedule
   environmentId: d1740648-3281-4bba-8f30-3ba2bffb8d07
   triggerOptions:
-    crontab: 1 * * * *
+    crontab: 0/1 * * * *
     timezone: UTC
     scheduleType: cron
   concurrencyLimit: 1
