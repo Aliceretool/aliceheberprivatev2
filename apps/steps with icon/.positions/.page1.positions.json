@@ -1,4 +1,10 @@
 {
+  "button1": {
+    "row": 3.4,
+    "col": 6,
+    "height": 1,
+    "width": 2
+  },
   "container1": {
     "type": "stack",
     "container": "steppedContainer1",

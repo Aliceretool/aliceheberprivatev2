@@ -19,6 +19,7 @@
   >
     <Include src="./steppedContainer1.rsx" />
     <Icon id="icon4" horizontalAlign="center" icon="bold/shopping-gift" />
+    <Button id="button1" text="Button" />
     <ListViewBeta
       id="listView1"
       data={
