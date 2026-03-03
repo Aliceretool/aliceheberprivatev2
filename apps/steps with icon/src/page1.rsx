@@ -19,9 +19,6 @@
   >
     <Include src="./steppedContainer1.rsx" />
     <Icon id="icon4" horizontalAlign="center" icon="bold/shopping-gift" />
-    <Button id="button1" text="Button" />
-    <Button id="button2" text="Button" />
-    <Button id="button3" text="Button" />
     <ListViewBeta
       id="listView1"
       data={
@@ -51,6 +48,5 @@
         <View id="00030" viewKey="View 1" />
       </Container>
     </ListViewBeta>
-    <Button id="button4" text="Button" />
   </Frame>
 </Screen>
