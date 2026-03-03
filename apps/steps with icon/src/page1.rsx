@@ -51,5 +51,6 @@
         <View id="00030" viewKey="View 1" />
       </Container>
     </ListViewBeta>
+    <Button id="button4" text="Button" />
   </Frame>
 </Screen>
