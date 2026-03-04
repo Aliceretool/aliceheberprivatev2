@@ -1,8 +1,6 @@
 version: 1.0.0
 name: localhost
 apps:
-  - uuid: 2e50de04-08a3-11f1-9cac-73333d6a917d
-    release: latest
   - uuid: 4af45656-16ec-11f1-8f1e-cbe51a277ce3
     release: latest
   - uuid: ca9aa650-05b0-11f1-80d1-cb7d728e6135
