@@ -17,6 +17,7 @@
     padding="8px 12px"
     type="main"
   >
+    <Button id="button3" text="2nd added button" />
     <Text
       id="text1"
       value="## Deine Userinformationen"
@@ -33,6 +34,7 @@
         waitType="debounce"
       />
     </Button>
+    <Button id="button2" text="added button" />
     <JSONExplorer
       id="jsonExplorer1"
       hideRootNode={false}
