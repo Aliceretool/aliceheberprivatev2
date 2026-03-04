@@ -17,6 +17,7 @@
     padding="8px 12px"
     type="main"
   >
+    <Button id="button2" text="added button" />
     <Text
       id="text1"
       value="## Deine Userinformationen"
