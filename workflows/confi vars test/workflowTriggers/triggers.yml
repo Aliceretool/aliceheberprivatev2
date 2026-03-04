@@ -12,7 +12,7 @@
 - id: eacac168-c895-4b32-80b5-6351a69c799e
   createdBy: 1528579
   enabledAt: null
-  workflowId: 930c0b68-26ff-431a-8102-ed18f3d5b099
+  workflowId: f9e2fa24-3dc9-417d-a1a3-7286ce6a984a
   triggerType: webhook
   environmentId: d1740648-3281-4bba-8f30-3ba2bffb8d07
   triggerOptions: null
