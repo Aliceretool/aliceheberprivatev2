@@ -10,6 +10,11 @@
     type="main"
   >
     <Text id="text3" value="from patch 522a" verticalAlign="center" />
+    <Text
+      id="text4"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
     <Module
       id="navbarHeaderModule1"
       name="navbar header module"
@@ -173,7 +178,7 @@
         type="custom"
       >
         <Event
-          id="fc8871af"
+          id="f7777d2d"
           event="clickToolbar"
           method="exportData"
           pluginId="table1"
@@ -189,7 +194,7 @@
         type="custom"
       >
         <Event
-          id="b7125558"
+          id="bd9ed040"
           event="clickToolbar"
           method="refresh"
           pluginId="table1"
@@ -202,7 +207,7 @@
     <Button id="button4" text="1113" />
     <Button id="button1" text="trigger QL perm query">
       <Event
-        id="194b332d"
+        id="1b54d768"
         event="click"
         method="trigger"
         params={{ ordered: [] }}
@@ -437,7 +442,7 @@
         type="custom"
       >
         <Event
-          id="6e6d496d"
+          id="c8e14bd6"
           event="clickToolbar"
           method="exportData"
           pluginId="table2"
@@ -453,7 +458,7 @@
         type="custom"
       >
         <Event
-          id="daf949cc"
+          id="34f3933b"
           event="clickToolbar"
           method="refresh"
           pluginId="table2"
