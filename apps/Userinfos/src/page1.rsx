@@ -37,7 +37,7 @@
       id="jsonExplorer1"
       hideRootNode={false}
       margin="0"
-      value="{{current_user}}"
+      value="{{current_user.email}}"
     />
   </Frame>
 </Screen>
