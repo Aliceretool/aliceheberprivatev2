@@ -33,11 +33,13 @@
         waitType="debounce"
       />
     </Button>
+    <Button id="button2" text="added button" />
+    <Button id="button3" text="2nd button added" />
     <JSONExplorer
       id="jsonExplorer1"
       hideRootNode={false}
       margin="0"
-      value="{{current_user}}"
+      value="{{current_user.email}}"
     />
   </Frame>
 </Screen>
