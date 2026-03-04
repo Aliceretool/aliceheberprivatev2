@@ -1,6 +1,6 @@
 - id: afb59a26-7794-417e-95c7-4399d9123a54
   createdBy: 1528579
-  enabledAt: '2026-02-27T13:47:07.223Z'
+  enabledAt: null
   workflowId: f9e2fa24-3dc9-417d-a1a3-7286ce6a984a
   triggerType: schedule
   environmentId: d1740648-3281-4bba-8f30-3ba2bffb8d07
