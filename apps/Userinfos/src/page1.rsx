@@ -33,6 +33,7 @@
         waitType="debounce"
       />
     </Button>
+    <Button id="button2" text="added button" />
     <JSONExplorer
       id="jsonExplorer1"
       hideRootNode={false}
