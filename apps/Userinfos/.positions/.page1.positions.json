@@ -7,7 +7,13 @@
   },
   "button2": {
     "row": 4,
-    "col": 1,
+    "col": 9,
+    "height": 1,
+    "width": 2
+  },
+  "button3": {
+    "row": 0.4,
+    "col": 10,
     "height": 1,
     "width": 2
   },
