@@ -34,6 +34,7 @@
       />
     </Button>
     <Button id="button2" text="added button" />
+    <Button id="button3" text="2nd button added" />
     <JSONExplorer
       id="jsonExplorer1"
       hideRootNode={false}
