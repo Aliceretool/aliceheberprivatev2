@@ -24,7 +24,7 @@ template:
     - workflowRunExecutionType: sync
     - showFailureToaster: true
     - query: |-
-        one = retoolContext.configVars.emailTest
+        one = retoolContext.configVars.car
         two = retoolContext.configVars.tower
         return one + two
     - playgroundQueryUuid: ''
