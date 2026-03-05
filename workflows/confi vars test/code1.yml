@@ -22,7 +22,7 @@ template:
   workflowRunExecutionType: sync
   showFailureToaster: true
   query: |-
-    const one = retoolContext.configVars.emailTest
+    const one = retoolContext.configVars.car
     const two = retoolContext.configVars.tower
 
     return one + two
