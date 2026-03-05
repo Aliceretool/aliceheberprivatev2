@@ -23,7 +23,7 @@ template:
   showFailureToaster: true
   query: |-
     const one = retoolContext.configVars.emailTest
-    const two = retoolContext.configVars.secret
+    const two = retoolContext.configVars.secret4
 
     return one + two
   playgroundQueryUuid: ''
