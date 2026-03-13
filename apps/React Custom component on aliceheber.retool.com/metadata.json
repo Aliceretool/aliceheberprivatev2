@@ -1,0 +1,46 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "fcb17926-70b0-4762-a639-17e0d25aa0b1",
+  "appTemplate": {
+    "urlFragmentDefinitions": [
+      {
+        "ordered": [
+          {
+            "name": "filter"
+          },
+          {
+            "value": ""
+          }
+        ]
+      }
+    ],
+    "appMaxWidth": "100%",
+    "customComponentCollections": {
+      "array": [
+        {
+          "object": {
+            "collectionUuid": "be8f2400-93e3-491b-a62d-f17c7c188295",
+            "collectionRevisionUuid": "0406a333-1836-4dff-9c78-73ef8640b1ba",
+            "collectionName": "be8f2400-93e3-491b-a62d-f17c7c188295"
+          }
+        },
+        {
+          "object": {
+            "collectionUuid": "2b175c4e-a0d2-44b6-96d2-68d883216b41",
+            "collectionRevisionUuid": "5f1b8c18-a581-4e61-b4d9-c3dc7eff2173",
+            "collectionName": "2b175c4e-a0d2-44b6-96d2-68d883216b41"
+          }
+        }
+      ]
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": true,
+        "globalQueryShowSuccessToast": true,
+        "globalQueryToastDuration": 4.5
+      }
+    },
+    "version": "3.332.0"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "buttonComponent2": {
+    "row": 2,
+    "col": 6,
+    "height": 3.8
+  },
+  "buttonComponent3": {
+    "row": 3.6,
+    "height": 2.4,
+    "width": 2
+  },
+  "helloWorld4": {
+    "row": 6.8,
+    "col": 6,
+    "height": 1.2,
+    "width": 4
+  },
+  "helloWorld5": {
+    "row": 8.6,
+    "height": 1,
+    "width": 2
+  },
+  "jsonEditor1": {
+    "row": 26.8,
+    "col": 6,
+    "height": 8,
+    "width": 4
+  },
+  "qrCodeComponent1": {
+    "row": 13.6,
+    "col": 9,
+    "height": 7.8
+  },
+  "text1": {
+    "height": 1,
+    "width": 8
+  },
+  "text2": {
+    "row": 26.4,
+    "col": 3,
+    "height": 0.6
+  },
+  "text3": {
+    "row": 0.6,
+    "height": 0.6,
+    "width": 7
+  },
+  "text4": {
+    "row": 1.4,
+    "height": 0.6
+  },
+  "text5": {
+    "row": 12.6,
+    "col": 9,
+    "height": 0.6
+  },
+  "textInput1": {
+    "row": 30.4,
+    "height": 0.2,
+    "width": 4
+  }
+}
