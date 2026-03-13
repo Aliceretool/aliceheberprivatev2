@@ -7,6 +7,8 @@ apps:
     release: latest
   - uuid: cf2b7cca-17b8-11f1-a4ce-bf2176b84e7a
     release: latest
+  - uuid: fcb17926-70b0-4762-a639-17e0d25aa0b1
+    release: latest
 workflows:
   - uuid: 684ba6a3-a793-4adf-bacd-09bc292c94da
     release: latest
