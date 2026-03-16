@@ -2,10 +2,12 @@
   id="page1"
   _customShortcuts={[]}
   _hashParams={[]}
+  _order={0}
   _searchParams={[]}
   browserTitle=""
   title="Page 1"
   urlSlug=""
+  uuid="5392071b-2c51-428b-97d3-e87fb2aa39b3"
 >
   <Frame
     id="$main"
