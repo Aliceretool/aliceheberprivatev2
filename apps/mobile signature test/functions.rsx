@@ -23,6 +23,7 @@ return data"
 // example: return data.find(element => element.isError)
 return data.error"
     imageModel="dall-e-2"
+    metadata={null}
     model="gpt-4"
     multimodalModel="gpt-4-vision-preview"
     resourceDisplayName="retool_ai"
@@ -43,6 +44,7 @@ return data"
 // example: return data.find(element => element.isError)
 return data.error"
     imageModel="dall-e-2"
+    metadata={null}
     model="gpt-4"
     multimodalModel="gpt-4-vision-preview"
     resourceDisplayName="retool_ai"
@@ -101,6 +103,7 @@ return data"
     workflowRunId={null}
   >
     <Event
+      id="b3f772fe"
       event="success"
       method="trigger"
       params={{ ordered: [] }}

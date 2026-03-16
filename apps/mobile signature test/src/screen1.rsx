@@ -1,5 +1,8 @@
 <Screen
   id="screen1"
+  _customShortcuts={[]}
+  _hashParams={[]}
+  _searchParams={[]}
   events={[
     {
       ordered: [
@@ -11,10 +14,12 @@
         { params: { ordered: [] } },
         { waitType: "debounce" },
         { waitMs: "0" },
+        { id: "36e3d099" },
       ],
     },
   ]}
   title="Screen 1"
+  uuid="76f5a88a-7dd5-4f25-bcfc-53928c63c12e"
 >
   <CollectionView
     id="listCollection1"
@@ -38,6 +43,7 @@
     titleByIndex="{{ item.name }}"
   >
     <Event
+      id="6bc0c0e8"
       event="press"
       method="navigateTo"
       params={{ ordered: [{ screenPluginId: "details" }] }}
@@ -49,6 +55,7 @@
   </CollectionView>
   <Button id="button1" size="large" text="Button">
     <Event
+      id="19a904be"
       event="click"
       method="showNotification"
       params={{
@@ -70,6 +77,7 @@
       waitType="debounce"
     />
     <Event
+      id="40aa21ae"
       event="click"
       method="trigger"
       params={{ ordered: [] }}
@@ -89,6 +97,7 @@
     placeholder="Sign your name"
   >
     <Event
+      id="587f9f75"
       event="capture"
       method="trigger"
       params={{ ordered: [] }}
@@ -98,6 +107,7 @@
       waitType="debounce"
     />
     <Event
+      id="d612664f"
       event="capture"
       method="trigger"
       params={{ ordered: [] }}
@@ -114,4 +124,5 @@
     value="signature.value = {{query9.data.password}}"
     weight="normal"
   />
+  <Button id="button2" size="large" text="new shiny button" />
 </Screen>
