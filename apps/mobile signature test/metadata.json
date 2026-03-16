@@ -19,7 +19,7 @@
     "appMaxWidth": "100%",
     "rootScreen": "tabscreen",
     "isMobileApp": true,
-    "version": "3.123.0",
+    "version": "3.356.0",
     "multiScreenMobileApp": true
   }
 }
