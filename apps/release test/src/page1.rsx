@@ -21,5 +21,6 @@
     <Text id="text2" value="v1.1.0" verticalAlign="center" />
     <Text id="text3" value="v2.0.0" verticalAlign="center" />
     <Text id="text4" value="v2.1.0" verticalAlign="center" />
+    <Button id="button1" text="Button" />
   </Frame>
 </Screen>
