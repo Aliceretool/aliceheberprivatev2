@@ -22,7 +22,7 @@ template:
   workflowRunExecutionType: sync
   showFailureToaster: true
   query: |-
-    if (code1.data === "true") {
+    if (code1.data === "false") {
       executePathAtMostOnce('0')
     }
     else { executePathAtMostOnce('1') }
@@ -85,7 +85,7 @@ blockData:
     conditions:
       - id: b0cf260f-a7df-46cb-a748-4fa4e2d0b740
         type: if
-        statement: code1.data === "true"
+        statement: code1.data === "false"
         outgoingPortId: e6a3518e-baf2-4a61-957c-e251e28087f7
       - id: 10386f44-7d3e-4dc9-afc7-68ca79e36b07
         type: else
