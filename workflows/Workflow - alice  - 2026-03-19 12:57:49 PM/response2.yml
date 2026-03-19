@@ -1,4 +1,4 @@
-id: startTrigger
+id: response2
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -21,7 +21,26 @@ template:
   runWhenModelUpdates: false
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: return null
+  query: |-
+    const generateReturn = () => {
+        const status = () => {
+          try {
+            return 200
+          } catch {
+            return 200
+          }
+        }
+      const body = () => {
+        try {
+          return {"from WF": "false"}
+        } catch {
+          return {'error': true, 'message': 'There was a problem parsing the JSON body of response2'}
+        }
+      }
+      return {status: status(), body: body() }
+      }
+      return generateReturn()
+      
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -37,6 +56,7 @@ template:
   cacheKeyTtl: ''
   requestSentTimestamp: null
   metadata: null
+  editorMode: sql
   queryRunTime: null
   changesetObject: ''
   offlineOptimisticResponse: null
@@ -71,15 +91,20 @@ template:
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2026-03-19T12:57:49.938Z
+createdAt: 2026-03-19T14:02:58.242Z
 blockData:
-  top: 48
-  left: 48
-  uuid: ac4b0e18-f8d4-4b66-aa9c-c5cf71abbb65
-  options: {}
-  pluginId: startTrigger
-  blockType: webhook
+  top: 384
+  left: 1776
+  uuid: c55767d7-2f01-4568-b308-ca154a5a78b4
+  options:
+    body: '{"from WF": "false"}'
+    status: '200'
+  pluginId: response2
+  blockType: webhookReturn
   editorType: JavascriptQuery
   isMinimized: false
   resourceName: JavascriptQuery
+  incomingPorts:
+    - portId: 912eab21-e6f0-4527-a38a-0067cf04d5b0
+      blockId: b0e04949-5524-4fc2-8d6c-67701f32a2c0
   incomingOnSuccessEdges: []

@@ -1,4 +1,4 @@
-id: startTrigger
+id: branch1
 type: datasource
 subtype: JavascriptQuery
 resourceName: JavascriptQuery
@@ -21,7 +21,11 @@ template:
   runWhenModelUpdates: false
   workflowRunExecutionType: sync
   showFailureToaster: true
-  query: return null
+  query: |-
+    if (code1.data === "true") {
+      executePathAtMostOnce('0')
+    }
+    else { executePathAtMostOnce('1') }
   playgroundQueryUuid: ''
   playgroundQueryId: null
   error: null
@@ -37,6 +41,7 @@ template:
   cacheKeyTtl: ''
   requestSentTimestamp: null
   metadata: null
+  editorMode: sql
   queryRunTime: null
   changesetObject: ''
   offlineOptimisticResponse: null
@@ -71,15 +76,34 @@ template:
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2026-03-19T12:57:49.938Z
+createdAt: 2026-03-19T14:02:08.231Z
 blockData:
-  top: 48
-  left: 48
-  uuid: ac4b0e18-f8d4-4b66-aa9c-c5cf71abbb65
-  options: {}
-  pluginId: startTrigger
-  blockType: webhook
+  top: 32
+  left: 1088
+  uuid: b0e04949-5524-4fc2-8d6c-67701f32a2c0
+  options:
+    conditions:
+      - id: b0cf260f-a7df-46cb-a748-4fa4e2d0b740
+        type: if
+        statement: code1.data === "true"
+        outgoingPortId: e6a3518e-baf2-4a61-957c-e251e28087f7
+      - id: 10386f44-7d3e-4dc9-afc7-68ca79e36b07
+        type: else
+        statement: ''
+        outgoingPortId: 912eab21-e6f0-4527-a38a-0067cf04d5b0
+  pluginId: branch1
+  blockType: conditional
   editorType: JavascriptQuery
+  onboarding: false
   isMinimized: false
   resourceName: JavascriptQuery
-  incomingOnSuccessEdges: []
+  incomingPorts: []
+  outgoingPorts:
+    - id: e6a3518e-baf2-4a61-957c-e251e28087f7
+      name: '0'
+      type: conditional
+    - id: 912eab21-e6f0-4527-a38a-0067cf04d5b0
+      name: '1'
+      type: conditional
+  incomingOnSuccessEdges:
+    - 2592a514-89c0-4e6c-9a2e-fd4b0cd96517
