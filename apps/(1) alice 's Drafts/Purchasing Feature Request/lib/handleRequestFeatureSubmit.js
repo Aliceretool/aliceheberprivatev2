@@ -1,0 +1,13 @@
+(async () => {
+  await postRequestFeature.trigger()
+  await select_team.clearValue()
+  await select_team.clearValidation()
+  await input_title.clearValue()
+  await input_title.clearValidation()
+  await textarea_description.clearValue()
+  await textarea_description.clearValidation()
+  await select_type.clearValue()
+  await select_type.clearValidation()
+  await select_priority.clearValue()
+  await select_priority.clearValidation()
+})()

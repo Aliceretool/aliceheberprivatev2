@@ -1,0 +1,1544 @@
+{
+  "addRaasSupply": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 1.4,
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "addRaasSupplySteps": {
+    "container": "steppedContainer1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "add_supply_brands_selector": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 3.6,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 12,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "add_supply_car_status_selector": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 3,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 10,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "add_supply_filter_external_raas_supply": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 17.4,
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "add_supply_finnCarIds_filter": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 1.4,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 9,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "add_supply_models_selector": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 3.8,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 8,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "add_supply_order_filter": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 3.4,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "add_supply_order_type_selector": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 1.6,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 20,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "add_supply_partner_selector": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 3.2,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 19,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "add_supply_vins_filter": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 11,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "add_to_order": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "col": 8,
+    "height": 0.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 18,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "aggregate_on_multi_switch": {
+    "container": "steppedContainer1",
+    "subcontainer": "c9da0",
+    "row": 1,
+    "col": 9,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 14,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "availability_filter": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 4,
+    "height": 0.2,
+    "width": 2
+  },
+  "brandNames_filter": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "height": 0.2,
+    "width": 2
+  },
+  "button2": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "button3": {
+    "container": "steppedContainer1",
+    "subcontainer": "c9da0",
+    "row": 10,
+    "col": 10,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "buttonGroup1": {
+    "container": "tabbedContainer2",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 8,
+    "height": 1,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "carStatus_filter": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 2,
+    "height": 0.2,
+    "width": 2
+  },
+  "carsToMarkAsRaasAggregated": {
+    "container": "steppedContainer1",
+    "subcontainer": "c9da0",
+    "row": 1,
+    "height": 15.2,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 16,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "carsToMarkAsRaasSelection_step1": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 1,
+    "height": 14.8,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 41,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "carsToMarkAsRaasSelection_step3": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 1,
+    "height": 15,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 21,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container1": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00032",
+    "row": 0.2,
+    "height": 3.4,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 16,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container2": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00032",
+    "row": 4.4,
+    "height": 3.4,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 18,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container3": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00032",
+    "row": 8,
+    "height": 3.4,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 17,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container4": {
+    "height": 26,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle1": {
+    "container": "container1",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle2": {
+    "container": "container2",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle3": {
+    "container": "container3",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "create_supply_order_btn": {
+    "container": "steppedContainer1",
+    "rowGroup": "footer",
+    "subcontainer": "00031",
+    "row": 1,
+    "col": 9,
+    "height": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 10,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "create_supply_trades_btn": {
+    "container": "steppedContainer1",
+    "rowGroup": "footer",
+    "subcontainer": "00031",
+    "row": 2,
+    "col": 9,
+    "height": 1
+  },
+  "divider2": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 36,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "divider3": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 4.2,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 22,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "divider4": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 7,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 13,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "divider5": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "row": 1,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 9,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "divider6": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "row": 3.8,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "finnCarIds_filter": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 8,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "import_gsheet_btn": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 2,
+    "col": 10,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 37,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "import_gsheet_btn2": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "row": 2.2,
+    "col": 8,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "information_visibility": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 15,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "missing_supply_trades_list": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00032",
+    "col": 3,
+    "height": 19.4,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 30,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "modalCloseButton": {
+    "rowGroup": "header",
+    "subcontainer": "opsCompounds",
+    "col": 9,
+    "height": 1
+  },
+  "modalCloseButton3": {
+    "rowGroup": "header",
+    "subcontainer": "addRaasSupplyModalFrame",
+    "col": 9,
+    "height": 1
+  },
+  "modalTitle": {
+    "rowGroup": "header",
+    "subcontainer": "opsCompounds",
+    "height": 0.6,
+    "width": 9
+  },
+  "modalTitle3": {
+    "rowGroup": "header",
+    "subcontainer": "addRaasSupplyModalFrame",
+    "height": 0.6,
+    "width": 9
+  },
+  "modelNames_filter": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "col": 2,
+    "height": 0.2,
+    "width": 2
+  },
+  "nextButton1": {
+    "container": "steppedContainer1",
+    "rowGroup": "footer",
+    "col": 9,
+    "height": 1
+  },
+  "order_selector": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 2.8,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 17,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_commision_fee": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 1.4,
+    "col": 8,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 25,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_damage_allowance": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 4.6,
+    "col": 8,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 28,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_defleeting_logistics": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 2.4,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 30,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_delivery_charges": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 4.8,
+    "col": 8,
+    "height": 0.2
+  },
+  "post_order_mileage_allowance": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 4.4,
+    "col": 8,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 33,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_mileage_fee": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 4.4,
+    "col": 10,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 32,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_partner": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 0.8,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 29,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_payment_required_for_car_handover": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 3.6,
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 34,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_payment_required_for_paper_handover": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 3,
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 35,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_price_inclusion_type": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 2.6,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 24,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_remarketing_end_trigger": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 1.8,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_remarketing_end_trigger_latest": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 2,
+    "col": 8,
+    "height": 0.2,
+    "width": 4
+  },
+  "post_order_remarketing_window": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 1.6,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 26,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_title_txt": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 1,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 31,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_transfer_of_risk": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 2.2,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 27,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "post_order_type": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "row": 1.2,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "prevButton1": {
+    "container": "steppedContainer1",
+    "rowGroup": "footer",
+    "height": 1
+  },
+  "pricing_format": {
+    "container": "steppedContainer1",
+    "subcontainer": "c9da0",
+    "row": 6,
+    "col": 9,
+    "height": 2.4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 13,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "purchase_price_column": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 1.8,
+    "col": 10,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 39,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "purchase_price_column2": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "row": 1.8,
+    "col": 6,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "raaSDeefletingCompound": {
+    "subcontainer": "opsCompounds",
+    "height": 0.2,
+    "width": 12
+  },
+  "raas_cars": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "row": 4,
+    "height": 25.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 14,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "remarketingPartner_filter": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 6,
+    "height": 0.2,
+    "width": 2
+  },
+  "rv_setting": {
+    "container": "steppedContainer1",
+    "subcontainer": "c9da0",
+    "row": 8.2,
+    "col": 9,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "save_changes_btn": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "row": 2.2,
+    "col": 10,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "search_inventory_btn": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 18,
+    "col": 10,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "search_raas_inventory_btn": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "col": 10,
+    "height": 1,
+    "width": 1
+  },
+  "selected_order_additional_provision": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 1.4,
+    "col": 2,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 19,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selected_order_defleeting_logistics": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 5.4,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 26,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selected_order_delivery_charge": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 1.4,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 23,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selected_order_delivery_charges": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 1.6,
+    "col": 2,
+    "height": 0.2,
+    "width": 2
+  },
+  "selected_order_partner": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 21,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selected_order_payment_required_for_car_handover": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 5.8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 25,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selected_order_payment_required_for_paper_handover": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 6.4,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 24,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selected_order_price_inclusion_type": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 5.6,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 27,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selected_order_remarketing_end_trigger": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 4.8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 8,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selected_order_remarketing_end_trigger_latest": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 5,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selected_order_remarketing_window": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 1.6,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 22,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selected_order_transfer_of_risk": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 5.2,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 28,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selected_order_type": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "col": 3,
+    "height": 0.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 12,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "selection_method_selector": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "col": 8,
+    "height": 0.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 42,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spacer1": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 2.4,
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer2": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.4,
+    "width": 12
+  },
+  "spacer3": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "row": 0.8,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 10,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spreadsheet_url": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 1,
+    "col": 8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 40,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spreadsheet_url2": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "row": 1.8,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "statistic1": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "height": 0.8,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "statistic2": {
+    "container": "container2",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "height": 0.8,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "statistic3": {
+    "container": "container3",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "height": 0.8,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "steppedContainer1": {
+    "subcontainer": "addRaasSupplyModalFrame",
+    "height": 2.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "supplyOrder_filter": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "col": 4,
+    "height": 0.2,
+    "width": 2
+  },
+  "supplyPartner_filter": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "col": 6,
+    "height": 0.2,
+    "width": 2
+  },
+  "supplyType_filter": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 2
+  },
+  "supply_trades_list": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00030",
+    "height": 19.8,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 31,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tabbedContainer1": {
+    "container": "container4",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "col": 1,
+    "height": 0.2,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tabbedContainer2": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "col": 4,
+    "height": 0.2,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 29,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tabs1": {
+    "container": "tabbedContainer1",
+    "rowGroup": "header",
+    "subcontainer": "00031",
+    "height": 0.6,
+    "width": 9
+  },
+  "tabs2": {
+    "container": "tabbedContainer2",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 7
+  },
+  "text2": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 43,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text3": {
+    "container": "steppedContainer1",
+    "subcontainer": "00031",
+    "height": 0.6,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 23,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text4": {
+    "container": "steppedContainer1",
+    "subcontainer": "c9da0",
+    "height": 0.6,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 15,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text5": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "trades_in_order": {
+    "container": "tabbedContainer2",
+    "subcontainer": "00030",
+    "height": 17.8,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "update_supply_order_btn": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00031",
+    "row": 16,
+    "col": 1,
+    "height": 1,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 20,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "view_edit": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "col": 10,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 11,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "vin_column": {
+    "container": "steppedContainer1",
+    "subcontainer": "00030",
+    "row": 1.8,
+    "col": 8,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 38,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "vin_column2": {
+    "container": "tabbedContainer1",
+    "subcontainer": "00698",
+    "row": 1.8,
+    "col": 4,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "vins_filter": {
+    "container": "container4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "col": 8,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

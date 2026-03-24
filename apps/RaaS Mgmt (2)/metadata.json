@@ -1,0 +1,28 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "337895b4-2781-11f1-875a-43e0974ad4e0",
+  "appTemplate": {
+    "appMaxWidth": "1200px",
+    "appThemeId": "custom",
+    "pageCodeFolders": {
+      "object": {
+        "orders": {
+          "array": [
+            "SupplyOrders",
+            "SupplyTrades",
+            "RaasCars",
+            "Filtering",
+            "CreateSupplyOrder",
+            "Data"
+          ]
+        },
+        "cars": {
+          "array": []
+        }
+      }
+    },
+    "rootScreen": "orders",
+    "version": "3.342.0"
+  }
+}

@@ -1,0 +1,1 @@
+return {{ purchasingKeywords.value.some(keyword =>  urlparams.href?.toLowerCase()?.includes(keyword)) }} 

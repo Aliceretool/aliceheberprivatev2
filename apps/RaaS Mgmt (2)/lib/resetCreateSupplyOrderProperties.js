@@ -1,0 +1,14 @@
+post_order_partner.resetValue();
+post_order_title_txt.resetValue();
+post_order_commision_fee.resetValue();
+post_order_remarketing_window.resetValue();
+post_order_delivery_charge.resetValue();
+post_order_transfer_of_risk.resetValue();
+post_order_defleeting_logistics.resetValue();
+post_order_price_inclusion_type.resetValue();
+post_order_payment_required_for_car_handover.resetValue();
+post_order_payment_required_for_paper_handover.resetValue();
+post_order_mileage_allowance.resetValue();
+post_order_mileage_fee.resetValue();
+post_order_damage_allowance.resetValue();
+post_order_delivery_charges.resetValue();
