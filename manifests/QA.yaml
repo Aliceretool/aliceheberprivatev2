@@ -1,9 +1,17 @@
 version: 1.0.0
 name: QA
 apps:
+  - uuid: 25e7ce50-96e3-4971-8b90-f87f4d7582ed
+    release: latest
+  - uuid: 26f8b9b3-810c-42db-a558-7e44c1a0757d
+    release: latest
+  - uuid: 337895b4-2781-11f1-875a-43e0974ad4e0
+    release: latest
   - uuid: 374127ee-530f-11ef-b788-33a725bc307a
     release: latest
   - uuid: 4af45656-16ec-11f1-8f1e-cbe51a277ce3
+    release: latest
+  - uuid: 8fa9576b-9c32-489e-98d0-12882e6c6116
     release: latest
   - uuid: ca9aa650-05b0-11f1-80d1-cb7d728e6135
     release: latest

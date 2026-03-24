@@ -1,0 +1,32 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "26f8b9b3-810c-42db-a558-7e44c1a0757d",
+  "appTemplate": {
+    "appMaxWidth": "1560px",
+    "pageCodeFolders": {
+      "object": {
+        "title_request_feature": {
+          "array": []
+        },
+        "select_team": {
+          "array": []
+        },
+        "input_title": {
+          "array": []
+        },
+        "select_priority": {
+          "array": []
+        },
+        "select_type": {
+          "array": []
+        },
+        "textarea_description": {
+          "array": []
+        }
+      }
+    },
+    "isGlobalWidget": true,
+    "version": "3.196.10"
+  }
+}

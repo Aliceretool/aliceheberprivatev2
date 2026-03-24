@@ -1,0 +1,130 @@
+{
+  "avatar1": {
+    "container": "moduleContainer",
+    "row": 0.8,
+    "col": 10,
+    "height": 0.2,
+    "width": 2
+  },
+  "containerFooter1": {
+    "container": "linkCard1",
+    "col": 10,
+    "height": 0.6,
+    "width": 2
+  },
+  "containerTitle1": {
+    "container": "linkCard1",
+    "height": 0.6,
+    "width": 10
+  },
+  "containerTitle2": {
+    "container": "linkCard1",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "fleetFeedbackFormTitle": {
+    "container": "fleetyFeedbackForm",
+    "height": 0.6,
+    "width": 12
+  },
+  "fleetingFeedbackComment": {
+    "container": "fleetyFeedbackForm",
+    "row": 1.4,
+    "height": 1,
+    "width": 12
+  },
+  "fleetyFeedbackForm": {
+    "container": "searchBarResultsModal",
+    "col": 8,
+    "height": 2,
+    "width": 4
+  },
+  "fleetyIntro": {
+    "container": "searchBarResultsModal",
+    "row": 0.2,
+    "col": 1,
+    "height": 0.6,
+    "width": 7
+  },
+  "fleetyProfilePic": {
+    "container": "searchBarResultsModal",
+    "height": 0.6,
+    "width": 1
+  },
+  "fleetyRating": {
+    "container": "fleetyFeedbackForm",
+    "row": 0.6,
+    "height": 0.8,
+    "width": 7
+  },
+  "fleetyRatingText": {
+    "container": "fleetyFeedbackForm",
+    "row": 0.6,
+    "col": 7,
+    "height": 0.6,
+    "width": 5
+  },
+  "fleetyResponse": {
+    "container": "searchBarResultsModal",
+    "row": 0.8,
+    "height": 0.6,
+    "width": 8
+  },
+  "fleetyResultsListView": {
+    "container": "searchBarResultsModal",
+    "row": 2.4,
+    "width": 12
+  },
+  "linkCard1": {
+    "container": "fleetyResultsListView",
+    "height": 0.2,
+    "width": 12
+  },
+  "moduleContainer": {
+    "height": 1.2,
+    "width": 12
+  },
+  "navigation1": {
+    "container": "moduleContainer",
+    "height": 1,
+    "width": 4
+  },
+  "purchasingFeatureRequest1": {
+    "container": "moduleContainer",
+    "col": 4,
+    "height": 0.2,
+    "width": 2
+  },
+  "searchBar": {
+    "container": "moduleContainer",
+    "col": 7,
+    "height": 1
+  },
+  "searchBarResultsModal": {
+    "container": "moduleContainer",
+    "row": 1,
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "segmentedControl1": {
+    "container": "moduleContainer",
+    "col": 11,
+    "height": 0.8,
+    "width": 1
+  },
+  "spacer1": {
+    "container": "searchBarResultsModal",
+    "row": 2,
+    "height": 0.4,
+    "width": 12
+  },
+  "submitFeedbackBtn": {
+    "container": "fleetyFeedbackForm",
+    "row": 2.4,
+    "col": 8,
+    "height": 0.8,
+    "width": 4
+  }
+}
