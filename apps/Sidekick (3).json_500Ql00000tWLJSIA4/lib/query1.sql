@@ -1,1 +1,0 @@
-SELECT * FROM daily_coach_digest WHERE coach_email = {{ current_user.email }}

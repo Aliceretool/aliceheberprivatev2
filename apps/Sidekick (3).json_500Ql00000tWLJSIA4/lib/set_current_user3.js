@@ -1,1 +1,0 @@
-currentUser_fullName4.setValue(current_user_transformer3.value || current_user.fullName);
