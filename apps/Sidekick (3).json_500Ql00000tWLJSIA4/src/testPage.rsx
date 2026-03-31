@@ -18,6 +18,7 @@
     sticky={null}
     type="main"
   >
+    <Button id="button35" text="Button" />
     <Button id="button12" text="Button" />
     <Button id="testButton" text="Test Button" />
     <Text id="text500" value="{{ current_user. }}" verticalAlign="center" />
