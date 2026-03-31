@@ -1,0 +1,1825 @@
+{
+  "actionsDropdownButton": {
+    "row": 7.8,
+    "height": 0.8,
+    "width": 2
+  },
+  "attendanceCollapsible": {
+    "row": 10.2,
+    "col": 9,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "avatarNoteSubmittedBy": {
+    "type": "stack",
+    "container": "viewNotesContainer",
+    "subcontainer": "00030",
+    "height": 0.2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 43,
+        "height": 24
+      }
+    }
+  },
+  "backToMyLearnersLink": {
+    "height": 0.6,
+    "width": 2
+  },
+  "bilStatusContainer": {
+    "row": 5.2,
+    "col": 4,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "button34": {
+    "rowGroup": "header",
+    "subcontainer": "projectsDrawerFrame",
+    "col": 7,
+    "height": 0.8,
+    "width": 4
+  },
+  "button4": {
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 10,
+    "height": 0.8,
+    "width": 2
+  },
+  "button5": {
+    "container": "otjCollapsible",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.8,
+    "width": 7,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "button7": {
+    "rowGroup": "footer",
+    "subcontainer": "oldNotesDrawerFrame",
+    "height": 1,
+    "width": 12
+  },
+  "coachContainer": {
+    "row": 4,
+    "col": 2,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohortNameContainer": {
+    "row": 1.8,
+    "height": 1,
+    "width": 4
+  },
+  "collapsibleContainer4": {
+    "container": "projectsListView",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "collapsibleContainer5": {
+    "container": "listView10",
+    "width": 12
+  },
+  "collapsibleTitle1": {
+    "container": "functionalSkillsCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 2,
+    "height": 0.8,
+    "width": 7
+  },
+  "collapsibleTitle22": {
+    "type": "stack",
+    "container": "collapsibleContainer4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "col": 2,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 276,
+        "height": 32
+      }
+    }
+  },
+  "collapsibleTitle23": {
+    "type": "stack",
+    "container": "collapsibleContainer5",
+    "rowGroup": "header",
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 23,
+        "height": 120
+      }
+    }
+  },
+  "collapsibleTitle3": {
+    "container": "functionalSkillsCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 2,
+    "height": 0.8,
+    "width": 7
+  },
+  "collapsibleTitle4": {
+    "container": "gatewayCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 2,
+    "height": 0.8,
+    "width": 7
+  },
+  "collapsibleTitle5": {
+    "container": "gatewayCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 2,
+    "height": 0.8,
+    "width": 7
+  },
+  "collapsibleTitle6": {
+    "container": "otjCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 2,
+    "height": 0.8,
+    "width": 7
+  },
+  "collapsibleTitle7": {
+    "container": "otjCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 2,
+    "height": 0.8,
+    "width": 7
+  },
+  "collapsibleTitle8": {
+    "container": "attendanceCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 2,
+    "height": 0.8,
+    "width": 7
+  },
+  "collapsibleTitle9": {
+    "container": "attendanceCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 2,
+    "height": 0.8,
+    "width": 7
+  },
+  "collapsibleToggle1": {
+    "container": "functionalSkillsCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "col": 9,
+    "height": 0.8
+  },
+  "collapsibleToggle12": {
+    "type": "stack",
+    "container": "collapsibleContainer4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "col": 11,
+    "height": 0.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 46,
+        "height": 32
+      }
+    }
+  },
+  "collapsibleToggle13": {
+    "type": "stack",
+    "container": "collapsibleContainer5",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 11,
+    "height": 0.8,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 23,
+        "height": 200
+      }
+    }
+  },
+  "collapsibleToggle2": {
+    "container": "gatewayCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "col": 9,
+    "height": 0.8
+  },
+  "collapsibleToggle3": {
+    "container": "otjCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "col": 9,
+    "height": 0.8
+  },
+  "collapsibleToggle4": {
+    "container": "attendanceCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "col": 9,
+    "height": 0.8
+  },
+  "contactDropdownButton": {
+    "row": 7.8,
+    "col": 2,
+    "height": 0.8,
+    "width": 2
+  },
+  "container141": {
+    "subcontainer": "projectsDrawerFrame",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container142": {
+    "type": "stack",
+    "container": "collapsibleContainer5",
+    "subcontainer": "00030",
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 466,
+        "height": 8
+      }
+    }
+  },
+  "container143": {
+    "container": "listView11",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container23": {
+    "container": "listView1",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle125": {
+    "container": "managerContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle126": {
+    "container": "statusContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle127": {
+    "container": "coachContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle128": {
+    "container": "daysOnProgrammeContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle129": {
+    "container": "deliveryPlanContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle130": {
+    "container": "ulnContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle131": {
+    "container": "bilStatusContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle171": {
+    "container": "container141",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle172": {
+    "container": "container142",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle173": {
+    "container": "container143",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 7
+  },
+  "containerTitle21": {
+    "container": "withdrawalRiskContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle22": {
+    "container": "withdrawalRiskContainer",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle23": {
+    "container": "eolContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle24": {
+    "container": "eolContainer",
+    "subcontainer": "00030",
+    "col": 2,
+    "height": 0.6,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle25": {
+    "container": "eolContainer",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 2,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle26": {
+    "container": "eolContainer",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "col": 2,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle27": {
+    "container": "prContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle28": {
+    "container": "prContainer",
+    "subcontainer": "00030",
+    "col": 2,
+    "height": 0.6,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle29": {
+    "container": "prContainer",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 2,
+    "height": 0.6,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle30": {
+    "container": "prContainer",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "col": 2,
+    "height": 0.6,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle31": {
+    "container": "prContainer",
+    "subcontainer": "00030",
+    "row": 2.2,
+    "col": 2,
+    "height": 0.6,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle32": {
+    "container": "riskFactorContainer",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 6
+  },
+  "containerTitle33": {
+    "container": "riskFactorContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 6,
+    "height": 0.6,
+    "width": 6
+  },
+  "containerTitle34": {
+    "container": "container23",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 2
+  },
+  "containerTitle36": {
+    "container": "linkCard3",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "dateTimeSubmitted": {
+    "type": "stack",
+    "container": "viewNotesContainer",
+    "subcontainer": "00030",
+    "col": 6,
+    "height": 0.6,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "fixed",
+        "width": 253,
+        "height": 24
+      }
+    }
+  },
+  "daysOnProgrammeContainer": {
+    "row": 4,
+    "col": 4,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "deliveryPlanContainer": {
+    "row": 4,
+    "col": 6,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "divider6": {
+    "rowGroup": "footer",
+    "subcontainer": "notesDrawerFrame",
+    "row": 1.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "drawerCloseButton1": {
+    "rowGroup": "header",
+    "subcontainer": "guruDrawerFrame",
+    "col": 9,
+    "height": 1
+  },
+  "drawerCloseButton2": {
+    "rowGroup": "header",
+    "subcontainer": "oldNotesDrawerFrame",
+    "col": 9,
+    "height": 1
+  },
+  "drawerCloseButton3": {
+    "rowGroup": "header",
+    "subcontainer": "projectsDrawerFrame",
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "drawerCloseButton4": {
+    "rowGroup": "header",
+    "subcontainer": "notesDrawerFrame",
+    "col": 9,
+    "height": 1
+  },
+  "drawerTitle1": {
+    "rowGroup": "header",
+    "subcontainer": "guruDrawerFrame",
+    "height": 0.6,
+    "width": 9
+  },
+  "drawerTitle2": {
+    "rowGroup": "header",
+    "subcontainer": "oldNotesDrawerFrame",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 9
+  },
+  "drawerTitle3": {
+    "rowGroup": "header",
+    "subcontainer": "projectsDrawerFrame",
+    "height": 0.6,
+    "width": 5
+  },
+  "drawerTitle4": {
+    "rowGroup": "header",
+    "subcontainer": "notesDrawerFrame",
+    "height": 0.6,
+    "width": 9
+  },
+  "eolContainer": {
+    "row": 8.6,
+    "col": 9,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "functionalSkillsCollapsible": {
+    "row": 9.6,
+    "col": 9,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "gatewayCollapsible": {
+    "row": 9.8,
+    "col": 9,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "gatewayReadinessText": {
+    "row": 9,
+    "col": 9,
+    "height": 0.6
+  },
+  "html2": {
+    "container": "withdrawalRiskContainer",
+    "subcontainer": "00030",
+    "col": 7,
+    "height": 0.2,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "html37": {
+    "container": "container142",
+    "subcontainer": "00030",
+    "row": 5,
+    "height": 0.2,
+    "width": 12
+  },
+  "icon1": {
+    "container": "functionalSkillsCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "height": 0.8,
+    "width": 2
+  },
+  "icon2": {
+    "container": "gatewayCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "height": 0.8,
+    "width": 2
+  },
+  "icon3": {
+    "container": "otjCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "height": 0.8,
+    "width": 2
+  },
+  "icon4": {
+    "container": "attendanceCollapsible",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "height": 0.8,
+    "width": 2
+  },
+  "icon5": {
+    "container": "eolContainer",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "icon6": {
+    "container": "prContainer",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "icon9": {
+    "rowGroup": "header",
+    "subcontainer": "notesDrawerFrame",
+    "row": 1.2,
+    "height": 0.8,
+    "width": 1
+  },
+  "iconText14": {
+    "container": "managerContainer",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "iconText15": {
+    "container": "statusContainer",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "iconText16": {
+    "container": "coachContainer",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "iconText17": {
+    "container": "daysOnProgrammeContainer",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "iconText18": {
+    "container": "deliveryPlanContainer",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "iconText19": {
+    "container": "ulnContainer",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "iconText20": {
+    "container": "bilStatusContainer",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "iconText36": {
+    "container": "container143",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 7,
+    "height": 0.6,
+    "width": 5
+  },
+  "iconText7": {
+    "container": "eolContainer",
+    "subcontainer": "00030",
+    "col": 10,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "iconText8": {
+    "container": "prContainer",
+    "subcontainer": "00030",
+    "col": 10,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "image11": {
+    "type": "stack",
+    "container": "collapsibleContainer4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "height": 1.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 92,
+        "height": 48
+      }
+    }
+  },
+  "image5": {
+    "container": "linkCard3",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "interventionActionsMultiselect": {
+    "rowGroup": "footer",
+    "subcontainer": "notesDrawerFrame",
+    "row": 0.8,
+    "height": 0.2,
+    "width": 12
+  },
+  "interventionTags": {
+    "type": "stack",
+    "container": "viewNotesContainer",
+    "subcontainer": "00030",
+    "row": 3.6,
+    "col": 1,
+    "height": 0.8,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 463,
+        "height": 32
+      }
+    }
+  },
+  "interventionTagsTitle": {
+    "type": "stack",
+    "container": "viewNotesContainer",
+    "subcontainer": "00030",
+    "row": 3,
+    "col": 1,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 127,
+        "height": 24
+      }
+    }
+  },
+  "interventionTagsTitle2": {
+    "type": "stack",
+    "container": "viewNotesContainer",
+    "subcontainer": "00030",
+    "row": 1.6,
+    "col": 1,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 8,
+        "widthType": "fixed",
+        "width": 127,
+        "height": 24
+      }
+    }
+  },
+  "interventionTypeMultiselect": {
+    "rowGroup": "footer",
+    "subcontainer": "notesDrawerFrame",
+    "row": 1,
+    "height": 0.2,
+    "width": 12
+  },
+  "jobTitleCompanyNameContainer": {
+    "row": 2.6,
+    "col": 2,
+    "height": 1,
+    "width": 6
+  },
+  "keyValue11": {
+    "container": "functionalSkillsCollapsible",
+    "subcontainer": "00030",
+    "height": 8.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "keyValue12": {
+    "container": "gatewayCollapsible",
+    "subcontainer": "00030",
+    "height": 8.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "keyValue13": {
+    "container": "otjCollapsible",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "keyValue14": {
+    "container": "attendanceCollapsible",
+    "subcontainer": "00030",
+    "height": 8.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "lastActiveContainer": {
+    "row": 2.6,
+    "height": 1,
+    "width": 2
+  },
+  "learnerName": {
+    "row": 0.6,
+    "height": 1,
+    "width": 4
+  },
+  "link3": {
+    "container": "prContainer",
+    "subcontainer": "00030",
+    "row": 2.8,
+    "col": 2,
+    "height": 0.6,
+    "width": 10,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "linkCard3": {
+    "container": "listView2",
+    "height": 1,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "listView1": {
+    "container": "riskFactorContainer",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "listView10": {
+    "container": "collapsibleContainer4",
+    "subcontainer": "00030",
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "listView11": {
+    "container": "container142",
+    "subcontainer": "00030",
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "listView2": {
+    "container": "projectsContainer",
+    "subcontainer": "00030",
+    "height": 4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "listViewTitle1": {
+    "container": "projectsContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 9
+  },
+  "llmChat1": {
+    "subcontainer": "guruDrawerFrame",
+    "height": 10.6,
+    "width": 12
+  },
+  "managerContainer": {
+    "row": 5.2,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "noteFilterMultiselect": {
+    "rowGroup": "header",
+    "subcontainer": "notesDrawerFrame",
+    "row": 2,
+    "height": 0.2,
+    "width": 12
+  },
+  "noteSubmissionButton": {
+    "rowGroup": "footer",
+    "subcontainer": "notesDrawerFrame",
+    "row": 2.4,
+    "height": 0.8
+  },
+  "noteSubmittedBy": {
+    "type": "stack",
+    "container": "viewNotesContainer",
+    "subcontainer": "00030",
+    "col": 1,
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 211,
+        "height": 48
+      }
+    }
+  },
+  "noteTextContent": {
+    "type": "stack",
+    "container": "viewNotesContainer",
+    "subcontainer": "00030",
+    "row": 0.8,
+    "col": 1,
+    "height": 0.6,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 463,
+        "height": 24
+      }
+    }
+  },
+  "noteTypeRadioGroup": {
+    "rowGroup": "footer",
+    "subcontainer": "notesDrawerFrame",
+    "height": 0.6,
+    "width": 12
+  },
+  "notesButton": {
+    "row": 7.8,
+    "col": 4,
+    "height": 0.8,
+    "width": 2
+  },
+  "notesButton3": {
+    "row": 7.8,
+    "col": 6,
+    "height": 0.8,
+    "width": 2
+  },
+  "notesInputTextBox": {
+    "rowGroup": "footer",
+    "subcontainer": "notesDrawerFrame",
+    "row": 1.4,
+    "height": 1,
+    "width": 12
+  },
+  "otjCollapsible": {
+    "row": 10,
+    "col": 9,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "prContainer": {
+    "row": 8.8,
+    "col": 9,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "projectsContainer": {
+    "row": 8.8,
+    "height": 5.6,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "projectsListView": {
+    "subcontainer": "projectsDrawerFrame",
+    "row": 1,
+    "height": 26,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "richTextEditor1": {
+    "subcontainer": "oldNotesDrawerFrame",
+    "height": 10,
+    "width": 12
+  },
+  "riskFactorContainer": {
+    "row": 8.6,
+    "height": 0.2,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spacer10": {
+    "container": "statusContainer",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spacer11": {
+    "row": 2.4,
+    "height": 0.2,
+    "width": 9
+  },
+  "spacer12": {
+    "container": "coachContainer",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spacer13": {
+    "container": "daysOnProgrammeContainer",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spacer14": {
+    "container": "deliveryPlanContainer",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spacer15": {
+    "container": "ulnContainer",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spacer16": {
+    "container": "bilStatusContainer",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spacer5": {
+    "container": "linkCard3",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spacer6": {
+    "container": "linkCard3",
+    "subcontainer": "00030",
+    "row": 1.4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "spacer9": {
+    "container": "managerContainer",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "status1": {
+    "container": "linkCard3",
+    "subcontainer": "00030",
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "statusContainer": {
+    "row": 4,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "supportFactorMultiselect": {
+    "rowGroup": "footer",
+    "subcontainer": "notesDrawerFrame",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12
+  },
+  "supportFactorTags": {
+    "type": "stack",
+    "container": "viewNotesContainer",
+    "subcontainer": "00030",
+    "row": 2.2,
+    "col": 1,
+    "height": 0.8,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 9,
+        "widthType": "fixed",
+        "width": 463,
+        "height": 32
+      }
+    }
+  },
+  "text480": {
+    "container": "statusContainer",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text481": {
+    "container": "coachContainer",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text482": {
+    "container": "daysOnProgrammeContainer",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text483": {
+    "container": "deliveryPlanContainer",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text484": {
+    "container": "ulnContainer",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text485": {
+    "container": "bilStatusContainer",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text486": {
+    "container": "managerContainer",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text487": {
+    "rowGroup": "header",
+    "subcontainer": "notesDrawerFrame",
+    "row": 1,
+    "col": 1,
+    "height": 0.6,
+    "width": 11
+  },
+  "text6": {
+    "container": "riskFactorContainer",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text613": {
+    "type": "stack",
+    "container": "collapsibleContainer4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "col": 8,
+    "height": 0.8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 138,
+        "height": 32
+      }
+    }
+  },
+  "text614": {
+    "type": "stack",
+    "container": "collapsibleContainer4",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "col": 2,
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": -19.5,
+        "widthType": "fixed",
+        "width": 230,
+        "height": 24
+      }
+    }
+  },
+  "text7": {
+    "container": "container23",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 12
+  },
+  "text8": {
+    "container": "container23",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "titleMessageDivider": {
+    "type": "stack",
+    "container": "viewNotesContainer",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 1,
+    "height": 0.2,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 463,
+        "height": 8
+      }
+    }
+  },
+  "titleMessageDivider2": {
+    "type": "stack",
+    "container": "viewNotesContainer",
+    "subcontainer": "00030",
+    "row": 1.4,
+    "col": 1,
+    "height": 0.2,
+    "width": 11,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 463,
+        "height": 8
+      }
+    }
+  },
+  "ulnContainer": {
+    "row": 5.2,
+    "col": 2,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "viewNotesContainer": {
+    "container": "viewNotesList",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "viewNotesList": {
+    "subcontainer": "notesDrawerFrame",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "withdrawalRiskContainer": {
+    "row": 8.4,
+    "col": 9,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

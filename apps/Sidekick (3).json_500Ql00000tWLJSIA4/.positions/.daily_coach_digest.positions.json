@@ -1,0 +1,114 @@
+{
+  "container1": {
+    "container": "container35",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container35": {
+    "row": 6.8,
+    "height": 0.2,
+    "width": 9,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle1": {
+    "container": "container35",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "html3": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "html4": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "row": 0.4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "html5": {
+    "container": "container1",
+    "subcontainer": "00030",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "html6": {
+    "container": "container1",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 12
+  },
+  "table3": {
+    "height": 6.8,
+    "width": 9
+  },
+  "text12": {
+    "container": "container35",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 12
+  },
+  "text3": {
+    "container": "container35",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}

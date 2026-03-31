@@ -1,0 +1,38 @@
+/* 1. Main Container Setup */
+html, body {
+  margin: 0; 
+  padding: 0;
+  width: 100%;
+  height: 100vh;           /* Forces container to fill the full height of the component */
+  display: flex;           /* Turns on Flexbox layout */
+  justify-content: center; /* Centers content horizontally (Left/Right) */
+  align-items: center;     /* Centers content vertically (Top/Bottom) */
+  overflow: hidden;        /* Prevents scrollbars */
+  background-color: transparent;
+}
+
+/* 2. Pill Styling */
+.risk-pill {
+  /* Layout inside the pill */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+  /* Size and Shape */
+  box-sizing: border-box;
+  padding: 2px 8px;        
+  min-width: 95px;
+  border-radius: 4px;
+  
+  /* Font Styling */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.0; 
+  
+  /* Dynamic Resizing Safety */
+  white-space: nowrap;     /* Prevents text from breaking into two lines */
+  max-width: 98%;          /* Ensures it never touches the absolute edge */
+  text-overflow: ellipsis; /* Adds '...' if the column is dragged excessively narrow */
+}

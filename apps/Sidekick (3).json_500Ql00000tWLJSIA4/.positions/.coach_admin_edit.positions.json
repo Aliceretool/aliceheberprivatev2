@@ -1,0 +1,324 @@
+{
+  "addCoachButton": {
+    "container": "coachHistoryContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "addCoachHistoryModalCloseButton": {
+    "rowGroup": "header",
+    "subcontainer": "addCoachHistoryModal",
+    "col": 9,
+    "height": 1
+  },
+  "addCoachHistoryModalForm": {
+    "subcontainer": "addCoachHistoryModal",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "addCoachHistoryModalSubmit": {
+    "container": "addCoachHistoryModalForm",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "addCoachHistoryModalTItle": {
+    "rowGroup": "header",
+    "subcontainer": "addCoachHistoryModal",
+    "height": 0.6,
+    "width": 9
+  },
+  "addCoachHistoryModal_delivery_manager": {
+    "container": "addCoachHistoryModalForm",
+    "row": 0.4,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachHistoryModal_effective_from": {
+    "container": "addCoachHistoryModalForm",
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachHistoryModal_is_senior_executive": {
+    "container": "addCoachHistoryModalForm",
+    "row": 4,
+    "col": 8,
+    "height": 0.6,
+    "width": 4
+  },
+  "addCoachHistoryModal_max_cohort_caseload": {
+    "container": "addCoachHistoryModalForm",
+    "row": 2,
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachHistoryModal_max_learner_caseload": {
+    "container": "addCoachHistoryModalForm",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachHistoryModal_pod": {
+    "container": "addCoachHistoryModalForm",
+    "row": 1.6,
+    "col": 8,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachHistoryModal_role": {
+    "container": "addCoachHistoryModalForm",
+    "row": 1.6,
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachHistoryModal_senior_manager": {
+    "container": "addCoachHistoryModalForm",
+    "row": 1.8,
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachHistoryModal_status": {
+    "container": "addCoachHistoryModalForm",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachHistory_alert": {
+    "rowGroup": "header",
+    "subcontainer": "addCoachHistoryModal",
+    "row": 1.2,
+    "height": 2.4,
+    "width": 12
+  },
+  "backToCoachesLink": {
+    "height": 0.6,
+    "width": 2
+  },
+  "button21": {
+    "row": 0.4,
+    "col": 10,
+    "height": 1,
+    "width": 2
+  },
+  "coachHistoryContainer": {
+    "row": 2.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "coachHistoryContainer_title": {
+    "container": "coachHistoryContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 8
+  },
+  "coachHistoryTable": {
+    "container": "coachHistoryContainer",
+    "subcontainer": "00030",
+    "height": 12,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "coachName": {
+    "row": 0.6,
+    "height": 1
+  },
+  "editCoachHistoryModalCloseButton": {
+    "rowGroup": "header",
+    "subcontainer": "editCoachHistoryModal",
+    "col": 9,
+    "height": 1
+  },
+  "editCoachHistoryModalForm": {
+    "rowGroup": "header",
+    "subcontainer": "editCoachHistoryModal",
+    "row": 3.4,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "editCoachHistoryModalSubmitButton": {
+    "container": "editCoachHistoryModalForm",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "editCoachHistoryModalTitle": {
+    "rowGroup": "header",
+    "subcontainer": "editCoachHistoryModal",
+    "height": 0.6,
+    "width": 9
+  },
+  "editCoachHistoryModal_delivery_manager": {
+    "container": "editCoachHistoryModalForm",
+    "row": 0.4,
+    "height": 0.2,
+    "width": 4
+  },
+  "editCoachHistoryModal_effective_from": {
+    "container": "editCoachHistoryModalForm",
+    "height": 0.2,
+    "width": 4
+  },
+  "editCoachHistoryModal_is_senior_executive": {
+    "container": "editCoachHistoryModalForm",
+    "row": 4,
+    "col": 8,
+    "height": 0.6,
+    "width": 4
+  },
+  "editCoachHistoryModal_max_cohort_caseload": {
+    "container": "editCoachHistoryModalForm",
+    "row": 2,
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "editCoachHistoryModal_max_learner_caseload": {
+    "container": "editCoachHistoryModalForm",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 4
+  },
+  "editCoachHistoryModal_pod": {
+    "container": "editCoachHistoryModalForm",
+    "row": 1.6,
+    "col": 8,
+    "height": 0.2,
+    "width": 4
+  },
+  "editCoachHistoryModal_role": {
+    "container": "editCoachHistoryModalForm",
+    "row": 1.6,
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "editCoachHistoryModal_senior_manager": {
+    "container": "editCoachHistoryModalForm",
+    "row": 1.8,
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "editCoachHistoryModal_status": {
+    "container": "editCoachHistoryModalForm",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 4
+  },
+  "editCoachHistory_alert": {
+    "rowGroup": "header",
+    "subcontainer": "editCoachHistoryModal",
+    "row": 1,
+    "height": 2.4,
+    "width": 12
+  },
+  "summaryContainer": {
+    "row": 2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "summaryContainer_deatils": {
+    "container": "summaryContainer",
+    "subcontainer": "00030",
+    "height": 8.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "summaryContainer_designated_programme": {
+    "container": "summaryContainer",
+    "subcontainer": "00030",
+    "col": 6,
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "summaryContainer_notes": {
+    "container": "summaryContainer",
+    "subcontainer": "00030",
+    "row": 2,
+    "col": 6,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "summaryContainer_title": {
+    "container": "summaryContainer",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 12
+  },
+  "text399": {
+    "row": 2.4,
+    "height": 0.6
+  }
+}

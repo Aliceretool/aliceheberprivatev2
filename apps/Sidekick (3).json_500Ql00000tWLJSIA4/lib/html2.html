@@ -1,0 +1,33 @@
+{{
+  (() => {
+    // 1. Get raw value safely
+    const rawRisk = String(
+      selected_user.value?.withdrawal_risk?.risk_bucket_name ?? ""
+    )
+      .trim()
+      .toLowerCase();
+
+    // 2. Define colors using raw values
+    const colorMap = {
+      very_high: "#C62828",
+      high: "#FFDDC1",
+      medium: "#FFF59D",
+      low: "#C8E6C9"
+    };
+
+    // 3. Format for display
+    const textContent = rawRisk
+      ? rawRisk
+          .split("_")
+          .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+          .join(" ")
+      : "None";
+
+    // 4. Logic
+    const bgColor = colorMap[rawRisk] ?? "transparent";
+    const textColor = rawRisk === "very_high" ? "#FFFFFF" : "#1F1F1F";
+
+    // 5. Output
+    return `<div class="risk-pill" style="background-color: ${bgColor}; color: ${textColor};">${textContent}</div>`;
+  })()
+}}
