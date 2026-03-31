@@ -1,0 +1,138 @@
+{
+  "addCoachModalCloseButton": {
+    "rowGroup": "header",
+    "subcontainer": "addCoachModal",
+    "col": 9,
+    "height": 1
+  },
+  "addCoachModalForm": {
+    "subcontainer": "addCoachModal",
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "addCoachModalFormSubmitButton": {
+    "container": "addCoachModalForm",
+    "rowGroup": "footer",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "addCoachModalTitle": {
+    "rowGroup": "header",
+    "subcontainer": "addCoachModal",
+    "height": 0.6,
+    "width": 9
+  },
+  "addCoachModal_alert": {
+    "rowGroup": "header",
+    "subcontainer": "addCoachModal",
+    "row": 1,
+    "height": 2.4,
+    "width": 12
+  },
+  "addCoachModal_coach": {
+    "container": "addCoachModalForm",
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachModal_delivery_manager": {
+    "container": "addCoachModalForm",
+    "row": 0.6,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachModal_effective_from": {
+    "container": "addCoachModalForm",
+    "row": 0.2,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachModal_is_senior_executive": {
+    "container": "addCoachModalForm",
+    "row": 5.6,
+    "col": 8,
+    "height": 0.6,
+    "width": 4
+  },
+  "addCoachModal_max_cohort_caseload": {
+    "container": "addCoachModalForm",
+    "row": 3.6,
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachModal_max_learner_caseload": {
+    "container": "addCoachModalForm",
+    "row": 0.8,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachModal_pod": {
+    "container": "addCoachModalForm",
+    "row": 3.2,
+    "col": 8,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachModal_role_type": {
+    "container": "addCoachModalForm",
+    "row": 3.2,
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachModal_senior_manager": {
+    "container": "addCoachModalForm",
+    "row": 3.4,
+    "col": 4,
+    "height": 0.2,
+    "width": 4
+  },
+  "addCoachModal_status_type": {
+    "container": "addCoachModalForm",
+    "row": 0.4,
+    "height": 0.2,
+    "width": 4
+  },
+  "button23": {
+    "row": 1.8,
+    "col": 3,
+    "height": 1,
+    "width": 2
+  },
+  "coachSettingsTableSearch": {
+    "row": 1.2,
+    "height": 0.2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "coachTable": {
+    "row": 3.2,
+    "height": 12.4,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text400": {
+    "height": 0.6
+  }
+}

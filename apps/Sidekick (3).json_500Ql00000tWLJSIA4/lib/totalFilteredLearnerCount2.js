@@ -1,0 +1,1 @@
+return (filteredLearners2.data ?? []).length;

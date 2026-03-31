@@ -1,0 +1,100 @@
+{
+  "toolscriptVersion": "1.0.0",
+  "version": "43.0.9",
+  "pageUuid": "c02ba660-2d10-11f1-9e68-439b6aad10bd",
+  "appTemplate": {
+    "appThemeId": 184238,
+    "pageCodeFolders": {
+      "object": {
+        "coach_admin_edit": {
+          "array": []
+        },
+        "indvidual_learner_view": {
+          "array": ["notesMicroservice", "projectsMicroservice", "riskFactors"]
+        },
+        "bulk_behind_on_OTJ_reminder_agent": {
+          "array": []
+        },
+        "my_learners": {
+          "array": ["statWidgets", "tableFilters"]
+        },
+        "daily_coach_digest": {
+          "array": []
+        },
+        "Cohort_Coach": {
+          "array": [
+            "Best_Average",
+            "Chart_Queries",
+            "Current_User_Context",
+            "Stat_Queries",
+            "Filters",
+            "Old_Queries"
+          ]
+        },
+        "testPage": {
+          "array": []
+        },
+        "coach_digest": {
+          "array": []
+        },
+        "Launch_Coach": {
+          "array": []
+        },
+        "coach_admin": {
+          "array": []
+        },
+        "my_learners2": {
+          "array": ["statWidgets", "User_Views", "Coach_Tags", "Filters"]
+        },
+        "indvidual_learner_view2": {
+          "array": ["notesMicroservice", "projectsMicroservice", "riskFactors"]
+        },
+        "Delivery_Manager": {
+          "array": [
+            "Best_Average",
+            "Chart_Queries",
+            "Current_User_Context",
+            "Tables_Queries",
+            "Filters",
+            "Stats"
+          ]
+        },
+        "PM_Backup": {
+          "array": [
+            "Dropdown_Queries",
+            "Old_Stats_Queries",
+            "Learners_Queries",
+            "Stats_Queries",
+            "Best_Average",
+            "API_Queries",
+            "Chart_Queries",
+            "Current_User_Context"
+          ]
+        },
+        "NBA_Cards": {
+          "array": []
+        },
+        "NBA_Actions": {
+          "array": []
+        },
+        "NBA_Engine": {
+          "array": []
+        }
+      }
+    },
+    "notificationsSettings": {
+      "object": {
+        "globalQueryShowFailureToast": false,
+        "globalQueryShowSuccessToast": false,
+        "globalQueryToastDuration": 4.5,
+        "globalToastPosition": "bottomRight"
+      }
+    },
+    "rootScreen": "my_learners2",
+    "appThemeName": "MV RT Theme",
+    "customDocumentTitleEnabled": true,
+    "version": "3.363.0",
+    "internationalizationSettings": null,
+    "responsiveLayoutDisabled": true
+  }
+}

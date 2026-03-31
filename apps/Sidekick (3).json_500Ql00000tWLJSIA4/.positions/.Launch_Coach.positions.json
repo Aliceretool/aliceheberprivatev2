@@ -1,0 +1,1587 @@
+{
+  "EolTrendContainer3": {
+    "container": "trendContainer3",
+    "subcontainer": "00030",
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "EolTrendLineChart8": {
+    "container": "EolTrendContainer3",
+    "subcontainer": "00030",
+    "height": 7.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "LsatTrendContainer11": {
+    "container": "trendContainer3",
+    "subcontainer": "00030",
+    "row": 2,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "LsatTrendContainer12": {
+    "container": "trendContainer3",
+    "subcontainer": "00030",
+    "col": 6,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "LsatTrendContainer13": {
+    "container": "trendContainer3",
+    "subcontainer": "00030",
+    "row": 1,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "LsatTrendContainer14": {
+    "container": "trendContainer3",
+    "subcontainer": "00030",
+    "row": 1,
+    "col": 6,
+    "height": 1,
+    "width": 6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "attendance_monthly2": {
+    "container": "LsatTrendContainer13",
+    "subcontainer": "00032",
+    "height": 7.6,
+    "width": 12
+  },
+  "attendance_weekly2": {
+    "container": "LsatTrendContainer13",
+    "subcontainer": "00031",
+    "height": 7.6,
+    "width": 12
+  },
+  "cohort_active_learners2": {
+    "container": "container82",
+    "subcontainer": "00030",
+    "col": 3,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_att_avg2": {
+    "container": "container86",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 8,
+    "height": 0.6,
+    "width": 4
+  },
+  "cohort_att_best2": {
+    "container": "container86",
+    "subcontainer": "00030",
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_att_vsavg2": {
+    "container": "container86",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "col": 8,
+    "height": 0.6,
+    "width": 4
+  },
+  "cohort_bil_learners2": {
+    "container": "container82",
+    "subcontainer": "00030",
+    "col": 6,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_cohortSelect2": {
+    "container": "filterContainerTrends5",
+    "subcontainer": "00030",
+    "col": 1,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_comp_avg2": {
+    "container": "container89",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 10,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_comp_best2": {
+    "container": "container89",
+    "subcontainer": "00030",
+    "col": 10,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_comp_vsavg2": {
+    "container": "container89",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "col": 10,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_companySelect2": {
+    "container": "filterContainerTrends5",
+    "subcontainer": "00030",
+    "col": 3,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_dd_coachSelect2": {
+    "subcontainer": "cohort_deepdive2",
+    "col": 2,
+    "height": 0.2,
+    "width": 2
+  },
+  "cohort_dd_cohortSelect2": {
+    "subcontainer": "cohort_deepdive2",
+    "col": 4,
+    "height": 0.2,
+    "width": 2
+  },
+  "cohort_dd_companySelect2": {
+    "subcontainer": "cohort_deepdive2",
+    "col": 6,
+    "height": 0.2,
+    "width": 2
+  },
+  "cohort_dd_riskSelect2": {
+    "subcontainer": "cohort_deepdive2",
+    "col": 10,
+    "height": 0.2,
+    "width": 2
+  },
+  "cohort_dd_search2": {
+    "subcontainer": "cohort_deepdive2",
+    "height": 0.2,
+    "width": 2
+  },
+  "cohort_dd_statusSelect2": {
+    "subcontainer": "cohort_deepdive2",
+    "col": 8,
+    "height": 0.2,
+    "width": 2
+  },
+  "cohort_dd_table2": {
+    "subcontainer": "cohort_deepdive2",
+    "row": 0.2,
+    "height": 17.8,
+    "width": 12
+  },
+  "cohort_eol_avg2": {
+    "container": "container84",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_eol_best2": {
+    "container": "container84",
+    "subcontainer": "00030",
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_eol_vsavg2": {
+    "container": "container84",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_gw_avg2": {
+    "container": "container87",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 8,
+    "height": 0.6,
+    "width": 4
+  },
+  "cohort_gw_best2": {
+    "container": "container87",
+    "subcontainer": "00030",
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_gw_vsavg2": {
+    "container": "container87",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "col": 8,
+    "height": 0.6,
+    "width": 4
+  },
+  "cohort_lsat_avg2": {
+    "container": "container85",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 9,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_lsat_best2": {
+    "container": "container85",
+    "subcontainer": "00030",
+    "col": 9,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_lsat_vsavg2": {
+    "container": "container85",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "col": 9,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_pr_avg2": {
+    "container": "container88",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "col": 8,
+    "height": 0.6,
+    "width": 4
+  },
+  "cohort_pr_best2": {
+    "container": "container88",
+    "subcontainer": "00030",
+    "col": 8,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_pr_vsavg2": {
+    "container": "container88",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "col": 8,
+    "height": 0.6,
+    "width": 4
+  },
+  "cohort_risk_learners2": {
+    "container": "container82",
+    "subcontainer": "00030",
+    "col": 9,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_statusSelect2": {
+    "container": "filterContainerTrends5",
+    "subcontainer": "00030",
+    "col": 5,
+    "height": 0.2,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "cohort_tabs2": {
+    "container": "tabbedContainer3",
+    "rowGroup": "header",
+    "subcontainer": "00032",
+    "height": 0.6,
+    "width": 12
+  },
+  "cohort_total_learners2": {
+    "container": "container82",
+    "subcontainer": "00030",
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container82": {
+    "container": "tabbedContainer3",
+    "subcontainer": "00031",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container83": {
+    "container": "tabbedContainer3",
+    "subcontainer": "00031",
+    "row": 2.6,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 7,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container84": {
+    "type": "stack",
+    "container": "container83",
+    "subcontainer": "00030",
+    "height": 3.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 438.25,
+        "height": 152
+      }
+    }
+  },
+  "container85": {
+    "type": "stack",
+    "container": "container83",
+    "subcontainer": "00030",
+    "col": 4,
+    "height": 3.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 438.25,
+        "height": 152
+      }
+    }
+  },
+  "container86": {
+    "type": "stack",
+    "container": "container83",
+    "subcontainer": "00030",
+    "col": 8,
+    "height": 3.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 438.25,
+        "height": 152
+      }
+    }
+  },
+  "container87": {
+    "container": "container83",
+    "subcontainer": "00030",
+    "row": 3.8,
+    "col": 4,
+    "height": 3.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container88": {
+    "container": "container83",
+    "subcontainer": "00030",
+    "row": 3.8,
+    "height": 1,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container89": {
+    "container": "container83",
+    "subcontainer": "00030",
+    "row": 3.8,
+    "col": 8,
+    "height": 4.8,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container90": {
+    "container": "tabbedContainer3",
+    "subcontainer": "00032",
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container91": {
+    "rowGroup": "header",
+    "subcontainer": "cohort_compassFrame2",
+    "row": 1.4,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container92": {
+    "height": 1.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "container93": {
+    "row": 4.2,
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "containerTitle100": {
+    "container": "container85",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 11
+  },
+  "containerTitle101": {
+    "container": "container86",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 11
+  },
+  "containerTitle91": {
+    "container": "container83",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle92": {
+    "container": "container87",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 11
+  },
+  "containerTitle93": {
+    "container": "container88",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 11
+  },
+  "containerTitle94": {
+    "container": "container92",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle95": {
+    "container": "container93",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle96": {
+    "container": "container89",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 9
+  },
+  "containerTitle97": {
+    "container": "trendContainer3",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle98": {
+    "container": "filterContainerTrends5",
+    "rowGroup": "header",
+    "height": 0.6,
+    "width": 12
+  },
+  "containerTitle99": {
+    "container": "container84",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 11
+  },
+  "divider5": {
+    "row": 1.6,
+    "height": 0.2,
+    "width": 12
+  },
+  "drawerCloseButton6": {
+    "rowGroup": "header",
+    "subcontainer": "drawerFrame2",
+    "col": 9,
+    "height": 1
+  },
+  "drawerTitle6": {
+    "rowGroup": "header",
+    "subcontainer": "drawerFrame2",
+    "height": 0.6,
+    "width": 9
+  },
+  "eol_monthly2": {
+    "container": "EolTrendContainer3",
+    "subcontainer": "00032",
+    "height": 7.6,
+    "width": 12
+  },
+  "eol_weekly2": {
+    "container": "EolTrendContainer3",
+    "subcontainer": "00031",
+    "height": 7.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "filterContainerTrends5": {
+    "container": "container93",
+    "subcontainer": "00030",
+    "height": 0.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "gwb_monthly2": {
+    "container": "LsatTrendContainer11",
+    "subcontainer": "00032",
+    "height": 7.6,
+    "width": 12
+  },
+  "gwb_weekly2": {
+    "container": "LsatTrendContainer11",
+    "subcontainer": "00031",
+    "height": 7.6,
+    "width": 12
+  },
+  "html20": {
+    "container": "container82",
+    "subcontainer": "00030",
+    "col": 5,
+    "height": 0.2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "html21": {
+    "container": "container82",
+    "subcontainer": "00030",
+    "col": 8,
+    "height": 0.2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "html22": {
+    "container": "container90",
+    "subcontainer": "00030",
+    "col": 2,
+    "height": 0.2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "html23": {
+    "container": "container90",
+    "subcontainer": "00030",
+    "col": 5,
+    "height": 0.2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "html24": {
+    "container": "container90",
+    "subcontainer": "00030",
+    "col": 8,
+    "height": 0.2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "html25": {
+    "container": "container82",
+    "subcontainer": "00030",
+    "col": 2,
+    "height": 0.2,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "icon8": {
+    "container": "container89",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "col": 11,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "iconText10": {
+    "container": "filterContainerTrends5",
+    "subcontainer": "00030",
+    "row": 0.2,
+    "height": 0.6,
+    "width": 1,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "iconText11": {
+    "rowGroup": "header",
+    "subcontainer": "cohort_compassFrame2",
+    "row": 0.8,
+    "height": 0.6,
+    "width": 8
+  },
+  "image8": {
+    "container": "container92",
+    "subcontainer": "00030",
+    "height": 1.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "lsat_monthly2": {
+    "container": "LsatTrendContainer12",
+    "subcontainer": "00032",
+    "height": 7.6,
+    "width": 12
+  },
+  "lsat_weekly2": {
+    "container": "LsatTrendContainer12",
+    "subcontainer": "00031",
+    "height": 7.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "modalCloseButton5": {
+    "rowGroup": "header",
+    "subcontainer": "cohort_compassFrame2",
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "modalCloseButton6": {
+    "rowGroup": "header",
+    "subcontainer": "cohort_deepdive2",
+    "col": 9,
+    "height": 1
+  },
+  "modalTitle3": {
+    "rowGroup": "header",
+    "subcontainer": "cohort_deepdive2",
+    "height": 0.6,
+    "width": 9
+  },
+  "pr_monthly2": {
+    "container": "LsatTrendContainer14",
+    "subcontainer": "00032",
+    "height": 7.6,
+    "width": 12
+  },
+  "pr_weekly2": {
+    "container": "LsatTrendContainer14",
+    "subcontainer": "00031",
+    "height": 7.6,
+    "width": 12
+  },
+  "progressBar10": {
+    "subcontainer": "cohort_compassFrame2",
+    "row": 1.6,
+    "height": 0.4,
+    "width": 12
+  },
+  "progressBar6": {
+    "subcontainer": "cohort_compassFrame2",
+    "height": 0.4,
+    "width": 12
+  },
+  "progressBar7": {
+    "subcontainer": "cohort_compassFrame2",
+    "row": 0.4,
+    "height": 0.4,
+    "width": 12
+  },
+  "progressBar8": {
+    "subcontainer": "cohort_compassFrame2",
+    "row": 0.8,
+    "height": 0.4,
+    "width": 12
+  },
+  "progressBar9": {
+    "subcontainer": "cohort_compassFrame2",
+    "row": 1.2,
+    "height": 0.4,
+    "width": 12
+  },
+  "select3": {
+    "row": 4.4,
+    "height": 0.2,
+    "width": 4
+  },
+  "statistic73": {
+    "container": "container84",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.8,
+    "width": 11
+  },
+  "statistic74": {
+    "container": "container85",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.8,
+    "width": 10
+  },
+  "statistic75": {
+    "container": "container86",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.8,
+    "width": 11
+  },
+  "statistic76": {
+    "container": "container87",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.8,
+    "width": 11
+  },
+  "statistic77": {
+    "container": "container88",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.8,
+    "width": 11
+  },
+  "statistic78": {
+    "container": "container89",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.8,
+    "width": 9
+  },
+  "statistic79": {
+    "container": "container90",
+    "subcontainer": "00030",
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "statistic80": {
+    "container": "container90",
+    "subcontainer": "00030",
+    "col": 3,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "statistic81": {
+    "container": "container90",
+    "subcontainer": "00030",
+    "col": 6,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "statistic82": {
+    "container": "container90",
+    "subcontainer": "00030",
+    "col": 9,
+    "height": 0.8,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "statistic83": {
+    "container": "container91",
+    "subcontainer": "00030",
+    "col": 9,
+    "height": 0.8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "tabbedContainer3": {
+    "container": "container93",
+    "subcontainer": "00030",
+    "row": 1.4,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "table5": {
+    "row": 4.6,
+    "height": 8,
+    "width": 12
+  },
+  "tabs14": {
+    "container": "LsatTrendContainer12",
+    "rowGroup": "header",
+    "col": 7,
+    "height": 0.6,
+    "width": 5
+  },
+  "tabs15": {
+    "container": "LsatTrendContainer13",
+    "rowGroup": "header",
+    "col": 7,
+    "height": 0.6,
+    "width": 5
+  },
+  "tabs16": {
+    "container": "LsatTrendContainer14",
+    "rowGroup": "header",
+    "col": 7,
+    "height": 0.6,
+    "width": 5
+  },
+  "tabs17": {
+    "container": "LsatTrendContainer11",
+    "rowGroup": "header",
+    "col": 7,
+    "height": 0.6,
+    "width": 5
+  },
+  "tabs18": {
+    "container": "EolTrendContainer3",
+    "rowGroup": "header",
+    "subcontainer": "00031",
+    "col": 7,
+    "height": 0.6,
+    "width": 5
+  },
+  "text401": {
+    "container": "container89",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 6,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text402": {
+    "container": "container89",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text403": {
+    "container": "container89",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text404": {
+    "container": "tabbedContainer3",
+    "subcontainer": "00031",
+    "row": 2,
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text405": {
+    "container": "EolTrendContainer3",
+    "rowGroup": "header",
+    "subcontainer": "00030",
+    "height": 0.8,
+    "width": 7
+  },
+  "text406": {
+    "container": "LsatTrendContainer12",
+    "rowGroup": "header",
+    "subcontainer": "00032",
+    "height": 0.8,
+    "width": 7
+  },
+  "text407": {
+    "container": "tabbedContainer3",
+    "subcontainer": "00032",
+    "row": 2.4,
+    "height": 0.6,
+    "width": 2,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text408": {
+    "container": "LsatTrendContainer13",
+    "rowGroup": "header",
+    "subcontainer": "00032",
+    "height": 0.8,
+    "width": 7
+  },
+  "text409": {
+    "container": "LsatTrendContainer14",
+    "rowGroup": "header",
+    "subcontainer": "00032",
+    "height": 0.8,
+    "width": 7
+  },
+  "text410": {
+    "container": "LsatTrendContainer11",
+    "rowGroup": "header",
+    "subcontainer": "00032",
+    "height": 0.8,
+    "width": 7
+  },
+  "text411": {
+    "container": "container91",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text412": {
+    "container": "container89",
+    "subcontainer": "00030",
+    "row": 3.4,
+    "height": 0.6,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text413": {
+    "row": 2.4,
+    "height": 1
+  },
+  "text414": {
+    "row": 3,
+    "height": 0.6,
+    "width": 5
+  },
+  "text415": {
+    "row": 3.6,
+    "height": 0.6,
+    "width": 5
+  },
+  "text416": {
+    "container": "container84",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text417": {
+    "container": "container84",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text418": {
+    "container": "container84",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text419": {
+    "container": "container85",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 5,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text420": {
+    "container": "container85",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 2,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text421": {
+    "container": "container85",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text422": {
+    "container": "container86",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text423": {
+    "container": "container86",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text424": {
+    "container": "container86",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text425": {
+    "container": "container87",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text426": {
+    "container": "container87",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text427": {
+    "container": "container87",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text428": {
+    "container": "container88",
+    "subcontainer": "00030",
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 3,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text429": {
+    "container": "container88",
+    "subcontainer": "00030",
+    "row": 0.6,
+    "height": 0.6,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "text430": {
+    "container": "container88",
+    "subcontainer": "00030",
+    "row": 1.2,
+    "height": 0.6,
+    "width": 5,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "trendContainer3": {
+    "container": "tabbedContainer3",
+    "subcontainer": "00032",
+    "row": 3.6,
+    "height": 1,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 4,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}
