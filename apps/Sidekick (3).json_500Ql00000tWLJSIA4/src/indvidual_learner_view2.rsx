@@ -31,7 +31,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n\t"dimensions": [\n\t\t"gh_apprenticeship.apprenticeship_uuid",\n\t\t"gh_apprenticeship.learner_full_name",\n        "gh_apprenticeship.project_review_link",\n        "gh_apprenticeship.project_title",\n        "gh_apprenticeship.project_link"\n\t],\n\t"filters": [\n\t\t{\n\t\t\t"values": [\n\t\t\t\t"00013d42-cf0e-4d94-ae40-054cca1e8099"\n\t\t\t],\n\t\t\t"member": "gh_apprenticeship.apprenticeship_uuid",\n\t\t\t"operator": "equals"\n\t\t}\n\t]\n}'
@@ -56,7 +55,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -79,7 +77,6 @@
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="sidekick/v1/apprenticeship/{{selected_user.value.id}}/note"
       resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -130,7 +127,6 @@
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="sidekick/v1/apprenticeship/{{selected_user.value.id}}/note"
       resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -181,7 +177,6 @@
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="sidekick/v1/apprenticeship/{{ selected_user.value.id }}/note"
       resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -228,7 +223,6 @@
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="sidekick/v1/apprenticeship/{{selected_user.value.id}}/note"
       resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -314,7 +308,6 @@
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n\t"dimensions": [\n\t\t"gh_apprenticeship.apprenticeship_uuid",\n\t\t"gh_apprenticeship.learner_full_name",\n\t\t"gh_apprenticeship.coach_account_id",\n\t\t"gh_apprenticeship.apprenticeship_latest_risk_bucket_name",\n        "gh_apprenticeship.risk_prediction_feature_name",\n        "gh_apprenticeship.risk_prediction_feature_description",\n        "gh_apprenticeship.risk_prediction_feature_shapley_value"\n\t],\n\t"filters": [\n\t\t{\n\t\t\t"values": [\n\t\t\t\t"00013d42-cf0e-4d94-ae40-054cca1e8099"\n\t\t\t],\n\t\t\t"member": "gh_apprenticeship.apprenticeship_uuid",\n\t\t\t"operator": "equals"\n\t\t}\n\t],\n\t"timeDimensions": [\n\t\t{\n\t\t\t"dimension": "gh_apprenticeship.apprenticeship_latest_risk_prediction_timestamp",\n\t\t\t"granularity": "day"\n\t\t}\n\t]\n}'
@@ -347,7 +340,6 @@
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n\t"dimensions": [\n\t\t"gh_apprenticeship.apprenticeship_uuid",\n\t\t"gh_apprenticeship.learner_full_name",\n\t\t"gh_apprenticeship.coach_account_id",\n\t\t"gh_apprenticeship.apprenticeship_latest_risk_bucket_name",\n        "gh_apprenticeship.risk_prediction_feature_name",\n        "gh_apprenticeship.risk_prediction_feature_description",\n        "gh_apprenticeship.risk_prediction_feature_shapley_value"\n\t],\n\t"filters": [\n\t\t{\n\t\t\t"values": [\n\t\t\t\t"{{ selected_user.value.id}}"\n\t\t\t],\n\t\t\t"member": "gh_apprenticeship.apprenticeship_uuid",\n\t\t\t"operator": "equals"\n\t\t}\n\t],\n\t"timeDimensions": [\n\t\t{\n\t\t\t"dimension": "gh_apprenticeship.apprenticeship_latest_risk_prediction_timestamp",\n\t\t\t"granularity": "day"\n\t\t}\n\t]\n}'
@@ -372,7 +364,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -454,7 +445,6 @@
     <Link
       id="backToMyLearnersLink2"
       allowWrap={true}
-      ariaLabel=""
       margin="0"
       showUnderline="hover"
       style={{ fontSize: "h6Font", fontWeight: "h6Font", fontFamily: "h6Font" }}

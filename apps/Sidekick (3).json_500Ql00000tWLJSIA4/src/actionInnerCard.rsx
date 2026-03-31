@@ -56,7 +56,6 @@
     />
     <Link
       id="copyAndUpdateMessage"
-      ariaLabel=""
       horizontalAlign="right"
       iconBefore="line/interface-edit-copy"
       text="Copy Text"

@@ -148,7 +148,6 @@
     isClonedDemoQuery={true}
     isMultiplayerEdited={false}
     mockResponseTransformer="return "
-    openAPIParams="{}"
     openAPIRequestBody=""
     overrideOrgCacheForUserCache={true}
     query="sidekick/apprenticeship?"
@@ -840,7 +839,6 @@
     <Link
       id="link4"
       allowWrap={true}
-      ariaLabel=""
       horizontalAlign="center"
       style={{}}
       text="Reset Filters"

@@ -21,7 +21,6 @@
     isMultiplayerEdited={false}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/apprenticeship/{{ currentLearner.value.apprenticeship_uuid }}/note"
     resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -47,7 +46,6 @@
     isClonedDemoQuery={true}
     isMultiplayerEdited={false}
     mockResponseTransformer="return "
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/apprenticeship?size=500&coach={{ impersonate_user.value?.coach?.id || current_api_user.data?.id }}"
     resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"

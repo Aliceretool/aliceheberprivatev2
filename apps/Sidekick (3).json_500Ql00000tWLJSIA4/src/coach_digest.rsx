@@ -46,7 +46,6 @@
     isMultiplayerEdited={true}
     mockResponseTransformer="return "
     notificationDuration="0.01"
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/apprenticeship?coach={{ impersonate_user.value?.coach?.id || current_api_user.data.id }}&size=500"
     queryTimeout="60000"
@@ -218,7 +217,6 @@
     isMultiplayerEdited={false}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/apprenticeship/{{ apprenticeship_id }}/note"
     queryDisabled={
@@ -241,7 +239,6 @@
     }
     isClonedDemoQuery={true}
     mockResponseTransformer="return "
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/apprenticeship/{{ selectedNotesLearner.value.id }}/note"
     queryDisabled="{{ !selectedNotesLearner.value?.id }}"

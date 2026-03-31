@@ -71,7 +71,6 @@ You must output ONLY a raw JSON object. Do not include markdown formatting, conv
     }
     isClonedDemoQuery={true}
     mockResponseTransformer="return "
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/apprenticeship?size=500"
     resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"

@@ -20,7 +20,6 @@
       enableMockResponseTransformer={true}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       runWhenPageLoads={true}
@@ -68,7 +67,6 @@
       enableMockResponseTransformer={true}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       runWhenModelUpdates={false}
@@ -85,7 +83,6 @@
       enableMockResponseTransformer={true}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       runWhenModelUpdates={false}
@@ -108,7 +105,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="/sidekick/v1/coach?managed_coaches_only=true"
       resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -132,7 +128,6 @@
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="/sidekick/v1/cohort"
       queryTimeout="25000"
@@ -153,7 +148,6 @@
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="/sidekick/v1/company"
       queryTimeout="25000"
@@ -175,7 +169,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       runWhenPageLoads={true}
@@ -200,7 +193,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       runWhenPageLoads={true}
@@ -225,7 +217,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       runWhenPageLoads={true}
@@ -250,7 +241,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       runWhenPageLoads={true}
@@ -277,7 +267,6 @@
       enableMockResponseTransformer={true}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -325,7 +314,6 @@
       enableMockResponseTransformer={true}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -366,7 +354,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -386,7 +373,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -406,7 +392,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""

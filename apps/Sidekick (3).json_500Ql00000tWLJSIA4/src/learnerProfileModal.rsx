@@ -670,7 +670,6 @@
         />
         <Link
           id="likeButton"
-          ariaLabel=""
           disabled=""
           horizontalAlign="center"
           iconBefore="bold/interface-favorite-like-2"

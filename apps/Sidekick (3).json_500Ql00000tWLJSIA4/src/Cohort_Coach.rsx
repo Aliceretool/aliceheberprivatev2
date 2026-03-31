@@ -38,7 +38,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="/sidekick/v1/coach"
       resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -59,7 +58,6 @@
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="/sidekick/v1/company"
       queryTimeout="25000"
@@ -81,7 +79,6 @@
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="/sidekick/v1/cohort"
       queryTimeout="25000"
@@ -131,7 +128,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -153,7 +149,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -173,7 +168,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -200,7 +194,6 @@
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       runWhenPageLoads={true}
@@ -221,7 +214,6 @@
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       queryTimeout="25000"
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
@@ -242,7 +234,6 @@
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       runWhenPageLoads={true}
@@ -274,7 +265,6 @@
     isClonedDemoQuery={true}
     isMultiplayerEdited={false}
     mockResponseTransformer="return "
-    openAPIParams="{}"
     openAPIRequestBody=""
     overrideOrgCacheForUserCache={true}
     query="/sidekick/v1/apprenticeship-slim?size=500&coach={{ impersonate_user.value?.coach?.id || current_api_user.data.id }}"

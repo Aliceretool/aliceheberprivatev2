@@ -22,7 +22,6 @@
     />
     <Link
       id="backToLearnersLink"
-      ariaLabel=""
       horizontalAlign="right"
       style={{ map: { text: "#4a90e2" } }}
       text="View learner details"
@@ -214,7 +213,6 @@
             />
             <Link
               id="latestProjectReviewUrlLink"
-              ariaLabel=""
               hidden="{{ !item.project_summary.latest_project_submission_review.details.id }}"
               style={{ map: { text: "#4a90e2" } }}
               text="View Full Review "
@@ -265,7 +263,6 @@
         />
         <Link
           id="coachNotesHistoryLink"
-          ariaLabel=""
           showUnderline="never"
           style={{ map: { text: "#4a90e2" } }}
           text="View Full Notes History ->"

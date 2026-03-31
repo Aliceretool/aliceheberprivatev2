@@ -24,7 +24,6 @@
     isImported={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="Cohort Dropdown Query"
     playgroundQueryUuid="4b7b8016-f40d-4a20-b04f-06b5230f6cdf"
@@ -47,7 +46,6 @@
     isImported={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="Gateway Bookings Rate"
     playgroundQueryUuid="7e7466b3-434e-459d-81ed-d2ea4a8babba"
@@ -74,7 +72,6 @@
     isImported={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="Coach Dropdown Query"
     playgroundQueryUuid="f4709018-cd87-4d67-abb7-52b21037718c"
@@ -103,7 +100,6 @@
     isMultiplayerEdited={false}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="Company Dropdown Query"
     playgroundQueryUuid="630d59db-b8f4-4559-ac57-09a251fb9dd9"
@@ -131,7 +127,6 @@
     isImported={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="Cohort Dropdown Query"
     playgroundQueryUuid="4b7b8016-f40d-4a20-b04f-06b5230f6cdf"
@@ -158,7 +153,6 @@
     isImported={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="Learners Query"
     playgroundQueryUuid="42e468ff-ee94-4dba-befb-4a79c7882f47"
@@ -187,7 +181,6 @@
     isImported={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="LSAT Query"
     playgroundQueryUuid="b06858dc-a493-45da-bc58-dc2687e4b36c"
@@ -214,7 +207,6 @@
     isImported={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="Company Dropdown Query"
     playgroundQueryUuid="630d59db-b8f4-4559-ac57-09a251fb9dd9"
@@ -238,7 +230,6 @@
     isImported={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="EOL Rate"
     playgroundQueryUuid="23cbfe5f-105a-486d-9220-254ba962c901"
@@ -261,7 +252,6 @@
     isImported={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="PR Completion Rate Query"
     playgroundQueryUuid="a4fa1d45-cd10-40dc-9e50-a749a92fe730"
@@ -288,7 +278,6 @@
     isImported={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="Learners Query"
     playgroundQueryUuid="42e468ff-ee94-4dba-befb-4a79c7882f47"
@@ -317,7 +306,6 @@
     isImported={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     playgroundQueryName="Attendance Rate Query"
     playgroundQueryUuid="f3c94fac-8987-4e08-84a0-771e71670a29"

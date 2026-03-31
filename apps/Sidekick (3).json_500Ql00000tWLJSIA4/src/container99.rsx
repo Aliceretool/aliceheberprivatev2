@@ -37,12 +37,7 @@
       numColumns="1"
       padding="0"
     >
-      <Link
-        id="link5"
-        ariaLabel=""
-        iconBefore="bold/interface-link"
-        text="{{ item.title }}"
-      >
+      <Link id="link5" iconBefore="bold/interface-link" text="{{ item.title }}">
         <Event
           id="b49c66b9"
           event="click"

@@ -17,7 +17,6 @@
     isClonedDemoQuery={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/coach/{{ url.searchParams.coach}}/history"
     resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -37,7 +36,6 @@
     isClonedDemoQuery={true}
     isMultiplayerEdited={false}
     mockResponseTransformer="return "
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/coach/{{ url.searchParams.coach }}/history"
     resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -130,7 +128,6 @@
     isClonedDemoQuery={true}
     isMultiplayerEdited={false}
     mockResponseTransformer="return "
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/coach/{{ url.searchParams.coach }}/history/{{ coachHistoryTable.selectedRow.id }}"
     resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -232,7 +229,6 @@
     isClonedDemoQuery={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/coach/{{ url.searchParams.coach }}"
     resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -248,7 +244,6 @@
     isClonedDemoQuery={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/coach/{{ url.searchParams.coach }}"
     resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -269,7 +264,6 @@
     isMultiplayerEdited={false}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/coach/{{ url.searchParams.coach }}"
     resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"
@@ -292,7 +286,6 @@
     <Link
       id="backToCoachesLink"
       allowWrap={true}
-      ariaLabel=""
       margin="0"
       showUnderline="hover"
       style={{ fontSize: "h6Font", fontWeight: "h6Font", fontFamily: "h6Font" }}

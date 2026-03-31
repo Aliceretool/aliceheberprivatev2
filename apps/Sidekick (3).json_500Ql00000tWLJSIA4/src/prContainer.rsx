@@ -74,7 +74,6 @@
     <Link
       id="link3"
       allowWrap={true}
-      ariaLabel=""
       iconAfter="bold/interface-link-square-alternate"
       style={{
         fontSize: "defaultFont",

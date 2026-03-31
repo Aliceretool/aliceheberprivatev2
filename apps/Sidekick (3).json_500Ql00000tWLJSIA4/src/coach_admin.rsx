@@ -20,7 +20,6 @@
     isClonedDemoQuery={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     query="sidekick/v1/coach/{{ addCoachModal_coach.value }}/history"
     resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"

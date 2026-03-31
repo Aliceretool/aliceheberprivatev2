@@ -95,7 +95,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="sidekick/v1/apprenticeship/{{ item.apprenticeship_uuid }}"
       queryTimeout="20000"
@@ -287,7 +286,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="/sidekick/v1/company?"
       queryTimeout="25000"
@@ -321,7 +319,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="/sidekick/v1/cohort"
       queryTimeout="25000"
@@ -348,7 +345,6 @@
     isClonedDemoQuery={true}
     isMultiplayerEdited={false}
     mockResponseTransformer="return "
-    openAPIParams="{}"
     openAPIRequestBody=""
     overrideOrgCacheForUserCache={true}
     query="/sidekick/v1/apprenticeship-slim?size=500&coach={{ coach_filter_multiselect2.value }}"
@@ -403,7 +399,6 @@
     isClonedDemoQuery={true}
     isMultiplayerEdited={false}
     mockResponseTransformer="return "
-    openAPIParams="{}"
     openAPIRequestBody=""
     overrideOrgCacheForUserCache={true}
     query="sidekick/v1/apprenticeship?"
@@ -1171,7 +1166,6 @@
     <Link
       id="resetFiltersLink"
       allowWrap={true}
-      ariaLabel=""
       horizontalAlign="right"
       iconBefore="line/interface-arrows-synchronize"
       style={{
@@ -1292,7 +1286,6 @@
     </Tabs>
     <Link
       id="showPaneLink"
-      ariaLabel=""
       horizontalAlign="right"
       iconBefore="line/interface-edit-view"
       style={{
@@ -1315,7 +1308,6 @@
     </Link>
     <Link
       id="link6"
-      ariaLabel=""
       hidden="{{ !url.searchParams.sortContext }}"
       iconBefore="bold/interface-arrows-left-circle-2-alternate"
       text="Back to Metrics"

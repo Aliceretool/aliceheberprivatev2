@@ -21,7 +21,6 @@
       headers={'[{"key":"","value":""}]'}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -38,7 +37,6 @@
       headers={'[{"key":"","value":""}]'}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship_monthly.apprenticeship_month_retainable_learner_count",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_retainable_eol_submitted_count"\n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship_monthly.apprenticeship_month_month_start_date",\n      "dateRange": "This month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      // 1. Coach Filter (Locked to Current User)\n      {\n        "member": "sidekick__apprenticeship_monthly.coach_full_name",\n        "operator": "equals",\n        "values": [currentUser_fullName4.value]\n      },\n\n      // 2. Cohort Filter\n      (cohort_cohortSelect4.value && cohort_cohortSelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.cohort_name", \n        "operator": "equals",\n        "values": cohort_cohortSelect4.value\n      } : null,\n\n      // 3. Company Filter\n      (cohort_companySelect4.value && cohort_companySelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.company_name",\n        "operator": "equals",\n        "values": cohort_companySelect4.value\n      } : null,\n \n(cohort_riskSelect3.value && cohort_riskSelect3.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.apprenticeship_latest_risk_bucket_name",\n        "operator": "equals",\n        "values": cohort_riskSelect3.value\n      } : null\n\n    ].filter(item => item !== null))\n  }}\n}'
@@ -61,7 +59,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -82,7 +79,6 @@
       headers={'[{"key":"","value":""}]'}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -100,7 +96,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship_monthly.apprenticeship_month_lsat_responses_sum"\n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship_monthly.apprenticeship_month_month_start_date",\n      "dateRange": "This month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      // 1. Coach Filter\n      (currentUser_fullName4.value) ? {\n        "member": "sidekick__apprenticeship_monthly.coach_full_name",\n        "operator": "equals",\n        "values": [currentUser_fullName4.value]\n      } : null,\n\n      // 2. Cohort Filter\n      (cohort_cohortSelect4.value && cohort_cohortSelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.cohort_name", \n        "operator": "equals",\n        "values": Array.isArray(cohort_cohortSelect4.value) ? cohort_cohortSelect4.value : [cohort_cohortSelect4.value]\n      } : null,\n\n      // 3. Company Filter\n      (cohort_companySelect4.value && cohort_companySelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.company_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_companySelect4.value) ? cohort_companySelect4.value : [cohort_companySelect4.value]\n      } : null,\n\n      // 4. Risk Status Filter\n      (cohort_riskSelect3.value && cohort_riskSelect3.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.apprenticeship_latest_risk_bucket_name",\n        "operator": "equals",\n        "values": cohort_riskSelect3.value\n      } : null\n\n    ].filter(item => item !== null))\n  }}\n}'
@@ -118,7 +113,6 @@
       headers={'[{"key":"","value":""}]'}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship_monthly.apprenticeship_month_delivery_plan_attendance_rate_pct"\n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship_monthly.apprenticeship_month_month_start_date",\n      "dateRange": "This month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      // 1. Coach Filter\n      (currentUser_fullName4.value) ? {\n        "member": "sidekick__apprenticeship_monthly.coach_full_name",\n        "operator": "equals",\n        "values": [currentUser_fullName4.value]\n      } : null,\n\n      // 2. Cohort Filter\n      (cohort_cohortSelect4.value && cohort_cohortSelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.cohort_name", \n        "operator": "equals",\n        "values": Array.isArray(cohort_cohortSelect4.value) ? cohort_cohortSelect4.value : [cohort_cohortSelect4.value]\n      } : null,\n\n      // 3. Company Filter\n      (cohort_companySelect4.value && cohort_companySelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.company_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_companySelect4.value) ? cohort_companySelect4.value : [cohort_companySelect4.value]\n      } : null,\n\n      // 4. Risk Status Filter\n      (cohort_riskSelect3.value && cohort_riskSelect3.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.apprenticeship_latest_risk_bucket_name",\n        "operator": "equals",\n        "values": ohort_riskSelect.value\n      } : null\n\n    ].filter(item => item !== null))\n  }}\n}'
@@ -140,7 +134,6 @@
       headers={'[{"key":"","value":""}]'}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -157,7 +150,6 @@
       headers={'[{"key":"","value":""}]'}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship.apprenticeship_gateway_booked_within_day_90_pct"\n  ],\n  "filters": {{ \n    JSON.stringify([\n      // 1. Coach Filter\n      (currentUser_fullName4.value) ? {\n        "member": "sidekick__apprenticeship.coach_full_name",\n        "operator": "equals",\n        "values": [currentUser_fullName4.value]\n      } : null,\n\n      // 2. Cohort Filter\n      (cohort_cohortSelect4.value && cohort_cohortSelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship.cohort_name", \n        "operator": "equals",\n        "values": Array.isArray(cohort_cohortSelect4.value) ? cohort_cohortSelect4.value : [cohort_cohortSelect4.value]\n      } : null,\n\n      // 3. Company Filter\n      (cohort_companySelect4.value && cohort_companySelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship.company_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_companySelect4.value) ? cohort_companySelect4.value : [cohort_companySelect4.value]\n      } : null,\n\n      // 4. Risk Status Filter\n      (cohort_riskSelect3.value && cohort_riskSelect3.value.length > 0) ? {\n        "member": "sidekick__apprenticeship.latest_risk_bucket_name",\n        "operator": "equals",\n        "values": cohort_riskSelect3.value\n      } : null\n\n    ].filter(item => item !== null))\n  }}\n}'
@@ -180,7 +172,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -198,7 +189,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship_monthly.apprenticeship_month_very_high_risk_count"\n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship_monthly.apprenticeship_month_month_start_date",\n      "dateRange": "This month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      // 1. Coach Filter\n      (currentUser_fullName4.value) ? {\n        "member": "sidekick__apprenticeship_monthly.coach_full_name",\n        "operator": "equals",\n        "values": [currentUser_fullName4.value]\n      } : null,\n\n      // 2. Cohort Filter\n      (cohort_cohortSelect4.value && cohort_cohortSelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.cohort_name", \n        "operator": "equals",\n        "values": Array.isArray(cohort_cohortSelect4.value) ? cohort_cohortSelect4.value : [cohort_cohortSelect4.value]\n      } : null,\n\n      // 3. Company Filter\n      (cohort_companySelect4.value && cohort_companySelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.company_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_companySelect4.value) ? cohort_companySelect4.value : [cohort_companySelect4.value]\n      } : null,\n\n      // 4. Risk Status Filter (Newly Added)\n      (cohort_riskSelect3.value && cohort_riskSelect3.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.apprenticeship_latest_risk_bucket_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_riskSelect3.value) ? cohort_riskSelect3.value : [cohort_riskSelect3.value]\n      } : null\n\n    ].filter(item => item !== null))\n  }}\n}'
@@ -221,7 +211,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -239,7 +228,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship_monthly.apprenticeship_month_avg_lsat_score_avg"\n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship_monthly.apprenticeship_month_month_start_date",\n      "dateRange": "This month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      // 1. Coach Filter\n      (currentUser_fullName4.value) ? {\n        "member": "sidekick__apprenticeship_monthly.coach_full_name",\n        "operator": "equals",\n        "values": [currentUser_fullName4.value]\n      } : null,\n\n      // 2. Cohort Filter\n      (cohort_cohortSelect4.value && cohort_cohortSelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.cohort_name", \n        "operator": "equals",\n        "values": Array.isArray(cohort_cohortSelect4.value) ? cohort_cohortSelect4.value : [cohort_cohortSelect4.value]\n      } : null,\n\n      // 3. Company Filter\n      (cohort_companySelect4.value && cohort_companySelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.company_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_companySelect4.value) ? cohort_companySelect4.value : [cohort_companySelect4.value]\n      } : null,\n\n      // 4. Risk Status Filter\n      (cohort_riskSelect3.value && cohort_riskSelect3.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.apprenticeship_latest_risk_bucket_name",\n        "operator": "equals",\n        "values": cohort_riskSelect3.value\n      } : null\n\n    ].filter(item => item !== null))\n  }}\n}'
@@ -260,7 +248,6 @@
       enableMockResponseTransformer={true}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -275,7 +262,6 @@
       enableMockResponseTransformer={true}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship_monthly.apprenticeship_month_active_apprenticeships_count"\n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship_monthly.apprenticeship_month_month_start_date",\n      "dateRange": "This month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      // 1. Coach Filter (Locked to Current User)\n      {\n        "member": "sidekick__apprenticeship_monthly.coach_full_name",\n        "operator": "equals",\n        "values": [currentUser_fullName4.value]\n      },\n\n      // 2. Cohort Filter\n      (cohort_cohortSelect4.value && cohort_cohortSelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.cohort_name", \n        "operator": "equals",\n        "values": cohort_cohortSelect4.value\n      } : null,\n\n      // 3. Company Filter\n      (cohort_companySelect4.value && cohort_companySelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.company_name",\n        "operator": "equals",\n        "values": cohort_companySelect4.value\n      } : null,\n \n(cohort_riskSelect3.value && cohort_riskSelect3.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.apprenticeship_latest_risk_bucket_name",\n        "operator": "equals",\n        "values": cohort_riskSelect3.value\n      } : null\n\n    ].filter(item => item !== null))\n  }}\n}'
@@ -298,7 +284,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -316,7 +301,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship_monthly.apprenticeship_month_bil_count" \n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship_monthly.apprenticeship_month_month_start_date",\n      "dateRange": "This month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      // 1. Coach Filter (Locked to Current User)\n      {\n        "member": "sidekick__apprenticeship_monthly.coach_full_name",\n        "operator": "equals",\n        "values": [currentUser_fullName4.value]\n      },\n\n      // 2. Cohort Filter\n      (cohort_cohortSelect4.value && cohort_cohortSelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.cohort_name", \n        "operator": "equals",\n        "values": cohort_cohortSelect4.value\n      } : null,\n\n      // 3. Company Filter\n      (cohort_companySelect4.value && cohort_companySelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.company_name",\n        "operator": "equals",\n        "values": cohort_companySelect4.value\n      } : null,\n \n(cohort_riskSelect3.value && cohort_riskSelect3.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.apprenticeship_latest_risk_bucket_name",\n        "operator": "equals",\n        "values": cohort_riskSelect3.value\n      } : null\n\n    ].filter(item => item !== null))\n  }}\n}'
@@ -338,7 +322,6 @@
       headers={'[{"key":"","value":""}]'}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -359,7 +342,6 @@
       headers={'[{"key":"","value":""}]'}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -376,7 +358,6 @@
       headers={'[{"key":"","value":""}]'}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship_monthly.apprenticeship_month_retainable_eol_submission_rate_pct"\n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship_monthly.apprenticeship_month_month_start_date",\n      "dateRange": "This month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      // 1. Coach Filter\n      (currentUser_fullName4.value) ? {\n        "member": "sidekick__apprenticeship_monthly.coach_full_name",\n        "operator": "equals",\n        "values": [currentUser_fullName4.value]\n      } : null,\n\n      // 2. Cohort Filter\n      (cohort_cohortSelect4.value && cohort_cohortSelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.cohort_name", \n        "operator": "equals",\n        "values": Array.isArray(cohort_cohortSelect4.value) ? cohort_cohortSelect4.value : [cohort_cohortSelect4.value]\n      } : null,\n\n      // 3. Company Filter\n      (cohort_companySelect4.value && cohort_companySelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.company_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_companySelect4.value) ? cohort_companySelect4.value : [cohort_companySelect4.value]\n      } : null,\n\n      // 4. Risk Status Filter\n      (cohort_riskSelect3.value && cohort_riskSelect3.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.apprenticeship_latest_risk_bucket_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_riskSelect3.value) ? cohort_riskSelect3.value : [cohort_riskSelect3.value]\n      } : null\n\n    ].filter(item => item !== null))\n  }}\n}'
@@ -394,7 +375,6 @@
       headers={'[{"key":"","value":""}]'}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship.progress_review_completed_on_time_pct"\n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship.progress_review_due_date",\n      "dateRange": "This month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      // 1. Coach Filter\n      (currentUser_fullName4.value) ? {\n        "member": "sidekick__apprenticeship.coach_full_name",\n        "operator": "equals",\n        "values": [currentUser_fullName4.value]\n      } : null,\n\n      // 2. Cohort Filter\n      (cohort_cohortSelect4.value && cohort_cohortSelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship.cohort_name", \n        "operator": "equals",\n        "values": Array.isArray(cohort_cohortSelect4.value) ? cohort_cohortSelect4.value : [cohort_cohortSelect4.value]\n      } : null,\n\n      // 3. Company Filter\n      (cohort_companySelect4.value && cohort_companySelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship.company_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_companySelect4.value) ? cohort_companySelect4.value : [cohort_companySelect4.value]\n      } : null,\n\n      // 4. Risk Status Filter\n      (cohort_riskSelect3.value && cohort_riskSelect3.value.length > 0) ? {\n        "member": "sidekick__apprenticeship.latest_risk_bucket_name",\n        "operator": "equals",\n        "values": cohort_riskSelect3.value\n      } : null\n\n    ].filter(item => item !== null))\n  }}\n}'
@@ -422,7 +402,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="High Risk Count Query"
       playgroundQueryUuid="dc45f30c-fb6d-4bc8-aa9d-3984b11a7569"
@@ -450,7 +429,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="LSAT Query"
       playgroundQueryUuid="b06858dc-a493-45da-bc58-dc2687e4b36c"
@@ -479,7 +457,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="Active Learners Count Query"
       playgroundQueryUuid="2a5e2a1d-9ac3-4b4c-837d-98e9f3b0b869"
@@ -507,7 +484,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="BIL Count Query"
       playgroundQueryUuid="cee490bf-84af-41e8-b486-201bbce2a7af"
@@ -535,7 +511,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="EOL Rate"
       playgroundQueryUuid="23cbfe5f-105a-486d-9220-254ba962c901"
@@ -563,7 +538,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="PR Completion Rate Query"
       playgroundQueryUuid="a4fa1d45-cd10-40dc-9e50-a749a92fe730"
@@ -594,7 +568,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="Zero EOL Count Query"
       playgroundQueryUuid="c92ee2a8-deda-46d1-bc32-fe22a98bfda7"
@@ -622,7 +595,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="Attendance Rate Query"
       playgroundQueryUuid="f3c94fac-8987-4e08-84a0-771e71670a29"
@@ -651,7 +623,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="Gateway Bookings Rate"
       playgroundQueryUuid="7e7466b3-434e-459d-81ed-d2ea4a8babba"
@@ -682,7 +653,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="Cohort Dropdown Query"
       playgroundQueryUuid="4b7b8016-f40d-4a20-b04f-06b5230f6cdf"
@@ -710,7 +680,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="Coach Dropdown Query"
       playgroundQueryUuid="f4709018-cd87-4d67-abb7-52b21037718c"
@@ -739,7 +708,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="Company Dropdown Query"
       playgroundQueryUuid="630d59db-b8f4-4559-ac57-09a251fb9dd9"
@@ -768,7 +736,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="Cohort Dropdown Query"
       playgroundQueryUuid="4b7b8016-f40d-4a20-b04f-06b5230f6cdf"
@@ -796,7 +763,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="Company Dropdown Query"
       playgroundQueryUuid="630d59db-b8f4-4559-ac57-09a251fb9dd9"
@@ -826,7 +792,6 @@
       enableMockResponseTransformer={true}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -841,7 +806,6 @@
       enableMockResponseTransformer={true}
       isClonedDemoQuery={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship_monthly.apprenticeship_month_active_apprenticeships_count",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_bil_count",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_very_high_risk_count",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_retainable_learner_count",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_retainable_eol_submitted_count",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_retainable_eol_submission_rate_pct",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_avg_lsat_score_avg",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_delivery_plan_attendance_rate_pct",\n    "sidekick__apprenticeship.progress_review_completed_on_time_pct",\n    "sidekick__apprenticeship.apprenticeship_gateway_booked_within_day_90_pct"\n  ],\n  "dimensions": [\n    "sidekick__apprenticeship_monthly.coach_full_name"\n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship_monthly.apprenticeship_month_month_start_date",\n      "dateRange": "This month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      // 1. Cohort Filter\n      (cohort_cohortSelect4.value && cohort_cohortSelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.cohort_name", \n        "operator": "equals",\n        "values": Array.isArray(cohort_cohortSelect4.value) ? cohort_cohortSelect4.value : [cohort_cohortSelect4.value]\n      } : null,\n\n      // 2. Company Filter\n      (cohort_companySelect4.value && cohort_companySelect4.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.company_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_companySelect4.value) ? cohort_companySelect4.value : [cohort_companySelect4.value]\n      } : null,\n\n      // 3. Risk Status Filter\n      (cohort_riskSelect3.value && cohort_riskSelect3.value.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.apprenticeship_latest_risk_bucket_name",\n        "operator": "equals",\n        "values": cohort_riskSelect3.value\n      } : null\n\n    ].filter(item => item !== null))\n  }}\n}'
@@ -868,7 +832,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -884,7 +847,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship.progress_review_completed_on_time_pct"\n  ],\n  "dimensions": [\n    "sidekick__apprenticeship.coach_full_name"\n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship.progress_review_due_date",\n      "dateRange": "last 3 months",\n      "granularity": "month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      (cohort_cohortSelect4.value?.length > 0) ? {\n        "member": "sidekick__apprenticeship.cohort_name", \n        "operator": "equals",\n        "values": Array.isArray(cohort_cohortSelect4.value) ? cohort_cohortSelect4.value : [cohort_cohortSelect4.value]\n      } : null,\n      (cohort_companySelect4.value?.length > 0) ? {\n        "member": "sidekick__apprenticeship.company_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_companySelect4.value) ? cohort_companySelect4.value : [cohort_companySelect4.value]\n      } : null,\n      (cohort_riskSelect3.value?.length > 0) ? {\n        "member": "sidekick__apprenticeship.latest_risk_bucket_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_riskSelect3.value) ? cohort_riskSelect3.value : [cohort_riskSelect3.value]\n      } : null\n    ].filter(x => x !== null)) \n  }}\n}'
@@ -906,7 +868,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       resourceName="c8852c06-a4c5-478b-adf6-895715bc91df"
       resourceTypeOverride=""
@@ -922,7 +883,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={false}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query={
         'cubejs-api/v1/load?query={\n  "measures": [\n    "sidekick__apprenticeship_monthly.apprenticeship_month_delivery_plan_attendance_rate_pct",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_retainable_eol_submission_rate_pct",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_avg_lsat_score_avg",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_expected_gateway_rate_pct",\n    "sidekick__apprenticeship_monthly.apprenticeship_month_active_apprenticeships_count"\n  ],\n  "dimensions": [\n    "sidekick__apprenticeship_monthly.apprenticeship_month_month_start_date",\n    "sidekick__apprenticeship_monthly.coach_full_name"\n  ],\n  "timeDimensions": [\n    {\n      "dimension": "sidekick__apprenticeship_monthly.apprenticeship_month_month_start_date",\n      "dateRange": "last 3 months",\n      "granularity": "month"\n    }\n  ],\n  "filters": {{ \n    JSON.stringify([\n      (cohort_cohortSelect4.value?.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.cohort_name", \n        "operator": "equals",\n        "values": Array.isArray(cohort_cohortSelect4.value) ? cohort_cohortSelect4.value : [cohort_cohortSelect4.value]\n      } : null,\n      (cohort_companySelect4.value?.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.company_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_companySelect4.value) ? cohort_companySelect4.value : [cohort_companySelect4.value]\n      } : null,\n      (cohort_riskSelect3.value?.length > 0) ? {\n        "member": "sidekick__apprenticeship_monthly.apprenticeship_latest_risk_bucket_name",\n        "operator": "equals",\n        "values": Array.isArray(cohort_riskSelect3.value) ? cohort_riskSelect3.value : [cohort_riskSelect3.value]\n      } : null\n    ].filter(x => x !== null)) \n  }}\n}'
@@ -972,7 +932,6 @@
       isImported={true}
       mockResponseTransformer="return "
       notificationDuration={4.5}
-      openAPIParams="{}"
       openAPIRequestBody=""
       playgroundQueryName="Learners Query"
       playgroundQueryUuid="42e468ff-ee94-4dba-befb-4a79c7882f47"
@@ -1002,7 +961,6 @@
       isClonedDemoQuery={true}
       isMultiplayerEdited={true}
       mockResponseTransformer="return "
-      openAPIParams="{}"
       openAPIRequestBody=""
       query="sidekick/v1/apprenticeship?size=500"
       resourceName="5c1aad02-a230-491c-b72d-d1e92ebaa30f"

@@ -36,7 +36,6 @@
     isClonedDemoQuery={true}
     mockResponseTransformer="return "
     notificationDuration={4.5}
-    openAPIParams="{}"
     openAPIRequestBody=""
     resourceName="8d6b2e87-34ac-42a7-b4ea-c51114559072"
     runWhenModelUpdates={false}

@@ -37,7 +37,6 @@ progress and latest coach notes."
     />
     <Link
       id="ctaEmptyStateLink"
-      ariaLabel=""
       horizontalAlign="center"
       showUnderline="never"
       style={{ map: { text: "#4a90e2" } }}
