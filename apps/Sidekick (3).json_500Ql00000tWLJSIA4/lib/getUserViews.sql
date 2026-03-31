@@ -1,0 +1,1 @@
+SELECT * FROM user_views WHERE user_email = {{ current_user.email }}
