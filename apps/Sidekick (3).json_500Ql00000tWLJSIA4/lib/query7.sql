@@ -1,1 +1,0 @@
-SELECT * FROM zap_synthetic_data 
