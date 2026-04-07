@@ -1,22 +1,52 @@
 {
   "button1": {
-    "row": 0.6,
-    "col": 3,
+    "row": 0.4,
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
+  "button2": {
+    "row": 1.4,
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
+  "button3": {
+    "row": 2.4,
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
+  "button4": {
+    "row": 3.4,
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
+  "button5": {
+    "row": 4.4,
+    "col": 7,
+    "height": 1,
+    "width": 2
+  },
+  "button6": {
+    "row": 5.4,
+    "col": 7,
     "height": 1,
     "width": 2
   },
   "jsonEditor1": {
-    "row": 11,
+    "row": 14.4,
     "height": 8,
     "width": 6
   },
   "jsonEditor2": {
-    "row": 19.4,
+    "row": 22.4,
     "height": 8,
     "width": 4
   },
   "table1": {
-    "row": 1.8,
+    "row": 6.4,
     "height": 8,
     "width": 8
   },
@@ -25,7 +55,7 @@
     "height": 1
   },
   "textInput1": {
-    "row": 11.4,
+    "row": 14.4,
     "col": 7,
     "height": 0.2,
     "width": 4

@@ -14,7 +14,12 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
-    <Button id="button1" text="added button" />
+    <Button id="button1" text="in NEW branch only" />
+    <Button id="button2" text="in NEW branch only" />
+    <Button id="button3" text="in NEW branch only" />
+    <Button id="button4" text="in NEW branch only" />
+    <Button id="button5" text="in NEW branch only" />
+    <Button id="button6" text="in NEW branch only" />
     <Table
       id="table1"
       cellSelection="none"
