@@ -14,6 +14,7 @@
       value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
       verticalAlign="center"
     />
+    <Button id="button1" text="added button" />
     <Table
       id="table1"
       cellSelection="none"
