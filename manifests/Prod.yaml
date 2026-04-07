@@ -13,8 +13,6 @@ apps:
     release: latest
   - uuid: 8fa9576b-9c32-489e-98d0-12882e6c6116
     release: latest
-  - uuid: c02ba660-2d10-11f1-9e68-439b6aad10bd
-    release: latest
   - uuid: ca9aa650-05b0-11f1-80d1-cb7d728e6135
     release: 3.0.0
   - uuid: cf2b7cca-17b8-11f1-a4ce-bf2176b84e7a
