@@ -3,10 +3,10 @@
   "version": "43.0.9",
   "pageUuid": "5e9e26c2-6e0f-11f0-b911-87774dd81c66",
   "appTemplate": {
+    "appMaxWidth": "100%",
     "appThemeId": -1,
     "preloadedAppJavaScript": "function myCustomHelper(str) {\n  return str + 'test 1646';\n}\n",
     "rootScreen": "page1",
-    "version": "3.247.0",
-    "experimentalDataTabEnabled": true
+    "version": "3.357.0"
   }
 }
