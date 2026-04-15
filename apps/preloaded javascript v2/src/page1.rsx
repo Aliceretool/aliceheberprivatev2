@@ -2,6 +2,7 @@
   id="page1"
   _customShortcuts={[]}
   _hashParams={[]}
+  _order={0}
   _searchParams={[]}
   browserTitle=""
   title="Page 1"
@@ -19,10 +20,11 @@
     id="query2"
     query={include("../lib/query2.sql", "string")}
     resourceDisplayName="retool_db"
-    resourceName="3c301c6a-d252-439c-b49a-40ff9c939fcf"
+    resourceName="8e7ce9ed-91a4-46f1-86c3-6c413257e353"
     warningCodes={[]}
   >
     <Event
+      id="33c511bf"
       event="success"
       method="trigger"
       params={{}}
@@ -53,5 +55,6 @@
       verticalAlign="center"
     />
     <JSONEditor id="jsonEditor1" value="{{ query1.data }}" />
+    <Button id="button1" text="Button" />
   </Frame>
 </Screen>
