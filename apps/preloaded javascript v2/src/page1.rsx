@@ -2,6 +2,7 @@
   id="page1"
   _customShortcuts={[]}
   _hashParams={[]}
+  _order={0}
   _searchParams={[]}
   browserTitle=""
   title="Page 1"
@@ -23,7 +24,7 @@
     warningCodes={[]}
   >
     <Event
-      id="6051fa17"
+      id="33c511bf"
       event="success"
       method="trigger"
       params={{}}
@@ -54,5 +55,6 @@
       verticalAlign="center"
     />
     <JSONEditor id="jsonEditor1" value="{{ query1.data }}" />
+    <Button id="button1" text="Button" />
   </Frame>
 </Screen>
