@@ -1,0 +1,155 @@
+id: aiAgentExecute1
+type: datasource
+subtype: JavascriptQuery
+resourceName: RetoolAIAgentExecuteQuery
+template:
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  streamResponse: false
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  instructions: >-
+    You are a helpful assistant chatting with {{ current_user.firstName }} {{
+    current_user.lastName }}. Their email is {{ current_user.email }}, and the
+    date is {{ new Date() }}. chat with me
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  query: ''
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  model: gemini-2.5-pro
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  providerId: retoolAIBuiltIn::google
+  importedQueryInputs: {}
+  _additionalScope: []
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  drafts:
+    array: []
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  temperature: 0.3
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  timestamp: 0
+  mcpServers:
+    array: []
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  maxIterations: 10
+  requireConfirmation: false
+  queryFailureConditions: ''
+  tools:
+    - draft:
+        userSid: '@@PREDEFINED_TOOL_DRAFT@@'
+        draftId: 22428d8d-3cd2-4be5-894a-8863f4ed1132
+      approvalRequired: false
+      params:
+        - name: search_query
+          description: The natural language search query to execute.
+          type: string
+          required: true
+        - name: max_results
+          description: >-
+            Maximum number of results to return. The default is 5. Must be
+            between 1 and 20.
+          type: number
+          required: false
+      handler:
+        type: function
+        functionId: 092cd82c-5910-4e57-9b5e-b0693b35e772
+      name: Search Web
+      metadata:
+        iconName: ToolSearch
+        iconColor: gray
+        predefinedToolDefinitionId: searchWeb:1
+        schemaId: searchWeb
+        schemaVersion: 1
+        type: predefined
+        summary: ''
+      handlerTimeout: 10000
+      id: 3e6e3cfa-5ebc-469c-b1b7-1f66ea884ae1
+      description: >-
+        Perform a web search and retrieve a list of relevant results based on a
+        natural language query.
+    - draft: null
+      approvalRequired: false
+      params:
+        - name: url
+          description: The full URL of the webpage to extract content from.
+          type: string
+          required: true
+      handler:
+        type: function
+        functionId: 77ff5a52-4ced-4640-a9a2-dfcd2a7127fd
+      name: Get Webpage Content
+      metadata:
+        iconName: ToolSearch
+        iconColor: gray
+        predefinedToolDefinitionId: readWebpage:1
+        schemaId: readWebpage
+        schemaVersion: 1
+        type: predefined
+        summary: ''
+      handlerTimeout: 10000
+      id: 029f3f44-fa7d-4c2a-bfd1-c72f2f52973c
+      description: >-
+        Fetch the contents of a webpage and extract the main text content for
+        analysis or processing.
+  changesetIsObject: false
+  providerName: google
+  enableCaching: false
+  allowedGroups: []
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-12-18T16:19:06.007Z
+blockData:
+  top: 48
+  left: 480
+  uuid: 8662231c-26d4-4e88-87a1-ff79604d9b87
+  pluginId: aiAgentExecute1
+  blockType: aiAgentExecute
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: RetoolAIAgentExecuteQuery
+  incomingPorts: []
+  incomingOnSuccessEdges:
+    - 605b8aff-55a7-4d62-a5c4-2dc23d54389e
