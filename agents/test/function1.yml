@@ -1,0 +1,101 @@
+id: function1
+type: datasource
+subtype: RESTQuery
+resourceName: REST-WithoutResource
+template:
+  queryRefreshTime: ''
+  paginationLimit: ''
+  allowedGroupIds: []
+  streamResponse: false
+  body: ''
+  lastReceivedFromResourceAt: null
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: true
+  paginationPaginationField: ''
+  workflowRunExecutionType: sync
+  headers: ''
+  showFailureToaster: true
+  paginationEnabled: false
+  query: null
+  playgroundQueryUuid: ''
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  importedQueryInputs: {}
+  isImported: false
+  showSuccessToaster: true
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  cookies: ''
+  metadata: null
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  rawData: null
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  enableErrorTransformer: false
+  showLatestVersionUpdatedWarning: false
+  paginationDataField: ''
+  timestamp: 0
+  openAPIParams: '{}'
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  version: 2
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  transformer: return data
+  events: []
+  queryTimeout: '10000'
+  workflowId: null
+  requireConfirmation: false
+  type: GET
+  queryFailureConditions: ''
+  changesetIsObject: false
+  enableCaching: false
+  allowedGroups: []
+  bodyType: none
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-12-18T16:19:19.643Z
+blockData:
+  top: 40
+  left: 40
+  uuid: fb3c696c-9c69-4c0f-9e0a-59c9f7421cab
+  options:
+    subflowId: 092cd82c-5910-4e57-9b5e-b0693b35e772
+    parameters:
+      - id: d9ef7498-0068-4c30-b7a4-42343e687bf0
+        name: search_query
+        exampleValue: ''
+      - id: 9de861aa-ed92-468b-a74e-d54689967271
+        name: max_results
+        exampleValue: ''
+  pluginId: function1
+  blockType: function
+  editorType: RESTQuery
+  resourceName: REST-WithoutResource
+  incomingOnSuccessEdges: []
