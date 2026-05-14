@@ -1,0 +1,188 @@
+id: compareReports
+type: datasource
+subtype: RetoolAIQuery
+resourceName: retool_ai
+resourceDisplayName: retool_ai
+template:
+  ordered:
+    - vectorNamespaceIds:
+        array: []
+    - vectorDynamicUrls: ''
+    - queryRefreshTime: ''
+    - allowedGroupIds:
+        array: []
+    - vectorActionNamespaceDynamicModeEnabled: false
+    - vectorCreateAndFetchDynamicModeEnabled: false
+    - streamResponse: true
+    - imageClassifierDynamicLabels: ''
+    - lastReceivedFromResourceAt: null
+    - vectorSemanticSearchString: ''
+    - isFunction: false
+    - functionParameters: null
+    - queryDisabledMessage: ''
+    - customTemperature: '1'
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - functionDescription: null
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunExecutionType: sync
+    - showFailureToaster: true
+    - vectorUrls:
+        array: []
+    - customSystemMessage: >-
+        You are a competitive analysis agent. Your task is to compare two
+        competitive analysis reports and determine if the new report is
+        **materially different** from the previous one. A material difference is
+        any significant update or change in the competitor's offerings, market
+        position, or other strategic factors that would affect a company's
+        decisions.
+
+
+
+        Please classify as:  
+
+        - `materially different` if there are significant changes in key points
+        or insights.  
+
+        - `not materially different` if there are only minor updates or no
+        important differences.
+
+
+        Additionally, provide a short summary of key differences or updates.
+
+
+        Respond only with this JSON structure, replacing the ${variables} with
+        your analysis.  
+
+
+        ```
+
+        {
+          "materially_different": ${true or false},
+          "key_differences_summary": ${"A concise summary of what changed or why it's the same."}
+        }
+
+        ```
+    - textExtractorDynamicLabels: ''
+    - imageExtractorLabels:
+        array: []
+    - query: ''
+    - playgroundQueryUuid: ''
+    - imageExtractorDynamicModeEnabled: false
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams:
+        array: []
+    - model: gpt-4o-mini
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - defaultModelInitialized: false
+    - providerId: retoolAIBuiltIn::openAI
+    - textClassifierLabels:
+        array: []
+    - textClassifierDynamicModeEnabled: false
+    - importedQueryInputs:
+        object: {}
+    - instruction: |
+        Here are the two reports:
+
+        **Currently Stored Report:**  
+        {{params.currentCompetitveAnalysis}}
+
+        **Newly Generated Report:**  
+        {{params.newCompetitveAnalysis}}
+    - isImported: false
+    - imageModel: dall-e-3
+    - showSuccessToaster: true
+    - fileUseDynamicSource: false
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata:
+        object: {}
+    - textClassifierDynamicLabels: ''
+    - queryRunTime: null
+    - changesetObject: ''
+    - offlineOptimisticResponse: null
+    - errorTransformer: return data.error
+    - finished: null
+    - embeddingModel: text-embedding-ada-002
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - chatInput: ''
+    - rawData: null
+    - vectorNamespaceId: ''
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams:
+        array: []
+    - vectorDynamicNamespaces: ''
+    - enableErrorTransformer: false
+    - imageExtractorDynamicLabels: ''
+    - multimodalModel: gpt-4o
+    - showLatestVersionUpdatedWarning: false
+    - vectorActionDynamicNamespace: ''
+    - dynamicModelName: ''
+    - timestamp: 0
+    - evalType: script
+    - textExtractorDynamicModeEnabled: false
+    - action: textGeneration
+    - textExtractorLabels:
+        array: []
+    - importedQueryDefaults:
+        object: {}
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - fileSource: ''
+    - filterLabels:
+        array: []
+    - dynamicModelEnabled: false
+    - systemMessage: You are a helpful assistant
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - content: ''
+    - transformer: return data
+    - events:
+        array: []
+    - vectorAction: upsertDocument
+    - queryTimeout: '120000'
+    - workflowId: null
+    - vectorNamespacesDynamicModeEnabled: false
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - source: ''
+    - imageClassifierLabels:
+        array: []
+    - imageClassifierDynamicModeEnabled: false
+    - changesetIsObject: false
+    - vectorModeEnabled: false
+    - vectorNamespaceIdsFilters:
+        array: []
+    - providerName: openAI
+    - enableCaching: false
+    - allowedGroups:
+        array: []
+    - chatHistory: ''
+    - imageContent: ''
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2025-05-24T20:49:55.210Z
+blockData:
+  top: 48
+  left: 448
+  uuid: a19deabb-7ad4-4bf4-89ac-acb7382e1831
+  pluginId: compareReports
+  blockType: default
+  editorType: RetoolAIQuery
+  resourceName: retool_ai
+  incomingOnSuccessEdges:
+    - 19587a1d-a12d-408b-91c3-40a2bc61e165

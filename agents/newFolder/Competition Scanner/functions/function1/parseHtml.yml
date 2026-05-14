@@ -1,0 +1,183 @@
+id: parseHtml
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - queryRefreshTime: ''
+    - allowedGroupIds:
+        array: []
+    - streamResponse: false
+    - lastReceivedFromResourceAt: null
+    - isFunction: false
+    - functionParameters: null
+    - queryDisabledMessage: ''
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - functionDescription: null
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunExecutionType: sync
+    - showFailureToaster: true
+    - query: >-
+        // 1. Grab raw HTML
+
+        let html = getContent.data.message;
+
+
+        // 2. Remove head, script, style, noscript and their content
+
+        html = html
+          .replace(/<head[\s\S]*?<\/head>/gi, "")
+          .replace(/<(script|style|noscript)[\s\S]*?<\/\1>/gi, "");
+
+        // 3. Mark block-level tags as line breaks
+
+        const blockTags = [
+          "address","article","aside","blockquote","canvas","dd","div","dl","dt","fieldset",
+          "figcaption","figure","footer","form","h[1-6]","header","hr","li","main","nav",
+          "noscript","ol","p","pre","section","table","tfoot","ul","video","br","tr","td","th"
+        ];
+
+        const blockRegex = new RegExp(`<(?:${blockTags.join("|")})\\b[^>]*>`,
+        "gi");
+
+        html = html.replace(blockRegex, "\n");
+
+
+        // 4. Strip all remaining tags
+
+        html = html.replace(/<[^>]+>/g, "");
+
+
+        // 5. Decode numeric entities (decimal & hex)
+
+        html = html
+          .replace(/&#(\d+);/g, (_, dec) => String.fromCharCode(dec))
+          .replace(/&#x([0-9A-Fa-f]+);/g, (_, hex) => String.fromCharCode(parseInt(hex, 16)));
+
+        // 6. Decode common named entities
+
+        const entityMap = {
+          nbsp: " ", lt: "<", gt: ">", amp: "&", quot: '"', apos: "'",
+          mdash: "-", ndash: "-", hellip: "…", rsquo: "’", lsquo: "‘",
+          ldquo: "“", rdquo: "”"
+        };
+
+        html = html.replace(/&([a-zA-Z]+);/g, (_, name) =>
+          name in entityMap ? entityMap[name] : `&${name};`
+        );
+
+
+        // 7. Collapse whitespace and blank lines
+
+        const text = html
+          .split("\n")
+          .map(line => line.replace(/\s+/g, " ").trim())
+          .filter(line => line.length > 0)
+          .join("\n");
+
+        // after all your stripping/decoding steps, assume `text` is your
+        newline-separated string
+
+
+        const threshold = 80;          // max length for a line to be considered
+        short
+
+        const lines = text.split("\n");
+
+        const merged = [];
+
+
+        for (const line of lines) {
+          const trimmed = line.trim();
+          if (!trimmed) continue;
+
+          if (merged.length === 0) {
+            merged.push(trimmed);
+          } else {
+            const prev = merged[merged.length - 1];
+            if (trimmed.length < threshold) {
+              // append short line to previous
+              merged[merged.length - 1] = prev + " " + trimmed;
+            } else {
+              merged.push(trimmed);
+            }
+          }
+        }
+
+
+        const finalText = merged.join("\n");
+
+        return finalText;
+    - playgroundQueryUuid: ''
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams:
+        array: []
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - importedQueryInputs:
+        object: {}
+    - _additionalScope:
+        array: []
+    - isImported: false
+    - showSuccessToaster: true
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata: null
+    - queryRunTime: null
+    - changesetObject: ''
+    - offlineOptimisticResponse: null
+    - errorTransformer: return data.error
+    - finished: null
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - rawData: null
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams:
+        array: []
+    - enableErrorTransformer: false
+    - showLatestVersionUpdatedWarning: false
+    - timestamp: 0
+    - evalType: script
+    - importedQueryDefaults:
+        object: {}
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - transformer: return data
+    - events:
+        array: []
+    - queryTimeout: '10000'
+    - workflowId: null
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - changesetIsObject: false
+    - enableCaching: false
+    - allowedGroups:
+        array: []
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2025-05-09T22:07:36.388Z
+blockData:
+  top: 48
+  left: 1008
+  uuid: 1b9bab4d-25be-433a-b86b-ce04dd4a2955
+  pluginId: parseHtml
+  blockType: code
+  editorType: JavascriptQuery
+  resourceName: JavascriptQuery
+  incomingOnSuccessEdges:
+    - 95387b51-fec3-469b-a875-0ac1b41982bf

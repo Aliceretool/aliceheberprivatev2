@@ -1,0 +1,20 @@
+id: params
+type: datasource
+subtype: JavascriptQuery
+resourceName: JavascriptQuery
+template:
+  ordered:
+    - query: return null
+    - evalType: script
+createdAt: 2025-05-24T20:32:48.332Z
+blockData:
+  top: 48
+  left: 48
+  uuid: 19587a1d-a12d-408b-91c3-40a2bc61e165
+  options: {}
+  pluginId: params
+  blockType: webhook
+  editorType: JavascriptQuery
+  isMinimized: false
+  resourceName: webhook
+  incomingOnSuccessEdges: []
