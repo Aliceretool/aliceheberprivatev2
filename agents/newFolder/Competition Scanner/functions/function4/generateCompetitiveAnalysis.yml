@@ -1,0 +1,161 @@
+id: generateCompetitiveAnalysis
+type: datasource
+subtype: RetoolAIQuery
+resourceName: retool_ai
+resourceDisplayName: retool_ai
+template:
+  ordered:
+    - vectorNamespaceIds:
+        array: []
+    - vectorDynamicUrls: ''
+    - queryRefreshTime: ''
+    - allowedGroupIds:
+        array: []
+    - vectorActionNamespaceDynamicModeEnabled: false
+    - vectorCreateAndFetchDynamicModeEnabled: false
+    - streamResponse: true
+    - imageClassifierDynamicLabels: ''
+    - lastReceivedFromResourceAt: null
+    - vectorSemanticSearchString: ''
+    - isFunction: false
+    - functionParameters: null
+    - queryDisabledMessage: ''
+    - customTemperature: '.5'
+    - servedFromCache: false
+    - offlineUserQueryInputs: ''
+    - functionDescription: null
+    - successMessage: ''
+    - queryDisabled: ''
+    - playgroundQuerySaveId: latest
+    - workflowParams: null
+    - resourceNameOverride: ''
+    - runWhenModelUpdates: false
+    - workflowRunExecutionType: sync
+    - showFailureToaster: true
+    - vectorUrls:
+        array: []
+    - customSystemMessage: "You are an expert competitive analyst. You are hired to write a competitive analysis of the following competitior based on some market research from their website, blog, pricing and release notes.\n\nObjective: Generate a comprehensive and professional competitive analysis for the specified SaaS competitor. The analysis should focus on the competitor’s product offerings, market positioning, and strategic advantages. Use information from the competitor’s website, blog, and release notes provided as context.\n\nOutput Fields:\n\t1.\tCompetitor Overview\n\t•\tBrief summary of the company, including its history, mission, and target market.\n\t•\tKey product offerings and services.\n\t•\tCompany size (employees, revenue, etc.) and geographic presence.\n\t2.\tProduct Features & Differentiation\n\t•\tList and describe key features of the competitor’s products.\n\t•\tHighlight any unique selling points (USPs) or differentiators compared to other competitors in the market.\n\t•\tInclude information on the competitor’s product roadmap (based on release notes, if available).\n\t3.\tPricing Strategy\n\t•\tOverview of the competitor’s pricing model (e.g., subscription tiers, pay-as-you-go, freemium, etc.).\n\t•\tAny discounts, promotions, or special offers.\n\t•\tCompare pricing against similar competitors in the industry.\n\t4.\tMarket Positioning & Branding\n\t•\tDescription of how the competitor positions itself in the market (e.g., premium, budget-friendly, niche).\n\t•\tKey messaging from their website, blog, and marketing materials.\n\t•\tTarget customer segments (e.g., SMBs, enterprises, startups, etc.).\n\t5.\tCustomer Reviews & Sentiment\n\t•\tSummarize customer feedback and reviews found on the competitor’s website, third-party review platforms, and social media.\n\t•\tIdentify common pain points or areas where the competitor excels.\n\t•\tAnalyze sentiment (positive, neutral, or negative).\n\t6.\tTechnology Stack & Integrations\n\t•\tList of core technologies and platforms used by the competitor.\n\t•\tKey integrations and partnerships with third-party tools or services.\n\t•\tAny proprietary technologies or innovations they leverage.\n\t7.\tCompetitive Advantages & Weaknesses\n\t•\tKey strengths (e.g., product features, market share, customer loyalty).\n\t•\tPotential weaknesses or areas of vulnerability (e.g., missing features, technical limitations, customer service issues).\n\t•\tOpportunities and threats in the current market landscape.\n\t8.\tRecent News & Developments\n\t•\tRecent product launches, updates, or major company announcements (based on release notes or blog posts).\n\t•\tAny significant changes in their market strategy or organizational shifts.\n\t9.\tSWOT Analysis\n\t•\tStrengths, Weaknesses, Opportunities, and Threats for the competitor based on the gathered context.\n\nAdditional Notes:\n\t•\tEnsure that the analysis is objective and based on verifiable facts from the provided sources (website, blog, release notes).\n\t•\tUse clear, concise language suitable for an executive-level audience.\n\t•\tProvide actionable insights that can inform strategic decisions, including potential areas for differentiation and competitive advantages."
+    - textExtractorDynamicLabels: ''
+    - imageExtractorLabels:
+        array: []
+    - query: ''
+    - playgroundQueryUuid: ''
+    - imageExtractorDynamicModeEnabled: false
+    - playgroundQueryId: null
+    - error: null
+    - workflowRunBodyType: raw
+    - privateParams:
+        array: []
+    - model: gpt-4.1-nano
+    - queryRunOnSelectorUpdate: false
+    - runWhenPageLoadsDelay: ''
+    - data: null
+    - defaultModelInitialized: true
+    - providerId: retoolAIBuiltIn::openAI
+    - textClassifierLabels:
+        array: []
+    - textClassifierDynamicModeEnabled: false
+    - importedQueryInputs:
+        object: {}
+    - instruction: >-
+        Please write a competitive analysis using the given template for {{
+        params.competitorName }}. 
+
+
+        Here is a summary of our research on the competitor:
+
+        {{ params.competitorWebpageSummary }}
+
+
+        And here is the full source material from the competitor's website,
+        blog, release notes, and pricing page:
+
+        {{ params.competitorWebpageContent }}
+    - isImported: false
+    - imageModel: dall-e-3
+    - showSuccessToaster: true
+    - fileUseDynamicSource: false
+    - cacheKeyTtl: ''
+    - requestSentTimestamp: null
+    - metadata:
+        object: {}
+    - textClassifierDynamicLabels: ''
+    - queryRunTime: null
+    - changesetObject: ''
+    - offlineOptimisticResponse: null
+    - errorTransformer: return data.error
+    - finished: null
+    - embeddingModel: text-embedding-ada-002
+    - confirmationMessage: null
+    - isFetching: false
+    - changeset: ''
+    - chatInput: ''
+    - rawData: null
+    - vectorNamespaceId: ''
+    - queryTriggerDelay: '0'
+    - resourceTypeOverride: null
+    - watchedParams:
+        array: []
+    - vectorDynamicNamespaces: ''
+    - enableErrorTransformer: false
+    - imageExtractorDynamicLabels: ''
+    - multimodalModel: gpt-4o
+    - showLatestVersionUpdatedWarning: false
+    - vectorActionDynamicNamespace: ''
+    - dynamicModelName: ''
+    - timestamp: 0
+    - evalType: script
+    - textExtractorDynamicModeEnabled: false
+    - action: textGeneration
+    - textExtractorLabels:
+        array: []
+    - importedQueryDefaults:
+        object: {}
+    - enableTransformer: false
+    - showUpdateSetValueDynamicallyToggle: true
+    - fileSource: ''
+    - filterLabels:
+        array: []
+    - dynamicModelEnabled: false
+    - systemMessage: You are a helpful assistant
+    - overrideOrgCacheForUserCache: false
+    - runWhenPageLoads: false
+    - content: ''
+    - transformer: return data
+    - events:
+        array: []
+    - vectorAction: upsertDocument
+    - queryTimeout: '120000'
+    - workflowId: null
+    - vectorNamespacesDynamicModeEnabled: false
+    - requireConfirmation: false
+    - queryFailureConditions: ''
+    - source: ''
+    - imageClassifierLabels:
+        array: []
+    - imageClassifierDynamicModeEnabled: false
+    - changesetIsObject: false
+    - vectorModeEnabled: false
+    - vectorNamespaceIdsFilters:
+        array: []
+    - providerName: openAI
+    - enableCaching: false
+    - allowedGroups:
+        array: []
+    - chatHistory: ''
+    - imageContent: ''
+    - offlineQueryType: None
+    - queryThrottleTime: '750'
+    - updateSetValueDynamically: false
+    - notificationDuration: ''
+createdAt: 2025-05-24T20:21:50.096Z
+blockData:
+  top: 48
+  left: 448
+  uuid: 46dd886b-d9f9-4cd5-ad8d-e826e7a02226
+  pluginId: generateCompetitiveAnalysis
+  blockType: default
+  editorType: RetoolAIQuery
+  resourceName: retool_ai
+  incomingOnSuccessEdges:
+    - 046380f2-cf3d-4244-9449-0f0ca5c53b43
