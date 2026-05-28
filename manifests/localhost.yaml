@@ -19,8 +19,6 @@ apps:
     release: latest
   - uuid: daeb9426-f81a-4555-9dea-6a2a26f94ade
     release: latest
-  - uuid: fcb17926-70b0-4762-a639-17e0d25aa0b1
-    release: latest
 workflows:
   - uuid: 684ba6a3-a793-4adf-bacd-09bc292c94da
     release: latest
