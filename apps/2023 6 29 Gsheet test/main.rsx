@@ -132,5 +132,10 @@
     <Button id="button1" text="Button" />
     <Button id="button2" text="Button" />
     <Button id="button3" text="Button" />
+    <Text
+      id="text1"
+      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
+      verticalAlign="center"
+    />
   </Frame>
 </App>

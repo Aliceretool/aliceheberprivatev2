@@ -19,5 +19,9 @@
   "table1": {
     "height": 8,
     "width": 8
+  },
+  "text1": {
+    "row": 11,
+    "height": 1
   }
 }
