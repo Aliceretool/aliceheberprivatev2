@@ -1,0 +1,1 @@
+select *, {{ year || new Date().getFullYear()}} as xxx from alice_user
