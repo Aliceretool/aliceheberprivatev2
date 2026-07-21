@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "retool": {
+    "app": {
+      "uuid": "4fca4ce8-82e0-11f1-85e7-6f14ab734efd",
+      "name": "Trading 212",
+      "resourceReferencesByFile": {},
+      "appIdentifier": null
+    }
+  }
+}
