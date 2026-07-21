@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "retool": {
+    "app": {
+      "uuid": "1b7184c4-841c-11f1-9345-4fa33bffea84",
+      "name": "azure blob test 2",
+      "resourceReferencesByFile": {},
+      "appIdentifier": null
+    }
+  }
+}
