@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "retool": {
+    "app": {
+      "uuid": "4844e8d0-851e-11f1-83b1-533c6574b678",
+      "name": "test draft 2",
+      "resourceReferencesByFile": {},
+      "appIdentifier": null
+    }
+  }
+}
