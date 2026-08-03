@@ -1,6 +1,6 @@
 export default function App() {
   return (
-    <div className="grid min-h-screen w-full grid-cols-1 place-items-center gap-6 bg-background p-6 sm:grid-cols-2 lg:grid-cols-4">
+    <div className="grid min-h-screen w-full grid-cols-1 place-items-center gap-6 bg-[#708238] dark:bg-[#556b2f] p-6 sm:grid-cols-2 lg:grid-cols-4">
       <img
         src="https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?auto=compress&cs=tinysrgb&w=1200"
         alt="Zebra"
