@@ -1,5 +1,5 @@
 :root:root {
-  --app-color-canvas: #f5f5f5;
+  --app-color-canvas: #fef08a;
   --app-color-primary-base: #6976d9;
   --app-color-primary: rgba(217, 104, 203, 1);
   --app-color-secondary: #6976d9;
@@ -18,7 +18,7 @@
   --app-heading-h5: 16px;
   --app-heading-h6: 14px;
 
-  --background: 0 0% 96.1%;
+  --background: 54 96% 77%;
   --foreground: 216 33.3% 5.9%;
   --card: 0 0% 100%;
   --card-foreground: 216 33.3% 5.9%;
@@ -57,7 +57,7 @@
 }
 
 :root.dark {
-  --app-color-canvas: #f5f5f5;
+  --app-color-canvas: #fef08a;
   --app-color-primary-base: #6976d9;
   --app-color-primary: rgba(217, 104, 203, 1);
   --app-color-secondary: #6976d9;
@@ -76,7 +76,7 @@
   --app-heading-h5: 16px;
   --app-heading-h6: 14px;
 
-  --background: 0 0% 96.1%;
+  --background: 54 96% 77%;
   --foreground: 216 33.3% 5.9%;
   --card: 0 0% 100%;
   --card-foreground: 216 33.3% 5.9%;
