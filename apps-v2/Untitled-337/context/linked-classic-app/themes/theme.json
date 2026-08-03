@@ -1,0 +1,77 @@
+{
+  "name": "theme2",
+  "type": null,
+  "theme": {
+    "info": "hsl(208, 70%, 55%)",
+    "canvas": "#F5F5F5",
+    "danger": "#CA483F",
+    "h1Font": {
+      "size": "36px"
+    },
+    "h2Font": {
+      "size": "28px"
+    },
+    "h3Font": {
+      "size": "24px"
+    },
+    "h4Font": {
+      "size": "18px"
+    },
+    "h5Font": {
+      "size": "16px"
+    },
+    "h6Font": {
+      "size": "14px"
+    },
+    "modeIds": [
+      "bd7ba146"
+    ],
+    "modeMap": {
+      "bd7ba146": {
+        "id": "bd7ba146",
+        "label": "Default",
+        "theme": {
+          "primary": "rgba(217, 104, 203, 1)"
+        },
+        "tokenValues": {}
+      }
+    },
+    "primary": "#6976D9",
+    "success": "#128747",
+    "warning": "#D17823",
+    "tertiary": "#6976D9",
+    "textDark": "#0A0E14",
+    "variants": {
+      "ToggleLinkWidget": {
+        "styles": {
+          "icon": "danger"
+        }
+      }
+    },
+    "_migrated": true,
+    "automatic": [
+      "#f8dbd8",
+      "#f9e7d7",
+      "#fbedc8",
+      "#d7eae0",
+      "#d2eaf6",
+      "#e4dcf5",
+      "#fadbec"
+    ],
+    "highlight": "#f6e5c4",
+    "labelFont": {
+      "fontWeight": "600"
+    },
+    "secondary": "#6976D9",
+    "textLight": "#FFFFFF",
+    "defaultFont": {},
+    "borderRadius": "4px",
+    "surfacePrimary": "#FFFFFF",
+    "surfaceSecondary": "#FFFFFF",
+    "labelEmphasizedFont": {
+      "fontWeight": "600"
+    },
+    "surfacePrimaryBorder": "",
+    "surfaceSecondaryBorder": ""
+  }
+}

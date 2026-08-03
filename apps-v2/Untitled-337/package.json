@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "retoolMetadata": {
+    "classicAppConversion": {
+      "classicPageUuid": "51faefc2-81e6-11f1-b210-e75edbf16a7d"
+    }
+  },
+  "retool": {
+    "app": {
+      "uuid": "121d4204-8418-11f1-b43b-a73bb9d5897d",
+      "name": "Untitled-337",
+      "resourceReferencesByFile": {
+        "/backend/storage/getImageSignedUrl.ts": [
+          {
+            "name": "d10b8e98-a7a4-4120-aaaf-583687bf6afb",
+            "displayName": "Azure Blob Storage test",
+            "type": "azureBlob"
+          }
+        ]
+      },
+      "appIdentifier": "untitled-337"
+    }
+  }
+}
