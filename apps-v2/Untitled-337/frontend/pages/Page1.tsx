@@ -45,7 +45,7 @@ export default function Page1() {
   }, [trigger])
 
   return (
-    <main className="min-h-screen w-screen overflow-hidden bg-background px-3 py-2 text-foreground">
+    <main className="min-h-screen w-screen overflow-hidden bg-yellow-200 px-3 py-2 text-foreground dark:bg-yellow-900">
       <section className="mt-[6px] flex w-full flex-col items-center gap-4">
         <div className="h-[70px] w-full max-w-[min(33.333vw,480px)] min-w-[220px]">
           {loading ? (

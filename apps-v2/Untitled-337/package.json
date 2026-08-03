@@ -10,6 +10,7 @@
       "uuid": "121d4204-8418-11f1-b43b-a73bb9d5897d",
       "name": "Untitled-337",
       "resourceReferencesByFile": {
+        "/backend/user.d.ts": [],
         "/backend/storage/getImageSignedUrl.ts": [
           {
             "name": "d10b8e98-a7a4-4120-aaaf-583687bf6afb",
