@@ -3,6 +3,8 @@ name: QA
 apps:
   - uuid: 25e7ce50-96e3-4971-8b90-f87f4d7582ed
     release: latest
+  - uuid: 269aa854-9044-11ee-883e-93851b44389d
+    release: latest
   - uuid: 26f8b9b3-810c-42db-a558-7e44c1a0757d
     release: latest
   - uuid: 337895b4-2781-11f1-875a-43e0974ad4e0
