@@ -1,0 +1,139 @@
+:root:root {
+  --app-color-canvas: #f5f5f5;
+  --app-color-primary-base: #6976d9;
+  --app-color-primary: rgba(217, 104, 203, 1);
+  --app-color-secondary: #6976d9;
+  --app-color-tertiary: #6976d9;
+  --app-color-danger: #ca483f;
+  --app-color-success: #128747;
+  --app-color-warning: #d17823;
+  --app-color-surface-primary: #ffffff;
+  --app-color-surface-secondary: #ffffff;
+  --app-color-text-dark: #0a0e14;
+  --app-color-text-light: #ffffff;
+  --app-heading-h1: 36px;
+  --app-heading-h2: 28px;
+  --app-heading-h3: 24px;
+  --app-heading-h4: 18px;
+  --app-heading-h5: 16px;
+  --app-heading-h6: 14px;
+
+  --background: 0 0% 96.1%;
+  --foreground: 216 33.3% 5.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 216 33.3% 5.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 216 33.3% 5.9%;
+  --primary: 307 59.8% 62.9%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 233 59.6% 63.1%;
+  --secondary-foreground: 0 0% 100%;
+  --tertiary: 233 59.6% 63.1%;
+  --tertiary-foreground: 0 0% 100%;
+  --muted: 0 0% 100%;
+  --muted-foreground: 216 20% 32%;
+  --body-foreground: 216 33.3% 5.9%;
+  --accent: 233 59.6% 63.1%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 4 56.7% 52%;
+  --destructive-foreground: 0 0% 100%;
+  --warning: 29 71.3% 47.8%;
+  --warning-foreground: 0 0% 100%;
+  --success: 147 76.5% 30%;
+  --success-foreground: 0 0% 100%;
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  --ring: 307 59.8% 62.9%;
+  --surface-primary: 0 0% 100%;
+  --surface-secondary: 0 0% 100%;
+  --chart-1: 307 59.8% 62.9%;
+  --chart-2: 233 59.6% 63.1%;
+  --chart-3: 147 76.5% 30%;
+  --chart-4: 29 71.3% 47.8%;
+  --chart-5: 4 56.7% 52%;
+  --radius: 4px;
+  --radius-md: 2px;
+  --radius-sm: 0px;
+}
+
+:root.dark {
+  --app-color-canvas: #f5f5f5;
+  --app-color-primary-base: #6976d9;
+  --app-color-primary: rgba(217, 104, 203, 1);
+  --app-color-secondary: #6976d9;
+  --app-color-tertiary: #6976d9;
+  --app-color-danger: #ca483f;
+  --app-color-success: #128747;
+  --app-color-warning: #d17823;
+  --app-color-surface-primary: #ffffff;
+  --app-color-surface-secondary: #ffffff;
+  --app-color-text-dark: #0a0e14;
+  --app-color-text-light: #ffffff;
+  --app-heading-h1: 36px;
+  --app-heading-h2: 28px;
+  --app-heading-h3: 24px;
+  --app-heading-h4: 18px;
+  --app-heading-h5: 16px;
+  --app-heading-h6: 14px;
+
+  --background: 0 0% 96.1%;
+  --foreground: 216 33.3% 5.9%;
+  --card: 0 0% 100%;
+  --card-foreground: 216 33.3% 5.9%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 216 33.3% 5.9%;
+  --primary: 307 59.8% 62.9%;
+  --primary-foreground: 0 0% 100%;
+  --secondary: 233 59.6% 63.1%;
+  --secondary-foreground: 0 0% 100%;
+  --tertiary: 233 59.6% 63.1%;
+  --tertiary-foreground: 0 0% 100%;
+  --muted: 0 0% 100%;
+  --muted-foreground: 216 20% 32%;
+  --body-foreground: 216 33.3% 5.9%;
+  --accent: 233 59.6% 63.1%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 4 56.7% 52%;
+  --destructive-foreground: 0 0% 100%;
+  --warning: 29 71.3% 47.8%;
+  --warning-foreground: 0 0% 100%;
+  --success: 147 76.5% 30%;
+  --success-foreground: 0 0% 100%;
+  --border: 0 0% 90%;
+  --input: 0 0% 90%;
+  --ring: 307 59.8% 62.9%;
+  --surface-primary: 0 0% 100%;
+  --surface-secondary: 0 0% 100%;
+  --chart-1: 307 59.8% 62.9%;
+  --chart-2: 233 59.6% 63.1%;
+  --chart-3: 147 76.5% 30%;
+  --chart-4: 29 71.3% 47.8%;
+  --chart-5: 4 56.7% 52%;
+  --radius: 4px;
+  --radius-md: 2px;
+  --radius-sm: 0px;
+}
+
+h1 {
+  font-size: var(--app-heading-h1);
+}
+
+h2 {
+  font-size: var(--app-heading-h2);
+}
+
+h3 {
+  font-size: var(--app-heading-h3);
+}
+
+h4 {
+  font-size: var(--app-heading-h4);
+}
+
+h5 {
+  font-size: var(--app-heading-h5);
+}
+
+h6 {
+  font-size: var(--app-heading-h6);
+}
