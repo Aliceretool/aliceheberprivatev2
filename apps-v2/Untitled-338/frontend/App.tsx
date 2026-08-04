@@ -20,10 +20,11 @@ export default function App() {
       }}
     >
       <StarterCanvas fadeIn={false} />
-      <div className="pointer-events-none absolute inset-0 flex items-center justify-center">
+      <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center gap-3">
         <div className="rounded-2xl border border-border bg-card/90 p-5 text-card-foreground shadow-retool-lg backdrop-blur-sm">
           <Sparkles className="h-10 w-10 text-primary" aria-label="App icon" />
         </div>
+        <p className="text-sm text-muted-foreground">edited in spacetwo</p>
       </div>
     </div>
   )
