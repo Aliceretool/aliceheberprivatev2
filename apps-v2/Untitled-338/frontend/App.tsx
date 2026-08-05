@@ -25,6 +25,7 @@ export default function App() {
           <Sparkles className="h-10 w-10 text-primary" aria-label="App icon" />
         </div>
         <p className="text-sm text-muted-foreground">edited in spacetwo</p>
+        <p className="text-sm text-muted-foreground">5 aug edit from instance spacetwo</p>
       </div>
     </div>
   )
