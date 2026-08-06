@@ -7,6 +7,12 @@ export default function ProtectedMessage() {
         readOnly
         value="app created in aliceheber.retool.com and then protected"
       />
+      <textarea
+        aria-label="Edit message"
+        className="mt-4 min-h-32 w-full resize-none rounded-lg border border-input bg-background px-4 py-3 text-lg leading-relaxed text-foreground shadow-retool-sm outline-none ring-offset-background focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+        readOnly
+        value="edit from spacetwo"
+      />
     </main>
   )
 }
