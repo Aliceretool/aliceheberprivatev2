@@ -13,6 +13,18 @@ export default function ProtectedMessage() {
         readOnly
         value="edit from spacetwo"
       />
+      <textarea
+        aria-label="Aliceheber edit message"
+        className="mt-4 min-h-32 w-full resize-none rounded-lg border border-input bg-background px-4 py-3 text-lg leading-relaxed text-foreground shadow-retool-sm outline-none ring-offset-background focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+        readOnly
+        value="edit from aliceheber"
+      />
+      <textarea
+        aria-label="New message"
+        className="mt-4 min-h-32 w-full resize-none rounded-lg border border-input bg-background px-4 py-3 text-lg leading-relaxed text-foreground shadow-retool-sm outline-none ring-offset-background focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"
+        readOnly
+        value="edit from spacetwo"
+      />
     </main>
   )
 }
