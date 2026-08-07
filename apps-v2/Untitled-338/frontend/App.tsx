@@ -28,7 +28,6 @@ export default function App() {
         <p className="text-sm text-muted-foreground">5 aug edit from instance spacetwo</p>
         <p className="text-sm text-muted-foreground">2nd edit on 5 aug from instance spacetwo</p>
         <p className="text-sm text-muted-foreground">edit from spacetwo on 6 aug 12.20</p>
-        <p className="text-sm text-muted-foreground">edit from spacetwo on 7 aug</p>
       </div>
     </div>
   )
