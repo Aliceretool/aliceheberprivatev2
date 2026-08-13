@@ -173,6 +173,7 @@
         type="custom"
       >
         <Event
+          id="edc4ac4d"
           event="clickToolbar"
           method="exportData"
           pluginId="table1"
@@ -188,6 +189,7 @@
         type="custom"
       >
         <Event
+          id="d777d612"
           event="clickToolbar"
           method="refresh"
           pluginId="table1"
@@ -200,6 +202,7 @@
     <Button id="button4" text="1113" />
     <Button id="button1" text="trigger QL perm query">
       <Event
+        id="1c4a675e"
         event="click"
         method="trigger"
         params={{ ordered: [] }}
@@ -434,6 +437,7 @@
         type="custom"
       >
         <Event
+          id="6807dee1"
           event="clickToolbar"
           method="exportData"
           pluginId="table2"
@@ -449,6 +453,7 @@
         type="custom"
       >
         <Event
+          id="7778b4e5"
           event="clickToolbar"
           method="refresh"
           pluginId="table2"
