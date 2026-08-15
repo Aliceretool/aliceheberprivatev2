@@ -1,0 +1,52 @@
+{
+  "private": true,
+  "retool": {
+    "app": {
+      "uuid": "4bc62d86-98b3-11f1-918a-e70dbc82a611",
+      "name": "Garden Planning Manager",
+      "resourceReferencesByFile": {
+        "/backend/garden/addPlantTasks.ts": [
+          {
+            "name": "retool_ai_provider_5bace530e8f22ccc721c960eea53fc7e",
+            "displayName": "OpenAI",
+            "type": "openAIProvider"
+          },
+          {
+            "name": "3c301c6a-d252-439c-b49a-40ff9c939fcf",
+            "displayName": "retool_db",
+            "type": "retoolDb"
+          }
+        ],
+        "/backend/garden/checkPlantAmbiguity.ts": [
+          {
+            "name": "retool_ai_provider_5bace530e8f22ccc721c960eea53fc7e",
+            "displayName": "OpenAI",
+            "type": "openAIProvider"
+          }
+        ],
+        "/backend/garden/getGardenSummary.ts": [
+          {
+            "name": "3c301c6a-d252-439c-b49a-40ff9c939fcf",
+            "displayName": "retool_db",
+            "type": "retoolDb"
+          }
+        ],
+        "/backend/garden/getGardenTasks.ts": [
+          {
+            "name": "3c301c6a-d252-439c-b49a-40ff9c939fcf",
+            "displayName": "retool_db",
+            "type": "retoolDb"
+          }
+        ],
+        "/backend/garden/research.ts": [
+          {
+            "name": "retool_ai_provider_5bace530e8f22ccc721c960eea53fc7e",
+            "displayName": "OpenAI",
+            "type": "openAIProvider"
+          }
+        ]
+      },
+      "appIdentifier": "garden-planning-manager"
+    }
+  }
+}
