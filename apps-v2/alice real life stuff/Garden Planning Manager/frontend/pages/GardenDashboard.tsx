@@ -12,8 +12,9 @@ import {
   Search,
   Sparkles,
   Sprout,
+  Trash2,
 } from 'lucide-react'
-import { useAddPlantTasks, useCheckPlantAmbiguity, useGetGardenSummary, useGetGardenTasks } from '../hooks/backend/garden'
+import { useAddPlantTasks, useCheckPlantAmbiguity, useGetGardenSummary, useGetGardenTasks, useRemovePlantTasks } from '../hooks/backend/garden'
 import { Alert, AlertDescription, AlertTitle } from '../lib/shadcn/alert'
 import { Badge } from '../lib/shadcn/badge'
 import { Button } from '../lib/shadcn/button'
@@ -190,6 +191,8 @@ export default function GardenDashboard() {
   const [plantIdentity, setPlantIdentity] = useState('')
   const [ambiguity, setAmbiguity] = useState<PlantAmbiguity | null>(null)
   const [addMessage, setAddMessage] = useState<string | null>(null)
+  const [plantToRemove, setPlantToRemove] = useState('none')
+  const [removeMessage, setRemoveMessage] = useState<string | null>(null)
 
   const {
     data: tasksData,
@@ -201,6 +204,7 @@ export default function GardenDashboard() {
   const { data: summaryData, error: summaryError, trigger: triggerSummary } = useGetGardenSummary()
   const { loading: ambiguityLoading, error: ambiguityError, trigger: triggerCheckPlantAmbiguity } = useCheckPlantAmbiguity()
   const { loading: addPlantLoading, error: addPlantError, trigger: triggerAddPlant } = useAddPlantTasks()
+  const { loading: removePlantLoading, error: removePlantError, trigger: triggerRemovePlant } = useRemovePlantTasks()
 
   const taskParams = useMemo(
     () => ({
@@ -234,6 +238,11 @@ export default function GardenDashboard() {
     })
     return Array.from(names).sort((a, b) => a.localeCompare(b))
   }, [summary.plants, tasks])
+
+  const removablePlants = useMemo(
+    () => availablePlants.filter((plant) => plant !== 'All plants'),
+    [availablePlants],
+  )
 
   const monthCards = months.map((month, index) => {
     const monthSummary = summary.monthly.find((item) => item.month_num === Number(month.value))
@@ -280,6 +289,7 @@ export default function GardenDashboard() {
   async function handleAddPlant(event: FormEvent<HTMLFormElement>) {
     event.preventDefault()
     setAddMessage(null)
+    setRemoveMessage(null)
 
     try {
       if (plantIdentity.length === 0) {
@@ -301,6 +311,26 @@ export default function GardenDashboard() {
       await addPlantToPlan(plantIdentity)
     } catch {
       // The hooks render backend error state.
+    }
+  }
+
+  async function handleRemovePlant() {
+    if (plantToRemove === 'none') return
+    setRemoveMessage(null)
+    setAddMessage(null)
+
+    try {
+      const result = await triggerRemovePlant({ plant: plantToRemove }).result
+      const typedResult = result as { message?: string } | null
+      setRemoveMessage(typedResult?.message ?? `${plantToRemove} removed from the garden plan.`)
+      setPlantToRemove('none')
+      setSelectedPlant('all')
+      setSelectedMonth('all')
+      setSearch('')
+      triggerTasks({ month: 'all', plant: 'all', search: '' }, { skipCache: true })
+      triggerSummary({}, { skipCache: true })
+    } catch {
+      // The hook renders the backend error state.
     }
   }
 
@@ -381,7 +411,7 @@ export default function GardenDashboard() {
           <TabsList className="grid w-full grid-cols-3 rounded-full border border-border bg-card/80 p-1 shadow-retool-sm backdrop-blur lg:w-[520px]">
             <TabsTrigger value="year" className="rounded-full">Garden year</TabsTrigger>
             <TabsTrigger value="tasks" className="rounded-full">This month</TabsTrigger>
-            <TabsTrigger value="add" className="rounded-full">Add plant</TabsTrigger>
+            <TabsTrigger value="add" className="rounded-full">Add / remove plants</TabsTrigger>
           </TabsList>
 
           <TabsContent value="year" className="space-y-6">
@@ -537,7 +567,7 @@ export default function GardenDashboard() {
           </TabsContent>
 
           <TabsContent value="add">
-            <div className="max-w-2xl">
+            <div className="grid gap-6 lg:grid-cols-[minmax(0,42rem)_minmax(20rem,1fr)]">
               <Card className="overflow-hidden rounded-[2rem] border-primary/10 bg-card/90 shadow-retool-md">
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2 text-2xl">
@@ -701,6 +731,62 @@ export default function GardenDashboard() {
                 </CardContent>
               </Card>
 
+              <Card className="overflow-hidden rounded-[2rem] border-rose-200 bg-rose-50/80 shadow-retool-md dark:border-rose-900 dark:bg-rose-950/20">
+                <CardHeader>
+                  <CardTitle className="flex items-center gap-2 text-2xl">
+                    <span className="rounded-full bg-rose-100 p-2 text-rose-700 dark:bg-rose-900/60 dark:text-rose-200">
+                      <Trash2 className="h-5 w-5" />
+                    </span>
+                    Stop growing something
+                  </CardTitle>
+                  <CardDescription>
+                    Remove a plant and all of its reminders if you no longer want it in the plan.
+                  </CardDescription>
+                </CardHeader>
+                <CardContent className="space-y-4">
+                  <div className="space-y-2">
+                    <Label>Plant to remove</Label>
+                    <Select value={plantToRemove} onValueChange={setPlantToRemove}>
+                      <SelectTrigger className="bg-background/80">
+                        <SelectValue placeholder="Choose a plant" />
+                      </SelectTrigger>
+                      <SelectContent>
+                        <SelectItem value="none">Choose a plant</SelectItem>
+                        {removablePlants.map((plant) => (
+                          <SelectItem key={plant} value={plant}>{plant}</SelectItem>
+                        ))}
+                      </SelectContent>
+                    </Select>
+                  </div>
+
+                  {removePlantError ? (
+                    <Alert variant="destructive">
+                      <AlertCircle className="h-4 w-4" />
+                      <AlertTitle>Could not remove this plant</AlertTitle>
+                      <AlertDescription>{removePlantError}</AlertDescription>
+                    </Alert>
+                  ) : null}
+
+                  {removeMessage ? (
+                    <Alert>
+                      <CheckCircle2 className="h-4 w-4" />
+                      <AlertTitle>Plant removed</AlertTitle>
+                      <AlertDescription>{removeMessage}</AlertDescription>
+                    </Alert>
+                  ) : null}
+
+                  <Button
+                    type="button"
+                    variant="destructive"
+                    disabled={plantToRemove === 'none' || removePlantLoading}
+                    onClick={handleRemovePlant}
+                    className="rounded-full"
+                  >
+                    {removePlantLoading ? <RefreshCw className="h-4 w-4 animate-spin" /> : <Trash2 className="h-4 w-4" />}
+                    {removePlantLoading ? 'Removing...' : 'Remove plant'}
+                  </Button>
+                </CardContent>
+              </Card>
             </div>
           </TabsContent>
         </Tabs>

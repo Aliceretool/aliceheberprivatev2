@@ -40,8 +40,7 @@ export default async function(_req: { params: Record<string, never>; user: User 
         COUNT(*) FILTER (WHERE priority ILIKE 'Essential') AS essential_count
       FROM garden_tasks
       GROUP BY COALESCE(NULLIF(plant, ''), 'Unspecified')
-      ORDER BY task_count DESC, plant
-      LIMIT 12`,
+      ORDER BY task_count DESC, plant`,
     ),
   ])
 

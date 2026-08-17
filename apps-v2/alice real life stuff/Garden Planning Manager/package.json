@@ -38,13 +38,22 @@
             "type": "retoolDb"
           }
         ],
+        "/backend/garden/removePlantTasks.ts": [
+          {
+            "name": "3c301c6a-d252-439c-b49a-40ff9c939fcf",
+            "displayName": "retool_db",
+            "type": "retoolDb"
+          }
+        ],
         "/backend/garden/research.ts": [
           {
             "name": "retool_ai_provider_5bace530e8f22ccc721c960eea53fc7e",
             "displayName": "OpenAI",
             "type": "openAIProvider"
           }
-        ]
+        ],
+        "/backend/garden/types.ts": [],
+        "/backend/user.d.ts": []
       },
       "appIdentifier": "garden-planning-manager"
     }
