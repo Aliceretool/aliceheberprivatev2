@@ -1,0 +1,34 @@
+id: button9
+uuid: c2dbce83-7c0c-4fab-858f-07ae726757e2
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - heightType: fixed
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: null
+    - hidden: false
+    - ariaLabel: ''
+    - text: Button
+    - margin: 4px 8px
+    - showInEditor: false
+    - tooltipText: ''
+    - styleVariant: solid
+    - submit: false
+    - iconBefore: ''
+    - events:
+        ordered: []
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 1.7999999999999998
+    height: 1
+    width: 2
+createdAt: 2024-09-27T14:04:13.185Z

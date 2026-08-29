@@ -1,0 +1,34 @@
+id: button10
+uuid: c637b58a-9956-4f07-9b92-fb093725c843
+type: widget
+subtype: ButtonWidget2
+template:
+  ordered:
+    - heightType: fixed
+    - horizontalAlign: stretch
+    - clickable: false
+    - iconAfter: ''
+    - submitTargetId: null
+    - hidden: false
+    - ariaLabel: ''
+    - text: Button
+    - margin: 4px 8px
+    - showInEditor: false
+    - tooltipText: ''
+    - styleVariant: solid
+    - submit: false
+    - iconBefore: ''
+    - events:
+        ordered: []
+    - loading: false
+    - loaderPosition: auto
+    - disabled: false
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    row: 0.8
+    height: 1
+    width: 2
+createdAt: 2024-09-27T14:06:52.892Z
