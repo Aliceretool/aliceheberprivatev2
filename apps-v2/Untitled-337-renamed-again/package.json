@@ -8,7 +8,7 @@
   "retool": {
     "app": {
       "uuid": "121d4204-8418-11f1-b43b-a73bb9d5897d",
-      "name": "Untitled-337",
+      "name": "Untitled-337-renamed-again",
       "resourceReferencesByFile": {
         "/backend/storage/getImageSignedUrl.ts": [
           {
