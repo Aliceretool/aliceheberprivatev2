@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "retoolMetadata": {
+    "classicAppConversion": {
+      "classicPageUuid": "51faefc2-81e6-11f1-b210-e75edbf16a7d"
+    }
+  },
+  "retool": {
+    "app": {
+      "uuid": "121d4204-8418-11f1-b43b-a73bb9d5897d",
+      "name": "Untitled-337-renamed-again",
+      "resourceReferencesByFile": {
+        "/backend/user.d.ts": []
+      },
+      "appIdentifier": "untitled-337"
+    }
+  }
+}

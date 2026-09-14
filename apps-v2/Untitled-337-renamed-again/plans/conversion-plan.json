@@ -1,0 +1,27 @@
+{
+  "status": "complete",
+  "ownerThreadId": "67ba4642-49e1-4c73-96c8-495a56e94fad",
+  "phases": [
+    {
+      "id": "phase-1",
+      "title": "Data access and theme foundation",
+      "description": "Reimplement the source app's non-visual foundations. Source files inspected: `/context/linked-classic-app/main.rsx` includes only `src/page1.rsx`; theme JSON is `/context/linked-classic-app/themes/theme.json`; positions are `/context/linked-classic-app/.positions/.page1.positions.json`. Create `/frontend/appTheme.css` and import it later from `App.tsx`; override shadcn theme variables under `:root:root` and `:root.dark` to match the classic theme: canvas `#F5F5F5`, primary/secondary/tertiary `#6976D9` with mode override primary `rgba(217, 104, 203, 1)` if matching the active default mode, danger `#CA483F`, success `#128747`, warning `#D17823`, surface primary/secondary `#FFFFFF`, text dark `#0A0E14`, text light `#FFFFFF`, border radius `4px`, and heading font sizes h1 36px, h2 28px, h3 24px, h4 18px, h5 16px, h6 14px. Create a read-only backend function under `/backend/storage/` such as `getImageSignedUrl.ts` that calls the existing Azure Blob resource `azureBlobStorageTest` (resource display name in classic: `Azure Blob Storage test`, resource file: `/backend/resources/azureblob/azureBlobStorageTest.d.ts`) using `getSignedUrl({ permissions: 'read', blobName: 'CleanShot 2026-07-16 at 10.06.10.jpg' })` and returns the resource result shape needed by the frontend. After writing the read-only backend function, test-run it via `execute_backend_code` by importing the function and returning `fn({ params: {}, user })` verbatim. Do not implement the classic `query2` Trading 212 REST query in this phase: it is present as `RESTQuery id=\"query2\" query=\"equity/account/cash\" resourceDisplayName=\"Trading 212 Account\"` but is not referenced by any component in the source UI and does not run on page load in the classic ToolScript; additionally the matching resource only exposes `rawRequest` because no OpenAPI spec is attached, and rawRequest should not be introduced for unused behavior.",
+      "status": "complete",
+      "notes": "Created `/frontend/appTheme.css` with classic theme variables. Created `/backend/storage/getImageSignedUrl.ts`; tested result shape is `{ data: { signedUrl: string } }`."
+    },
+    {
+      "id": "phase-2",
+      "title": "Single-page image UI conversion",
+      "description": "Build the visible converted app for `page1`. Replace the starter canvas with a single-page React UI in `/frontend/pages/Page1.tsx` and route it from `/frontend/App.tsx` using React Router. Use the auto-generated hook from `/frontend/hooks/backend/storage` for the backend function created in the prior phase; trigger it on mount to mirror the classic `AzureBlobQuery id=\"query1\"` with `runWhenPageLoads={true}`. Render the classic main frame (`$main`) as a full-viewport canvas with padding `8px 12px`, full-bleed disabled, using semantic theme colors from `appTheme.css`. Render the single classic image component (`Image id=\"image1\"`) centered horizontally, with source bound to the signed URL from `query1.data.signedUrl`; if the backend function returns `{ data: { signedUrl: string } }`, use that shape, otherwise use the exact tested shape from phase 1. Match the classic position metadata: row `0.8`, height `8.8`, width `4` grid units; in the target app this can be approximated as a centered image card/container with top offset derived from row 0.8, a responsive width around one-third of the page on desktop, and fixed-height containment that preserves image aspect ratio. Include loading, error, and empty-url states that fit the classic minimalist UI without adding navigation or extra panels. Write imported page/component files before updating `App.tsx`, and import `./appTheme.css` from `App.tsx`.",
+      "status": "complete",
+      "notes": "Converted page is implemented at /frontend/pages/Page1.tsx and routed from /frontend/App.tsx. It uses useGetImageSignedUrl from /frontend/hooks/backend/storage and expects the tested result shape { data: { signedUrl: string } }."
+    },
+    {
+      "id": "gap-review",
+      "title": "Review the conversion for gaps and queue fix phases",
+      "description": "Review the completed target app against the source classic app under\n/context/linked-classic-app/. Identify conversion gaps, but do not fix them inline in\nthis phase.\n\nCompare the source and target app coverage for:\n- pages/routes\n- containers and widgets\n- queries, trigger behavior, and query parameters\n- event handlers\n- transformers, scripts, and state variables\n\nFor each material gap, append one focused fix phase with\n`extend_phased_build_plan`. Each appended phase should be self-contained and small\nenough for one context window.\n\nKeep any comparison notes private or in tool arguments only; do not narrate the full\naudit to the user. Do not re-queue gaps already covered by existing phases.\n\nWhen all identified gaps have been queued, call `complete_build_phase`. If no gaps\nare found, call `complete_build_phase` without appending phases.",
+      "status": "complete",
+      "notes": "Reviewed source `/context/linked-classic-app` against target files. No material conversion gaps found: single root page, `$main` frame, `image1`, query1 load behavior/params, theme overrides, and absence of event handlers/transformers/state are covered; unused non-autoload query2 remains intentionally omitted per prior plan."
+    }
+  ]
+}
