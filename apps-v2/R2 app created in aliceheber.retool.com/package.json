@@ -4,7 +4,16 @@
     "app": {
       "uuid": "9fbc8608-b053-11f1-bbf9-271ee186cad3",
       "name": "R2 app created in aliceheber.retool.com",
-      "resourceReferencesByFile": {},
+      "resourceReferencesByFile": {
+        "/backend/dogs/getRandomDog.ts": [
+          {
+            "name": "025f9b65-9c58-4312-aa3f-4c6685868a55",
+            "displayName": "random dogs api",
+            "type": "restapi"
+          }
+        ],
+        "/backend/user.d.ts": []
+      },
       "appIdentifier": "r2-app-created-in-aliceheberretoolcom"
     }
   }
