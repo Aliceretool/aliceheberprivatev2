@@ -2,6 +2,7 @@
 /* eslint-disable react-perf/jsx-no-new-object-as-prop */
 
 import { StarterCanvas } from './components/StarterCanvas'
+import { RandomDogImage } from './components/RandomDogImage'
 
 export default function App() {
   return (
@@ -33,6 +34,33 @@ export default function App() {
         }}
       >
         this app was created in aliceheber.retool.com
+      </div>
+      <div
+        style={{
+          position: 'absolute',
+          top: '56%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          zIndex: 1,
+          color: '#374151',
+          fontSize: '16px',
+          fontWeight: 500,
+          textAlign: 'center',
+          pointerEvents: 'none',
+        }}
+      >
+        edited on 15 sept and synced to other instances
+      </div>
+      <div
+        style={{
+          position: 'absolute',
+          top: '72%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          zIndex: 1,
+        }}
+      >
+        <RandomDogImage />
       </div>
     </div>
   )
