@@ -131,7 +131,7 @@ void main() {
 const COLOR_A: [number, number, number] = [0.9647058823529412, 0.8392156862745098, 0.6274509803921569] // #F6D6A0
 const COLOR_B: [number, number, number] = [0.7372549019607844, 0.8235294117647058, 0.9176470588235294] // #BCD2EA
 const COLOR_C: [number, number, number] = [0.9568627450980393, 0.7843137254901961, 0.7294117647058823] // #F4C8BA
-const GRAY: [number, number, number] = [0.9411764705882353, 0.9372549019607843, 0.9333333333333333] // #F0EFEE
+const GRAY: [number, number, number] = [0.9803921568627451, 0.5019607843137255, 0.4470588235294118] // #FA8072
 
 type UniformValue = number | readonly [number, number] | readonly [number, number, number]
 
