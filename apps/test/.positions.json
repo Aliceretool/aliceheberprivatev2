@@ -1,0 +1,11 @@
+{
+  "image1": {
+    "container": "moduleContainer",
+    "row": 4.2,
+    "col": 4
+  },
+  "moduleContainer": {
+    "height": 12,
+    "width": 12
+  }
+}
