@@ -1,4 +1,4 @@
-import { Palette, Sparkles } from 'lucide-react'
+import { Palette, Sparkles, Star } from 'lucide-react'
 
 import { Badge } from './lib/shadcn/badge'
 import { Button } from './lib/shadcn/button'
@@ -20,7 +20,10 @@ export default function App() {
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 text-primary">
               <Palette className="h-6 w-6" aria-hidden="true" />
             </div>
-            <Badge variant="secondary">Test theme</Badge>
+            <div className="flex items-center gap-2">
+              <Star className="h-5 w-5 fill-primary text-primary" aria-hidden="true" />
+              <Badge variant="secondary">Test theme</Badge>
+            </div>
           </div>
           <div className="space-y-2">
             <CardTitle>Theme preview app</CardTitle>
