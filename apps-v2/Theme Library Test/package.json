@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "retool": {
+    "app": {
+      "uuid": "7443fdec-bbea-11f1-b116-eff52a1e647d",
+      "name": "Theme Library Test",
+      "resourceReferencesByFile": {},
+      "appIdentifier": "untitled-343"
+    }
+  }
+}
