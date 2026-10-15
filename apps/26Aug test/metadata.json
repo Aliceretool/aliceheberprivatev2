@@ -4,7 +4,9 @@
   "pageUuid": "043b1c8c-824e-11f0-8691-eb28813feb78",
   "appTemplate": {
     "appMaxWidth": "100%",
+    "appThemeId": 171830,
     "rootScreen": "page1",
+    "appThemeName": "theme",
     "version": "4.76.0"
   }
 }
