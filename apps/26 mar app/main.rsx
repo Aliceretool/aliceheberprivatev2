@@ -18,6 +18,7 @@
       emptyMessage="No rows found"
       enableSaveActions={true}
       primaryKeyColumnId="5acca"
+      rowHeight="small"
       showBorder={true}
       showFooter={true}
       showHeader={true}
@@ -124,6 +125,7 @@
         type="custom"
       >
         <Event
+          id="28b9050c"
           event="clickToolbar"
           method="exportData"
           pluginId="table1"
@@ -139,6 +141,7 @@
         type="custom"
       >
         <Event
+          id="b3ec2952"
           event="clickToolbar"
           method="refresh"
           pluginId="table1"
@@ -151,6 +154,7 @@
     <Button id="button3" text="Button" />
     <Button id="button2" text="Button">
       <Event
+        id="03614a4b"
         event="click"
         method="trigger"
         params={{ ordered: [] }}

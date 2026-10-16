@@ -3,7 +3,7 @@
   "version": "43.0.9",
   "pageUuid": "09dad1ee-eb57-11ee-8b1c-ef69f1329116",
   "appTemplate": {
-    "version": "3.114.11",
-    "experimentalDataTabEnabled": true
+    "appMaxWidth": "100%",
+    "version": "4.77.0"
   }
 }
