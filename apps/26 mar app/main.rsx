@@ -9,6 +9,7 @@
     sticky={null}
     type="main"
   >
+    <Button id="button4" text="Button" />
     <Table
       id="table1"
       cellSelection="none"
