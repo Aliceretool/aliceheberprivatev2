@@ -19,6 +19,7 @@
         value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
         verticalAlign="center"
       />
+      <Text id="text2" value="committing a change" verticalAlign="center" />
     </ModuleContainerWidget>
   </Frame>
 </App>
