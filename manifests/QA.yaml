@@ -15,6 +15,10 @@ apps:
     release: latest
   - uuid: 8fa9576b-9c32-489e-98d0-12882e6c6116
     release: latest
+  - uuid: ab80534c-cc97-11f1-8e51-4f25932eb79e
+    release: latest
+  - uuid: c93c4d78-cc97-11f1-b72d-cfc73f4ea2b3
+    release: latest
   - uuid: ca9aa650-05b0-11f1-80d1-cb7d728e6135
     release: latest
   - uuid: cf2b7cca-17b8-11f1-a4ce-bf2176b84e7a
