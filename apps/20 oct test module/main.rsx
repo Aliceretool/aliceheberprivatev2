@@ -19,6 +19,7 @@
         value="module created - will be protected and will call branch 20OctTest"
         verticalAlign="center"
       />
+      <Text id="text2" value="amended in alice/test3" verticalAlign="center" />
     </ModuleContainerWidget>
   </Frame>
 </App>
