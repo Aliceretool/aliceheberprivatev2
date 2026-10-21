@@ -22,6 +22,7 @@
       <Text id="text2" value="21 oct module v2" verticalAlign="center" />
       <Button id="button1" text="Button" />
       <Text id="text3" value="branch test 7" verticalAlign="center" />
+      <Text id="text4" value="test8 branch" verticalAlign="center" />
     </ModuleContainerWidget>
   </Frame>
 </App>
