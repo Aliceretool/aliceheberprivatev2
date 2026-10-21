@@ -17,5 +17,10 @@
     "container": "moduleContainer",
     "row": 0.6,
     "height": 0.6
+  },
+  "text3": {
+    "container": "moduleContainer",
+    "row": 3.2,
+    "height": 0.6
   }
 }
