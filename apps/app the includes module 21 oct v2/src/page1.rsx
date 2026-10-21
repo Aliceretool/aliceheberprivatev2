@@ -170,5 +170,12 @@
         />
       </ToolbarButton>
     </Table>
+    <Module
+      id="OctModuleV1"
+      heightType="fixed"
+      name="21 oct module v2"
+      overflowType="hidden"
+      pageUuid="4263cc62-cd2e-11f1-a265-7749ac054368"
+    />
   </Frame>
 </Screen>
