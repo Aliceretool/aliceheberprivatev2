@@ -171,6 +171,7 @@
       </ToolbarButton>
     </Table>
     <Text id="text1" value="test7 branch" verticalAlign="center" />
+    <Text id="text2" value="test8 branch" verticalAlign="center" />
     <Module
       id="OctModuleV1"
       heightType="fixed"
