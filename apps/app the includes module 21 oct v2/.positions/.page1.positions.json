@@ -11,5 +11,10 @@
   "text1": {
     "col": 8,
     "height": 0.6
+  },
+  "text2": {
+    "row": 1.4,
+    "col": 8,
+    "height": 0.6
   }
 }
