@@ -170,6 +170,7 @@
         />
       </ToolbarButton>
     </Table>
+    <Text id="text1" value="test7 branch" verticalAlign="center" />
     <Module
       id="OctModuleV1"
       heightType="fixed"
