@@ -1,7 +1,12 @@
 {
   "Oct2026TestModule1": {
-    "row": 0.4,
+    "row": 1.4,
     "height": 12,
     "width": 12
+  },
+  "button1": {
+    "row": 0.4,
+    "height": 1,
+    "width": 2
   }
 }
